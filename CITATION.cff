@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: Packrift Pack Count and Unit Signal Atlas
+message: Cite this public Packrift data asset by URL.
+type: dataset
+authors:
+  - name: Packrift LLC
+url: https://packrift.github.io/
+date-released: 2026-05-30

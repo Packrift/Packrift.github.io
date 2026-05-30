@@ -1,0 +1,19 @@
+{
+  "@context": "https://www.w3.org/ns/dcat.jsonld",
+  "@type": "dcat:Dataset",
+  "dct:title": "Packrift Pack Count and Unit Signal Atlas",
+  "dct:description": "Public Packrift pack-count, unit-price, unit-weight, unit-cube, family, and product-type data files.",
+  "dcat:landingPage": "https://packrift.github.io",
+  "dcat:distribution": [
+    {
+      "@type": "dcat:Distribution",
+      "dcat:downloadURL": "https://packrift.github.io/data/unit-signals.csv",
+      "dct:format": "text/csv"
+    },
+    {
+      "@type": "dcat:Distribution",
+      "dcat:downloadURL": "https://packrift.github.io/data/unit-signals.json",
+      "dct:format": "application/json"
+    }
+  ]
+}

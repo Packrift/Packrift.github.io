@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Packrift Pack Count Indexes</title>
+<meta name="description" content="Browse Packrift product signal pages by package count.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://packrift.github.io/pack-counts/">
+<style>
+:root { color-scheme: light; --ink:#18231f; --muted:#53615b; --line:#d9e1dc; --paper:#f8faf7; --panel:#ffffff; --soft:#eef4ef; --accent:#245f46; --blue:#285e73; --amber:#8a5b24; --rose:#8a4054; }
+* { box-sizing:border-box; }
+html, body { overflow-x:hidden; }
+body { margin:0; background:var(--paper); color:var(--ink); font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height:1.5; }
+a { color:var(--accent); text-underline-offset:.18em; overflow-wrap:anywhere; }
+header { background:#fff; border-bottom:1px solid var(--line); padding:30px 20px 24px; }
+main { max-width:min(1200px,100vw); padding:28px 20px 56px; }
+footer { border-top:1px solid var(--line); padding:24px 20px; color:var(--muted); font-size:13px; }
+.kicker { font-size:12px; font-weight:800; color:var(--amber); text-transform:uppercase; letter-spacing:0; }
+h1 { margin:8px 0 12px; max-width:340px; font-size:28px; line-height:1.08; letter-spacing:0; overflow-wrap:anywhere; }
+h2 { margin:34px 0 12px; font-size:24px; line-height:1.16; letter-spacing:0; }
+h3 { margin:0 0 8px; font-size:18px; line-height:1.2; letter-spacing:0; }
+p { max-width:100%; color:var(--muted); overflow-wrap:anywhere; }
+header p, .narrow, .chart, .table-wrap, .metrics, .grid { max-width:340px; }
+.metrics { display:grid; grid-template-columns:1fr; gap:12px; margin:22px 0; }
+.metric, .card { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:14px; }
+.metric, .card, .split > * { min-width:0; }
+.metric strong { display:block; color:var(--ink); font-size:24px; line-height:1.05; }
+.metric span { display:block; color:var(--muted); font-size:13px; margin-top:4px; }
+.grid { display:grid; grid-template-columns:1fr; gap:12px; }
+.chart { background:#fff; border:1px solid var(--line); border-radius:8px; padding:12px; overflow:hidden; min-width:0; }
+.chart svg { display:block; width:100%; max-width:100%; height:auto; }
+.table-wrap { overflow:auto; border:1px solid var(--line); border-radius:8px; background:#fff; }
+table { width:100%; min-width:920px; border-collapse:collapse; font-size:14px; }
+th, td { text-align:left; vertical-align:top; padding:10px 12px; border-bottom:1px solid var(--line); }
+th { background:var(--soft); color:#27372d; }
+.pill { display:inline-block; border:1px solid var(--line); border-radius:999px; padding:2px 8px; margin:2px 4px 2px 0; font-size:12px; background:#fff; color:#334238; }
+.note { padding:12px 14px; border-left:4px solid var(--accent); background:var(--soft); color:#334238; max-width:100%; overflow-wrap:anywhere; }
+.split { display:block; max-width:340px; }
+.split .chart { margin-top:12px; }
+@media (min-width: 560px) {
+  header { padding:34px min(6vw,60px) 26px; }
+  main { padding:30px min(6vw,60px) 56px; }
+  footer { padding:24px min(6vw,60px); }
+  header p, .narrow { max-width:900px; }
+  h1 { max-width:1020px; font-size:clamp(32px,5vw,56px); line-height:1.03; }
+  .metrics { max-width:1080px; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); }
+  .grid { max-width:none; grid-template-columns:repeat(auto-fit,minmax(235px,1fr)); }
+  .split { display:grid; max-width:none; gap:12px; grid-template-columns:1.1fr .9fr; align-items:start; }
+  .split .chart { margin-top:0; }
+  .chart, .table-wrap { max-width:100%; }
+}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Packrift Pack Count and Unit Signal Atlas","description":"A public Packrift data asset that normalizes pack counts, unit-price signals, unit-weight signals, unit cube, family groups, and product-type indexes from real Packrift catalog fields.","url":"https://packrift.github.io","creator":{"@type":"Organization","name":"Packrift LLC","url":"https://packrift.com/"},"license":"https://packrift.com/policies/terms-of-service","distribution":[{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://packrift.github.io/data/unit-signals.json"},{"@type":"DataDownload","encodingFormat":"application/x-ndjson","contentUrl":"https://packrift.github.io/data/unit-signals.jsonl"},{"@type":"DataDownload","encodingFormat":"text/csv","contentUrl":"https://packrift.github.io/data/unit-signals.csv"}]}</script>
+</head>
+<body>
+<header>
+<div class="kicker">Packrift pack count and unit signals</div>
+<h1>Packrift Pack Count Indexes</h1>
+<p>Browse Packrift product signal pages by package count.</p>
+</header>
+<main><div class="chart" role="img" aria-label="Pack count records">
+<svg viewBox="0 0 900 518" xmlns="http://www.w3.org/2000/svg">
+<title>Pack count records</title>
+<rect width="900" height="518" fill="#ffffff"/>
+<text x="18" y="26" font-family="system-ui, sans-serif" font-size="18" font-weight="700" fill="#18231f">Pack count records</text>
+<text x="18" y="62" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">25 unit pack</text>
+<rect x="270" y="46" width="520" height="20" rx="4" fill="#245f46"/>
+<text x="800" y="61" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">459</text>
+<text x="18" y="96" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">50 unit pack</text>
+<rect x="270" y="80" width="322" height="20" rx="4" fill="#285e73"/>
+<text x="602" y="95" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">284</text>
+<text x="18" y="130" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">10 unit pack</text>
+<rect x="270" y="114" width="187" height="20" rx="4" fill="#8a5b24"/>
+<text x="467" y="129" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">165</text>
+<text x="18" y="164" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">15 unit pack</text>
+<rect x="270" y="148" width="161" height="20" rx="4" fill="#8a4054"/>
+<text x="441" y="163" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">142</text>
+<text x="18" y="198" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">20 unit pack</text>
+<rect x="270" y="182" width="159" height="20" rx="4" fill="#245f46"/>
+<text x="439" y="197" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">140</text>
+<text x="18" y="232" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">100 unit pack</text>
+<rect x="270" y="216" width="71" height="20" rx="4" fill="#285e73"/>
+<text x="351" y="231" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">63</text>
+<text x="18" y="266" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">1,000 unit pack</text>
+<rect x="270" y="250" width="70" height="20" rx="4" fill="#8a5b24"/>
+<text x="350" y="265" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">62</text>
+<text x="18" y="300" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">250 unit pack</text>
+<rect x="270" y="284" width="54" height="20" rx="4" fill="#8a4054"/>
+<text x="334" y="299" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">48</text>
+<text x="18" y="334" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">12 unit pack</text>
+<rect x="270" y="318" width="52" height="20" rx="4" fill="#245f46"/>
+<text x="332" y="333" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">46</text>
+<text x="18" y="368" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">5 unit pack</text>
+<rect x="270" y="352" width="45" height="20" rx="4" fill="#285e73"/>
+<text x="325" y="367" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">40</text>
+<text x="18" y="402" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">6 unit pack</text>
+<rect x="270" y="386" width="41" height="20" rx="4" fill="#8a5b24"/>
+<text x="321" y="401" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">36</text>
+<text x="18" y="436" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">200 unit pack</text>
+<rect x="270" y="420" width="37" height="20" rx="4" fill="#8a4054"/>
+<text x="317" y="435" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">33</text>
+<text x="18" y="470" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">500 unit pack</text>
+<rect x="270" y="454" width="34" height="20" rx="4" fill="#245f46"/>
+<text x="314" y="469" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">30</text>
+<text x="18" y="504" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">24 unit pack</text>
+<rect x="270" y="488" width="28" height="20" rx="4" fill="#285e73"/>
+<text x="308" y="503" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">25</text>
+</svg></div><h2>Index Pages</h2><div class="grid">
+<div class="card"><h3><a href="/pack-counts/25/">25 unit pack</a></h3><p>459 records. Median unit price $1.2676.</p></div>
+<div class="card"><h3><a href="/pack-counts/50/">50 unit pack</a></h3><p>284 records. Median unit price $1.4124.</p></div>
+<div class="card"><h3><a href="/pack-counts/10/">10 unit pack</a></h3><p>165 records. Median unit price $5.1850.</p></div>
+<div class="card"><h3><a href="/pack-counts/15/">15 unit pack</a></h3><p>142 records. Median unit price $3.3693.</p></div>
+<div class="card"><h3><a href="/pack-counts/20/">20 unit pack</a></h3><p>140 records. Median unit price $2.5495.</p></div>
+<div class="card"><h3><a href="/pack-counts/100/">100 unit pack</a></h3><p>63 records. Median unit price $1.0519.</p></div>
+<div class="card"><h3><a href="/pack-counts/1000/">1,000 unit pack</a></h3><p>62 records. Median unit price $0.0558.</p></div>
+<div class="card"><h3><a href="/pack-counts/250/">250 unit pack</a></h3><p>48 records. Median unit price $0.3853.</p></div>
+<div class="card"><h3><a href="/pack-counts/12/">12 unit pack</a></h3><p>46 records. Median unit price $7.5000.</p></div>
+<div class="card"><h3><a href="/pack-counts/5/">5 unit pack</a></h3><p>40 records. Median unit price $10.5670.</p></div>
+<div class="card"><h3><a href="/pack-counts/6/">6 unit pack</a></h3><p>36 records. Median unit price $17.4233.</p></div>
+<div class="card"><h3><a href="/pack-counts/200/">200 unit pack</a></h3><p>33 records. Median unit price $0.6072.</p></div>
+<div class="card"><h3><a href="/pack-counts/500/">500 unit pack</a></h3><p>30 records. Median unit price $0.1750.</p></div>
+<div class="card"><h3><a href="/pack-counts/24/">24 unit pack</a></h3><p>25 records. Median unit price $3.9517.</p></div>
+<div class="card"><h3><a href="/pack-counts/1/">1 unit pack</a></h3><p>13 records. Median unit price $30.3000.</p></div>
+<div class="card"><h3><a href="/pack-counts/3/">3 unit pack</a></h3><p>13 records. Median unit price $35.0267.</p></div>
+<div class="card"><h3><a href="/pack-counts/8/">8 unit pack</a></h3><p>13 records. Median unit price $8.1075.</p></div>
+<div class="card"><h3><a href="/pack-counts/400/">400 unit pack</a></h3><p>11 records. Median unit price $0.0899.</p></div>
+<div class="card"><h3><a href="/pack-counts/4/">4 unit pack</a></h3><p>10 records. Median unit price $25.6613.</p></div>
+<div class="card"><h3><a href="/pack-counts/48/">48 unit pack</a></h3><p>7 records. Median unit price $1.2356.</p></div>
+<div class="card"><h3><a href="/pack-counts/2000/">2,000 unit pack</a></h3><p>6 records. Median unit price $0.0235.</p></div>
+<div class="card"><h3><a href="/pack-counts/60/">60 unit pack</a></h3><p>6 records. Median unit price $1.6300.</p></div>
+<div class="card"><h3><a href="/pack-counts/150/">150 unit pack</a></h3><p>5 records. Median unit price $1.2194.</p></div>
+<div class="card"><h3><a href="/pack-counts/30/">30 unit pack</a></h3><p>5 records. Median unit price $3.1433.</p></div>
+<div class="card"><h3><a href="/pack-counts/300/">300 unit pack</a></h3><p>5 records. Median unit price $0.2752.</p></div>
+<div class="card"><h3><a href="/pack-counts/36/">36 unit pack</a></h3><p>5 records. Median unit price $1.1628.</p></div>
+<div class="card"><h3><a href="/pack-counts/120/">120 unit pack</a></h3><p>4 records. Median unit price $0.8900.</p></div>
+<div class="card"><h3><a href="/pack-counts/96/">96 unit pack</a></h3><p>4 records. Median unit price $0.5654.</p></div>
+<div class="card"><h3><a href="/pack-counts/125/">125 unit pack</a></h3><p>3 records. Median unit price $1.1923.</p></div>
+<div class="card"><h3><a href="/pack-counts/45/">45 unit pack</a></h3><p>3 records. Median unit price $2.3678.</p></div>
+<div class="card"><h3><a href="/pack-counts/55/">55 unit pack</a></h3><p>3 records. Median unit price $1.9818.</p></div>
+<div class="card"><h3><a href="/pack-counts/9/">9 unit pack</a></h3><p>3 records. Median unit price $30.2067.</p></div>
+<div class="card"><h3><a href="/pack-counts/105/">105 unit pack</a></h3><p>2 records. Median unit price $1.1466.</p></div>
+<div class="card"><h3><a href="/pack-counts/18/">18 unit pack</a></h3><p>2 records. Median unit price $1.1356.</p></div>
+<div class="card"><h3><a href="/pack-counts/2/">2 unit pack</a></h3><p>2 records. Median unit price $86.0600.</p></div>
+<div class="card"><h3><a href="/pack-counts/35/">35 unit pack</a></h3><p>2 records. Median unit price $3.2886.</p></div>
+<div class="card"><h3><a href="/pack-counts/40/">40 unit pack</a></h3><p>2 records. Median unit price $5.2500.</p></div>
+<div class="card"><h3><a href="/pack-counts/480/">480 unit pack</a></h3><p>2 records. Median unit price $0.2191.</p></div>
+<div class="card"><h3><a href="/pack-counts/65/">65 unit pack</a></h3><p>2 records. Median unit price $1.4858.</p></div>
+<div class="card"><h3><a href="/pack-counts/70/">70 unit pack</a></h3><p>2 records. Median unit price $1.8503.</p></div>
+<div class="card"><h3><a href="/pack-counts/72/">72 unit pack</a></h3><p>2 records. Median unit price $0.6862.</p></div>
+<div class="card"><h3><a href="/pack-counts/80/">80 unit pack</a></h3><p>2 records. Median unit price $1.3353.</p></div>
+<div class="card"><h3><a href="/pack-counts/1500/">1,500 unit pack</a></h3><p>1 records. Median unit price $0.0118.</p></div>
+<div class="card"><h3><a href="/pack-counts/110/">110 unit pack</a></h3><p>1 records. Median unit price $1.1953.</p></div>
+<div class="card"><h3><a href="/pack-counts/115/">115 unit pack</a></h3><p>1 records. Median unit price $1.5705.</p></div>
+<div class="card"><h3><a href="/pack-counts/16/">16 unit pack</a></h3><p>1 records. Median unit price $5.7881.</p></div>
+<div class="card"><h3><a href="/pack-counts/175/">175 unit pack</a></h3><p>1 records. Median unit price $1.0697.</p></div>
+<div class="card"><h3><a href="/pack-counts/216/">216 unit pack</a></h3><p>1 records. Median unit price $0.6843.</p></div>
+<div class="card"><h3><a href="/pack-counts/230/">230 unit pack</a></h3><p>1 records. Median unit price $0.6490.</p></div>
+<div class="card"><h3><a href="/pack-counts/270/">270 unit pack</a></h3><p>1 records. Median unit price $0.2506.</p></div>
+<div class="card"><h3><a href="/pack-counts/320/">320 unit pack</a></h3><p>1 records. Median unit price $0.4102.</p></div>
+<div class="card"><h3><a href="/pack-counts/42/">42 unit pack</a></h3><p>1 records. Median unit price $1.3026.</p></div>
+<div class="card"><h3><a href="/pack-counts/470/">470 unit pack</a></h3><p>1 records. Median unit price $0.1453.</p></div>
+<div class="card"><h3><a href="/pack-counts/600/">600 unit pack</a></h3><p>1 records. Median unit price $0.1388.</p></div>
+<div class="card"><h3><a href="/pack-counts/650/">650 unit pack</a></h3><p>1 records. Median unit price $0.1399.</p></div>
+<div class="card"><h3><a href="/pack-counts/700/">700 unit pack</a></h3><p>1 records. Median unit price $0.1711.</p></div>
+<div class="card"><h3><a href="/pack-counts/800/">800 unit pack</a></h3><p>1 records. Median unit price $0.1032.</p></div>
+</div></main>
+<footer>Generated 2026-05-30T20:35:03.002Z from Packrift public catalog and operations-product data. This resource reports public price, pack-count, physical-size, and inventory signals only. It is not a margin model, freight quote, or checkout commitment.</footer>
+</body>
+</html>

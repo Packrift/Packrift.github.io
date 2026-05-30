@@ -1,0 +1,28 @@
+{
+  "profile": "data-package",
+  "name": "packrift-pack-count-unit-signals",
+  "title": "Packrift Pack Count and Unit Signal Atlas",
+  "description": "Public Packrift pack-count and unit-signal pages and data files.",
+  "homepage": "https://packrift.github.io",
+  "created": "2026-05-30T20:35:03.002Z",
+  "resources": [
+    {
+      "name": "unit-signals",
+      "path": "data/unit-signals.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "unit-signals-json",
+      "path": "data/unit-signals.json",
+      "format": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "name": "unit-signals-jsonl",
+      "path": "data/unit-signals.jsonl",
+      "format": "jsonl",
+      "mediatype": "application/x-ndjson"
+    }
+  ]
+}

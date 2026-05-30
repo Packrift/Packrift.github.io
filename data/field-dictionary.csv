@@ -1,0 +1,25 @@
+field,description
+sku,Packrift SKU identifier
+title,Public Packrift product title
+signal_url,Public Packrift unit-signal page in this asset
+product_url,Canonical Packrift storefront product route
+family,Packaging family grouping
+product_type,Source product type
+pack_count,Source bundle or pack count
+pack_class,Derived small/case/bulk/warehouse pack-size class
+price,Public product price signal
+unit_price,Public price divided by pack count
+unit_price_band,Derived public unit-price range
+inventory,Source inventory signal where available
+weight,Source product shipping weight
+weight_unit,Weight unit
+unit_weight,Source weight divided by pack count
+unit_weight_band,Derived unit-weight range
+length,Source length in inches
+width,Source width in inches
+height,Source height in inches
+cube_inches,Length times width times height
+unit_cube_inches,Cube inches divided by pack count
+status,Public catalog status label
+merchant_status,Public merchant status label
+merchant_availability,Public merchant availability label

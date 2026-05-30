@@ -1,0 +1,25 @@
+{
+  "id": "packrift-pack-count-unit-signals-2026-05-30",
+  "type": "datasets",
+  "attributes": {
+    "titles": [
+      {
+        "title": "Packrift Pack Count and Unit Signal Atlas"
+      }
+    ],
+    "publisher": "Packrift LLC",
+    "publicationYear": 2026,
+    "url": "https://packrift.github.io",
+    "descriptions": [
+      {
+        "descriptionType": "Abstract",
+        "description": "Public Packrift pack-count and unit-signal product pages and data files."
+      }
+    ],
+    "creators": [
+      {
+        "name": "Packrift LLC"
+      }
+    ]
+  }
+}

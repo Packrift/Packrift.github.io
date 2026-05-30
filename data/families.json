@@ -1,0 +1,83 @@
+[
+  {
+    "label": "Boxes",
+    "slug": "boxes",
+    "url": "https://packrift.github.io/families/boxes/",
+    "records": 1018,
+    "median_pack_count": 25,
+    "median_unit_price": 2.2594,
+    "median_unit_weight": 1.0955
+  },
+  {
+    "label": "Mailers",
+    "slug": "mailers",
+    "url": "https://packrift.github.io/families/mailers/",
+    "records": 310,
+    "median_pack_count": 50,
+    "median_unit_price": 1.1946,
+    "median_unit_weight": 0.3056
+  },
+  {
+    "label": "Poly Bags",
+    "slug": "poly-bags",
+    "url": "https://packrift.github.io/families/poly-bags/",
+    "records": 172,
+    "median_pack_count": 500,
+    "median_unit_price": 0.2161,
+    "median_unit_weight": 0.06378
+  },
+  {
+    "label": "Labels",
+    "slug": "labels",
+    "url": "https://packrift.github.io/families/labels/",
+    "records": 93,
+    "median_pack_count": 12,
+    "median_unit_price": 7.628333,
+    "median_unit_weight": 0.9825
+  },
+  {
+    "label": "Strapping",
+    "slug": "strapping",
+    "url": "https://packrift.github.io/families/strapping/",
+    "records": 53,
+    "median_pack_count": 80,
+    "median_unit_price": 1.217,
+    "median_unit_weight": 0.682
+  },
+  {
+    "label": "Other",
+    "slug": "other",
+    "url": "https://packrift.github.io/families/other/",
+    "records": 39,
+    "median_pack_count": 6,
+    "median_unit_price": 4.41375,
+    "median_unit_weight": 1.576667
+  },
+  {
+    "label": "Tags",
+    "slug": "tags",
+    "url": "https://packrift.github.io/families/tags/",
+    "records": 23,
+    "median_pack_count": 50,
+    "median_unit_price": 2.8234,
+    "median_unit_weight": 0.874
+  },
+  {
+    "label": "Void Fill",
+    "slug": "void-fill",
+    "url": "https://packrift.github.io/families/void-fill/",
+    "records": 15,
+    "median_pack_count": 50,
+    "median_unit_price": 2.116042,
+    "median_unit_weight": 0.133333
+  },
+  {
+    "label": "Tape",
+    "slug": "tape",
+    "url": "https://packrift.github.io/families/tape/",
+    "records": 4,
+    "median_pack_count": 35,
+    "median_unit_price": 1.3897,
+    "median_unit_weight": 0.3675
+  }
+]

@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Packrift Product Type Unit Signals</title>
+<meta name="description" content="Browse Packrift product signal pages by source product type.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://packrift.github.io/product-types/">
+<style>
+:root { color-scheme: light; --ink:#18231f; --muted:#53615b; --line:#d9e1dc; --paper:#f8faf7; --panel:#ffffff; --soft:#eef4ef; --accent:#245f46; --blue:#285e73; --amber:#8a5b24; --rose:#8a4054; }
+* { box-sizing:border-box; }
+html, body { overflow-x:hidden; }
+body { margin:0; background:var(--paper); color:var(--ink); font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height:1.5; }
+a { color:var(--accent); text-underline-offset:.18em; overflow-wrap:anywhere; }
+header { background:#fff; border-bottom:1px solid var(--line); padding:30px 20px 24px; }
+main { max-width:min(1200px,100vw); padding:28px 20px 56px; }
+footer { border-top:1px solid var(--line); padding:24px 20px; color:var(--muted); font-size:13px; }
+.kicker { font-size:12px; font-weight:800; color:var(--amber); text-transform:uppercase; letter-spacing:0; }
+h1 { margin:8px 0 12px; max-width:340px; font-size:28px; line-height:1.08; letter-spacing:0; overflow-wrap:anywhere; }
+h2 { margin:34px 0 12px; font-size:24px; line-height:1.16; letter-spacing:0; }
+h3 { margin:0 0 8px; font-size:18px; line-height:1.2; letter-spacing:0; }
+p { max-width:100%; color:var(--muted); overflow-wrap:anywhere; }
+header p, .narrow, .chart, .table-wrap, .metrics, .grid { max-width:340px; }
+.metrics { display:grid; grid-template-columns:1fr; gap:12px; margin:22px 0; }
+.metric, .card { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:14px; }
+.metric, .card, .split > * { min-width:0; }
+.metric strong { display:block; color:var(--ink); font-size:24px; line-height:1.05; }
+.metric span { display:block; color:var(--muted); font-size:13px; margin-top:4px; }
+.grid { display:grid; grid-template-columns:1fr; gap:12px; }
+.chart { background:#fff; border:1px solid var(--line); border-radius:8px; padding:12px; overflow:hidden; min-width:0; }
+.chart svg { display:block; width:100%; max-width:100%; height:auto; }
+.table-wrap { overflow:auto; border:1px solid var(--line); border-radius:8px; background:#fff; }
+table { width:100%; min-width:920px; border-collapse:collapse; font-size:14px; }
+th, td { text-align:left; vertical-align:top; padding:10px 12px; border-bottom:1px solid var(--line); }
+th { background:var(--soft); color:#27372d; }
+.pill { display:inline-block; border:1px solid var(--line); border-radius:999px; padding:2px 8px; margin:2px 4px 2px 0; font-size:12px; background:#fff; color:#334238; }
+.note { padding:12px 14px; border-left:4px solid var(--accent); background:var(--soft); color:#334238; max-width:100%; overflow-wrap:anywhere; }
+.split { display:block; max-width:340px; }
+.split .chart { margin-top:12px; }
+@media (min-width: 560px) {
+  header { padding:34px min(6vw,60px) 26px; }
+  main { padding:30px min(6vw,60px) 56px; }
+  footer { padding:24px min(6vw,60px); }
+  header p, .narrow { max-width:900px; }
+  h1 { max-width:1020px; font-size:clamp(32px,5vw,56px); line-height:1.03; }
+  .metrics { max-width:1080px; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); }
+  .grid { max-width:none; grid-template-columns:repeat(auto-fit,minmax(235px,1fr)); }
+  .split { display:grid; max-width:none; gap:12px; grid-template-columns:1.1fr .9fr; align-items:start; }
+  .split .chart { margin-top:0; }
+  .chart, .table-wrap { max-width:100%; }
+}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Packrift Pack Count and Unit Signal Atlas","description":"A public Packrift data asset that normalizes pack counts, unit-price signals, unit-weight signals, unit cube, family groups, and product-type indexes from real Packrift catalog fields.","url":"https://packrift.github.io","creator":{"@type":"Organization","name":"Packrift LLC","url":"https://packrift.com/"},"license":"https://packrift.com/policies/terms-of-service","distribution":[{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://packrift.github.io/data/unit-signals.json"},{"@type":"DataDownload","encodingFormat":"application/x-ndjson","contentUrl":"https://packrift.github.io/data/unit-signals.jsonl"},{"@type":"DataDownload","encodingFormat":"text/csv","contentUrl":"https://packrift.github.io/data/unit-signals.csv"}]}</script>
+</head>
+<body>
+<header>
+<div class="kicker">Packrift pack count and unit signals</div>
+<h1>Packrift Product Type Unit Signals</h1>
+<p>Browse Packrift product signal pages by source product type.</p>
+</header>
+<main><div class="chart" role="img" aria-label="Product type records">
+<svg viewBox="0 0 900 484" xmlns="http://www.w3.org/2000/svg">
+<title>Product type records</title>
+<rect width="900" height="484" fill="#ffffff"/>
+<text x="18" y="26" font-family="system-ui, sans-serif" font-size="18" font-weight="700" fill="#18231f">Product type records</text>
+<text x="18" y="62" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">Boxes - Corrugated</text>
+<rect x="270" y="46" width="520" height="20" rx="4" fill="#245f46"/>
+<text x="800" y="61" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">899</text>
+<text x="18" y="96" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">Boxes - Mailers</text>
+<rect x="270" y="80" width="151" height="20" rx="4" fill="#285e73"/>
+<text x="431" y="95" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">261</text>
+<text x="18" y="130" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">Bags - Poly</text>
+<rect x="270" y="114" width="108" height="20" rx="4" fill="#8a5b24"/>
+<text x="388" y="129" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">187</text>
+<text x="18" y="164" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">Bins, Shelving &amp; Storage</text>
+<rect x="270" y="148" width="87" height="20" rx="4" fill="#8a4054"/>
+<text x="367" y="163" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">150</text>
+<text x="18" y="198" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">Chipboard Cartons</text>
+<rect x="270" y="182" width="39" height="20" rx="4" fill="#245f46"/>
+<text x="319" y="197" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">68</text>
+<text x="18" y="232" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">Edge Protectors</text>
+<rect x="270" y="216" width="31" height="20" rx="4" fill="#285e73"/>
+<text x="311" y="231" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">53</text>
+<text x="18" y="266" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">Envelopes &amp; Mailers</text>
+<rect x="270" y="250" width="27" height="20" rx="4" fill="#8a5b24"/>
+<text x="307" y="265" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">47</text>
+<text x="18" y="300" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">Bubble, Foam &amp; Cushioning</text>
+<rect x="270" y="284" width="20" height="20" rx="4" fill="#8a4054"/>
+<text x="300" y="299" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">35</text>
+<text x="18" y="334" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">Cold Packs</text>
+<rect x="270" y="318" width="11" height="20" rx="4" fill="#245f46"/>
+<text x="291" y="333" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">19</text>
+<text x="18" y="368" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">Papers, Newsprint &amp; Tissue</text>
+<rect x="270" y="352" width="4" height="20" rx="4" fill="#285e73"/>
+<text x="284" y="367" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">4</text>
+<text x="18" y="402" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">Warehouse Supplies</text>
+<rect x="270" y="386" width="4" height="20" rx="4" fill="#8a5b24"/>
+<text x="284" y="401" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">2</text>
+<text x="18" y="436" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">Adhesives &amp; Glue</text>
+<rect x="270" y="420" width="4" height="20" rx="4" fill="#8a4054"/>
+<text x="284" y="435" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">1</text>
+<text x="18" y="470" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">Material Handling</text>
+<rect x="270" y="454" width="4" height="20" rx="4" fill="#245f46"/>
+<text x="284" y="469" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">1</text>
+</svg></div><h2>Index Pages</h2><div class="grid">
+<div class="card"><h3><a href="/product-types/boxes-corrugated/">Boxes - Corrugated</a></h3><p>899 records. Median unit price $2.3975.</p></div>
+<div class="card"><h3><a href="/product-types/boxes-mailers/">Boxes - Mailers</a></h3><p>261 records. Median unit price $1.4384.</p></div>
+<div class="card"><h3><a href="/product-types/bags-poly/">Bags - Poly</a></h3><p>187 records. Median unit price $0.2978.</p></div>
+<div class="card"><h3><a href="/product-types/bins-shelving-and-storage/">Bins, Shelving &amp; Storage</a></h3><p>150 records. Median unit price $6.1908.</p></div>
+<div class="card"><h3><a href="/product-types/chipboard-cartons/">Chipboard Cartons</a></h3><p>68 records. Median unit price $1.2639.</p></div>
+<div class="card"><h3><a href="/product-types/edge-protectors/">Edge Protectors</a></h3><p>53 records. Median unit price $1.2170.</p></div>
+<div class="card"><h3><a href="/product-types/envelopes-and-mailers/">Envelopes &amp; Mailers</a></h3><p>47 records. Median unit price $0.3167.</p></div>
+<div class="card"><h3><a href="/product-types/bubble-foam-and-cushioning/">Bubble, Foam &amp; Cushioning</a></h3><p>35 records. Median unit price $6.7467.</p></div>
+<div class="card"><h3><a href="/product-types/cold-packs/">Cold Packs</a></h3><p>19 records. Median unit price $1.1628.</p></div>
+<div class="card"><h3><a href="/product-types/papers-newsprint-and-tissue/">Papers, Newsprint &amp; Tissue</a></h3><p>4 records. Median unit price $10.7546.</p></div>
+<div class="card"><h3><a href="/product-types/warehouse-supplies/">Warehouse Supplies</a></h3><p>2 records. Median unit price $1.4655.</p></div>
+<div class="card"><h3><a href="/product-types/adhesives-and-glue/">Adhesives &amp; Glue</a></h3><p>1 records. Median unit price $0.0118.</p></div>
+<div class="card"><h3><a href="/product-types/material-handling/">Material Handling</a></h3><p>1 records. Median unit price $11.2083.</p></div>
+</div></main>
+<footer>Generated 2026-05-30T20:35:03.002Z from Packrift public catalog and operations-product data. This resource reports public price, pack-count, physical-size, and inventory signals only. It is not a margin model, freight quote, or checkout commitment.</footer>
+</body>
+</html>

@@ -1,0 +1,20 @@
+# Packrift Pack Count and Unit Signal Atlas
+
+Source: https://packrift.github.io/
+
+This public asset exposes Packrift pack-count, unit-price, unit-weight, unit-cube, family, product-type, inventory, and canonical product-route signals from complete public catalog rows.
+
+Use boundaries:
+- Good for product discovery, procurement comparison, catalog QA, and Packrift citation.
+- Not a freight quote, margin model, supplier cost file, checkout promise, or current-order guarantee.
+
+Key routes:
+- https://packrift.github.io/sitemap.xml
+- https://packrift.github.io/data/unit-signals.json
+- https://packrift.github.io/data/unit-signals.jsonl
+- https://packrift.github.io/data/unit-signals.csv
+- https://packrift.github.io/data/schema.json
+- https://packrift.github.io/openapi.json
+
+Published product signal pages: 1727
+Generated: 2026-05-30T20:35:03.002Z

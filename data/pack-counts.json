@@ -1,0 +1,515 @@
+[
+  {
+    "label": "25 unit pack",
+    "slug": "25",
+    "url": "https://packrift.github.io/pack-counts/25/",
+    "records": 459,
+    "median_pack_count": 25,
+    "median_unit_price": 1.2676,
+    "median_unit_weight": 0.6592
+  },
+  {
+    "label": "50 unit pack",
+    "slug": "50",
+    "url": "https://packrift.github.io/pack-counts/50/",
+    "records": 284,
+    "median_pack_count": 50,
+    "median_unit_price": 1.4124,
+    "median_unit_weight": 0.3328
+  },
+  {
+    "label": "10 unit pack",
+    "slug": "10",
+    "url": "https://packrift.github.io/pack-counts/10/",
+    "records": 165,
+    "median_pack_count": 10,
+    "median_unit_price": 5.185,
+    "median_unit_weight": 2.596
+  },
+  {
+    "label": "15 unit pack",
+    "slug": "15",
+    "url": "https://packrift.github.io/pack-counts/15/",
+    "records": 142,
+    "median_pack_count": 15,
+    "median_unit_price": 3.369333,
+    "median_unit_weight": 1.837667
+  },
+  {
+    "label": "20 unit pack",
+    "slug": "20",
+    "url": "https://packrift.github.io/pack-counts/20/",
+    "records": 140,
+    "median_pack_count": 20,
+    "median_unit_price": 2.5495,
+    "median_unit_weight": 1.3645
+  },
+  {
+    "label": "100 unit pack",
+    "slug": "100",
+    "url": "https://packrift.github.io/pack-counts/100/",
+    "records": 63,
+    "median_pack_count": 100,
+    "median_unit_price": 1.0519,
+    "median_unit_weight": 0.1484
+  },
+  {
+    "label": "1,000 unit pack",
+    "slug": "1000",
+    "url": "https://packrift.github.io/pack-counts/1000/",
+    "records": 62,
+    "median_pack_count": 1000,
+    "median_unit_price": 0.05579,
+    "median_unit_weight": 0.01631
+  },
+  {
+    "label": "250 unit pack",
+    "slug": "250",
+    "url": "https://packrift.github.io/pack-counts/250/",
+    "records": 48,
+    "median_pack_count": 250,
+    "median_unit_price": 0.38532,
+    "median_unit_weight": 0.12636
+  },
+  {
+    "label": "12 unit pack",
+    "slug": "12",
+    "url": "https://packrift.github.io/pack-counts/12/",
+    "records": 46,
+    "median_pack_count": 12,
+    "median_unit_price": 7.5,
+    "median_unit_weight": 1.013333
+  },
+  {
+    "label": "5 unit pack",
+    "slug": "5",
+    "url": "https://packrift.github.io/pack-counts/5/",
+    "records": 40,
+    "median_pack_count": 5,
+    "median_unit_price": 10.567,
+    "median_unit_weight": 4.31
+  },
+  {
+    "label": "6 unit pack",
+    "slug": "6",
+    "url": "https://packrift.github.io/pack-counts/6/",
+    "records": 36,
+    "median_pack_count": 6,
+    "median_unit_price": 17.423333,
+    "median_unit_weight": 1.728333
+  },
+  {
+    "label": "200 unit pack",
+    "slug": "200",
+    "url": "https://packrift.github.io/pack-counts/200/",
+    "records": 33,
+    "median_pack_count": 200,
+    "median_unit_price": 0.6072,
+    "median_unit_weight": 0.1821
+  },
+  {
+    "label": "500 unit pack",
+    "slug": "500",
+    "url": "https://packrift.github.io/pack-counts/500/",
+    "records": 30,
+    "median_pack_count": 500,
+    "median_unit_price": 0.17502,
+    "median_unit_weight": 0.05304
+  },
+  {
+    "label": "24 unit pack",
+    "slug": "24",
+    "url": "https://packrift.github.io/pack-counts/24/",
+    "records": 25,
+    "median_pack_count": 24,
+    "median_unit_price": 3.951667,
+    "median_unit_weight": 0.340833
+  },
+  {
+    "label": "1 unit pack",
+    "slug": "1",
+    "url": "https://packrift.github.io/pack-counts/1/",
+    "records": 13,
+    "median_pack_count": 1,
+    "median_unit_price": 30.3,
+    "median_unit_weight": 2.44
+  },
+  {
+    "label": "3 unit pack",
+    "slug": "3",
+    "url": "https://packrift.github.io/pack-counts/3/",
+    "records": 13,
+    "median_pack_count": 3,
+    "median_unit_price": 35.026667,
+    "median_unit_weight": 4.973333
+  },
+  {
+    "label": "8 unit pack",
+    "slug": "8",
+    "url": "https://packrift.github.io/pack-counts/8/",
+    "records": 13,
+    "median_pack_count": 8,
+    "median_unit_price": 8.1075,
+    "median_unit_weight": 1.09
+  },
+  {
+    "label": "400 unit pack",
+    "slug": "400",
+    "url": "https://packrift.github.io/pack-counts/400/",
+    "records": 11,
+    "median_pack_count": 400,
+    "median_unit_price": 0.089925,
+    "median_unit_weight": 0.0321
+  },
+  {
+    "label": "4 unit pack",
+    "slug": "4",
+    "url": "https://packrift.github.io/pack-counts/4/",
+    "records": 10,
+    "median_pack_count": 4,
+    "median_unit_price": 25.66125,
+    "median_unit_weight": 3.195
+  },
+  {
+    "label": "48 unit pack",
+    "slug": "48",
+    "url": "https://packrift.github.io/pack-counts/48/",
+    "records": 7,
+    "median_pack_count": 48,
+    "median_unit_price": 1.235625,
+    "median_unit_weight": 0.133333
+  },
+  {
+    "label": "2,000 unit pack",
+    "slug": "2000",
+    "url": "https://packrift.github.io/pack-counts/2000/",
+    "records": 6,
+    "median_pack_count": 2000,
+    "median_unit_price": 0.023515,
+    "median_unit_weight": 0.00478
+  },
+  {
+    "label": "60 unit pack",
+    "slug": "60",
+    "url": "https://packrift.github.io/pack-counts/60/",
+    "records": 6,
+    "median_pack_count": 60,
+    "median_unit_price": 1.63,
+    "median_unit_weight": 0.857167
+  },
+  {
+    "label": "150 unit pack",
+    "slug": "150",
+    "url": "https://packrift.github.io/pack-counts/150/",
+    "records": 5,
+    "median_pack_count": 150,
+    "median_unit_price": 1.2194,
+    "median_unit_weight": 0.28
+  },
+  {
+    "label": "30 unit pack",
+    "slug": "30",
+    "url": "https://packrift.github.io/pack-counts/30/",
+    "records": 5,
+    "median_pack_count": 30,
+    "median_unit_price": 3.143333,
+    "median_unit_weight": 0.508667
+  },
+  {
+    "label": "300 unit pack",
+    "slug": "300",
+    "url": "https://packrift.github.io/pack-counts/300/",
+    "records": 5,
+    "median_pack_count": 300,
+    "median_unit_price": 0.2752,
+    "median_unit_weight": 0.143867
+  },
+  {
+    "label": "36 unit pack",
+    "slug": "36",
+    "url": "https://packrift.github.io/pack-counts/36/",
+    "records": 5,
+    "median_pack_count": 36,
+    "median_unit_price": 1.162778,
+    "median_unit_weight": 0.515
+  },
+  {
+    "label": "120 unit pack",
+    "slug": "120",
+    "url": "https://packrift.github.io/pack-counts/120/",
+    "records": 4,
+    "median_pack_count": 120,
+    "median_unit_price": 0.889958,
+    "median_unit_weight": 0.3905
+  },
+  {
+    "label": "96 unit pack",
+    "slug": "96",
+    "url": "https://packrift.github.io/pack-counts/96/",
+    "records": 4,
+    "median_pack_count": 96,
+    "median_unit_price": 0.565417,
+    "median_unit_weight": 0.126458
+  },
+  {
+    "label": "125 unit pack",
+    "slug": "125",
+    "url": "https://packrift.github.io/pack-counts/125/",
+    "records": 3,
+    "median_pack_count": 125,
+    "median_unit_price": 1.19232,
+    "median_unit_weight": 0.4688
+  },
+  {
+    "label": "45 unit pack",
+    "slug": "45",
+    "url": "https://packrift.github.io/pack-counts/45/",
+    "records": 3,
+    "median_pack_count": 45,
+    "median_unit_price": 2.367778,
+    "median_unit_weight": 1.18
+  },
+  {
+    "label": "55 unit pack",
+    "slug": "55",
+    "url": "https://packrift.github.io/pack-counts/55/",
+    "records": 3,
+    "median_pack_count": 55,
+    "median_unit_price": 1.981818,
+    "median_unit_weight": 0.992
+  },
+  {
+    "label": "9 unit pack",
+    "slug": "9",
+    "url": "https://packrift.github.io/pack-counts/9/",
+    "records": 3,
+    "median_pack_count": 9,
+    "median_unit_price": 30.206667,
+    "median_unit_weight": 2.086667
+  },
+  {
+    "label": "105 unit pack",
+    "slug": "105",
+    "url": "https://packrift.github.io/pack-counts/105/",
+    "records": 2,
+    "median_pack_count": 105,
+    "median_unit_price": 1.146571,
+    "median_unit_weight": 0.511143
+  },
+  {
+    "label": "18 unit pack",
+    "slug": "18",
+    "url": "https://packrift.github.io/pack-counts/18/",
+    "records": 2,
+    "median_pack_count": 18,
+    "median_unit_price": 1.135556,
+    "median_unit_weight": 1.512222
+  },
+  {
+    "label": "2 unit pack",
+    "slug": "2",
+    "url": "https://packrift.github.io/pack-counts/2/",
+    "records": 2,
+    "median_pack_count": 2,
+    "median_unit_price": 86.06,
+    "median_unit_weight": 12.015
+  },
+  {
+    "label": "35 unit pack",
+    "slug": "35",
+    "url": "https://packrift.github.io/pack-counts/35/",
+    "records": 2,
+    "median_pack_count": 35,
+    "median_unit_price": 3.288571,
+    "median_unit_weight": 1.517429
+  },
+  {
+    "label": "40 unit pack",
+    "slug": "40",
+    "url": "https://packrift.github.io/pack-counts/40/",
+    "records": 2,
+    "median_pack_count": 40,
+    "median_unit_price": 5.25,
+    "median_unit_weight": 0.89225
+  },
+  {
+    "label": "480 unit pack",
+    "slug": "480",
+    "url": "https://packrift.github.io/pack-counts/480/",
+    "records": 2,
+    "median_pack_count": 480,
+    "median_unit_price": 0.219146,
+    "median_unit_weight": 0.109896
+  },
+  {
+    "label": "65 unit pack",
+    "slug": "65",
+    "url": "https://packrift.github.io/pack-counts/65/",
+    "records": 2,
+    "median_pack_count": 65,
+    "median_unit_price": 1.485846,
+    "median_unit_weight": 0.850462
+  },
+  {
+    "label": "70 unit pack",
+    "slug": "70",
+    "url": "https://packrift.github.io/pack-counts/70/",
+    "records": 2,
+    "median_pack_count": 70,
+    "median_unit_price": 1.850286,
+    "median_unit_weight": 0.777143
+  },
+  {
+    "label": "72 unit pack",
+    "slug": "72",
+    "url": "https://packrift.github.io/pack-counts/72/",
+    "records": 2,
+    "median_pack_count": 72,
+    "median_unit_price": 0.686181,
+    "median_unit_weight": 0.496389
+  },
+  {
+    "label": "80 unit pack",
+    "slug": "80",
+    "url": "https://packrift.github.io/pack-counts/80/",
+    "records": 2,
+    "median_pack_count": 80,
+    "median_unit_price": 1.335313,
+    "median_unit_weight": 0.62725
+  },
+  {
+    "label": "1,500 unit pack",
+    "slug": "1500",
+    "url": "https://packrift.github.io/pack-counts/1500/",
+    "records": 1,
+    "median_pack_count": 1500,
+    "median_unit_price": 0.011753,
+    "median_unit_weight": 0.00028
+  },
+  {
+    "label": "110 unit pack",
+    "slug": "110",
+    "url": "https://packrift.github.io/pack-counts/110/",
+    "records": 1,
+    "median_pack_count": 110,
+    "median_unit_price": 1.195273,
+    "median_unit_weight": 0.535818
+  },
+  {
+    "label": "115 unit pack",
+    "slug": "115",
+    "url": "https://packrift.github.io/pack-counts/115/",
+    "records": 1,
+    "median_pack_count": 115,
+    "median_unit_price": 1.570522,
+    "median_unit_weight": 0.464174
+  },
+  {
+    "label": "16 unit pack",
+    "slug": "16",
+    "url": "https://packrift.github.io/pack-counts/16/",
+    "records": 1,
+    "median_pack_count": 16,
+    "median_unit_price": 5.788125,
+    "median_unit_weight": 0.785
+  },
+  {
+    "label": "175 unit pack",
+    "slug": "175",
+    "url": "https://packrift.github.io/pack-counts/175/",
+    "records": 1,
+    "median_pack_count": 175,
+    "median_unit_price": 1.069657,
+    "median_unit_weight": 0.253029
+  },
+  {
+    "label": "216 unit pack",
+    "slug": "216",
+    "url": "https://packrift.github.io/pack-counts/216/",
+    "records": 1,
+    "median_pack_count": 216,
+    "median_unit_price": 0.684259,
+    "median_unit_weight": 0.03162
+  },
+  {
+    "label": "230 unit pack",
+    "slug": "230",
+    "url": "https://packrift.github.io/pack-counts/230/",
+    "records": 1,
+    "median_pack_count": 230,
+    "median_unit_price": 0.648957,
+    "median_unit_weight": 0.195478
+  },
+  {
+    "label": "270 unit pack",
+    "slug": "270",
+    "url": "https://packrift.github.io/pack-counts/270/",
+    "records": 1,
+    "median_pack_count": 270,
+    "median_unit_price": 0.25063,
+    "median_unit_weight": 0.086593
+  },
+  {
+    "label": "320 unit pack",
+    "slug": "320",
+    "url": "https://packrift.github.io/pack-counts/320/",
+    "records": 1,
+    "median_pack_count": 320,
+    "median_unit_price": 0.410156,
+    "median_unit_weight": 0.17175
+  },
+  {
+    "label": "42 unit pack",
+    "slug": "42",
+    "url": "https://packrift.github.io/pack-counts/42/",
+    "records": 1,
+    "median_pack_count": 42,
+    "median_unit_price": 1.302619,
+    "median_unit_weight": 0.520952
+  },
+  {
+    "label": "470 unit pack",
+    "slug": "470",
+    "url": "https://packrift.github.io/pack-counts/470/",
+    "records": 1,
+    "median_pack_count": 470,
+    "median_unit_price": 0.14534,
+    "median_unit_weight": 0.052936
+  },
+  {
+    "label": "600 unit pack",
+    "slug": "600",
+    "url": "https://packrift.github.io/pack-counts/600/",
+    "records": 1,
+    "median_pack_count": 600,
+    "median_unit_price": 0.138817,
+    "median_unit_weight": 0.068833
+  },
+  {
+    "label": "650 unit pack",
+    "slug": "650",
+    "url": "https://packrift.github.io/pack-counts/650/",
+    "records": 1,
+    "median_pack_count": 650,
+    "median_unit_price": 0.139862,
+    "median_unit_weight": 0.078154
+  },
+  {
+    "label": "700 unit pack",
+    "slug": "700",
+    "url": "https://packrift.github.io/pack-counts/700/",
+    "records": 1,
+    "median_pack_count": 700,
+    "median_unit_price": 0.171057,
+    "median_unit_weight": 0.028971
+  },
+  {
+    "label": "800 unit pack",
+    "slug": "800",
+    "url": "https://packrift.github.io/pack-counts/800/",
+    "records": 1,
+    "median_pack_count": 800,
+    "median_unit_price": 0.10325,
+    "median_unit_weight": 0.01455
+  }
+]

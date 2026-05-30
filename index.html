@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Packrift Pack Count and Unit Signal Atlas</title>
+<meta name="description" content="A crawlable public Packrift resource that turns real catalog pack counts, prices, weights, dimensions, and inventory signals into product pages, comparison indexes, and machine-readable data files.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://packrift.github.io/">
+<style>
+:root { color-scheme: light; --ink:#18231f; --muted:#53615b; --line:#d9e1dc; --paper:#f8faf7; --panel:#ffffff; --soft:#eef4ef; --accent:#245f46; --blue:#285e73; --amber:#8a5b24; --rose:#8a4054; }
+* { box-sizing:border-box; }
+html, body { overflow-x:hidden; }
+body { margin:0; background:var(--paper); color:var(--ink); font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height:1.5; }
+a { color:var(--accent); text-underline-offset:.18em; overflow-wrap:anywhere; }
+header { background:#fff; border-bottom:1px solid var(--line); padding:30px 20px 24px; }
+main { max-width:min(1200px,100vw); padding:28px 20px 56px; }
+footer { border-top:1px solid var(--line); padding:24px 20px; color:var(--muted); font-size:13px; }
+.kicker { font-size:12px; font-weight:800; color:var(--amber); text-transform:uppercase; letter-spacing:0; }
+h1 { margin:8px 0 12px; max-width:340px; font-size:28px; line-height:1.08; letter-spacing:0; overflow-wrap:anywhere; }
+h2 { margin:34px 0 12px; font-size:24px; line-height:1.16; letter-spacing:0; }
+h3 { margin:0 0 8px; font-size:18px; line-height:1.2; letter-spacing:0; }
+p { max-width:100%; color:var(--muted); overflow-wrap:anywhere; }
+header p, .narrow, .chart, .table-wrap, .metrics, .grid { max-width:340px; }
+.metrics { display:grid; grid-template-columns:1fr; gap:12px; margin:22px 0; }
+.metric, .card { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:14px; }
+.metric, .card, .split > * { min-width:0; }
+.metric strong { display:block; color:var(--ink); font-size:24px; line-height:1.05; }
+.metric span { display:block; color:var(--muted); font-size:13px; margin-top:4px; }
+.grid { display:grid; grid-template-columns:1fr; gap:12px; }
+.chart { background:#fff; border:1px solid var(--line); border-radius:8px; padding:12px; overflow:hidden; min-width:0; }
+.chart svg { display:block; width:100%; max-width:100%; height:auto; }
+.table-wrap { overflow:auto; border:1px solid var(--line); border-radius:8px; background:#fff; }
+table { width:100%; min-width:920px; border-collapse:collapse; font-size:14px; }
+th, td { text-align:left; vertical-align:top; padding:10px 12px; border-bottom:1px solid var(--line); }
+th { background:var(--soft); color:#27372d; }
+.pill { display:inline-block; border:1px solid var(--line); border-radius:999px; padding:2px 8px; margin:2px 4px 2px 0; font-size:12px; background:#fff; color:#334238; }
+.note { padding:12px 14px; border-left:4px solid var(--accent); background:var(--soft); color:#334238; max-width:100%; overflow-wrap:anywhere; }
+.split { display:block; max-width:340px; }
+.split .chart { margin-top:12px; }
+@media (min-width: 560px) {
+  header { padding:34px min(6vw,60px) 26px; }
+  main { padding:30px min(6vw,60px) 56px; }
+  footer { padding:24px min(6vw,60px); }
+  header p, .narrow { max-width:900px; }
+  h1 { max-width:1020px; font-size:clamp(32px,5vw,56px); line-height:1.03; }
+  .metrics { max-width:1080px; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); }
+  .grid { max-width:none; grid-template-columns:repeat(auto-fit,minmax(235px,1fr)); }
+  .split { display:grid; max-width:none; gap:12px; grid-template-columns:1.1fr .9fr; align-items:start; }
+  .split .chart { margin-top:0; }
+  .chart, .table-wrap { max-width:100%; }
+}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Packrift Pack Count and Unit Signal Atlas","description":"A public Packrift data asset that normalizes pack counts, unit-price signals, unit-weight signals, unit cube, family groups, and product-type indexes from real Packrift catalog fields.","url":"https://packrift.github.io","creator":{"@type":"Organization","name":"Packrift LLC","url":"https://packrift.com/"},"license":"https://packrift.com/policies/terms-of-service","distribution":[{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://packrift.github.io/data/unit-signals.json"},{"@type":"DataDownload","encodingFormat":"application/x-ndjson","contentUrl":"https://packrift.github.io/data/unit-signals.jsonl"},{"@type":"DataDownload","encodingFormat":"text/csv","contentUrl":"https://packrift.github.io/data/unit-signals.csv"}]}</script>
+</head>
+<body>
+<header>
+<div class="kicker">Packrift pack count and unit signals</div>
+<h1>Packrift Pack Count and Unit Signal Atlas</h1>
+<p>A crawlable public Packrift resource that turns real catalog pack counts, prices, weights, dimensions, and inventory signals into product pages, comparison indexes, and machine-readable data files.</p>
+</header>
+<main>
+<section class="metrics">
+<div class="metric"><strong>1,727</strong><span>complete public product signal pages</span></div>
+<div class="metric"><strong>57</strong><span>pack-count indexes</span></div>
+<div class="metric"><strong>25</strong><span>median pack count</span></div>
+<div class="metric"><strong>$1.7905</strong><span>median public unit price signal</span></div>
+</section>
+<div class="split">
+<div>
+<p class="note">This atlas is built only from complete Packrift catalog rows with a canonical product URL, pack count, price, weight, dimensions, family, product type, inventory, approved catalog status, and in-stock merchant availability. It does not expose cost, margin, customer, supplier-only, or checkout data.</p>
+<h2>Browse by Pack Count</h2>
+<div class="grid">
+<div class="card"><h3><a href="/pack-counts/25/">25 unit pack</a></h3><p>459 records. Median unit price $1.2676.</p></div>
+<div class="card"><h3><a href="/pack-counts/50/">50 unit pack</a></h3><p>284 records. Median unit price $1.4124.</p></div>
+<div class="card"><h3><a href="/pack-counts/10/">10 unit pack</a></h3><p>165 records. Median unit price $5.1850.</p></div>
+<div class="card"><h3><a href="/pack-counts/15/">15 unit pack</a></h3><p>142 records. Median unit price $3.3693.</p></div>
+<div class="card"><h3><a href="/pack-counts/20/">20 unit pack</a></h3><p>140 records. Median unit price $2.5495.</p></div>
+<div class="card"><h3><a href="/pack-counts/100/">100 unit pack</a></h3><p>63 records. Median unit price $1.0519.</p></div>
+<div class="card"><h3><a href="/pack-counts/1000/">1,000 unit pack</a></h3><p>62 records. Median unit price $0.0558.</p></div>
+<div class="card"><h3><a href="/pack-counts/250/">250 unit pack</a></h3><p>48 records. Median unit price $0.3853.</p></div>
+<div class="card"><h3><a href="/pack-counts/12/">12 unit pack</a></h3><p>46 records. Median unit price $7.5000.</p></div>
+<div class="card"><h3><a href="/pack-counts/5/">5 unit pack</a></h3><p>40 records. Median unit price $10.5670.</p></div>
+<div class="card"><h3><a href="/pack-counts/6/">6 unit pack</a></h3><p>36 records. Median unit price $17.4233.</p></div>
+<div class="card"><h3><a href="/pack-counts/200/">200 unit pack</a></h3><p>33 records. Median unit price $0.6072.</p></div>
+</div>
+</div>
+<div><div class="chart" role="img" aria-label="Top Pack Count Groups">
+<svg viewBox="0 0 900 518" xmlns="http://www.w3.org/2000/svg">
+<title>Top Pack Count Groups</title>
+<rect width="900" height="518" fill="#ffffff"/>
+<text x="18" y="26" font-family="system-ui, sans-serif" font-size="18" font-weight="700" fill="#18231f">Top Pack Count Groups</text>
+<text x="18" y="62" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">25 unit pack</text>
+<rect x="270" y="46" width="520" height="20" rx="4" fill="#245f46"/>
+<text x="800" y="61" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">459</text>
+<text x="18" y="96" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">50 unit pack</text>
+<rect x="270" y="80" width="322" height="20" rx="4" fill="#285e73"/>
+<text x="602" y="95" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">284</text>
+<text x="18" y="130" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">10 unit pack</text>
+<rect x="270" y="114" width="187" height="20" rx="4" fill="#8a5b24"/>
+<text x="467" y="129" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">165</text>
+<text x="18" y="164" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">15 unit pack</text>
+<rect x="270" y="148" width="161" height="20" rx="4" fill="#8a4054"/>
+<text x="441" y="163" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">142</text>
+<text x="18" y="198" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">20 unit pack</text>
+<rect x="270" y="182" width="159" height="20" rx="4" fill="#245f46"/>
+<text x="439" y="197" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">140</text>
+<text x="18" y="232" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">100 unit pack</text>
+<rect x="270" y="216" width="71" height="20" rx="4" fill="#285e73"/>
+<text x="351" y="231" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">63</text>
+<text x="18" y="266" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">1,000 unit pack</text>
+<rect x="270" y="250" width="70" height="20" rx="4" fill="#8a5b24"/>
+<text x="350" y="265" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">62</text>
+<text x="18" y="300" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">250 unit pack</text>
+<rect x="270" y="284" width="54" height="20" rx="4" fill="#8a4054"/>
+<text x="334" y="299" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">48</text>
+<text x="18" y="334" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">12 unit pack</text>
+<rect x="270" y="318" width="52" height="20" rx="4" fill="#245f46"/>
+<text x="332" y="333" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">46</text>
+<text x="18" y="368" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">5 unit pack</text>
+<rect x="270" y="352" width="45" height="20" rx="4" fill="#285e73"/>
+<text x="325" y="367" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">40</text>
+<text x="18" y="402" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">6 unit pack</text>
+<rect x="270" y="386" width="41" height="20" rx="4" fill="#8a5b24"/>
+<text x="321" y="401" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">36</text>
+<text x="18" y="436" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">200 unit pack</text>
+<rect x="270" y="420" width="37" height="20" rx="4" fill="#8a4054"/>
+<text x="317" y="435" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">33</text>
+<text x="18" y="470" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">500 unit pack</text>
+<rect x="270" y="454" width="34" height="20" rx="4" fill="#245f46"/>
+<text x="314" y="469" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">30</text>
+<text x="18" y="504" font-family="system-ui, sans-serif" font-size="13" fill="#53615b">24 unit pack</text>
+<rect x="270" y="488" width="28" height="20" rx="4" fill="#285e73"/>
+<text x="308" y="503" font-family="system-ui, sans-serif" font-size="13" fill="#18231f">25</text>
+</svg></div></div>
+</div>
+<h2>Browse Public Unit Signals</h2>
+<div class="grid">
+<div class="card"><h3><a href="/unit-price-bands/">Unit Price Bands</a></h3><p>Public price divided by pack count, grouped into practical ranges for comparison.</p></div>
+<div class="card"><h3><a href="/unit-weight-bands/">Unit Weight Bands</a></h3><p>Shipping weight divided by pack count, useful for handling and catalog review.</p></div>
+<div class="card"><h3><a href="/families/">Families</a></h3><p>Packaging family indexes across boxes, mailers, bags, labels, and more.</p></div>
+<div class="card"><h3><a href="/product-types/">Product Types</a></h3><p>Source product-type indexes with linked Packrift product routes.</p></div>
+</div>
+<h2>Representative Product Signals</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>SKU</th><th>Packrift title</th><th>Pack count</th><th>Unit price</th><th>Unit weight</th><th>Unit cube</th><th>Family</th></tr></thead>
+<tbody>
+<tr>
+<td><a href="/products/212c-8x6x12-eps-foam-insulated-shipping-kit-200-white-corrugated-case-of-1/">212C</a></td>
+<td>8x6x12 EPS Foam Insulated Shipping Kit - 200# White Corrugated, Case of 1</td>
+<td>1</td>
+<td>$13.0800</td>
+<td>1.42 lb</td>
+<td>576 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/214c-9-5x9-5x7-insulated-shipping-kit-eps-foam-corrugated-box-case-of-1/">214C</a></td>
+<td>9.5x9.5x7 Insulated Shipping Kit - EPS Foam Corrugated Box, Case of 1</td>
+<td>1</td>
+<td>$12.7100</td>
+<td>1.42 lb</td>
+<td>631.75 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/227c-12x10x7-eps-foam-insulated-shipping-kit-200-corrugated-carton-case-of-1/">227C</a></td>
+<td>12x10x7 EPS Foam Insulated Shipping Kit - 200# Corrugated Carton, Case of 1</td>
+<td>1</td>
+<td>$20.7700</td>
+<td>1.94 lb</td>
+<td>840 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/229c-12x10x9-insulated-shipping-kit-eps-foam-corrugated-carton-case-of-1/">229C</a></td>
+<td>12x10x9 Insulated Shipping Kit - EPS Foam Corrugated Carton, Case of 1</td>
+<td>1</td>
+<td>$23.4600</td>
+<td>2.14 lb</td>
+<td>1,080 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/229f-12x10x9-insulated-foam-container-1-5-polystyrene-protection-case-of-1/">229F</a></td>
+<td>12x10x9 Insulated Foam Container - 1.5&quot; Polystyrene Protection, Case of 1</td>
+<td>1</td>
+<td>$17.4800</td>
+<td>2.32 lb</td>
+<td>1,080 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/230c-12x12x11-5-eps-foam-insulated-shipping-kit-200-corrugated-case-of-1/">230C</a></td>
+<td>12x12x11.5 EPS Foam Insulated Shipping Kit - 200# Corrugated, Case of 1</td>
+<td>1</td>
+<td>$35.3600</td>
+<td>3.38 lb</td>
+<td>1,656 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/238c-13-75x11-75x11-875-eps-foam-insulated-shipping-kit-temperature-control-case-of-1/">238C</a></td>
+<td>13.75x11.75x11.875 EPS Foam Insulated Shipping Kit - Temperature Control, Case of 1</td>
+<td>1</td>
+<td>$30.3000</td>
+<td>2.44 lb</td>
+<td>1,918.55 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/240c-13x13x12-5-insulated-shipping-kit-eps-foam-corrugated-carton-case-of-1/">240C</a></td>
+<td>13x13x12.5&quot; Insulated Shipping Kit - EPS Foam Corrugated Carton, Case of 1</td>
+<td>1</td>
+<td>$33.5500</td>
+<td>3.06 lb</td>
+<td>2,112.5 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/245c-17x10x8-25-eps-foam-insulated-shipping-kit-temperature-control-case-of-1/">245C</a></td>
+<td>17x10x8.25&quot; EPS Foam Insulated Shipping Kit - Temperature Control, Case of 1</td>
+<td>1</td>
+<td>$27.3700</td>
+<td>2.4 lb</td>
+<td>1,402.5 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/246c-17x10x10-5-eps-foam-insulated-shipping-kit-perishable-protection-case-of-1/">246C</a></td>
+<td>17x10x10.5 EPS Foam Insulated Shipping Kit - Perishable Protection, Case of 1</td>
+<td>1</td>
+<td>$30.5000</td>
+<td>2.74 lb</td>
+<td>1,785 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/248c-18x14x19-eps-foam-insulated-shipping-kit-200-corrugated-case-of-1/">248C</a></td>
+<td>18x14x19 EPS Foam Insulated Shipping Kit - 200# Corrugated, Case of 1</td>
+<td>1</td>
+<td>$38.6200</td>
+<td>4.5 lb</td>
+<td>4,788 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/261c-19x12x12-5-eps-foam-insulated-shipping-kit-perishable-protection-case-of-1/">261C</a></td>
+<td>19x12x12.5&quot; EPS Foam Insulated Shipping Kit - Perishable Protection, Case of 1</td>
+<td>1</td>
+<td>$34.5000</td>
+<td>3.54 lb</td>
+<td>2,850 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/269c-21-25x15-5x15-5-insulated-shipping-kit-eps-foam-corrugated-box-case-of-1/">269C</a></td>
+<td>21.25x15.5x15.5 Insulated Shipping Kit - EPS Foam Corrugated Box, Case of 1</td>
+<td>1</td>
+<td>$54.2600</td>
+<td>6.42 lb</td>
+<td>5,105.31 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/220c-10-5x8-25x9-25-insulated-shipping-kit-eps-foam-corrugated-box-case-of-2/">220C</a></td>
+<td>10.5x8.25x9.25 Insulated Shipping Kit EPS Foam Corrugated Box Case of 2</td>
+<td>2</td>
+<td>$19.3100</td>
+<td>3.49 lb</td>
+<td>400.64 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/binc113-18x16-5x11-black-conductive-plastic-bin-boxes-esd-protection-case-of-3/">BINC113</a></td>
+<td>18x16.5x11 Black Conductive Plastic Bin Boxes - ESD Protection, Case of 3</td>
+<td>3</td>
+<td>$162.3033</td>
+<td>5.6333 lb</td>
+<td>1,089 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/225c-12x10x5-eps-foam-insulated-shipping-kit-200-corrugated-case-of-4/">225C</a></td>
+<td>12x10x5 EPS Foam Insulated Shipping Kit - 200# Corrugated, Case of 4</td>
+<td>4</td>
+<td>$15.9075</td>
+<td>2.53 lb</td>
+<td>150 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/202045ward-20x20x45-ect-48-double-wall-wardrobe-boxes-hanger-storage-bundle-of-5/">202045WARD</a></td>
+<td>20x20x45 ECT-48 Double Wall Wardrobe Boxes - Hanger Storage, Bundle of 5</td>
+<td>5</td>
+<td>$16.2860</td>
+<td>6.232 lb</td>
+<td>3,600 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/22616fpfol-22x6x16-ect-44-kraft-flat-panel-tv-box-full-overlap-protection-bundle-of-5/">22616FPFOL</a></td>
+<td>22x6x16&quot; ECT-44 Kraft Flat Panel TV Box - Full Overlap Protection, Bundle of 5</td>
+<td>5</td>
+<td>$4.5240</td>
+<td>1.592 lb</td>
+<td>422.4 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/242046ward-24x20x46-ect-48-wardrobe-boxes-hanging-garment-shipping-bundle-of-5/">242046WARD</a></td>
+<td>24x20x46 ECT-48 Wardrobe Boxes - Hanging Garment Shipping, Bundle of 5</td>
+<td>5</td>
+<td>$17.3060</td>
+<td>7.14 lb</td>
+<td>4,416 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/28620fpfol-28x6x20-ect-44-kraft-tv-box-full-overlap-flaps-bundle-of-5/">28620FPFOL</a></td>
+<td>28x6x20&quot; ECT-44 Kraft TV Box - Full Overlap Flaps, Bundle of 5</td>
+<td>5</td>
+<td>$6.6680</td>
+<td>2.224 lb</td>
+<td>672 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/28652fol-28x6x52-kraft-ect-32-side-loading-boxes-5-pack-bundle/">28652FOL</a></td>
+<td>28x6x52&quot; Kraft ECT-32 Side Loading Boxes - 5 Pack Bundle</td>
+<td>5</td>
+<td>$9.8640</td>
+<td>3.234 lb</td>
+<td>1,747.2 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/362120-36x21x20-ect-32-kraft-wardrobe-boxes-hanger-ready-storage-bundle-of-5/">362120</a></td>
+<td>36x21x20 ECT-32 Kraft Wardrobe Boxes - Hanger-Ready Storage, Bundle of 5</td>
+<td>5</td>
+<td>$5.9240</td>
+<td>3.364 lb</td>
+<td>3,024 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/362420-36x24x20-ect-32-kraft-corrugated-boxes-industrial-strength-bundle-of-5/">362420</a></td>
+<td>36x24x20 ECT-32 Kraft Corrugated Boxes - Industrial Strength, Bundle of 5</td>
+<td>5</td>
+<td>$6.1560</td>
+<td>4.04 lb</td>
+<td>3,456 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/362424-36x24x24-ect-32-kraft-corrugated-boxes-heavy-duty-shipping-bundle-of-5/">362424</a></td>
+<td>36x24x24 ECT-32 Kraft Corrugated Boxes - Heavy-Duty Shipping, Bundle of 5</td>
+<td>5</td>
+<td>$6.6540</td>
+<td>4.3 lb</td>
+<td>4,147.2 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/36542fol-36x5x42-ect-44-kraft-side-loading-boxes-bundle-of-5/">36542FOL</a></td>
+<td>36x5x42 ECT-44 Kraft Side Loading Boxes - Bundle of 5</td>
+<td>5</td>
+<td>$7.1240</td>
+<td>4.404 lb</td>
+<td>1,512 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/36548fol-36x5x48-ect-44-kraft-side-loading-boxes-bundle-of-5/">36548FOL</a></td>
+<td>36x5x48 ECT-44 Kraft Side Loading Boxes - Bundle of 5</td>
+<td>5</td>
+<td>$11.7800</td>
+<td>4.644 lb</td>
+<td>1,728 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/38826fpfol-38x8x26-ect-48-double-wall-flat-panel-tv-box-bundle-of-5/">38826FPFOL</a></td>
+<td>38x8x26&quot; ECT-48 Double Wall Flat Panel TV Box - Bundle of 5</td>
+<td>5</td>
+<td>$17.2240</td>
+<td>4.684 lb</td>
+<td>1,580.8 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/46830fpfol-46x8x30-ect-51-double-wall-tv-box-full-overlap-kraft-carton-bundle-of-5/">46830FPFOL</a></td>
+<td>46x8x30 ECT-51 Double Wall TV Box - Full Overlap Kraft Carton, Bundle of 5</td>
+<td>5</td>
+<td>$20.9640</td>
+<td>5.828 lb</td>
+<td>2,208 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/af301717-30x17x17-double-wall-ect-51-corrugated-boxes-heavy-duty-shipping-bundle-of-5/">AF301717</a></td>
+<td>30x17x17 Double Wall ECT-51 Corrugated Boxes - Heavy-Duty Shipping, Bundle of 5</td>
+<td>5</td>
+<td>$6.4300</td>
+<td>3.664 lb</td>
+<td>1,734 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/af362222-36x22x22-double-wall-ect-51-corrugated-boxes-heavy-duty-shipping-bundle-of-5/">AF362222</a></td>
+<td>36x22x22 Double Wall ECT-51 Corrugated Boxes - Heavy-Duty Shipping, Bundle of 5</td>
+<td>5</td>
+<td>$11.3400</td>
+<td>5.476 lb</td>
+<td>3,484.8 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/gl3636lidhd-36x36x5-ect-48-double-wall-gaylord-lids-heavy-duty-corrugated-bundle-of-5/">GL3636LIDHD</a></td>
+<td>36x36x5 ECT-48 Double Wall Gaylord Lids - Heavy-Duty Corrugated, Bundle of 5</td>
+<td>5</td>
+<td>$4.3880</td>
+<td>2.02 lb</td>
+<td>1,296 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/gl4030lid-41-25x31-25x4-ect-44-kraft-gaylord-lids-heavy-duty-corrugated-bundle-of-5/">GL4030LID</a></td>
+<td>41.25x31.25x4 ECT-44 Kraft Gaylord Lids - Heavy-Duty Corrugated, Bundle of 5</td>
+<td>5</td>
+<td>$6.4060</td>
+<td>1.9 lb</td>
+<td>1,031.25 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/gl4030lidhd-40-3-4-x-30-3-4-x-5-ect-48-double-wall-gaylord-lids-bundle-of-5/">GL4030LIDHD</a></td>
+<td>40 3/4 x 30 3/4 x 5&quot; ECT-48 Double Wall Gaylord Lids - Bundle of 5</td>
+<td>5</td>
+<td>$4.1680</td>
+<td>2.024 lb</td>
+<td>1,253.06 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/gl482428-48x24x28-ect-32-corrugated-gaylord-box-heavy-duty-bundle-of-5/">GL482428</a></td>
+<td>48x24x28 ECT-32 Corrugated Gaylord Box - Heavy-Duty, Bundle of 5</td>
+<td>5</td>
+<td>$9.3140</td>
+<td>4.32 lb</td>
+<td>6,451.2 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/gl482428dw-48x24x28-ect-48-double-wall-gaylord-boxes-heavy-duty-corrugated-bundle-of-5/">GL482428DW</a></td>
+<td>48x24x28 ECT-48 Double Wall Gaylord Boxes - Heavy-Duty Corrugated (Bundle of 5)</td>
+<td>5</td>
+<td>$14.4080</td>
+<td>7 lb</td>
+<td>6,451.2 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/gl482428lid-48-5x24-5x5-ect-32-gaylord-lids-heavy-duty-kraft-corrugated-bundle-of-5/">GL482428LID</a></td>
+<td>48.5x24.5x5&quot; ECT-32 Gaylord Lids - Heavy-Duty Kraft Corrugated, Bundle of 5</td>
+<td>5</td>
+<td>$3.2800</td>
+<td>1.464 lb</td>
+<td>1,188.25 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/gl4824lid-49-25x25-25x4-heavy-duty-kraft-gaylord-lids-ect-44-bundle-of-5/">GL4824LID</a></td>
+<td>49.25x25.25x4 Heavy-Duty Kraft Gaylord Lids ECT-44 - Bundle of 5</td>
+<td>5</td>
+<td>$5.3080</td>
+<td>1.82 lb</td>
+<td>994.85 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/gl4840lid-49-25x41-25x4-ect-44-heavy-duty-gaylord-lids-5-pack-bundle/">GL4840LID</a></td>
+<td>49.25x41.25x4 ECT-44 Heavy-Duty Gaylord Lids - 5 Pack Bundle</td>
+<td>5</td>
+<td>$6.5080</td>
+<td>2.824 lb</td>
+<td>1,625.25 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/hd18645fol-18x6x45-ect-44-kraft-side-loading-boxes-bundle-of-5/">HD18645FOL</a></td>
+<td>18x6x45 ECT-44 Kraft Side Loading Boxes - Bundle of 5</td>
+<td>5</td>
+<td>$9.8440</td>
+<td>2.676 lb</td>
+<td>972 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/hd18752fol-18x7x52-ect-44-kraft-side-loading-boxes-bundle-of-5/">HD18752FOL</a></td>
+<td>18x7x52 ECT-44 Kraft Side Loading Boxes - Bundle of 5</td>
+<td>5</td>
+<td>$12.2460</td>
+<td>3.064 lb</td>
+<td>1,310.4 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/hd20850fol-20x8x50-ect-44-kraft-side-loading-boxes-bundle-of-5/">HD20850FOL</a></td>
+<td>20x8x50 ECT-44 Kraft Side Loading Boxes - Bundle of 5</td>
+<td>5</td>
+<td>$8.4540</td>
+<td>3.388 lb</td>
+<td>1,600 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/hd20860fol-20x8x60-ect-44-kraft-side-loading-box-bundle-of-5/">HD20860FOL</a></td>
+<td>20x8x60 ECT-44 Kraft Side Loading Box - Bundle of 5</td>
+<td>5</td>
+<td>$11.1560</td>
+<td>4.076 lb</td>
+<td>1,920 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/hd242424tw-24x24x24-ect-90-triple-wall-corrugated-boxes-heavy-duty-shipping-bundle-of-5/">HD242424TW</a></td>
+<td>24x24x24 ECT-90 Triple Wall Corrugated Boxes - Heavy-Duty Shipping, Bundle of 5</td>
+<td>5</td>
+<td>$25.6560</td>
+<td>11.64 lb</td>
+<td>2,764.8 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/hd242430dw-24x24x30-ect-48-double-wall-kraft-corrugated-boxes-bundle-of-5/">HD242430DW</a></td>
+<td>24x24x30 ECT-48 Double Wall Kraft Corrugated Boxes - Bundle of 5</td>
+<td>5</td>
+<td>$14.4440</td>
+<td>6.104 lb</td>
+<td>3,456 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+<tr>
+<td><a href="/products/hd303012dw-30x30x12-ect-48-double-wall-kraft-boxes-heavy-duty-shipping-bundle-of-5/">HD303012DW</a></td>
+<td>30x30x12 ECT-48 Double Wall Kraft Boxes - Heavy-Duty Shipping, Bundle of 5</td>
+<td>5</td>
+<td>$12.6380</td>
+<td>6.996 lb</td>
+<td>2,160 in^3</td>
+<td><a href="/families/boxes/">Boxes</a></td>
+</tr>
+</tbody></table></div>
+<h2>Machine-Readable Corpus</h2>
+<div class="grid">
+<div class="card"><h3><a href="/data/unit-signals.json">JSON</a></h3><p>Normalized Packrift product signals with unit-price, unit-weight, and unit-cube fields.</p></div>
+<div class="card"><h3><a href="/data/unit-signals.jsonl">JSONL</a></h3><p>Line-oriented records for crawlers, retrieval systems, and data tools.</p></div>
+<div class="card"><h3><a href="/data/unit-signals.csv">CSV</a></h3><p>Spreadsheet-ready public unit-signal extract.</p></div>
+<div class="card"><h3><a href="/llms.txt">llms.txt</a></h3><p>Agent route map and boundaries for safe citation.</p></div>
+</div></main>
+<footer>Generated 2026-05-30T20:35:03.002Z from Packrift public catalog and operations-product data. This resource reports public price, pack-count, physical-size, and inventory signals only. It is not a margin model, freight quote, or checkout commitment.</footer>
+</body>
+</html>

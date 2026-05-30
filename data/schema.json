@@ -1,0 +1,186 @@
+{
+  "title": "Packrift Pack Count and Unit Signal record",
+  "type": "object",
+  "required": [
+    "sku",
+    "title",
+    "signal_url",
+    "product_url",
+    "family",
+    "product_type",
+    "pack_count",
+    "unit_price",
+    "unit_weight",
+    "unit_cube_inches"
+  ],
+  "properties": {
+    "sku": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "title": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "signal_url": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "product_url": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "family": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "product_type": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "pack_count": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "pack_class": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "price": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "unit_price": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "unit_price_band": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "inventory": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "weight": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "weight_unit": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "unit_weight": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "unit_weight_band": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "length": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "width": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "height": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "cube_inches": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "unit_cube_inches": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "status": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "merchant_status": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "merchant_availability": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    }
+  }
+}

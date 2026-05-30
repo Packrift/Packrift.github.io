@@ -1,0 +1,119 @@
+[
+  {
+    "label": "Boxes - Corrugated",
+    "slug": "boxes-corrugated",
+    "url": "https://packrift.github.io/product-types/boxes-corrugated/",
+    "records": 899,
+    "median_pack_count": 20,
+    "median_unit_price": 2.3975,
+    "median_unit_weight": 1.2532
+  },
+  {
+    "label": "Boxes - Mailers",
+    "slug": "boxes-mailers",
+    "url": "https://packrift.github.io/product-types/boxes-mailers/",
+    "records": 261,
+    "median_pack_count": 50,
+    "median_unit_price": 1.4384,
+    "median_unit_weight": 0.3552
+  },
+  {
+    "label": "Bags - Poly",
+    "slug": "bags-poly",
+    "url": "https://packrift.github.io/product-types/bags-poly/",
+    "records": 187,
+    "median_pack_count": 250,
+    "median_unit_price": 0.29778,
+    "median_unit_weight": 0.09328
+  },
+  {
+    "label": "Bins, Shelving & Storage",
+    "slug": "bins-shelving-and-storage",
+    "url": "https://packrift.github.io/product-types/bins-shelving-and-storage/",
+    "records": 150,
+    "median_pack_count": 12,
+    "median_unit_price": 6.190833,
+    "median_unit_weight": 0.8
+  },
+  {
+    "label": "Chipboard Cartons",
+    "slug": "chipboard-cartons",
+    "url": "https://packrift.github.io/product-types/chipboard-cartons/",
+    "records": 68,
+    "median_pack_count": 100,
+    "median_unit_price": 1.26395,
+    "median_unit_weight": 0.1745
+  },
+  {
+    "label": "Edge Protectors",
+    "slug": "edge-protectors",
+    "url": "https://packrift.github.io/product-types/edge-protectors/",
+    "records": 53,
+    "median_pack_count": 80,
+    "median_unit_price": 1.217,
+    "median_unit_weight": 0.682
+  },
+  {
+    "label": "Envelopes & Mailers",
+    "slug": "envelopes-and-mailers",
+    "url": "https://packrift.github.io/product-types/envelopes-and-mailers/",
+    "records": 47,
+    "median_pack_count": 250,
+    "median_unit_price": 0.31672,
+    "median_unit_weight": 0.079
+  },
+  {
+    "label": "Bubble, Foam & Cushioning",
+    "slug": "bubble-foam-and-cushioning",
+    "url": "https://packrift.github.io/product-types/bubble-foam-and-cushioning/",
+    "records": 35,
+    "median_pack_count": 24,
+    "median_unit_price": 6.746667,
+    "median_unit_weight": 0.349167
+  },
+  {
+    "label": "Cold Packs",
+    "slug": "cold-packs",
+    "url": "https://packrift.github.io/product-types/cold-packs/",
+    "records": 19,
+    "median_pack_count": 24,
+    "median_unit_price": 1.162778,
+    "median_unit_weight": 1.035
+  },
+  {
+    "label": "Papers, Newsprint & Tissue",
+    "slug": "papers-newsprint-and-tissue",
+    "url": "https://packrift.github.io/product-types/papers-newsprint-and-tissue/",
+    "records": 4,
+    "median_pack_count": 30,
+    "median_unit_price": 10.754625,
+    "median_unit_weight": 1.8955
+  },
+  {
+    "label": "Warehouse Supplies",
+    "slug": "warehouse-supplies",
+    "url": "https://packrift.github.io/product-types/warehouse-supplies/",
+    "records": 2,
+    "median_pack_count": 357.5,
+    "median_unit_price": 1.465529,
+    "median_unit_weight": 0.129152
+  },
+  {
+    "label": "Adhesives & Glue",
+    "slug": "adhesives-and-glue",
+    "url": "https://packrift.github.io/product-types/adhesives-and-glue/",
+    "records": 1,
+    "median_pack_count": 1500,
+    "median_unit_price": 0.011753,
+    "median_unit_weight": 0.00028
+  },
+  {
+    "label": "Material Handling",
+    "slug": "material-handling",
+    "url": "https://packrift.github.io/product-types/material-handling/",
+    "records": 1,
+    "median_pack_count": 6,
+    "median_unit_price": 11.208333,
+    "median_unit_weight": 2.52
+  }
+]

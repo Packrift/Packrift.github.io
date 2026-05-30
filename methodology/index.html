@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Packrift Unit Signal Methodology</title>
+<meta name="description" content="How the Packrift Pack Count and Unit Signal Atlas is generated, which rows qualify, and what claims the public resource does not make.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://packrift.github.io/methodology/">
+<style>
+:root { color-scheme: light; --ink:#18231f; --muted:#53615b; --line:#d9e1dc; --paper:#f8faf7; --panel:#ffffff; --soft:#eef4ef; --accent:#245f46; --blue:#285e73; --amber:#8a5b24; --rose:#8a4054; }
+* { box-sizing:border-box; }
+html, body { overflow-x:hidden; }
+body { margin:0; background:var(--paper); color:var(--ink); font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height:1.5; }
+a { color:var(--accent); text-underline-offset:.18em; overflow-wrap:anywhere; }
+header { background:#fff; border-bottom:1px solid var(--line); padding:30px 20px 24px; }
+main { max-width:min(1200px,100vw); padding:28px 20px 56px; }
+footer { border-top:1px solid var(--line); padding:24px 20px; color:var(--muted); font-size:13px; }
+.kicker { font-size:12px; font-weight:800; color:var(--amber); text-transform:uppercase; letter-spacing:0; }
+h1 { margin:8px 0 12px; max-width:340px; font-size:28px; line-height:1.08; letter-spacing:0; overflow-wrap:anywhere; }
+h2 { margin:34px 0 12px; font-size:24px; line-height:1.16; letter-spacing:0; }
+h3 { margin:0 0 8px; font-size:18px; line-height:1.2; letter-spacing:0; }
+p { max-width:100%; color:var(--muted); overflow-wrap:anywhere; }
+header p, .narrow, .chart, .table-wrap, .metrics, .grid { max-width:340px; }
+.metrics { display:grid; grid-template-columns:1fr; gap:12px; margin:22px 0; }
+.metric, .card { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:14px; }
+.metric, .card, .split > * { min-width:0; }
+.metric strong { display:block; color:var(--ink); font-size:24px; line-height:1.05; }
+.metric span { display:block; color:var(--muted); font-size:13px; margin-top:4px; }
+.grid { display:grid; grid-template-columns:1fr; gap:12px; }
+.chart { background:#fff; border:1px solid var(--line); border-radius:8px; padding:12px; overflow:hidden; min-width:0; }
+.chart svg { display:block; width:100%; max-width:100%; height:auto; }
+.table-wrap { overflow:auto; border:1px solid var(--line); border-radius:8px; background:#fff; }
+table { width:100%; min-width:920px; border-collapse:collapse; font-size:14px; }
+th, td { text-align:left; vertical-align:top; padding:10px 12px; border-bottom:1px solid var(--line); }
+th { background:var(--soft); color:#27372d; }
+.pill { display:inline-block; border:1px solid var(--line); border-radius:999px; padding:2px 8px; margin:2px 4px 2px 0; font-size:12px; background:#fff; color:#334238; }
+.note { padding:12px 14px; border-left:4px solid var(--accent); background:var(--soft); color:#334238; max-width:100%; overflow-wrap:anywhere; }
+.split { display:block; max-width:340px; }
+.split .chart { margin-top:12px; }
+@media (min-width: 560px) {
+  header { padding:34px min(6vw,60px) 26px; }
+  main { padding:30px min(6vw,60px) 56px; }
+  footer { padding:24px min(6vw,60px); }
+  header p, .narrow { max-width:900px; }
+  h1 { max-width:1020px; font-size:clamp(32px,5vw,56px); line-height:1.03; }
+  .metrics { max-width:1080px; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); }
+  .grid { max-width:none; grid-template-columns:repeat(auto-fit,minmax(235px,1fr)); }
+  .split { display:grid; max-width:none; gap:12px; grid-template-columns:1.1fr .9fr; align-items:start; }
+  .split .chart { margin-top:0; }
+  .chart, .table-wrap { max-width:100%; }
+}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"Packrift Unit Signal Methodology","about":"Packrift pack-count, unit-price, unit-weight, and unit-cube public data normalization","publisher":{"@type":"Organization","name":"Packrift LLC","url":"https://packrift.com/"}}</script>
+</head>
+<body>
+<header>
+<div class="kicker">Packrift pack count and unit signals</div>
+<h1>Packrift Unit Signal Methodology</h1>
+<p>How the Packrift Pack Count and Unit Signal Atlas is generated, which rows qualify, and what claims the public resource does not make.</p>
+</header>
+<main>
+<h2>Source Boundary</h2>
+<p>The source is Packrift's cleaned operations product graph derived from public catalog and merchant product fields. The atlas includes only rows with Packrift product URL, approved catalog status, in-stock merchant availability, pack count, price, inventory, weight, dimensions, family, and product type.</p>
+<h2>Derived Signals</h2>
+<p>Unit price is public price divided by pack count. Unit weight is source product weight divided by pack count. Unit cube is length multiplied by width multiplied by height, divided by pack count. These are comparison signals, not supplier cost, negotiated price, freight rating, margin, or checkout truth.</p>
+<h2>Quality Gate</h2>
+<p>Generated pages are blocked from publication if complete product signals fall below the threshold, internal status labels appear in public pages, mojibake appears in public titles, machine-readable descriptors are missing, or private cost/customer/supplier-only fields are present.</p>
+<h2>Counting Discipline</h2>
+<p>This host creates owned Packrift public URLs. Third-party surfaces, IndexNow receipts, SEMrush-visible referring domains, and Bing-visible links are measured in separate ledger buckets only after direct verification.</p></main>
+<footer>Generated 2026-05-30T20:35:03.002Z from Packrift public catalog and operations-product data. This resource reports public price, pack-count, physical-size, and inventory signals only. It is not a margin model, freight quote, or checkout commitment.</footer>
+</body>
+</html>

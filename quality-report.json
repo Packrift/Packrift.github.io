@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-05-30T20:35:03.002Z",
+  "qualityBar": "9/10 working standard for a crawlable public Packrift data asset",
+  "checks": {
+    "sourceProductsPresent": true,
+    "eligibleCompleteRowsAtLeast1500": true,
+    "sitemapUrlsAtLeast1750": true,
+    "allPagesHaveCanonicalProductUrl": true,
+    "allRowsHavePackPriceWeightDimensionsInventory": true,
+    "allRowsHaveDerivedUnitSignals": true,
+    "groupingPagesPresent": true,
+    "supportPagesPresent": true,
+    "machineReadableDescriptorsPresent": true,
+    "chartsPresent": true,
+    "noMojibakeInPublishedTitles": true,
+    "publicHtmlAvoidsInternalStatusCodes": true,
+    "noPrivateCustomerCostOrSupplierOnlyFields": true
+  },
+  "stats": {
+    "generatedAt": "2026-05-30T20:35:03.002Z",
+    "sourcePath": "/Users/farhan/Downloads/packrift-backlinks/execution/packrift-operations-resource-graph-2026-05-28/data/products.json",
+    "sourceProducts": 4854,
+    "eligibleProducts": 1727,
+    "packCountPages": 57,
+    "familyPages": 9,
+    "productTypePages": 13,
+    "unitPriceBandPages": 7,
+    "unitWeightBandPages": 5,
+    "packClassPages": 4,
+    "medianPackCount": 25,
+    "medianUnitPrice": 1.7905,
+    "medianUnitWeight": 0.6888
+  },
+  "sitemapUrlCount": 1855,
+  "verdict": "pass"
+}

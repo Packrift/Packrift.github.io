@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-05-30T20:35:03.002Z",
+  "site": "https://packrift.github.io",
+  "sourcePath": "/Users/farhan/Downloads/packrift-backlinks/execution/packrift-operations-resource-graph-2026-05-28/data/products.json",
+  "stats": {
+    "generatedAt": "2026-05-30T20:35:03.002Z",
+    "sourcePath": "/Users/farhan/Downloads/packrift-backlinks/execution/packrift-operations-resource-graph-2026-05-28/data/products.json",
+    "sourceProducts": 4854,
+    "eligibleProducts": 1727,
+    "packCountPages": 57,
+    "familyPages": 9,
+    "productTypePages": 13,
+    "unitPriceBandPages": 7,
+    "unitWeightBandPages": 5,
+    "packClassPages": 4,
+    "medianPackCount": 25,
+    "medianUnitPrice": 1.7905,
+    "medianUnitWeight": 0.6888
+  },
+  "urlCount": 1855,
+  "dataFiles": [
+    "/data/unit-signals.json",
+    "/data/unit-signals.jsonl",
+    "/data/unit-signals.csv",
+    "/data/pack-counts.json",
+    "/data/families.json",
+    "/data/product-types.json",
+    "/data/schema.json",
+    "/data/field-dictionary.csv"
+  ]
+}

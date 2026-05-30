@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "sc": "https://schema.org/"
+  },
+  "@type": "Dataset",
+  "name": "Packrift Pack Count and Unit Signal Atlas",
+  "description": "Public Packrift product-signal pages and data files generated from complete catalog rows with pack count, public price, weight, dimensions, inventory, family, and product type.",
+  "url": "https://packrift.github.io",
+  "datePublished": "2026-05-30T20:35:03.002Z",
+  "creator": {
+    "@type": "Organization",
+    "name": "Packrift LLC",
+    "url": "https://packrift.com/"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://packrift.github.io/data/unit-signals.json",
+      "encodingFormat": "application/json"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://packrift.github.io/data/unit-signals.jsonl",
+      "encodingFormat": "application/x-ndjson"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://packrift.github.io/data/unit-signals.csv",
+      "encodingFormat": "text/csv"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "DataCatalog",
+      "name": "Packrift unit-signal pages",
+      "numberOfItems": 1727
+    }
+  ]
+}

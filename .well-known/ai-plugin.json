@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Packrift Unit Signal Atlas",
+  "name_for_model": "packrift_unit_signal_atlas",
+  "description_for_human": "Public Packrift pack-count and unit-signal data files.",
+  "description_for_model": "Use this public static asset to inspect Packrift pack counts, public unit price signals, unit weights, unit cube, product families, product types, and canonical Packrift product URLs.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://packrift.github.io/openapi.json"
+  },
+  "logo_url": "https://packrift.com/cdn/shop/files/packrift-logo.png",
+  "contact_email": "farhan@packrift.com",
+  "legal_info_url": "https://packrift.com/policies/terms-of-service"
+}
