@@ -1,0 +1,25 @@
+{
+  "id": "packrift-sku-evidence-cards-2026-05-30",
+  "type": "datasets",
+  "attributes": {
+    "titles": [
+      {
+        "title": "Packrift SKU Evidence Cards"
+      }
+    ],
+    "publisher": "Packrift LLC",
+    "publicationYear": 2026,
+    "url": "https://packrift.github.io/sku-evidence-cards",
+    "descriptions": [
+      {
+        "descriptionType": "Abstract",
+        "description": "Public Packrift SKU evidence cards and data files."
+      }
+    ],
+    "creators": [
+      {
+        "name": "Packrift LLC"
+      }
+    ]
+  }
+}

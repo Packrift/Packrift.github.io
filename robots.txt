@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
 Sitemap: https://packrift.github.io/sitemap.xml
+Sitemap: https://packrift.github.io/procurement-readiness-index/sitemap.xml
+Sitemap: https://packrift.github.io/sku-evidence-cards/sitemap.xml

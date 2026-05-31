@@ -1,0 +1,34 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Packrift Procurement Readiness Index",
+    "version": "2026-05-30"
+  },
+  "servers": [
+    {
+      "url": "https://packrift.github.io/procurement-readiness-index"
+    }
+  ],
+  "paths": {
+    "/data/readiness-index.json": {
+      "get": {
+        "summary": "Return public Packrift procurement readiness rows",
+        "responses": {
+          "200": {
+            "description": "Readiness rows JSON"
+          }
+        }
+      }
+    },
+    "/data/stats.json": {
+      "get": {
+        "summary": "Return release statistics",
+        "responses": {
+          "200": {
+            "description": "Release statistics JSON"
+          }
+        }
+      }
+    }
+  }
+}

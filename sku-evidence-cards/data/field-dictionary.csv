@@ -1,0 +1,21 @@
+field,description
+sku,Packrift SKU identifier
+title,Public Packrift product title
+evidence_url,Public evidence-card URL in this asset
+product_url,Canonical Packrift storefront product route
+family,Packaging family grouping
+product_type,Source product type
+price,Public price signal from source data
+price_band,Derived price range bucket
+inventory,Source inventory signal where available
+weight,Source product shipping weight
+weight_unit,Weight unit
+weight_band,Derived weight range bucket
+length,Source length in inches where available
+width,Source width in inches where available
+height,Source height in inches where available
+pack_count,Source bundle or pack count where parsed
+status,Packrift source review status
+merchant_status,Merchant source status
+merchant_availability,Merchant source availability signal
+completeness,Percentage of included public evidence fields present

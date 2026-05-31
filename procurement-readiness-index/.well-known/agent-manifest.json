@@ -1,0 +1,105 @@
+{
+  "spec_version": "agentmanifest-0.3",
+  "name": "Packrift Procurement Readiness Index",
+  "version": "1.0.1",
+  "description": "Packrift Procurement Readiness Index is a free, no-auth public reference asset for catalog-derived packaging procurement signals. It summarizes stock, GTIN, product URL, product type, public price band, shipping weight band, and readiness-score coverage for Packrift SKU records without exposing supplier cost, private customer data, or checkout commitments.",
+  "homepage": "https://packrift.github.io/procurement-readiness-index/",
+  "documentation": "https://packrift.github.io/procurement-readiness-index/llms.txt",
+  "categories": [
+    "commerce",
+    "logistics",
+    "engineering",
+    "computing"
+  ],
+  "primary_category": "reference",
+  "endpoints": [
+    {
+      "path": "/procurement-readiness-index/llms.txt",
+      "method": "GET",
+      "description": "Fetch the compact agent-readable overview, source boundaries, and key public data routes.",
+      "parameters": [],
+      "response_description": "Plain text guide covering canonical URLs, data files, safe-use notes, and source boundaries."
+    },
+    {
+      "path": "/procurement-readiness-index/openapi.json",
+      "method": "GET",
+      "description": "Fetch the OpenAPI map for public procurement-readiness data routes.",
+      "parameters": [],
+      "response_description": "OpenAPI 3.1 document for read-only readiness rows and release statistics."
+    },
+    {
+      "path": "/procurement-readiness-index/sitemap.xml",
+      "method": "GET",
+      "description": "Enumerate crawlable procurement-readiness pages and machine-readable sidecars.",
+      "parameters": [],
+      "response_description": "XML sitemap with static support paths, SKU pages, product-type pages, and price-band pages."
+    },
+    {
+      "path": "/procurement-readiness-index/data/readiness-index.json",
+      "method": "GET",
+      "description": "Download public Packrift procurement-readiness rows.",
+      "parameters": [],
+      "response_description": "JSON object with release stats and Packrift SKU rows containing public readiness fields."
+    },
+    {
+      "path": "/procurement-readiness-index/data/stats.json",
+      "method": "GET",
+      "description": "Fetch release counts for source products, eligible rows, public SKU pages, and field coverage.",
+      "parameters": [],
+      "response_description": "JSON release statistics for the Procurement Readiness Index."
+    },
+    {
+      "path": "/procurement-readiness-index/data/field-dictionary.csv",
+      "method": "GET",
+      "description": "Download plain-English field definitions for the public readiness dataset.",
+      "parameters": [],
+      "response_description": "CSV field dictionary for SKU, readiness score, product type, availability, price band, weight band, GTIN, and URL fields."
+    },
+    {
+      "path": "/procurement-readiness-index/types/boxes-corrugated/",
+      "method": "GET",
+      "description": "Read a representative product-type readiness index page.",
+      "parameters": [],
+      "response_description": "HTML product-type page listing Packrift public readiness rows for that packaging category."
+    },
+    {
+      "path": "/procurement-readiness-index/sku/b852ssrtt-00-kraft-bubble-mailers-10x5-self-seal-case-180/",
+      "method": "GET",
+      "description": "Read a representative SKU procurement-readiness page.",
+      "parameters": [],
+      "response_description": "HTML SKU page with readiness score, stock signal, GTIN signal, weight band, price band, and canonical Packrift product link."
+    }
+  ],
+  "authentication": {
+    "required": false,
+    "type": "none",
+    "instructions": null
+  },
+  "pricing": {
+    "model": "free",
+    "free_tier": {
+      "queries_per_day": null,
+      "queries_per_month": null
+    },
+    "paid_tier": null,
+    "support_url": "https://packrift.com/pages/contact"
+  },
+  "payment": null,
+  "rate_limits": {
+    "requests_per_minute": null,
+    "requests_per_day": null
+  },
+  "reliability": {
+    "maintained_by": "organization",
+    "status_url": null,
+    "expected_uptime_pct": null
+  },
+  "agent_notes": "Use this manifest as a read-only entry point for Packrift procurement-readiness review data across 1200 public SKU pages, 19 product-type pages, and 4 price-band pages. Access is free, and no account, credential, token, API key, payment, checkout, carrier account, or password is required for the public files listed here. Do not treat static readiness records as live inventory promises, freight quotes, supplier-cost disclosures, or checkout/order completion. Use Packrift.com and Packrift MCP for live price, inventory, freight, cart, and buyer-specific checks.",
+  "contact": {
+    "email": "farhan@packrift.com",
+    "support_url": "https://packrift.com/pages/contact",
+    "github": "https://github.com/Packrift"
+  },
+  "listing_requested": true,
+  "last_updated": "2026-05-31T19:22:56Z"
+}

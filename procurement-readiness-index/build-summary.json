@@ -1,0 +1,38 @@
+{
+  "stats": {
+    "generated_at": "2026-05-31T19:25:00.101Z",
+    "source": "Packrift Merchant Center product export",
+    "source_file": "/Users/farhan/Downloads/packrift-mc-analysis/products.json",
+    "total_source_products": 12929,
+    "eligible_rows": 12929,
+    "published_sku_pages": 1200,
+    "product_type_pages": 19,
+    "price_band_pages": 4,
+    "in_stock_rows": 1200,
+    "rows_with_gtin": 1200,
+    "rows_with_shipping_weight": 1200
+  },
+  "url_count": 1242,
+  "sample_urls": [
+    "https://packrift.github.io/procurement-readiness-index/",
+    "https://packrift.github.io/procurement-readiness-index/data/",
+    "https://packrift.github.io/procurement-readiness-index/data/readiness-index.json",
+    "https://packrift.github.io/procurement-readiness-index/data/readiness-index.jsonl",
+    "https://packrift.github.io/procurement-readiness-index/data/readiness-index.csv",
+    "https://packrift.github.io/procurement-readiness-index/data/field-dictionary.csv",
+    "https://packrift.github.io/procurement-readiness-index/data/stats.json",
+    "https://packrift.github.io/procurement-readiness-index/metadata.json",
+    "https://packrift.github.io/procurement-readiness-index/datapackage.json",
+    "https://packrift.github.io/procurement-readiness-index/dcat.jsonld",
+    "https://packrift.github.io/procurement-readiness-index/datacite.json",
+    "https://packrift.github.io/procurement-readiness-index/CITATION.cff",
+    "https://packrift.github.io/procurement-readiness-index/checksums.sha256",
+    "https://packrift.github.io/procurement-readiness-index/openapi.json",
+    "https://packrift.github.io/procurement-readiness-index/.well-known/openapi.json",
+    "https://packrift.github.io/procurement-readiness-index/.well-known/ai-plugin.json",
+    "https://packrift.github.io/procurement-readiness-index/agent-manifest.json",
+    "https://packrift.github.io/procurement-readiness-index/.well-known/agent-manifest.json",
+    "https://packrift.github.io/procurement-readiness-index/llms.txt",
+    "https://packrift.github.io/procurement-readiness-index/sku/b852ssrtt-00-kraft-bubble-mailers-10x5-self-seal-case-180/"
+  ]
+}

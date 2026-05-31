@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: Packrift SKU Evidence Cards
+message: Cite this public Packrift data asset by URL.
+type: dataset
+authors:
+  - name: Packrift LLC
+url: https://packrift.github.io/sku-evidence-cards/
+date-released: 2026-05-31

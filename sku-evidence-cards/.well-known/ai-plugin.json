@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Packrift SKU Evidence Cards",
+  "name_for_model": "packrift_sku_evidence_cards",
+  "description_for_human": "Public Packrift SKU evidence cards and data files.",
+  "description_for_model": "Use this public static asset to inspect Packrift SKU evidence-card metadata, product routes, family groups, and source-completeness signals.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://packrift.github.io/sku-evidence-cards/openapi.json"
+  },
+  "logo_url": "https://packrift.com/cdn/shop/files/packrift-logo.png",
+  "contact_email": "farhan@packrift.com",
+  "legal_info_url": "https://packrift.com/policies/terms-of-service"
+}

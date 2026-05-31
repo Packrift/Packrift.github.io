@@ -1,0 +1,10 @@
+field,description
+sku,Packrift SKU
+readiness_score,0-100 public-data readiness score
+product_type,Packrift catalog product type
+availability,Merchant Center availability value
+price_band,Public price bucket using public catalog price only
+shipping_weight_lb,Published shipping weight in pounds where present
+weight_band,Shipping weight bucket
+has_gtin,Whether a GTIN is published for matching
+url,Canonical Packrift product URL

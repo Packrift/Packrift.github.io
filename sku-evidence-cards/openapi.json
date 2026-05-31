@@ -1,0 +1,35 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Packrift SKU Evidence Cards",
+    "version": "2026.05.30",
+    "description": "Static public data routes for Packrift SKU evidence cards."
+  },
+  "servers": [
+    {
+      "url": "https://packrift.github.io/sku-evidence-cards"
+    }
+  ],
+  "paths": {
+    "/data/products.json": {
+      "get": {
+        "summary": "Get Packrift SKU evidence cards",
+        "responses": {
+          "200": {
+            "description": "JSON array of public evidence records"
+          }
+        }
+      }
+    },
+    "/data/families.json": {
+      "get": {
+        "summary": "Get Packrift family evidence summary",
+        "responses": {
+          "200": {
+            "description": "JSON array of family summary records"
+          }
+        }
+      }
+    }
+  }
+}

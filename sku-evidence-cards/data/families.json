@@ -1,0 +1,44 @@
+[
+  {
+    "family": "boxes",
+    "slug": "boxes",
+    "url": "https://packrift.github.io/sku-evidence-cards/families/boxes/",
+    "cards": 923,
+    "in_stock": 0
+  },
+  {
+    "family": "void fill",
+    "slug": "void-fill",
+    "url": "https://packrift.github.io/sku-evidence-cards/families/void-fill/",
+    "cards": 10,
+    "in_stock": 0
+  },
+  {
+    "family": "poly bags",
+    "slug": "poly-bags",
+    "url": "https://packrift.github.io/sku-evidence-cards/families/poly-bags/",
+    "cards": 13,
+    "in_stock": 0
+  },
+  {
+    "family": "mailers",
+    "slug": "mailers",
+    "url": "https://packrift.github.io/sku-evidence-cards/families/mailers/",
+    "cards": 103,
+    "in_stock": 0
+  },
+  {
+    "family": "labels",
+    "slug": "labels",
+    "url": "https://packrift.github.io/sku-evidence-cards/families/labels/",
+    "cards": 137,
+    "in_stock": 0
+  },
+  {
+    "family": "other",
+    "slug": "other",
+    "url": "https://packrift.github.io/sku-evidence-cards/families/other/",
+    "cards": 14,
+    "in_stock": 0
+  }
+]

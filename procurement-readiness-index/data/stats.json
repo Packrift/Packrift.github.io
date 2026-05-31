@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-05-31T19:25:00.101Z",
+  "source": "Packrift Merchant Center product export",
+  "source_file": "/Users/farhan/Downloads/packrift-mc-analysis/products.json",
+  "total_source_products": 12929,
+  "eligible_rows": 12929,
+  "published_sku_pages": 1200,
+  "product_type_pages": 19,
+  "price_band_pages": 4,
+  "in_stock_rows": 1200,
+  "rows_with_gtin": 1200,
+  "rows_with_shipping_weight": 1200
+}

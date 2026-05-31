@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-05-31T19:25:00.103Z",
+  "qualityBar": "9/10 working standard for a crawlable public Packrift data asset",
+  "checks": {
+    "sourceProductsPresent": true,
+    "publishedSkuCardsAtLeast1000": true,
+    "allPublishedCardsHaveCanonicalProductUrl": true,
+    "allPublishedCardsHaveFamily": true,
+    "allPublishedCardsHaveDimensionsAndWeight": true,
+    "allPublishedCardsHavePriceAndInventory": true,
+    "supportPagesPresent": true,
+    "machineReadableDescriptorsPresent": true,
+    "agentManifestPresent": true,
+    "noMojibakeInPublishedTitles": true,
+    "publicLabelsAvoidInternalStatusCodes": true,
+    "noPrivateCustomerOrCostFields": true
+  },
+  "stats": {
+    "generatedAt": "2026-05-31T19:25:00.103Z",
+    "sourcePath": "/Users/farhan/Downloads/packrift-backlinks/execution/packrift-operations-resource-graph-2026-05-28/data/products.json",
+    "sourceProducts": 4854,
+    "eligibleProducts": 4854,
+    "publishedSkuCards": 1200,
+    "familyPages": 6,
+    "statusPages": 1,
+    "priceBandPages": 4,
+    "inStockCards": 1200,
+    "completeCards": 1200
+  },
+  "sitemapUrlCount": 1236,
+  "verdict": "pass"
+}

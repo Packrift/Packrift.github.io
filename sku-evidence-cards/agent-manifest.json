@@ -1,0 +1,105 @@
+{
+  "spec_version": "agentmanifest-0.3",
+  "name": "Packrift SKU Evidence Cards",
+  "version": "1.0.1",
+  "description": "Packrift SKU Evidence Cards is a free, no-auth public reference asset for Packrift catalog evidence. It exposes SKU pages, family indexes, source-completeness signals, public product routes, price bands, inventory signals, dimensions, weights, and machine-readable sidecars for packaging procurement and agent-readable citation without claiming live freight, checkout, or supplier-cost data.",
+  "homepage": "https://packrift.github.io/sku-evidence-cards/",
+  "documentation": "https://packrift.github.io/sku-evidence-cards/llms.txt",
+  "categories": [
+    "commerce",
+    "logistics",
+    "engineering",
+    "computing"
+  ],
+  "primary_category": "reference",
+  "endpoints": [
+    {
+      "path": "/sku-evidence-cards/llms.txt",
+      "method": "GET",
+      "description": "Fetch the compact agent-readable route map, source boundaries, and use limits.",
+      "parameters": [],
+      "response_description": "Plain text guide covering canonical URLs, public data routes, safe-use notes, and generated counts."
+    },
+    {
+      "path": "/sku-evidence-cards/openapi.json",
+      "method": "GET",
+      "description": "Fetch the OpenAPI map for public SKU evidence-card data routes.",
+      "parameters": [],
+      "response_description": "OpenAPI 3.1 document for read-only product and family data files."
+    },
+    {
+      "path": "/sku-evidence-cards/sitemap.xml",
+      "method": "GET",
+      "description": "Enumerate crawlable SKU evidence pages, family/status/price pages, and support sidecars.",
+      "parameters": [],
+      "response_description": "XML sitemap with static support paths and generated Packrift evidence-card pages."
+    },
+    {
+      "path": "/sku-evidence-cards/data/products.json",
+      "method": "GET",
+      "description": "Download normalized Packrift public SKU evidence records.",
+      "parameters": [],
+      "response_description": "JSON array of public records with SKU, title, evidence URL, product URL, family, price, inventory, dimensions, weight, status, and completeness fields."
+    },
+    {
+      "path": "/sku-evidence-cards/data/families.json",
+      "method": "GET",
+      "description": "Download family-level summaries for Packrift evidence-card coverage.",
+      "parameters": [],
+      "response_description": "JSON array of Packrift family summaries with URLs and card counts."
+    },
+    {
+      "path": "/sku-evidence-cards/data/schema.json",
+      "method": "GET",
+      "description": "Fetch the JSON schema for the public SKU evidence records.",
+      "parameters": [],
+      "response_description": "JSON schema describing required and optional product evidence fields."
+    },
+    {
+      "path": "/sku-evidence-cards/families/boxes/",
+      "method": "GET",
+      "description": "Read a representative family evidence-card index page.",
+      "parameters": [],
+      "response_description": "HTML family page listing Packrift public evidence cards in that packaging family."
+    },
+    {
+      "path": "/sku-evidence-cards/sku/10103-10x10x3-ect-32-kraft-corrugated-boxes-shallow-depth-shipping-bundle-of-25/",
+      "method": "GET",
+      "description": "Read a representative Packrift SKU evidence card.",
+      "parameters": [],
+      "response_description": "HTML SKU evidence-card page with public product facts, physical signals, source-completeness status, and canonical Packrift product route."
+    }
+  ],
+  "authentication": {
+    "required": false,
+    "type": "none",
+    "instructions": null
+  },
+  "pricing": {
+    "model": "free",
+    "free_tier": {
+      "queries_per_day": null,
+      "queries_per_month": null
+    },
+    "paid_tier": null,
+    "support_url": "https://packrift.com/pages/contact"
+  },
+  "payment": null,
+  "rate_limits": {
+    "requests_per_minute": null,
+    "requests_per_day": null
+  },
+  "reliability": {
+    "maintained_by": "organization",
+    "status_url": null,
+    "expected_uptime_pct": null
+  },
+  "agent_notes": "Use this manifest as a read-only entry point for Packrift SKU evidence across 1200 public SKU cards, 6 family pages, 1 status pages, and 4 price-band pages. Access is free, and no account, credential, token, API key, payment, checkout, carrier account, or password is required for the public files listed here. Do not treat static evidence-card records as live freight quotes, supplier-cost disclosures, inventory promises, substitute approvals, or checkout/order completion. Use Packrift.com and Packrift MCP for live price, inventory, freight, cart, and buyer-specific checks.",
+  "contact": {
+    "email": "farhan@packrift.com",
+    "support_url": "https://packrift.com/pages/contact",
+    "github": "https://github.com/Packrift"
+  },
+  "listing_requested": true,
+  "last_updated": "2026-05-31T19:22:56Z"
+}

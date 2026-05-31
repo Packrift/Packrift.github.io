@@ -1,0 +1,155 @@
+{
+  "title": "Packrift SKU Evidence Card",
+  "type": "object",
+  "required": [
+    "sku",
+    "title",
+    "evidence_url",
+    "product_url",
+    "family",
+    "status",
+    "completeness"
+  ],
+  "properties": {
+    "sku": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "title": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "evidence_url": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "product_url": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "family": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "product_type": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "price": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "price_band": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "inventory": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "weight": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "weight_unit": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "weight_band": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "length": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "width": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "height": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "pack_count": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "status": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "merchant_status": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "merchant_availability": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "completeness": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    }
+  }
+}

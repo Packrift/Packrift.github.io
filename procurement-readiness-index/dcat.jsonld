@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dct": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/"
+  },
+  "@id": "https://packrift-procurement-readiness-index.vercel.app",
+  "@type": "dcat:Dataset",
+  "dct:title": "Packrift Procurement Readiness Index",
+  "dct:description": "A public Packrift catalog-derived readiness index for packaging procurement agents and B2B buyers. It summarizes product availability, GTIN presence, public product URLs, shipping weight, price bands, and product-type coverage.",
+  "dct:publisher": {
+    "@type": "foaf:Organization",
+    "foaf:name": "Packrift"
+  },
+  "dcat:distribution": [
+    {
+      "@type": "dcat:Distribution",
+      "dcat:downloadURL": "https://packrift-procurement-readiness-index.vercel.app/data/readiness-index.csv",
+      "dct:format": "text/csv"
+    },
+    {
+      "@type": "dcat:Distribution",
+      "dcat:downloadURL": "https://packrift-procurement-readiness-index.vercel.app/data/readiness-index.json",
+      "dct:format": "application/json"
+    }
+  ]
+}

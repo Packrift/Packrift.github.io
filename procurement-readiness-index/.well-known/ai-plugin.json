@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Packrift Procurement Readiness Index",
+  "name_for_model": "packrift_procurement_readiness_index",
+  "description_for_human": "Public Packrift packaging SKU readiness data for procurement and AI-agent matching.",
+  "description_for_model": "Use this Packrift-owned public dataset to inspect product readiness signals such as availability, GTIN presence, product type, price band, and shipping weight band.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://packrift.github.io/procurement-readiness-index/openapi.json"
+  },
+  "logo_url": "https://packrift.github.io/procurement-readiness-index/favicon.svg",
+  "contact_email": "support@packrift.com",
+  "legal_info_url": "https://packrift.com/policies/terms-of-service"
+}

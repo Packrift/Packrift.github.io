@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-05-31T19:25:00.103Z",
+  "site": "https://packrift.github.io/sku-evidence-cards",
+  "sourcePath": "/Users/farhan/Downloads/packrift-backlinks/execution/packrift-operations-resource-graph-2026-05-28/data/products.json",
+  "stats": {
+    "generatedAt": "2026-05-31T19:25:00.103Z",
+    "sourcePath": "/Users/farhan/Downloads/packrift-backlinks/execution/packrift-operations-resource-graph-2026-05-28/data/products.json",
+    "sourceProducts": 4854,
+    "eligibleProducts": 4854,
+    "publishedSkuCards": 1200,
+    "familyPages": 6,
+    "statusPages": 1,
+    "priceBandPages": 4,
+    "inStockCards": 1200,
+    "completeCards": 1200
+  },
+  "urlCount": 1236,
+  "dataFiles": [
+    "/data/products.json",
+    "/data/products.jsonl",
+    "/data/products.csv",
+    "/data/families.json",
+    "/data/schema.json",
+    "/data/field-dictionary.csv"
+  ]
+}

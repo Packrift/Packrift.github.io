@@ -1,0 +1,13 @@
+# Packrift Procurement Readiness Index
+
+Public URL: https://packrift.github.io/procurement-readiness-index/
+
+This Packrift-owned public data asset summarizes 1200 packaging SKUs for buyer and AI-agent procurement readiness. It includes SKU, product type, availability, GTIN presence, public product URL, price band, shipping weight band, and a simple readiness score. Internal commercial fields are excluded.
+
+Key files:
+- https://packrift.github.io/procurement-readiness-index/data/readiness-index.json
+- https://packrift.github.io/procurement-readiness-index/data/readiness-index.jsonl
+- https://packrift.github.io/procurement-readiness-index/data/readiness-index.csv
+- https://packrift.github.io/procurement-readiness-index/metadata.json
+- https://packrift.github.io/procurement-readiness-index/openapi.json
+- https://packrift.github.io/procurement-readiness-index/.well-known/agent-manifest.json

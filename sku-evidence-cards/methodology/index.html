@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Packrift SKU Evidence Methodology</title>
+<meta name="description" content="How the Packrift SKU Evidence Cards are generated, what fields are included, and how the asset avoids claims beyond the source data.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://packrift.github.io/sku-evidence-cards/methodology/">
+<style>
+:root { color-scheme: light; --ink:#18211b; --muted:#5b665e; --line:#d9e0d8; --paper:#fbfcf7; --panel:#ffffff; --soft:#edf3ec; --accent:#28633b; --accent2:#77542a; }
+* { box-sizing:border-box; }
+html, body { overflow-x:hidden; }
+body { margin:0; background:var(--paper); color:var(--ink); font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height:1.5; }
+a { color:var(--accent); text-underline-offset:.18em; overflow-wrap:anywhere; }
+header { max-width:100vw; background:#fff; border-bottom:1px solid var(--line); padding:30px 20px 24px; }
+main { max-width:min(1180px,100vw); padding:28px 20px 54px; }
+footer { border-top:1px solid var(--line); padding:24px 20px; color:var(--muted); font-size:13px; }
+.kicker { font-size:12px; font-weight:800; color:var(--accent2); text-transform:uppercase; letter-spacing:0; }
+h1 { margin:8px 0 12px; max-width:100%; font-size:26px; line-height:1.08; letter-spacing:0; overflow-wrap:anywhere; }
+h2 { margin:34px 0 12px; font-size:24px; letter-spacing:0; }
+h3 { margin:22px 0 8px; font-size:18px; letter-spacing:0; }
+p { max-width:100%; color:var(--muted); overflow-wrap:anywhere; }
+header p, h1, .grid { max-width:340px; }
+.metrics { display:grid; grid-template-columns:1fr; gap:12px; margin:22px 0; max-width:340px; }
+.metric, .card { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:14px; }
+.metric strong { display:block; color:var(--ink); font-size:25px; }
+.grid { display:grid; grid-template-columns:1fr; gap:12px; }
+.table-wrap { max-width:340px; overflow:auto; border:1px solid var(--line); border-radius:8px; background:#fff; }
+table { width:100%; min-width:820px; border-collapse:collapse; font-size:14px; }
+th, td { text-align:left; vertical-align:top; padding:10px 12px; border-bottom:1px solid var(--line); }
+th { background:var(--soft); color:#27372d; }
+.pill { display:inline-block; border:1px solid var(--line); border-radius:999px; padding:2px 8px; margin:2px 4px 2px 0; font-size:12px; background:#fff; color:#334238; }
+.note { max-width:340px; padding:12px 14px; border-left:4px solid var(--accent); background:var(--soft); color:#334238; }
+.score { color:var(--accent); font-weight:800; }
+@media (min-width: 560px) {
+  header { padding:30px min(6vw,56px) 24px; }
+  main { padding:28px min(6vw,56px) 54px; }
+  footer { padding:24px min(6vw,56px); }
+  header p { max-width:850px; }
+  h1 { max-width:980px; font-size:clamp(30px,5vw,52px); line-height:1.03; }
+  .metrics { max-width:980px; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); }
+  .grid { max-width:none; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); }
+  .table-wrap { max-width:100%; }
+  .note { max-width:900px; }
+}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"Packrift SKU Evidence Methodology","about":"Packrift public SKU data evidence generation","publisher":{"@type":"Organization","name":"Packrift LLC"}}</script>
+</head>
+<body>
+<header>
+<div class="kicker">Packrift SKU evidence cards</div>
+<h1>Packrift SKU Evidence Methodology</h1>
+<p>How the Packrift SKU Evidence Cards are generated, what fields are included, and how the asset avoids claims beyond the source data.</p>
+</header>
+<main><h2>Source Boundary</h2><p>The source is the cleaned Packrift operations product graph, derived from Packrift Merchant Center and storefront product fields. Cost, supplier-only, and private customer data are excluded.</p><h2>Counted Evidence</h2><p>Each card is counted only as an owned Packrift public URL. Third-party profiles or discovery receipts are counted separately only after direct public verification.</p><h2>Use Limits</h2><p>Cards summarize product metadata for discovery and review. They are not freight quotes, checkout commitments, or product availability guarantees outside the live Packrift storefront.</p></main>
+<footer>Generated 2026-05-31T19:25:00.103Z from Packrift public catalog and operations-product data. These evidence cards support packaging discovery, procurement review, and agent-readable citation. They are not freight quotes or checkout promises.</footer>
+</body>
+</html>

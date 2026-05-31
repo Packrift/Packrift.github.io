@@ -1,0 +1,28 @@
+{
+  "profile": "data-package",
+  "name": "packrift-sku-evidence-cards",
+  "title": "Packrift SKU Evidence Cards",
+  "description": "Public Packrift SKU evidence cards and data files.",
+  "homepage": "https://packrift.github.io/sku-evidence-cards",
+  "created": "2026-05-31T19:25:00.103Z",
+  "resources": [
+    {
+      "name": "products",
+      "path": "data/products.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "products-json",
+      "path": "data/products.json",
+      "format": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "name": "products-jsonl",
+      "path": "data/products.jsonl",
+      "format": "jsonl",
+      "mediatype": "application/x-ndjson"
+    }
+  ]
+}

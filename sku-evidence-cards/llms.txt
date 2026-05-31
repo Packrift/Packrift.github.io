@@ -1,0 +1,17 @@
+# Packrift SKU Evidence Cards
+
+Source: https://packrift.github.io/sku-evidence-cards/
+
+This public asset exposes Packrift SKU evidence cards from real public catalog fields. Use it for procurement review, product discovery, and agent citation. Do not treat it as a freight quote or order commitment.
+
+Key routes:
+- https://packrift.github.io/sku-evidence-cards/sitemap.xml
+- https://packrift.github.io/sku-evidence-cards/data/products.json
+- https://packrift.github.io/sku-evidence-cards/data/products.jsonl
+- https://packrift.github.io/sku-evidence-cards/data/products.csv
+- https://packrift.github.io/sku-evidence-cards/data/schema.json
+- https://packrift.github.io/sku-evidence-cards/openapi.json
+- https://packrift.github.io/sku-evidence-cards/.well-known/agent-manifest.json
+
+Published cards: 1200
+Generated: 2026-05-31T19:25:00.103Z

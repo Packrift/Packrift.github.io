@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "croissant": "http://mlcommons.org/croissant/"
+  },
+  "@type": "Dataset",
+  "name": "Packrift Procurement Readiness Index",
+  "description": "A public Packrift catalog-derived readiness index for packaging procurement agents and B2B buyers. It summarizes product availability, GTIN presence, public product URLs, shipping weight, price bands, and product-type coverage.",
+  "url": "https://packrift.github.io/procurement-readiness-index",
+  "dateModified": "2026-05-31T19:25:00.101Z",
+  "creator": {
+    "@type": "Organization",
+    "name": "Packrift",
+    "url": "https://packrift.com"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "JSON",
+      "contentUrl": "https://packrift.github.io/procurement-readiness-index/data/readiness-index.json",
+      "encodingFormat": "application/json"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "JSONL",
+      "contentUrl": "https://packrift.github.io/procurement-readiness-index/data/readiness-index.jsonl",
+      "encodingFormat": "application/x-ndjson"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "CSV",
+      "contentUrl": "https://packrift.github.io/procurement-readiness-index/data/readiness-index.csv",
+      "encodingFormat": "text/csv"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "Dataset",
+      "name": "readiness rows",
+      "description": "One row per public Packrift SKU in this release.",
+      "field": [
+        {
+          "@type": "PropertyValue",
+          "name": "sku"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "title"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "product_type"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "availability"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "readiness_score"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "price_band"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "shipping_weight_lb"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "weight_band"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "has_gtin"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "gtin"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "url"
+        }
+      ]
+    }
+  ],
+  "conformsTo": "http://mlcommons.org/croissant/1.1"
+}
