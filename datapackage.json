@@ -23,6 +23,24 @@
       "path": "data/unit-signals.jsonl",
       "format": "jsonl",
       "mediatype": "application/x-ndjson"
+    },
+    {
+      "name": "public-research-asset-index",
+      "path": "research-assets/asset-index.json",
+      "format": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "name": "public-research-asset-index-jsonld",
+      "path": "research-assets/asset-index.jsonld",
+      "format": "jsonld",
+      "mediatype": "application/ld+json"
+    },
+    {
+      "name": "ro-crate-metadata",
+      "path": "ro-crate-metadata.json",
+      "format": "json",
+      "mediatype": "application/ld+json"
     }
   ]
 }

@@ -12,6 +12,7 @@ Packrift GitHub Pages Packaging Resource Corpus is a public, no-auth, read-only 
 
 - Packrift Procurement Readiness Index: https://packrift.github.io/procurement-readiness-index/
 - Packrift SKU Evidence Cards: https://packrift.github.io/sku-evidence-cards/
+- Packrift Public Research Asset Index: https://packrift.github.io/research-assets/
 
 The corpus is designed for search engines, AI agents, procurement researchers, and packaging data reviewers that need static Packrift product evidence, public product routes, pack counts, unit signals, procurement readiness fields, and SKU-level evidence cards.
 
@@ -35,6 +36,13 @@ The SKU Evidence Cards asset exposes:
 - Family indexes, price-band indexes, status indexes, and supporting data sidecars.
 - Public sitemap and Agent Manifest descriptors.
 
+The Public Research Asset Index exposes:
+
+- One canonical crosswalk for Packrift public research assets on GitHub Pages, Vercel, and Packrift.com.
+- Machine-readable asset-index JSON and JSON-LD files for dataset reviewers, maintainers, AI agents, and directories.
+- Direct links to the Benchmark Navigator, Packingsolver fixture kit, Dimensional Weight Atlas, Fit Matrix, and Operations Resource Graph.
+- Explicit safe-use boundaries separating static public research data from live commerce, freight, inventory, checkout, margin, and substitute-approval workflows.
+
 ## High-Value Entry Points
 
 - Root home: https://packrift.github.io/
@@ -46,10 +54,18 @@ The SKU Evidence Cards asset exposes:
 - Root schema: https://packrift.github.io/data/schema.json
 - Root OpenAPI: https://packrift.github.io/openapi.json
 - Root Agent Manifest: https://packrift.github.io/.well-known/agent-manifest.json
+- Root RO-Crate metadata: https://packrift.github.io/ro-crate-metadata.json
+- Research Asset Index: https://packrift.github.io/research-assets/
+- Research Asset Index JSON: https://packrift.github.io/research-assets/asset-index.json
+- Research Asset Index JSON-LD: https://packrift.github.io/research-assets/asset-index.jsonld
 - Procurement Readiness sitemap: https://packrift.github.io/procurement-readiness-index/sitemap.xml
 - Procurement Readiness Agent Manifest: https://packrift.github.io/procurement-readiness-index/.well-known/agent-manifest.json
 - SKU Evidence Cards sitemap: https://packrift.github.io/sku-evidence-cards/sitemap.xml
 - SKU Evidence Cards Agent Manifest: https://packrift.github.io/sku-evidence-cards/.well-known/agent-manifest.json
+- Benchmark Navigator and Packingsolver Fixtures: https://packrift-benchmark-navigator.vercel.app/
+- Dimensional Weight Atlas: https://packrift-dimensional-weight-atlas.vercel.app/
+- SKU Fit and Substitution Matrix: https://packrift-fit-substitution-matrix.vercel.app/
+- Operations Resource Graph: https://packrift-operations-resource-graph.vercel.app/
 
 ## Representative Root Product Signal Page
 
@@ -87,4 +103,4 @@ Packrift support: https://packrift.com/pages/contact
 GitHub organization: https://github.com/Packrift
 Contact email for directory and corpus review: farhan@packrift.com
 
-Generated: 2026-05-31T20:05:00Z
+Generated: 2026-05-31T21:30:00Z

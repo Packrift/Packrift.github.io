@@ -11,11 +11,15 @@ Use boundaries:
 Key routes:
 - https://packrift.github.io/sitemap.xml
 - https://packrift.github.io/llms-full.txt
+- https://packrift.github.io/research-assets/
+- https://packrift.github.io/research-assets/asset-index.json
+- https://packrift.github.io/research-assets/asset-index.jsonld
 - https://packrift.github.io/data/unit-signals.json
 - https://packrift.github.io/data/unit-signals.jsonl
 - https://packrift.github.io/data/unit-signals.csv
 - https://packrift.github.io/data/schema.json
 - https://packrift.github.io/openapi.json
+- https://packrift.github.io/ro-crate-metadata.json
 
 Published product signal pages: 1727
 Generated: 2026-05-30T20:35:03.002Z
@@ -27,3 +31,10 @@ Additional public corpus routes:
 - https://packrift.github.io/procurement-readiness-index/.well-known/agent-manifest.json
 - https://packrift.github.io/sku-evidence-cards/sitemap.xml
 - https://packrift.github.io/sku-evidence-cards/.well-known/agent-manifest.json
+
+Research asset crosswalk:
+- https://packrift.github.io/research-assets/
+- https://packrift-benchmark-navigator.vercel.app/
+- https://packrift-dimensional-weight-atlas.vercel.app/
+- https://packrift-fit-substitution-matrix.vercel.app/
+- https://packrift-operations-resource-graph.vercel.app/

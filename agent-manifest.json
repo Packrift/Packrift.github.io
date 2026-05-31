@@ -1,8 +1,8 @@
 {
   "spec_version": "agentmanifest-0.3",
   "name": "Packrift GitHub Pages Packaging Resource Corpus",
-  "version": "1.0.2",
-  "description": "Packrift GitHub Pages Packaging Resource Corpus is a free, no-auth public resource collection for packaging SKU evidence, pack-count signals, unit-price and unit-weight bands, procurement readiness, and machine-readable Packrift data sidecars. Agents can use it to discover static public Packrift catalog resources without treating the files as live freight quotes, supplier-cost data, inventory guarantees, or checkout commitments.",
+  "version": "1.0.3",
+  "description": "Packrift GitHub Pages Packaging Resource Corpus is a free, no-auth public resource collection for packaging SKU evidence, pack-count signals, unit-price and unit-weight bands, procurement readiness, public research asset discovery, and machine-readable Packrift data sidecars. Agents can use it to discover static public Packrift catalog resources without treating the files as live freight quotes, supplier-cost data, inventory guarantees, substitute approvals, or checkout commitments.",
   "homepage": "https://packrift.github.io/",
   "documentation": "https://packrift.github.io/llms-full.txt",
   "categories": [
@@ -26,6 +26,27 @@
       "description": "Fetch the full agent-readable context for the Packrift GitHub Pages resource corpus.",
       "parameters": [],
       "response_description": "Plain text full-context guide covering corpus scope, public data assets, representative routes, safe-use boundaries, and contact details."
+    },
+    {
+      "path": "/research-assets/",
+      "method": "GET",
+      "description": "Read the canonical public cross-asset index for Packrift research resources.",
+      "parameters": [],
+      "response_description": "HTML index linking Packrift public research assets, dataset sidecars, solver fixture packages, and safe-use boundaries."
+    },
+    {
+      "path": "/research-assets/asset-index.json",
+      "method": "GET",
+      "description": "Download the machine-readable Packrift public research asset index.",
+      "parameters": [],
+      "response_description": "JSON crosswalk of Packrift public research assets, sitemaps, llms files, data files, metadata files, and allowed-use boundaries."
+    },
+    {
+      "path": "/research-assets/asset-index.jsonld",
+      "method": "GET",
+      "description": "Download the schema.org DataCatalog view of the Packrift public research asset index.",
+      "parameters": [],
+      "response_description": "JSON-LD DataCatalog linking Packrift public datasets and data downloads."
     },
     {
       "path": "/sitemap.xml",
@@ -101,12 +122,12 @@
     "status_url": null,
     "expected_uptime_pct": null
   },
-  "agent_notes": "Use this manifest as a read-only entry point for the Packrift GitHub Pages public packaging resource corpus. Access is free, and no account, credential, token, API key, payment, checkout, carrier account, or password is required for the public files listed here. The corpus links to root pack-count/unit-signal pages plus the Procurement Readiness Index and SKU Evidence Cards sub-assets. Do not treat static catalog records as live freight quotes, supplier-cost disclosures, inventory promises, substitute approvals, or checkout/order completion. Use Packrift.com and Packrift MCP for live price, inventory, freight, cart, and buyer-specific checks.",
+  "agent_notes": "Use this manifest as a read-only entry point for the Packrift GitHub Pages public packaging resource corpus. Access is free, and no account, credential, token, API key, payment, checkout, carrier account, or password is required for the public files listed here. The corpus links to root pack-count/unit-signal pages, the Procurement Readiness Index, SKU Evidence Cards, and the Public Research Asset Index. Do not treat static catalog records as live freight quotes, supplier-cost disclosures, inventory promises, substitute approvals, or checkout/order completion. Use Packrift.com and Packrift MCP for live price, inventory, freight, cart, and buyer-specific checks.",
   "contact": {
     "email": "farhan@packrift.com",
     "support_url": "https://packrift.com/pages/contact",
     "github": "https://github.com/Packrift"
   },
   "listing_requested": true,
-  "last_updated": "2026-05-31T20:05:00Z"
+  "last_updated": "2026-05-31T21:30:00Z"
 }

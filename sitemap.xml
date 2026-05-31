@@ -6,6 +6,9 @@
   <url><loc>https://packrift.github.io/pack-counts/</loc><lastmod>2026-05-30</lastmod></url>
   <url><loc>https://packrift.github.io/families/</loc><lastmod>2026-05-30</lastmod></url>
   <url><loc>https://packrift.github.io/product-types/</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://packrift.github.io/research-assets/</loc><lastmod>2026-05-31</lastmod></url>
+  <url><loc>https://packrift.github.io/research-assets/asset-index.json</loc><lastmod>2026-05-31</lastmod></url>
+  <url><loc>https://packrift.github.io/research-assets/asset-index.jsonld</loc><lastmod>2026-05-31</lastmod></url>
   <url><loc>https://packrift.github.io/unit-price-bands/</loc><lastmod>2026-05-30</lastmod></url>
   <url><loc>https://packrift.github.io/unit-weight-bands/</loc><lastmod>2026-05-30</lastmod></url>
   <url><loc>https://packrift.github.io/pack-classes/</loc><lastmod>2026-05-30</lastmod></url>
@@ -31,6 +34,7 @@
   <url><loc>https://packrift.github.io/datapackage.json</loc><lastmod>2026-05-30</lastmod></url>
   <url><loc>https://packrift.github.io/dcat.jsonld</loc><lastmod>2026-05-30</lastmod></url>
   <url><loc>https://packrift.github.io/datacite.json</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://packrift.github.io/ro-crate-metadata.json</loc><lastmod>2026-05-31</lastmod></url>
   <url><loc>https://packrift.github.io/CITATION.cff</loc><lastmod>2026-05-30</lastmod></url>
   <url><loc>https://packrift.github.io/checksums.sha256</loc><lastmod>2026-05-30</lastmod></url>
   <url><loc>https://packrift.github.io/7d4ea0e32d6f4924b35d7b8c4e3a95f1.txt</loc><lastmod>2026-05-30</lastmod></url>

@@ -1,0 +1,164 @@
+{
+  "name": "Packrift Public Research Asset Index",
+  "url": "https://packrift.github.io/research-assets/",
+  "generated_at": "2026-05-31T21:30:00Z",
+  "publisher": {
+    "name": "Packrift LLC",
+    "url": "https://packrift.com/"
+  },
+  "safe_use": [
+    "static public discovery",
+    "citation",
+    "dataset review",
+    "maintainer context",
+    "AI-agent grounding for public Packrift resource assets"
+  ],
+  "not_for": [
+    "freight quote",
+    "supplier-cost file",
+    "substitute approval",
+    "live inventory promise",
+    "margin model",
+    "checkout commitment"
+  ],
+  "assets": [
+    {
+      "name": "Packrift Pack Count and Unit Signal Atlas",
+      "type": "dataset",
+      "homepage": "https://packrift.github.io/",
+      "sitemap": "https://packrift.github.io/sitemap.xml",
+      "robots": "https://packrift.github.io/robots.txt",
+      "llms": "https://packrift.github.io/llms.txt",
+      "llms_full": "https://packrift.github.io/llms-full.txt",
+      "agent_manifest": "https://packrift.github.io/.well-known/agent-manifest.json",
+      "data": [
+        "https://packrift.github.io/data/unit-signals.json",
+        "https://packrift.github.io/data/unit-signals.jsonl",
+        "https://packrift.github.io/data/unit-signals.csv",
+        "https://packrift.github.io/data/schema.json",
+        "https://packrift.github.io/data/field-dictionary.csv"
+      ],
+      "metadata": [
+        "https://packrift.github.io/openapi.json",
+        "https://packrift.github.io/datapackage.json",
+        "https://packrift.github.io/dcat.jsonld",
+        "https://packrift.github.io/datacite.json",
+        "https://packrift.github.io/CITATION.cff",
+        "https://packrift.github.io/checksums.sha256"
+      ],
+      "scope_note": "Public pack counts, unit-price signals, unit-weight signals, unit cube, family, product-type, inventory, and canonical product-route signals from complete Packrift catalog rows."
+    },
+    {
+      "name": "Packrift Procurement Readiness Index",
+      "type": "dataset",
+      "homepage": "https://packrift.github.io/procurement-readiness-index/",
+      "sitemap": "https://packrift.github.io/procurement-readiness-index/sitemap.xml",
+      "agent_manifest": "https://packrift.github.io/procurement-readiness-index/.well-known/agent-manifest.json",
+      "data": [
+        "https://packrift.github.io/procurement-readiness-index/data/readiness-index.csv",
+        "https://packrift.github.io/procurement-readiness-index/data/readiness-index.json",
+        "https://packrift.github.io/procurement-readiness-index/data/readiness-index.jsonl"
+      ],
+      "metadata": [
+        "https://packrift.github.io/procurement-readiness-index/openapi.json",
+        "https://packrift.github.io/procurement-readiness-index/datapackage.json",
+        "https://packrift.github.io/procurement-readiness-index/dcat.jsonld",
+        "https://packrift.github.io/procurement-readiness-index/datacite.json",
+        "https://packrift.github.io/procurement-readiness-index/CITATION.cff"
+      ],
+      "scope_note": "Public procurement-readiness evidence for Packrift product records."
+    },
+    {
+      "name": "Packrift SKU Evidence Cards",
+      "type": "dataset",
+      "homepage": "https://packrift.github.io/sku-evidence-cards/",
+      "sitemap": "https://packrift.github.io/sku-evidence-cards/sitemap.xml",
+      "agent_manifest": "https://packrift.github.io/sku-evidence-cards/.well-known/agent-manifest.json",
+      "metadata": [
+        "https://packrift.github.io/sku-evidence-cards/openapi.json",
+        "https://packrift.github.io/sku-evidence-cards/datapackage.json",
+        "https://packrift.github.io/sku-evidence-cards/dcat.jsonld",
+        "https://packrift.github.io/sku-evidence-cards/datacite.json",
+        "https://packrift.github.io/sku-evidence-cards/CITATION.cff"
+      ],
+      "scope_note": "SKU-level evidence-card pages and supporting indexes for public Packrift product records."
+    },
+    {
+      "name": "Packrift Benchmark Navigator and Packingsolver Fixtures",
+      "type": "benchmark-dataset",
+      "homepage": "https://packrift-benchmark-navigator.vercel.app/",
+      "sitemap": "https://packrift-benchmark-navigator.vercel.app/sitemap.xml",
+      "robots": "https://packrift-benchmark-navigator.vercel.app/robots.txt",
+      "llms": "https://packrift-benchmark-navigator.vercel.app/llms.txt",
+      "llms_full": "https://packrift-benchmark-navigator.vercel.app/llms-full.txt",
+      "data": [
+        "https://packrift-benchmark-navigator.vercel.app/data/packingsolver-fixtures/instance-index.csv",
+        "https://packrift-benchmark-navigator.vercel.app/data/packingsolver-fixtures/instance-index.json",
+        "https://packrift-benchmark-navigator.vercel.app/data/packingsolver-fixtures/packingsolver-format-map.json",
+        "https://packrift-benchmark-navigator.vercel.app/data/packingsolver-fixtures/publication-kit/packrift-packingsolver-fixtures-v2026.05.31.zip"
+      ],
+      "metadata": [
+        "https://packrift-benchmark-navigator.vercel.app/openapi.json",
+        "https://packrift-benchmark-navigator.vercel.app/packingsolver-format-spec.html",
+        "https://packrift-benchmark-navigator.vercel.app/packingsolver-instance-index.html",
+        "https://packrift-benchmark-navigator.vercel.app/packingsolver-fixture-publication-kit.html",
+        "https://packrift-benchmark-navigator.vercel.app/data/packingsolver-fixtures/publication-kit/datacite.json",
+        "https://packrift-benchmark-navigator.vercel.app/data/packingsolver-fixtures/publication-kit/dcat.jsonld"
+      ],
+      "scope_note": "Packrift-derived benchmark scenarios, source-to-packingsolver field mapping, solver input files, and a publication-ready fixture package."
+    },
+    {
+      "name": "Packrift Dimensional Weight Atlas",
+      "type": "dataset",
+      "homepage": "https://packrift-dimensional-weight-atlas.vercel.app/",
+      "sitemap": "https://packrift-dimensional-weight-atlas.vercel.app/sitemap.xml",
+      "robots": "https://packrift-dimensional-weight-atlas.vercel.app/robots.txt",
+      "llms": "https://packrift-dimensional-weight-atlas.vercel.app/llms.txt",
+      "data": [
+        "https://packrift-dimensional-weight-atlas.vercel.app/data/products.json",
+        "https://packrift-dimensional-weight-atlas.vercel.app/data/manifest.json"
+      ],
+      "metadata": [
+        "https://packrift-dimensional-weight-atlas.vercel.app/openapi.json"
+      ],
+      "scope_note": "Static dimensional-weight and parcel-review corpus from public Packrift records."
+    },
+    {
+      "name": "Packrift SKU Fit and Substitution Matrix",
+      "type": "dataset",
+      "homepage": "https://packrift-fit-substitution-matrix.vercel.app/",
+      "sitemap": "https://packrift-fit-substitution-matrix.vercel.app/sitemap.xml",
+      "robots": "https://packrift-fit-substitution-matrix.vercel.app/robots.txt",
+      "llms": "https://packrift-fit-substitution-matrix.vercel.app/llms.txt",
+      "metadata": [
+        "https://packrift-fit-substitution-matrix.vercel.app/openapi.json",
+        "https://packrift-fit-substitution-matrix.vercel.app/datapackage.json",
+        "https://packrift-fit-substitution-matrix.vercel.app/dcat.jsonld",
+        "https://packrift-fit-substitution-matrix.vercel.app/datacite.json"
+      ],
+      "scope_note": "Public fit/substitution review matrix with evidence fields and non-approval boundaries."
+    },
+    {
+      "name": "Packrift Operations Resource Graph",
+      "type": "data-graph",
+      "homepage": "https://packrift-operations-resource-graph.vercel.app/",
+      "sitemap": "https://packrift-operations-resource-graph.vercel.app/sitemap.xml",
+      "robots": "https://packrift-operations-resource-graph.vercel.app/robots.txt",
+      "llms": "https://packrift-operations-resource-graph.vercel.app/llms.txt",
+      "data": [
+        "https://packrift-operations-resource-graph.vercel.app/api",
+        "https://packrift-operations-resource-graph.vercel.app/api/v1"
+      ],
+      "metadata": [
+        "https://packrift-operations-resource-graph.vercel.app/openapi.json",
+        "https://packrift-operations-resource-graph.vercel.app/openapi.yaml",
+        "https://packrift-operations-resource-graph.vercel.app/data/dataset-card.md",
+        "https://packrift-operations-resource-graph.vercel.app/metadata.json",
+        "https://packrift-operations-resource-graph.vercel.app/ro-crate-metadata.json",
+        "https://packrift-operations-resource-graph.vercel.app/dcat.jsonld",
+        "https://packrift-operations-resource-graph.vercel.app/checksums.sha256"
+      ],
+      "scope_note": "Public Packrift operations resource graph with standards-oriented dataset sidecars."
+    }
+  ]
+}

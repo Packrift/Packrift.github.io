@@ -28,6 +28,21 @@
       "@type": "DataDownload",
       "contentUrl": "https://packrift.github.io/data/unit-signals.csv",
       "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://packrift.github.io/research-assets/asset-index.json",
+      "encodingFormat": "application/json"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://packrift.github.io/research-assets/asset-index.jsonld",
+      "encodingFormat": "application/ld+json"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://packrift.github.io/ro-crate-metadata.json",
+      "encodingFormat": "application/ld+json"
     }
   ],
   "recordSet": [

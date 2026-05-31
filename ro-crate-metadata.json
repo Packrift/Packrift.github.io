@@ -1,0 +1,95 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "Packrift Pack Count and Unit Signal Atlas",
+      "description": "Public Packrift pack-count, unit-signal, and research-asset index files for static catalog discovery and citation.",
+      "url": "https://packrift.github.io/",
+      "datePublished": "2026-05-30T20:35:03.002Z",
+      "dateModified": "2026-05-31T21:30:00Z",
+      "publisher": {
+        "@id": "https://packrift.com/#organization"
+      },
+      "hasPart": [
+        {"@id": "data/unit-signals.csv"},
+        {"@id": "data/unit-signals.json"},
+        {"@id": "data/unit-signals.jsonl"},
+        {"@id": "research-assets/"},
+        {"@id": "research-assets/asset-index.json"},
+        {"@id": "research-assets/asset-index.jsonld"},
+        {"@id": "llms.txt"},
+        {"@id": "llms-full.txt"},
+        {"@id": "sitemap.xml"},
+        {"@id": "datapackage.json"},
+        {"@id": "dcat.jsonld"},
+        {"@id": "datacite.json"},
+        {"@id": "CITATION.cff"}
+      ],
+      "about": [
+        "packaging catalog data",
+        "pack count signals",
+        "unit price signals",
+        "unit weight signals",
+        "public research assets",
+        "Packrift"
+      ]
+    },
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "name": "RO-Crate metadata for the Packrift GitHub Pages public corpus",
+      "encodingFormat": "application/ld+json",
+      "about": {"@id": "./"}
+    },
+    {
+      "@id": "https://packrift.com/#organization",
+      "@type": "Organization",
+      "name": "Packrift LLC",
+      "url": "https://packrift.com/"
+    },
+    {
+      "@id": "research-assets/",
+      "@type": "DataCatalog",
+      "name": "Packrift Public Research Asset Index",
+      "url": "https://packrift.github.io/research-assets/",
+      "description": "Crawlable cross-asset index for Packrift public research resources, solver fixtures, dataset sidecars, and citation metadata."
+    },
+    {
+      "@id": "research-assets/asset-index.json",
+      "@type": "File",
+      "name": "Packrift public research asset index JSON",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://packrift.github.io/research-assets/asset-index.json"
+    },
+    {
+      "@id": "research-assets/asset-index.jsonld",
+      "@type": "File",
+      "name": "Packrift public research asset index JSON-LD",
+      "encodingFormat": "application/ld+json",
+      "contentUrl": "https://packrift.github.io/research-assets/asset-index.jsonld"
+    },
+    {
+      "@id": "data/unit-signals.csv",
+      "@type": "File",
+      "name": "Packrift unit signals CSV",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://packrift.github.io/data/unit-signals.csv"
+    },
+    {
+      "@id": "data/unit-signals.json",
+      "@type": "File",
+      "name": "Packrift unit signals JSON",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://packrift.github.io/data/unit-signals.json"
+    },
+    {
+      "@id": "data/unit-signals.jsonl",
+      "@type": "File",
+      "name": "Packrift unit signals JSONL",
+      "encodingFormat": "application/x-ndjson",
+      "contentUrl": "https://packrift.github.io/data/unit-signals.jsonl"
+    }
+  ]
+}

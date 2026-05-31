@@ -14,6 +14,21 @@
       "@type": "dcat:Distribution",
       "dcat:downloadURL": "https://packrift.github.io/data/unit-signals.json",
       "dct:format": "application/json"
+    },
+    {
+      "@type": "dcat:Distribution",
+      "dcat:downloadURL": "https://packrift.github.io/research-assets/asset-index.json",
+      "dct:format": "application/json"
+    },
+    {
+      "@type": "dcat:Distribution",
+      "dcat:downloadURL": "https://packrift.github.io/research-assets/asset-index.jsonld",
+      "dct:format": "application/ld+json"
+    },
+    {
+      "@type": "dcat:Distribution",
+      "dcat:downloadURL": "https://packrift.github.io/ro-crate-metadata.json",
+      "dct:format": "application/ld+json"
     }
   ]
 }

@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "DataCatalog",
+  "name": "Packrift Public Research Asset Index",
+  "description": "A crawlable Packrift catalog of public packaging research assets, solver fixtures, unit signals, dimensional-weight review data, fit/substitution evidence, procurement readiness data, and machine-readable sidecars.",
+  "url": "https://packrift.github.io/research-assets/",
+  "creator": {
+    "@type": "Organization",
+    "name": "Packrift LLC",
+    "url": "https://packrift.com/"
+  },
+  "license": "https://packrift.com/policies/terms-of-service",
+  "hasPart": [
+    {
+      "@type": "Dataset",
+      "name": "Packrift Pack Count and Unit Signal Atlas",
+      "url": "https://packrift.github.io/",
+      "distribution": [
+        {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://packrift.github.io/data/unit-signals.csv"},
+        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://packrift.github.io/data/unit-signals.json"},
+        {"@type": "DataDownload", "encodingFormat": "application/x-ndjson", "contentUrl": "https://packrift.github.io/data/unit-signals.jsonl"}
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "name": "Packrift Procurement Readiness Index",
+      "url": "https://packrift.github.io/procurement-readiness-index/",
+      "distribution": [
+        {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://packrift.github.io/procurement-readiness-index/data/readiness-index.csv"},
+        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://packrift.github.io/procurement-readiness-index/data/readiness-index.json"},
+        {"@type": "DataDownload", "encodingFormat": "application/x-ndjson", "contentUrl": "https://packrift.github.io/procurement-readiness-index/data/readiness-index.jsonl"}
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "name": "Packrift SKU Evidence Cards",
+      "url": "https://packrift.github.io/sku-evidence-cards/"
+    },
+    {
+      "@type": "Dataset",
+      "name": "Packrift Benchmark Navigator and Packingsolver Fixtures",
+      "url": "https://packrift-benchmark-navigator.vercel.app/",
+      "distribution": [
+        {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://packrift-benchmark-navigator.vercel.app/data/packingsolver-fixtures/instance-index.csv"},
+        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://packrift-benchmark-navigator.vercel.app/data/packingsolver-fixtures/instance-index.json"},
+        {"@type": "DataDownload", "encodingFormat": "application/zip", "contentUrl": "https://packrift-benchmark-navigator.vercel.app/data/packingsolver-fixtures/publication-kit/packrift-packingsolver-fixtures-v2026.05.31.zip"}
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "name": "Packrift Dimensional Weight Atlas",
+      "url": "https://packrift-dimensional-weight-atlas.vercel.app/"
+    },
+    {
+      "@type": "Dataset",
+      "name": "Packrift SKU Fit and Substitution Matrix",
+      "url": "https://packrift-fit-substitution-matrix.vercel.app/"
+    },
+    {
+      "@type": "Dataset",
+      "name": "Packrift Operations Resource Graph",
+      "url": "https://packrift-operations-resource-graph.vercel.app/",
+      "distribution": [
+        {"@type": "DataDownload", "encodingFormat": "application/ld+json", "contentUrl": "https://packrift-operations-resource-graph.vercel.app/metadata.json"},
+        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://packrift-operations-resource-graph.vercel.app/ro-crate-metadata.json"}
+      ]
+    }
+  ]
+}
