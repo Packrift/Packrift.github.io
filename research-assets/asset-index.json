@@ -42,6 +42,8 @@
         "https://packrift.github.io/openapi.json",
         "https://packrift.github.io/apis.json",
         "https://packrift.github.io/.well-known/apis.json",
+        "https://packrift.github.io/.well-known/api-catalog",
+        "https://packrift.github.io/.well-known/api-catalog.json",
         "https://packrift.github.io/api-directory/",
         "https://packrift.github.io/datapackage.json",
         "https://packrift.github.io/dcat.jsonld",

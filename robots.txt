@@ -1,8 +1,11 @@
 User-agent: *
 Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Content-Usage: search=y, ai-input=y, ai-train=n
 Sitemap: https://packrift.github.io/sitemap.xml
 Sitemap: https://packrift.github.io/procurement-readiness-index/sitemap.xml
 Sitemap: https://packrift.github.io/sku-evidence-cards/sitemap.xml
 # Full agent context: https://packrift.github.io/llms-full.txt
 # Public research asset index: https://packrift.github.io/research-assets/
 # Public API catalog: https://packrift.github.io/apis.json
+# Public API linkset: https://packrift.github.io/.well-known/api-catalog

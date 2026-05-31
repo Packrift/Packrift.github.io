@@ -6,6 +6,7 @@ Root sitemap: https://packrift.github.io/sitemap.xml
 Root robots file: https://packrift.github.io/robots.txt
 Agent manifest: https://packrift.github.io/.well-known/agent-manifest.json
 API catalog: https://packrift.github.io/apis.json
+Agent-native API linkset: https://packrift.github.io/.well-known/api-catalog
 
 ## What This Resource Is
 
@@ -56,6 +57,8 @@ The Public Research Asset Index exposes:
 - Root OpenAPI: https://packrift.github.io/openapi.json
 - Root APIs.json catalog: https://packrift.github.io/apis.json
 - Well-known APIs.json catalog: https://packrift.github.io/.well-known/apis.json
+- Well-known API catalog linkset: https://packrift.github.io/.well-known/api-catalog
+- Well-known API catalog JSON mirror: https://packrift.github.io/.well-known/api-catalog.json
 - Human API directory: https://packrift.github.io/api-directory/
 - Root Agent Manifest: https://packrift.github.io/.well-known/agent-manifest.json
 - Root RO-Crate metadata: https://packrift.github.io/ro-crate-metadata.json

@@ -91,6 +91,14 @@
           "url": "https://packrift.github.io/api-directory/"
         },
         {
+          "type": "WellKnownAPICatalog",
+          "url": "https://packrift.github.io/.well-known/api-catalog"
+        },
+        {
+          "type": "WellKnownAPICatalogJson",
+          "url": "https://packrift.github.io/.well-known/api-catalog.json"
+        },
+        {
           "type": "AgentManifest",
           "url": "https://packrift.github.io/.well-known/agent-manifest.json"
         },

@@ -1,0 +1,186 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://mcp.packrift.com/",
+      "service-desc": [
+        {
+          "href": "https://mcp.packrift.com/openapi.json",
+          "type": "application/openapi+json",
+          "title": "Packrift MCP Discovery Adapter OpenAPI"
+        },
+        {
+          "href": "https://mcp.packrift.com/mcp",
+          "type": "application/json",
+          "title": "Packrift MCP Streamable HTTP Endpoint"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://mcp.packrift.com/llms-full.txt",
+          "type": "text/plain",
+          "title": "Packrift MCP Full Agent Context"
+        },
+        {
+          "href": "https://packrift.com/pages/tools",
+          "type": "text/html",
+          "title": "Packrift Tools Hub"
+        }
+      ],
+      "describedby": [
+        {
+          "href": "https://packrift.github.io/apis.json",
+          "type": "application/json",
+          "title": "Packrift Public API and Data Catalog"
+        }
+      ]
+    },
+    {
+      "anchor": "https://packrift.github.io/",
+      "service-desc": [
+        {
+          "href": "https://packrift.github.io/openapi.json",
+          "type": "application/openapi+json",
+          "title": "Packrift GitHub Pages Resource Corpus OpenAPI"
+        },
+        {
+          "href": "https://packrift.github.io/apis.json",
+          "type": "application/json",
+          "title": "Packrift Public API and Data Catalog"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://packrift.github.io/api-directory/",
+          "type": "text/html",
+          "title": "Packrift API Directory and Data Catalog"
+        },
+        {
+          "href": "https://packrift.github.io/llms-full.txt",
+          "type": "text/plain",
+          "title": "Packrift GitHub Pages Full Agent Context"
+        }
+      ],
+      "describedby": [
+        {
+          "href": "https://packrift.github.io/research-assets/asset-index.json",
+          "type": "application/json",
+          "title": "Packrift Public Research Asset Index"
+        },
+        {
+          "href": "https://packrift.github.io/ro-crate-metadata.json",
+          "type": "application/json",
+          "title": "Packrift RO-Crate Metadata"
+        },
+        {
+          "href": "https://packrift.github.io/dcat.jsonld",
+          "type": "application/ld+json",
+          "title": "Packrift DCAT Metadata"
+        }
+      ]
+    },
+    {
+      "anchor": "https://packrift-benchmark-navigator.vercel.app/",
+      "service-desc": [
+        {
+          "href": "https://packrift-benchmark-navigator.vercel.app/openapi.json",
+          "type": "application/openapi+json",
+          "title": "Packrift Benchmark Navigator OpenAPI"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://packrift-benchmark-navigator.vercel.app/packingsolver-fixture-publication-kit.html",
+          "type": "text/html",
+          "title": "Packrift Packingsolver Fixture Publication Kit"
+        },
+        {
+          "href": "https://packrift-benchmark-navigator.vercel.app/llms-full.txt",
+          "type": "text/plain",
+          "title": "Packrift Benchmark Navigator Full Agent Context"
+        }
+      ],
+      "describedby": [
+        {
+          "href": "https://packrift-benchmark-navigator.vercel.app/data/packingsolver-fixtures/publication-kit/datacite.json",
+          "type": "application/json",
+          "title": "Packrift Packingsolver Fixtures DataCite Metadata"
+        }
+      ]
+    },
+    {
+      "anchor": "https://packrift-dimensional-weight-atlas.vercel.app/",
+      "service-desc": [
+        {
+          "href": "https://packrift-dimensional-weight-atlas.vercel.app/openapi.json",
+          "type": "application/openapi+json",
+          "title": "Packrift Dimensional Weight Atlas OpenAPI"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://packrift-dimensional-weight-atlas.vercel.app/llms.txt",
+          "type": "text/plain",
+          "title": "Packrift Dimensional Weight Atlas Agent Context"
+        }
+      ],
+      "describedby": [
+        {
+          "href": "https://packrift-dimensional-weight-atlas.vercel.app/data/manifest.json",
+          "type": "application/json",
+          "title": "Packrift Dimensional Weight Atlas Data Manifest"
+        }
+      ]
+    },
+    {
+      "anchor": "https://packrift-fit-substitution-matrix.vercel.app/",
+      "service-desc": [
+        {
+          "href": "https://packrift-fit-substitution-matrix.vercel.app/openapi.json",
+          "type": "application/openapi+json",
+          "title": "Packrift SKU Fit and Substitution Matrix OpenAPI"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://packrift-fit-substitution-matrix.vercel.app/llms.txt",
+          "type": "text/plain",
+          "title": "Packrift Fit Matrix Agent Context"
+        }
+      ]
+    },
+    {
+      "anchor": "https://packrift-operations-resource-graph.vercel.app/",
+      "service-desc": [
+        {
+          "href": "https://packrift-operations-resource-graph.vercel.app/openapi.json",
+          "type": "application/openapi+json",
+          "title": "Packrift Operations Resource Graph OpenAPI"
+        },
+        {
+          "href": "https://packrift-operations-resource-graph.vercel.app/openapi.yaml",
+          "type": "application/yaml",
+          "title": "Packrift Operations Resource Graph OpenAPI YAML"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://packrift-operations-resource-graph.vercel.app/llms.txt",
+          "type": "text/plain",
+          "title": "Packrift Operations Resource Graph Agent Context"
+        }
+      ],
+      "describedby": [
+        {
+          "href": "https://packrift-operations-resource-graph.vercel.app/ro-crate-metadata.json",
+          "type": "application/json",
+          "title": "Packrift Operations Resource Graph RO-Crate Metadata"
+        },
+        {
+          "href": "https://packrift-operations-resource-graph.vercel.app/dcat.jsonld",
+          "type": "application/ld+json",
+          "title": "Packrift Operations Resource Graph DCAT Metadata"
+        }
+      ]
+    }
+  ]
+}
