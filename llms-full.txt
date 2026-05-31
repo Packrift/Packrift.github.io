@@ -1,0 +1,90 @@
+# Packrift GitHub Pages Packaging Resource Corpus - Full Agent Context
+
+Canonical site: https://packrift.github.io/
+Compact agent overview: https://packrift.github.io/llms.txt
+Root sitemap: https://packrift.github.io/sitemap.xml
+Root robots file: https://packrift.github.io/robots.txt
+Agent manifest: https://packrift.github.io/.well-known/agent-manifest.json
+
+## What This Resource Is
+
+Packrift GitHub Pages Packaging Resource Corpus is a public, no-auth, read-only resource collection for inspecting Packrift packaging catalog evidence. It combines the Packrift Pack Count and Unit Signal Atlas with two public sub-assets:
+
+- Packrift Procurement Readiness Index: https://packrift.github.io/procurement-readiness-index/
+- Packrift SKU Evidence Cards: https://packrift.github.io/sku-evidence-cards/
+
+The corpus is designed for search engines, AI agents, procurement researchers, and packaging data reviewers that need static Packrift product evidence, public product routes, pack counts, unit signals, procurement readiness fields, and SKU-level evidence cards.
+
+## Current Public Corpus Coverage
+
+The root Pack Count and Unit Signal Atlas exposes:
+
+- 1,727 public product signal pages.
+- Pack-count, family, product-type, unit-price-band, unit-weight-band, and pack-class index pages.
+- Public data sidecars for unit signals, pack counts, family summaries, product-type summaries, schema, field dictionary, OpenAPI, Data Package, DCAT, DataCite, CFF citation, and checksums.
+
+The Procurement Readiness Index exposes:
+
+- A public index of procurement-readiness evidence for Packrift product records.
+- SKU readiness pages and supporting product-type, price-band, readiness-status, and data sidecars.
+- Public sitemap and Agent Manifest descriptors.
+
+The SKU Evidence Cards asset exposes:
+
+- SKU-level evidence-card pages for public Packrift product records.
+- Family indexes, price-band indexes, status indexes, and supporting data sidecars.
+- Public sitemap and Agent Manifest descriptors.
+
+## High-Value Entry Points
+
+- Root home: https://packrift.github.io/
+- Root sitemap: https://packrift.github.io/sitemap.xml
+- Root data index: https://packrift.github.io/data/
+- Unit signals JSON: https://packrift.github.io/data/unit-signals.json
+- Unit signals JSONL: https://packrift.github.io/data/unit-signals.jsonl
+- Unit signals CSV: https://packrift.github.io/data/unit-signals.csv
+- Root schema: https://packrift.github.io/data/schema.json
+- Root OpenAPI: https://packrift.github.io/openapi.json
+- Root Agent Manifest: https://packrift.github.io/.well-known/agent-manifest.json
+- Procurement Readiness sitemap: https://packrift.github.io/procurement-readiness-index/sitemap.xml
+- Procurement Readiness Agent Manifest: https://packrift.github.io/procurement-readiness-index/.well-known/agent-manifest.json
+- SKU Evidence Cards sitemap: https://packrift.github.io/sku-evidence-cards/sitemap.xml
+- SKU Evidence Cards Agent Manifest: https://packrift.github.io/sku-evidence-cards/.well-known/agent-manifest.json
+
+## Representative Root Product Signal Page
+
+https://packrift.github.io/products/212c-8x6x12-eps-foam-insulated-shipping-kit-200-white-corrugated-case-of-1/
+
+Representative product signal pages include public Packrift evidence such as product family, product type, pack count, unit price, unit weight, unit cube, inventory signal, and canonical Packrift product route. They are for static discovery and data review, not live purchasing.
+
+## Safe-Use Boundaries
+
+Use this corpus for:
+
+- Product discovery.
+- Procurement comparison.
+- Packaging data quality review.
+- Pack-count and unit-signal inspection.
+- Public Packrift citation.
+- AI-agent grounding for packaging catalog facts.
+
+Do not use this corpus as:
+
+- A freight quote.
+- A margin model.
+- A supplier-cost file.
+- A checkout promise.
+- A current-order guarantee.
+- A substitute approval system.
+- A live inventory guarantee.
+- A real-time price guarantee.
+
+For live price, inventory, shipping, cart, and buyer-specific checks, use Packrift.com and the Packrift MCP endpoint at https://mcp.packrift.com/mcp.
+
+## Contact
+
+Packrift support: https://packrift.com/pages/contact
+GitHub organization: https://github.com/Packrift
+Contact email for directory and corpus review: farhan@packrift.com
+
+Generated: 2026-05-31T20:05:00Z

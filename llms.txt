@@ -10,6 +10,7 @@ Use boundaries:
 
 Key routes:
 - https://packrift.github.io/sitemap.xml
+- https://packrift.github.io/llms-full.txt
 - https://packrift.github.io/data/unit-signals.json
 - https://packrift.github.io/data/unit-signals.jsonl
 - https://packrift.github.io/data/unit-signals.csv
@@ -21,6 +22,7 @@ Generated: 2026-05-30T20:35:03.002Z
 
 Additional public corpus routes:
 - https://packrift.github.io/.well-known/agent-manifest.json
+- https://packrift.github.io/llms-full.txt
 - https://packrift.github.io/procurement-readiness-index/sitemap.xml
 - https://packrift.github.io/procurement-readiness-index/.well-known/agent-manifest.json
 - https://packrift.github.io/sku-evidence-cards/sitemap.xml
