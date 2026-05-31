@@ -9,3 +9,4 @@ Sitemap: https://packrift.github.io/sku-evidence-cards/sitemap.xml
 # Public research asset index: https://packrift.github.io/research-assets/
 # Public API catalog: https://packrift.github.io/apis.json
 # Public API linkset: https://packrift.github.io/.well-known/api-catalog
+# Host metadata: https://packrift.github.io/.well-known/host-meta

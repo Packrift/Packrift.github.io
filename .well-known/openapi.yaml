@@ -1,0 +1,38 @@
+openapi: 3.1.0
+info:
+  title: Packrift Pack Count and Unit Signal Atlas
+  version: 2026.05.31
+  description: Static public data routes for Packrift pack-count, unit-signal, and public research asset index records.
+servers:
+  - url: https://packrift.github.io
+paths:
+  /data/unit-signals.json:
+    get:
+      summary: Get Packrift product unit-signal records
+      responses:
+        "200":
+          description: JSON array of public product signal records
+  /data/pack-counts.json:
+    get:
+      summary: Get Packrift pack-count summaries
+      responses:
+        "200":
+          description: JSON array of pack-count group summaries
+  /data/families.json:
+    get:
+      summary: Get Packrift family summaries
+      responses:
+        "200":
+          description: JSON array of family group summaries
+  /research-assets/asset-index.json:
+    get:
+      summary: Get Packrift public research asset index
+      responses:
+        "200":
+          description: JSON crosswalk of Packrift public research assets, sitemaps, data files, metadata files, and safe-use boundaries
+  /research-assets/asset-index.jsonld:
+    get:
+      summary: Get Packrift public research asset DataCatalog
+      responses:
+        "200":
+          description: Schema.org JSON-LD DataCatalog for Packrift public research assets

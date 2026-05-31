@@ -7,6 +7,7 @@ Root robots file: https://packrift.github.io/robots.txt
 Agent manifest: https://packrift.github.io/.well-known/agent-manifest.json
 API catalog: https://packrift.github.io/apis.json
 Agent-native API linkset: https://packrift.github.io/.well-known/api-catalog
+Host metadata: https://packrift.github.io/.well-known/host-meta
 
 ## What This Resource Is
 
@@ -55,10 +56,14 @@ The Public Research Asset Index exposes:
 - Unit signals CSV: https://packrift.github.io/data/unit-signals.csv
 - Root schema: https://packrift.github.io/data/schema.json
 - Root OpenAPI: https://packrift.github.io/openapi.json
+- Root OpenAPI YAML: https://packrift.github.io/openapi.yaml
+- Well-known OpenAPI YAML: https://packrift.github.io/.well-known/openapi.yaml
 - Root APIs.json catalog: https://packrift.github.io/apis.json
 - Well-known APIs.json catalog: https://packrift.github.io/.well-known/apis.json
 - Well-known API catalog linkset: https://packrift.github.io/.well-known/api-catalog
 - Well-known API catalog JSON mirror: https://packrift.github.io/.well-known/api-catalog.json
+- Host-meta XRD: https://packrift.github.io/.well-known/host-meta
+- Host-meta JSON Resource Descriptor: https://packrift.github.io/.well-known/host-meta.json
 - Human API directory: https://packrift.github.io/api-directory/
 - Root Agent Manifest: https://packrift.github.io/.well-known/agent-manifest.json
 - Root RO-Crate metadata: https://packrift.github.io/ro-crate-metadata.json

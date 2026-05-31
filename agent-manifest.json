@@ -1,7 +1,7 @@
 {
   "spec_version": "agentmanifest-0.3",
   "name": "Packrift GitHub Pages Packaging Resource Corpus",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Packrift GitHub Pages Packaging Resource Corpus is a free, no-auth public resource collection for packaging SKU evidence, pack-count signals, unit-price and unit-weight bands, procurement readiness, public research asset discovery, and machine-readable Packrift data sidecars. Agents can use it to discover static public Packrift catalog resources without treating the files as live freight quotes, supplier-cost data, inventory guarantees, substitute approvals, or checkout commitments.",
   "homepage": "https://packrift.github.io/",
   "documentation": "https://packrift.github.io/llms-full.txt",
@@ -75,6 +75,34 @@
       "description": "Download the JSON-extension mirror of the Packrift agent-native API catalog linkset.",
       "parameters": [],
       "response_description": "JSON linkset mirror for tools that prefer extension-bearing URLs."
+    },
+    {
+      "path": "/openapi.yaml",
+      "method": "GET",
+      "description": "Download the YAML OpenAPI descriptor for the static Packrift GitHub Pages packaging resource corpus.",
+      "parameters": [],
+      "response_description": "OpenAPI 3.1 YAML descriptor for no-auth public Packrift resource corpus routes, dataset sidecars, and safe-use boundaries."
+    },
+    {
+      "path": "/.well-known/openapi.yaml",
+      "method": "GET",
+      "description": "Download the well-known YAML OpenAPI mirror for the static Packrift GitHub Pages packaging resource corpus.",
+      "parameters": [],
+      "response_description": "Well-known OpenAPI 3.1 YAML mirror for API directories and agent crawlers that inspect .well-known routes."
+    },
+    {
+      "path": "/.well-known/host-meta",
+      "method": "GET",
+      "description": "Download the XRD host-meta document for Packrift public API, catalog, and dataset discovery links.",
+      "parameters": [],
+      "response_description": "XRD host-meta document linking Packrift OpenAPI, APIs.json, API catalog, llms, research asset, RO-Crate, and DCAT resources."
+    },
+    {
+      "path": "/.well-known/host-meta.json",
+      "method": "GET",
+      "description": "Download the JSON Resource Descriptor host-meta mirror for Packrift public API, catalog, and dataset discovery links.",
+      "parameters": [],
+      "response_description": "JRD host-meta mirror linking Packrift OpenAPI, APIs.json, API catalog, llms, research asset, RO-Crate, and DCAT resources."
     },
     {
       "path": "/api-directory/",
@@ -164,5 +192,5 @@
     "github": "https://github.com/Packrift"
   },
   "listing_requested": true,
-  "last_updated": "2026-05-31T22:14:00Z"
+  "last_updated": "2026-05-31T22:30:00Z"
 }

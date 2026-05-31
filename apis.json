@@ -79,6 +79,14 @@
           "url": "https://packrift.github.io/openapi.json"
         },
         {
+          "type": "OpenAPIYaml",
+          "url": "https://packrift.github.io/openapi.yaml"
+        },
+        {
+          "type": "WellKnownOpenAPIYaml",
+          "url": "https://packrift.github.io/.well-known/openapi.yaml"
+        },
+        {
           "type": "APIs.json",
           "url": "https://packrift.github.io/apis.json"
         },
@@ -97,6 +105,14 @@
         {
           "type": "WellKnownAPICatalogJson",
           "url": "https://packrift.github.io/.well-known/api-catalog.json"
+        },
+        {
+          "type": "HostMeta",
+          "url": "https://packrift.github.io/.well-known/host-meta"
+        },
+        {
+          "type": "HostMetaJson",
+          "url": "https://packrift.github.io/.well-known/host-meta.json"
         },
         {
           "type": "AgentManifest",

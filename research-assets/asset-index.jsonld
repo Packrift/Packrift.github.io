@@ -21,8 +21,12 @@
         {"@type": "DataDownload", "encodingFormat": "application/x-ndjson", "contentUrl": "https://packrift.github.io/data/unit-signals.jsonl"},
         {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://packrift.github.io/apis.json"},
         {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://packrift.github.io/.well-known/apis.json"},
+        {"@type": "DataDownload", "encodingFormat": "application/yaml", "contentUrl": "https://packrift.github.io/openapi.yaml"},
+        {"@type": "DataDownload", "encodingFormat": "application/yaml", "contentUrl": "https://packrift.github.io/.well-known/openapi.yaml"},
         {"@type": "DataDownload", "encodingFormat": "application/linkset+json", "contentUrl": "https://packrift.github.io/.well-known/api-catalog"},
-        {"@type": "DataDownload", "encodingFormat": "application/linkset+json", "contentUrl": "https://packrift.github.io/.well-known/api-catalog.json"}
+        {"@type": "DataDownload", "encodingFormat": "application/linkset+json", "contentUrl": "https://packrift.github.io/.well-known/api-catalog.json"},
+        {"@type": "DataDownload", "encodingFormat": "application/xrd+xml", "contentUrl": "https://packrift.github.io/.well-known/host-meta"},
+        {"@type": "DataDownload", "encodingFormat": "application/jrd+json", "contentUrl": "https://packrift.github.io/.well-known/host-meta.json"}
       ]
     },
     {

@@ -1,0 +1,80 @@
+{
+  "subject": "https://packrift.github.io/",
+  "aliases": [
+    "https://packrift.com/"
+  ],
+  "links": [
+    {
+      "rel": "service-desc",
+      "type": "application/openapi+json",
+      "href": "https://packrift.github.io/openapi.json",
+      "titles": {
+        "en": "Packrift GitHub Pages Resource Corpus OpenAPI JSON"
+      }
+    },
+    {
+      "rel": "service-desc",
+      "type": "application/yaml",
+      "href": "https://packrift.github.io/openapi.yaml",
+      "titles": {
+        "en": "Packrift GitHub Pages Resource Corpus OpenAPI YAML"
+      }
+    },
+    {
+      "rel": "service-desc",
+      "type": "application/json",
+      "href": "https://packrift.github.io/apis.json",
+      "titles": {
+        "en": "Packrift Public API and Data Catalog"
+      }
+    },
+    {
+      "rel": "service-desc",
+      "type": "application/linkset+json",
+      "href": "https://packrift.github.io/.well-known/api-catalog",
+      "titles": {
+        "en": "Packrift Agent-Native API Catalog Linkset"
+      }
+    },
+    {
+      "rel": "service-doc",
+      "type": "text/html",
+      "href": "https://packrift.github.io/api-directory/",
+      "titles": {
+        "en": "Packrift API Directory and Data Catalog"
+      }
+    },
+    {
+      "rel": "service-doc",
+      "type": "text/plain",
+      "href": "https://packrift.github.io/llms-full.txt",
+      "titles": {
+        "en": "Packrift GitHub Pages Full Agent Context"
+      }
+    },
+    {
+      "rel": "describedby",
+      "type": "application/json",
+      "href": "https://packrift.github.io/research-assets/asset-index.json",
+      "titles": {
+        "en": "Packrift Public Research Asset Index"
+      }
+    },
+    {
+      "rel": "describedby",
+      "type": "application/json",
+      "href": "https://packrift.github.io/ro-crate-metadata.json",
+      "titles": {
+        "en": "Packrift RO-Crate Metadata"
+      }
+    },
+    {
+      "rel": "describedby",
+      "type": "application/ld+json",
+      "href": "https://packrift.github.io/dcat.jsonld",
+      "titles": {
+        "en": "Packrift DCAT Metadata"
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XRD xmlns="http://docs.oasis-open.org/ns/xri/xrd-1.0">
+  <Subject>https://packrift.github.io/</Subject>
+  <Alias>https://packrift.com/</Alias>
+  <Link rel="service-desc" type="application/openapi+json" href="https://packrift.github.io/openapi.json">
+    <Title>Packrift GitHub Pages Resource Corpus OpenAPI JSON</Title>
+  </Link>
+  <Link rel="service-desc" type="application/yaml" href="https://packrift.github.io/openapi.yaml">
+    <Title>Packrift GitHub Pages Resource Corpus OpenAPI YAML</Title>
+  </Link>
+  <Link rel="service-desc" type="application/json" href="https://packrift.github.io/apis.json">
+    <Title>Packrift Public API and Data Catalog</Title>
+  </Link>
+  <Link rel="service-desc" type="application/linkset+json" href="https://packrift.github.io/.well-known/api-catalog">
+    <Title>Packrift Agent-Native API Catalog Linkset</Title>
+  </Link>
+  <Link rel="service-doc" type="text/html" href="https://packrift.github.io/api-directory/">
+    <Title>Packrift API Directory and Data Catalog</Title>
+  </Link>
+  <Link rel="service-doc" type="text/plain" href="https://packrift.github.io/llms-full.txt">
+    <Title>Packrift GitHub Pages Full Agent Context</Title>
+  </Link>
+  <Link rel="describedby" type="application/json" href="https://packrift.github.io/research-assets/asset-index.json">
+    <Title>Packrift Public Research Asset Index</Title>
+  </Link>
+  <Link rel="describedby" type="application/json" href="https://packrift.github.io/ro-crate-metadata.json">
+    <Title>Packrift RO-Crate Metadata</Title>
+  </Link>
+  <Link rel="describedby" type="application/ld+json" href="https://packrift.github.io/dcat.jsonld">
+    <Title>Packrift DCAT Metadata</Title>
+  </Link>
+</XRD>

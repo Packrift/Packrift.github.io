@@ -41,7 +41,10 @@ code { background:#eef4ef; border:1px solid var(--line); border-radius:4px; padd
     {"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://packrift.github.io/apis.json"},
     {"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://packrift.github.io/.well-known/apis.json"},
     {"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://mcp.packrift.com/openapi.json"},
-    {"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://packrift.github.io/openapi.json"}
+    {"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://packrift.github.io/openapi.json"},
+    {"@type":"DataDownload","encodingFormat":"application/yaml","contentUrl":"https://packrift.github.io/openapi.yaml"},
+    {"@type":"DataDownload","encodingFormat":"application/xrd+xml","contentUrl":"https://packrift.github.io/.well-known/host-meta"},
+    {"@type":"DataDownload","encodingFormat":"application/jrd+json","contentUrl":"https://packrift.github.io/.well-known/host-meta.json"}
   ]
 }</script>
 </head>
@@ -69,7 +72,12 @@ code { background:#eef4ef; border:1px solid var(--line); border-radius:4px; padd
 <article class="card">
 <h3><a href="/openapi.json">Static Resource Corpus OpenAPI</a></h3>
 <p>No-auth OpenAPI descriptor for the static GitHub Pages packaging resource corpus and data sidecars.</p>
-<div class="links"><a href="/openapi.json">openapi</a><a href="/.well-known/openapi.json">well-known openapi</a><a href="/llms-full.txt">llms-full</a></div>
+<div class="links"><a href="/openapi.json">openapi json</a><a href="/openapi.yaml">openapi yaml</a><a href="/.well-known/openapi.json">well-known json</a><a href="/.well-known/openapi.yaml">well-known yaml</a><a href="/llms-full.txt">llms-full</a></div>
+</article>
+<article class="card">
+<h3><a href="/.well-known/host-meta">Host Metadata</a></h3>
+<p>XRD and JSON Resource Descriptor discovery files that cross-link Packrift OpenAPI, APIs.json, API catalog, llms, RO-Crate, DCAT, and research asset routes.</p>
+<div class="links"><a href="/.well-known/host-meta">host-meta xrd</a><a href="/.well-known/host-meta.json">host-meta json</a><a href="/.well-known/api-catalog">api catalog</a></div>
 </article>
 </section>
 
