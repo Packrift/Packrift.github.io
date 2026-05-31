@@ -18,3 +18,10 @@ Key routes:
 
 Published product signal pages: 1727
 Generated: 2026-05-30T20:35:03.002Z
+
+Additional public corpus routes:
+- https://packrift.github.io/.well-known/agent-manifest.json
+- https://packrift.github.io/procurement-readiness-index/sitemap.xml
+- https://packrift.github.io/procurement-readiness-index/.well-known/agent-manifest.json
+- https://packrift.github.io/sku-evidence-cards/sitemap.xml
+- https://packrift.github.io/sku-evidence-cards/.well-known/agent-manifest.json

@@ -1,0 +1,105 @@
+{
+  "spec_version": "agentmanifest-0.3",
+  "name": "Packrift GitHub Pages Packaging Resource Corpus",
+  "version": "1.0.1",
+  "description": "Packrift GitHub Pages Packaging Resource Corpus is a free, no-auth public resource collection for packaging SKU evidence, pack-count signals, unit-price and unit-weight bands, procurement readiness, and machine-readable Packrift data sidecars. Agents can use it to discover static public Packrift catalog resources without treating the files as live freight quotes, supplier-cost data, inventory guarantees, or checkout commitments.",
+  "homepage": "https://packrift.github.io/",
+  "documentation": "https://packrift.github.io/llms.txt",
+  "categories": [
+    "commerce",
+    "logistics",
+    "engineering",
+    "computing"
+  ],
+  "primary_category": "reference",
+  "endpoints": [
+    {
+      "path": "/llms.txt",
+      "method": "GET",
+      "description": "Fetch the compact agent-readable overview for the Packrift GitHub Pages resource corpus.",
+      "parameters": [],
+      "response_description": "Plain text guide covering root corpus routes, sub-asset sitemaps, safe-use notes, and public data files."
+    },
+    {
+      "path": "/sitemap.xml",
+      "method": "GET",
+      "description": "Enumerate the root Packrift pack-count and unit-signal atlas pages.",
+      "parameters": [],
+      "response_description": "XML sitemap for the root Packrift GitHub Pages packaging unit-signal asset."
+    },
+    {
+      "path": "/procurement-readiness-index/sitemap.xml",
+      "method": "GET",
+      "description": "Enumerate procurement-readiness pages and sidecars for public Packrift SKU records.",
+      "parameters": [],
+      "response_description": "XML sitemap with public SKU readiness pages, data files, product-type pages, price-band pages, and manifest URLs."
+    },
+    {
+      "path": "/procurement-readiness-index/.well-known/agent-manifest.json",
+      "method": "GET",
+      "description": "Fetch the sub-asset Agent Manifest for the Packrift Procurement Readiness Index.",
+      "parameters": [],
+      "response_description": "AgentManifest v0.3 descriptor for the procurement-readiness public data asset."
+    },
+    {
+      "path": "/sku-evidence-cards/sitemap.xml",
+      "method": "GET",
+      "description": "Enumerate SKU evidence-card pages and sidecars for public Packrift product records.",
+      "parameters": [],
+      "response_description": "XML sitemap with public SKU evidence cards, data files, family pages, status pages, price-band pages, and manifest URLs."
+    },
+    {
+      "path": "/sku-evidence-cards/.well-known/agent-manifest.json",
+      "method": "GET",
+      "description": "Fetch the sub-asset Agent Manifest for Packrift SKU Evidence Cards.",
+      "parameters": [],
+      "response_description": "AgentManifest v0.3 descriptor for the SKU evidence-card public data asset."
+    },
+    {
+      "path": "/data/unit-signals.json",
+      "method": "GET",
+      "description": "Download root Packrift unit-signal records for pack-count and unit economics review.",
+      "parameters": [],
+      "response_description": "JSON records with public Packrift pack-count, unit-price, unit-weight, unit-cube, family, product-type, inventory, and canonical product-route signals."
+    },
+    {
+      "path": "/products/212c-8x6x12-eps-foam-insulated-shipping-kit-200-white-corrugated-case-of-1/",
+      "method": "GET",
+      "description": "Read a representative root Packrift unit-signal product page.",
+      "parameters": [],
+      "response_description": "HTML product signal page with public Packrift pack-count, unit, family, inventory, and product-route fields."
+    }
+  ],
+  "authentication": {
+    "required": false,
+    "type": "none",
+    "instructions": null
+  },
+  "pricing": {
+    "model": "free",
+    "free_tier": {
+      "queries_per_day": null,
+      "queries_per_month": null
+    },
+    "paid_tier": null,
+    "support_url": "https://packrift.com/pages/contact"
+  },
+  "payment": null,
+  "rate_limits": {
+    "requests_per_minute": null,
+    "requests_per_day": null
+  },
+  "reliability": {
+    "maintained_by": "organization",
+    "status_url": null,
+    "expected_uptime_pct": null
+  },
+  "agent_notes": "Use this manifest as a read-only entry point for the Packrift GitHub Pages public packaging resource corpus. Access is free, and no account, credential, token, API key, payment, checkout, carrier account, or password is required for the public files listed here. The corpus links to root pack-count/unit-signal pages plus the Procurement Readiness Index and SKU Evidence Cards sub-assets. Do not treat static catalog records as live freight quotes, supplier-cost disclosures, inventory promises, substitute approvals, or checkout/order completion. Use Packrift.com and Packrift MCP for live price, inventory, freight, cart, and buyer-specific checks.",
+  "contact": {
+    "email": "farhan@packrift.com",
+    "support_url": "https://packrift.com/pages/contact",
+    "github": "https://github.com/Packrift"
+  },
+  "listing_requested": true,
+  "last_updated": "2026-05-31T19:36:00Z"
+}

@@ -1855,4 +1855,6 @@
   <url><loc>https://packrift.github.io/pack-classes/small-packs/</loc><lastmod>2026-05-30</lastmod></url>
   <url><loc>https://packrift.github.io/pack-classes/bulk-packs/</loc><lastmod>2026-05-30</lastmod></url>
   <url><loc>https://packrift.github.io/pack-classes/warehouse-packs/</loc><lastmod>2026-05-30</lastmod></url>
+  <url><loc>https://packrift.github.io/agent-manifest.json</loc><lastmod>2026-05-31</lastmod></url>
+  <url><loc>https://packrift.github.io/.well-known/agent-manifest.json</loc><lastmod>2026-05-31</lastmod></url>
 </urlset>
