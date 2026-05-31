@@ -1,0 +1,267 @@
+{
+  "name": "Packrift Public API and Data Catalog",
+  "description": "Standards-shaped discovery catalog for Packrift public API descriptors, static packaging research assets, dataset sidecars, and safe-use boundaries.",
+  "image": "https://packrift.github.io/favicon.svg",
+  "url": "https://packrift.github.io/apis.json",
+  "created": "2026-05-31",
+  "modified": "2026-05-31",
+  "specificationVersion": "0.16",
+  "maintainers": [
+    {
+      "FN": "Packrift LLC",
+      "email": "farhan@packrift.com"
+    }
+  ],
+  "tags": [
+    "packaging",
+    "commerce",
+    "mcp",
+    "openapi",
+    "datasets",
+    "procurement"
+  ],
+  "apis": [
+    {
+      "name": "Packrift MCP Discovery Adapter",
+      "description": "Public Packrift MCP discovery adapter for packaging catalog search, product lookup, cart handoff, and agent-commerce integration. Use live Packrift.com and MCP endpoints for current price, inventory, freight, cart, and buyer-specific workflows.",
+      "image": "https://packrift.com/favicon.ico",
+      "humanURL": "https://mcp.packrift.com/",
+      "baseURL": "https://mcp.packrift.com",
+      "tags": [
+        "mcp",
+        "packaging",
+        "commerce",
+        "agent-commerce"
+      ],
+      "properties": [
+        {
+          "type": "OpenAPI",
+          "url": "https://mcp.packrift.com/openapi.json"
+        },
+        {
+          "type": "MCP",
+          "url": "https://mcp.packrift.com/mcp"
+        },
+        {
+          "type": "LLMs",
+          "url": "https://mcp.packrift.com/llms.txt"
+        },
+        {
+          "type": "LLMsFull",
+          "url": "https://mcp.packrift.com/llms-full.txt"
+        },
+        {
+          "type": "Robots",
+          "url": "https://mcp.packrift.com/robots.txt"
+        },
+        {
+          "type": "Sitemap",
+          "url": "https://mcp.packrift.com/sitemap.xml"
+        }
+      ]
+    },
+    {
+      "name": "Packrift GitHub Pages Packaging Resource Corpus",
+      "description": "No-auth static Packrift resource corpus for pack-count signals, unit-price and unit-weight review, procurement readiness, SKU evidence cards, research asset discovery, and machine-readable dataset sidecars.",
+      "image": "https://packrift.github.io/favicon.svg",
+      "humanURL": "https://packrift.github.io/",
+      "baseURL": "https://packrift.github.io",
+      "tags": [
+        "packaging",
+        "datasets",
+        "openapi",
+        "procurement",
+        "research"
+      ],
+      "properties": [
+        {
+          "type": "OpenAPI",
+          "url": "https://packrift.github.io/openapi.json"
+        },
+        {
+          "type": "APIs.json",
+          "url": "https://packrift.github.io/apis.json"
+        },
+        {
+          "type": "WellKnownAPIsJson",
+          "url": "https://packrift.github.io/.well-known/apis.json"
+        },
+        {
+          "type": "HumanAPIIndex",
+          "url": "https://packrift.github.io/api-directory/"
+        },
+        {
+          "type": "AgentManifest",
+          "url": "https://packrift.github.io/.well-known/agent-manifest.json"
+        },
+        {
+          "type": "LLMs",
+          "url": "https://packrift.github.io/llms.txt"
+        },
+        {
+          "type": "LLMsFull",
+          "url": "https://packrift.github.io/llms-full.txt"
+        },
+        {
+          "type": "Sitemap",
+          "url": "https://packrift.github.io/sitemap.xml"
+        },
+        {
+          "type": "ResearchAssetIndex",
+          "url": "https://packrift.github.io/research-assets/asset-index.json"
+        },
+        {
+          "type": "ROCrate",
+          "url": "https://packrift.github.io/ro-crate-metadata.json"
+        },
+        {
+          "type": "DCAT",
+          "url": "https://packrift.github.io/dcat.jsonld"
+        },
+        {
+          "type": "DataPackage",
+          "url": "https://packrift.github.io/datapackage.json"
+        }
+      ]
+    },
+    {
+      "name": "Packrift Benchmark Navigator and Packingsolver Fixtures",
+      "description": "Packrift-derived benchmark scenarios, source-to-packingsolver field mapping, solver input files, and publication-ready fixture package for packaging and optimization maintainers.",
+      "image": "https://packrift-benchmark-navigator.vercel.app/favicon.svg",
+      "humanURL": "https://packrift-benchmark-navigator.vercel.app/",
+      "baseURL": "https://packrift-benchmark-navigator.vercel.app",
+      "tags": [
+        "benchmark",
+        "optimization",
+        "packaging",
+        "datasets"
+      ],
+      "properties": [
+        {
+          "type": "OpenAPI",
+          "url": "https://packrift-benchmark-navigator.vercel.app/openapi.json"
+        },
+        {
+          "type": "LLMs",
+          "url": "https://packrift-benchmark-navigator.vercel.app/llms.txt"
+        },
+        {
+          "type": "LLMsFull",
+          "url": "https://packrift-benchmark-navigator.vercel.app/llms-full.txt"
+        },
+        {
+          "type": "Sitemap",
+          "url": "https://packrift-benchmark-navigator.vercel.app/sitemap.xml"
+        },
+        {
+          "type": "PublicationKit",
+          "url": "https://packrift-benchmark-navigator.vercel.app/packingsolver-fixture-publication-kit.html"
+        }
+      ]
+    },
+    {
+      "name": "Packrift Dimensional Weight Atlas",
+      "description": "Static dimensional-weight and parcel-review corpus from public Packrift records for packaging research, product review, and AI grounding.",
+      "humanURL": "https://packrift-dimensional-weight-atlas.vercel.app/",
+      "baseURL": "https://packrift-dimensional-weight-atlas.vercel.app",
+      "tags": [
+        "dimensional-weight",
+        "packaging",
+        "datasets"
+      ],
+      "properties": [
+        {
+          "type": "OpenAPI",
+          "url": "https://packrift-dimensional-weight-atlas.vercel.app/openapi.json"
+        },
+        {
+          "type": "LLMs",
+          "url": "https://packrift-dimensional-weight-atlas.vercel.app/llms.txt"
+        },
+        {
+          "type": "Sitemap",
+          "url": "https://packrift-dimensional-weight-atlas.vercel.app/sitemap.xml"
+        }
+      ]
+    },
+    {
+      "name": "Packrift SKU Fit and Substitution Matrix",
+      "description": "Public fit and substitution review matrix with evidence fields and explicit non-approval boundaries.",
+      "humanURL": "https://packrift-fit-substitution-matrix.vercel.app/",
+      "baseURL": "https://packrift-fit-substitution-matrix.vercel.app",
+      "tags": [
+        "packaging",
+        "fit",
+        "substitution",
+        "datasets"
+      ],
+      "properties": [
+        {
+          "type": "OpenAPI",
+          "url": "https://packrift-fit-substitution-matrix.vercel.app/openapi.json"
+        },
+        {
+          "type": "LLMs",
+          "url": "https://packrift-fit-substitution-matrix.vercel.app/llms.txt"
+        },
+        {
+          "type": "Sitemap",
+          "url": "https://packrift-fit-substitution-matrix.vercel.app/sitemap.xml"
+        }
+      ]
+    },
+    {
+      "name": "Packrift Operations Resource Graph",
+      "description": "Public Packrift operations resource graph with catalog-resource relationships, structured metadata, API descriptors, and standards-oriented dataset sidecars.",
+      "humanURL": "https://packrift-operations-resource-graph.vercel.app/",
+      "baseURL": "https://packrift-operations-resource-graph.vercel.app",
+      "tags": [
+        "packaging",
+        "operations",
+        "data-graph",
+        "datasets"
+      ],
+      "properties": [
+        {
+          "type": "OpenAPI",
+          "url": "https://packrift-operations-resource-graph.vercel.app/openapi.json"
+        },
+        {
+          "type": "OpenAPIYaml",
+          "url": "https://packrift-operations-resource-graph.vercel.app/openapi.yaml"
+        },
+        {
+          "type": "LLMs",
+          "url": "https://packrift-operations-resource-graph.vercel.app/llms.txt"
+        },
+        {
+          "type": "Sitemap",
+          "url": "https://packrift-operations-resource-graph.vercel.app/sitemap.xml"
+        },
+        {
+          "type": "ROCrate",
+          "url": "https://packrift-operations-resource-graph.vercel.app/ro-crate-metadata.json"
+        }
+      ]
+    }
+  ],
+  "x-packrift-boundaries": {
+    "safe_use": [
+      "static public discovery",
+      "API-directory ingestion",
+      "dataset review",
+      "maintainer context",
+      "AI-agent grounding for public Packrift assets"
+    ],
+    "not_for": [
+      "freight quote",
+      "supplier-cost file",
+      "substitute approval",
+      "live inventory promise",
+      "margin model",
+      "checkout commitment",
+      "current-order guarantee"
+    ],
+    "live_commerce": "Use Packrift.com and https://mcp.packrift.com/mcp for live price, inventory, shipping, cart, and buyer-specific checks."
+  }
+}

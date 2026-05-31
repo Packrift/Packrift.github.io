@@ -40,6 +40,9 @@
       ],
       "metadata": [
         "https://packrift.github.io/openapi.json",
+        "https://packrift.github.io/apis.json",
+        "https://packrift.github.io/.well-known/apis.json",
+        "https://packrift.github.io/api-directory/",
         "https://packrift.github.io/datapackage.json",
         "https://packrift.github.io/dcat.jsonld",
         "https://packrift.github.io/datacite.json",

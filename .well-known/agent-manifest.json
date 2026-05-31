@@ -1,7 +1,7 @@
 {
   "spec_version": "agentmanifest-0.3",
   "name": "Packrift GitHub Pages Packaging Resource Corpus",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Packrift GitHub Pages Packaging Resource Corpus is a free, no-auth public resource collection for packaging SKU evidence, pack-count signals, unit-price and unit-weight bands, procurement readiness, public research asset discovery, and machine-readable Packrift data sidecars. Agents can use it to discover static public Packrift catalog resources without treating the files as live freight quotes, supplier-cost data, inventory guarantees, substitute approvals, or checkout commitments.",
   "homepage": "https://packrift.github.io/",
   "documentation": "https://packrift.github.io/llms-full.txt",
@@ -47,6 +47,27 @@
       "description": "Download the schema.org DataCatalog view of the Packrift public research asset index.",
       "parameters": [],
       "response_description": "JSON-LD DataCatalog linking Packrift public datasets and data downloads."
+    },
+    {
+      "path": "/apis.json",
+      "method": "GET",
+      "description": "Download the root APIs.json catalog for Packrift public API descriptors, MCP endpoints, dataset sidecars, and research assets.",
+      "parameters": [],
+      "response_description": "APIs.json catalog with Packrift MCP, OpenAPI, static resource corpus, benchmark, dimensional-weight, fit-matrix, and operations graph descriptors."
+    },
+    {
+      "path": "/.well-known/apis.json",
+      "method": "GET",
+      "description": "Download the well-known mirror of the Packrift public APIs.json catalog.",
+      "parameters": [],
+      "response_description": "APIs.json catalog mirror for API directory and agent-discovery crawlers that inspect .well-known routes."
+    },
+    {
+      "path": "/api-directory/",
+      "method": "GET",
+      "description": "Read the human-facing Packrift API directory and data catalog.",
+      "parameters": [],
+      "response_description": "HTML index for Packrift public OpenAPI, MCP, APIs.json, dataset, research, and agent-discovery endpoints."
     },
     {
       "path": "/sitemap.xml",
@@ -129,5 +150,5 @@
     "github": "https://github.com/Packrift"
   },
   "listing_requested": true,
-  "last_updated": "2026-05-31T21:30:00Z"
+  "last_updated": "2026-05-31T22:08:00Z"
 }

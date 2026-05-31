@@ -19,6 +19,9 @@ Key routes:
 - https://packrift.github.io/data/unit-signals.csv
 - https://packrift.github.io/data/schema.json
 - https://packrift.github.io/openapi.json
+- https://packrift.github.io/apis.json
+- https://packrift.github.io/.well-known/apis.json
+- https://packrift.github.io/api-directory/
 - https://packrift.github.io/ro-crate-metadata.json
 
 Published product signal pages: 1727

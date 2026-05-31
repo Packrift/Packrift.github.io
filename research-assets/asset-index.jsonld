@@ -18,7 +18,9 @@
       "distribution": [
         {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://packrift.github.io/data/unit-signals.csv"},
         {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://packrift.github.io/data/unit-signals.json"},
-        {"@type": "DataDownload", "encodingFormat": "application/x-ndjson", "contentUrl": "https://packrift.github.io/data/unit-signals.jsonl"}
+        {"@type": "DataDownload", "encodingFormat": "application/x-ndjson", "contentUrl": "https://packrift.github.io/data/unit-signals.jsonl"},
+        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://packrift.github.io/apis.json"},
+        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://packrift.github.io/.well-known/apis.json"}
       ]
     },
     {
