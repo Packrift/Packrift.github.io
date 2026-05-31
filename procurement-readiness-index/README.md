@@ -1,6 +1,6 @@
 # Packrift Procurement Readiness Index
 
-Generated 2026-05-31T19:25:00.101Z from /Users/farhan/Downloads/packrift-mc-analysis/products.json.
+Generated 2026-05-31T19:33:09.780Z from Packrift Merchant Center product export snapshot.
 
 Public target: https://packrift.github.io/procurement-readiness-index/
 

@@ -5,4 +5,4 @@ Public static Packrift SKU evidence cards generated from real Packrift product d
 - Site: https://packrift.github.io/sku-evidence-cards/
 - Sitemap URLs: 1236
 - SKU cards: 1200
-- Generated: 2026-05-31T19:25:00.103Z
+- Generated: 2026-05-31T19:33:09.836Z

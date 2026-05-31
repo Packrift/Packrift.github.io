@@ -4,7 +4,7 @@
   "title": "Packrift Procurement Readiness Index",
   "description": "A public Packrift catalog-derived readiness index for packaging procurement agents and B2B buyers. It summarizes product availability, GTIN presence, public product URLs, shipping weight, price bands, and product-type coverage.",
   "homepage": "https://packrift.github.io/procurement-readiness-index",
-  "created": "2026-05-31T19:25:00.101Z",
+  "created": "2026-05-31T19:33:09.780Z",
   "resources": [
     {
       "name": "readiness-index",

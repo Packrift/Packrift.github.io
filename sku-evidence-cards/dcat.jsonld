@@ -3,16 +3,16 @@
   "@type": "dcat:Dataset",
   "dct:title": "Packrift SKU Evidence Cards",
   "dct:description": "Public Packrift SKU evidence cards and data files.",
-  "dcat:landingPage": "https://packrift-sku-evidence-cards.vercel.app",
+  "dcat:landingPage": "https://packrift.github.io/sku-evidence-cards",
   "dcat:distribution": [
     {
       "@type": "dcat:Distribution",
-      "dcat:downloadURL": "https://packrift-sku-evidence-cards.vercel.app/data/products.csv",
+      "dcat:downloadURL": "https://packrift.github.io/sku-evidence-cards/data/products.csv",
       "dct:format": "text/csv"
     },
     {
       "@type": "dcat:Distribution",
-      "dcat:downloadURL": "https://packrift-sku-evidence-cards.vercel.app/data/products.json",
+      "dcat:downloadURL": "https://packrift.github.io/sku-evidence-cards/data/products.json",
       "dct:format": "application/json"
     }
   ]

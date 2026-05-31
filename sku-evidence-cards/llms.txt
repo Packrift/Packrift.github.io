@@ -14,4 +14,4 @@ Key routes:
 - https://packrift.github.io/sku-evidence-cards/.well-known/agent-manifest.json
 
 Published cards: 1200
-Generated: 2026-05-31T19:25:00.103Z
+Generated: 2026-05-31T19:33:09.836Z
