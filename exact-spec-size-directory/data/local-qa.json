@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-06-01T23:51:43Z",
+  "checks": [
+    {
+      "name": "sitemap_count",
+      "ok": true,
+      "detail": {
+        "sitemap": 5052,
+        "expected": 5052
+      }
+    },
+    {
+      "name": "json_record_count",
+      "ok": true,
+      "detail": 2493
+    },
+    {
+      "name": "stats_json_parse",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
+      "name": "root_contains_packrift",
+      "ok": true,
+      "detail": "ok"
+    },
+    {
+      "name": "no_forbidden_private_patterns",
+      "ok": true,
+      "detail": []
+    }
+  ],
+  "ok": true
+}

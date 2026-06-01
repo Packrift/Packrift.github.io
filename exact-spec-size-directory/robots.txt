@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://packrift.github.io/exact-spec-size-directory/sitemap.xml

@@ -1,0 +1,21 @@
+# Packrift Exact-Spec Size Directory
+
+A public Packrift exact-spec directory built from staged exact-spec child-page candidates and approved in-stock catalog evidence, with one crawlable record per page-grade SKU/spec candidate.
+
+Canonical URL: https://packrift.github.io/exact-spec-size-directory/
+Sitemap: https://packrift.github.io/exact-spec-size-directory/sitemap.xml
+JSON dataset: https://packrift.github.io/exact-spec-size-directory/data/exact-spec-size-directory.json
+CSV dataset: https://packrift.github.io/exact-spec-size-directory/data/exact-spec-size-directory.csv
+Methodology: https://packrift.github.io/exact-spec-size-directory/methodology/
+
+Boundary: staged exact-spec candidate handles are included for traceability but are not claimed live on packrift.com. Related SKUs are buyer-review aids, not fit guarantees or substitute approvals. No supplier cost, Packrift margin, customer/order/cart/payment data, private freight data, secrets, paid links, or outreach dependency.
+
+{
+  "records": 2493,
+  "hubs": 6,
+  "families": 6,
+  "product_types": 15,
+  "size_bands": 8,
+  "inventory_bands": 3,
+  "sitemap_urls": 5052
+}

@@ -1,0 +1,14 @@
+{
+  "@context": "https://www.w3.org/ns/dcat.jsonld",
+  "@type": "Dataset",
+  "title": "Packrift Exact-Spec Size Directory",
+  "description": "A public Packrift exact-spec directory built from staged exact-spec child-page candidates and approved in-stock catalog evidence, with one crawlable record per page-grade SKU/spec candidate.",
+  "landingPage": "https://packrift.github.io/exact-spec-size-directory/",
+  "distribution": [
+    {
+      "@type": "Distribution",
+      "downloadURL": "https://packrift.github.io/exact-spec-size-directory/data/exact-spec-size-directory.csv",
+      "mediaType": "text/csv"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Packrift Exact-Spec Size Directory",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "primary_sku",
+      "staged_candidate_handle",
+      "packrift_product_url",
+      "directory_record_url",
+      "source_row_hash"
+    ],
+    "properties": {
+      "primary_sku": {
+        "type": "string"
+      },
+      "staged_candidate_handle": {
+        "type": "string"
+      },
+      "packrift_product_url": {
+        "type": "string"
+      },
+      "directory_record_url": {
+        "type": "string"
+      },
+      "source_row_hash": {
+        "type": "string"
+      }
+    }
+  }
+}

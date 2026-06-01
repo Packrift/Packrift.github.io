@@ -1,0 +1,7 @@
+field,description
+primary_sku,Packrift primary SKU from the exact-spec source manifest
+staged_candidate_handle,Staged exact-spec candidate page handle; not claimed live by this corpus
+packrift_product_url,Public Packrift product URL for the primary SKU
+directory_record_url,Canonical URL in this public GitHub Pages corpus
+source_row_hash,Public catalog-control source row hash for traceability
+record_hash,Release-specific public record hash

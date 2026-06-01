@@ -1,0 +1,305 @@
+{
+  "generated_at": "2026-06-01T23:51:43Z",
+  "site": "https://packrift.github.io/exact-spec-size-directory",
+  "source_manifest": "/Users/farhan/Downloads/packrift-ai-commerce-execution-2026-05-04/ai-catalog-control/exact-spec-child-pages/manifest-2026-05-06.json",
+  "source_graph": "/Users/farhan/Downloads/packrift-ai-commerce-factory/control/product_spec_graph_current.csv",
+  "records": 2493,
+  "hubs": {
+    "box-sizes-by-dimension": 391,
+    "label-sizes-by-spec": 341,
+    "mailer-sizes-by-dimension": 688,
+    "poly-bag-sizes-by-mil-and-dimension": 678,
+    "stretch-film-by-width-gauge-and-core": 34,
+    "tape-sizes-by-width-length-and-adhesive": 361
+  },
+  "families": {
+    "boxes": 391,
+    "labels": 341,
+    "mailers": 689,
+    "poly-bags": 678,
+    "stretch-film": 34,
+    "tape": 360
+  },
+  "product_types": {
+    "boxes-corrugated": 324,
+    "chipboard-cartons": 57,
+    "bubble-foam-and-cushioning": 42,
+    "cable-ties": 2,
+    "labels": 331,
+    "tags": 3,
+    "bags-poly": 635,
+    "tape": 342,
+    "envelopes-and-mailers": 185,
+    "boxes-mailers": 388,
+    "mailing-tubes": 127,
+    "shrink-film": 4,
+    "papers-newsprint-and-tissue": 12,
+    "stretch-film": 33,
+    "adhesives-and-glue": 8
+  },
+  "size_bands": {
+    "8-to-11-in": 186,
+    "12-to-17-in": 279,
+    "24-to-35-in": 107,
+    "36-plus-in": 80,
+    "18-to-23-in": 113,
+    "4-to-7-in": 115,
+    "size-unlisted": 1601,
+    "under-4-in": 12
+  },
+  "inventory_bands": {
+    "500-plus": 491,
+    "100-to-499": 2001,
+    "25-to-99": 1
+  },
+  "dimensioned_records": 892,
+  "sitemap_urls": 5052,
+  "groups": {
+    "hubs": {
+      "mailer-sizes-by-dimension": {
+        "count": 688,
+        "median_price": 63.39,
+        "median_volume_cu_in": 288.0,
+        "dimensioned_count": 416
+      },
+      "poly-bag-sizes-by-mil-and-dimension": {
+        "count": 678,
+        "median_price": 71.28999999999999,
+        "median_volume_cu_in": 480.0,
+        "dimensioned_count": 103
+      },
+      "box-sizes-by-dimension": {
+        "count": 391,
+        "median_price": 45.65,
+        "median_volume_cu_in": 1363.875,
+        "dimensioned_count": 366
+      },
+      "tape-sizes-by-width-length-and-adhesive": {
+        "count": 361,
+        "median_price": 76.85,
+        "median_volume_cu_in": 117.7734375,
+        "dimensioned_count": 7
+      },
+      "label-sizes-by-spec": {
+        "count": 341,
+        "median_price": 24.67,
+        "median_volume_cu_in": null,
+        "dimensioned_count": 0
+      },
+      "stretch-film-by-width-gauge-and-core": {
+        "count": 34,
+        "median_price": 90.125,
+        "median_volume_cu_in": null,
+        "dimensioned_count": 0
+      }
+    },
+    "families": {
+      "mailers": {
+        "count": 689,
+        "median_price": 63.39,
+        "median_volume_cu_in": 288.0,
+        "dimensioned_count": 417
+      },
+      "poly-bags": {
+        "count": 678,
+        "median_price": 71.28999999999999,
+        "median_volume_cu_in": 480.0,
+        "dimensioned_count": 103
+      },
+      "boxes": {
+        "count": 391,
+        "median_price": 45.65,
+        "median_volume_cu_in": 1363.875,
+        "dimensioned_count": 366
+      },
+      "tape": {
+        "count": 360,
+        "median_price": 76.85,
+        "median_volume_cu_in": 166.88671875,
+        "dimensioned_count": 6
+      },
+      "labels": {
+        "count": 341,
+        "median_price": 24.67,
+        "median_volume_cu_in": null,
+        "dimensioned_count": 0
+      },
+      "stretch-film": {
+        "count": 34,
+        "median_price": 90.125,
+        "median_volume_cu_in": null,
+        "dimensioned_count": 0
+      }
+    },
+    "product_types": {
+      "bags-poly": {
+        "count": 635,
+        "median_price": 68.25,
+        "median_volume_cu_in": 1600.0,
+        "dimensioned_count": 81
+      },
+      "boxes-mailers": {
+        "count": 388,
+        "median_price": 67.65,
+        "median_volume_cu_in": 286.1015625,
+        "dimensioned_count": 378
+      },
+      "tape": {
+        "count": 342,
+        "median_price": 81.52,
+        "median_volume_cu_in": null,
+        "dimensioned_count": 0
+      },
+      "labels": {
+        "count": 331,
+        "median_price": 24.67,
+        "median_volume_cu_in": null,
+        "dimensioned_count": 0
+      },
+      "boxes-corrugated": {
+        "count": 324,
+        "median_price": 39.39,
+        "median_volume_cu_in": 2060.0,
+        "dimensioned_count": 304
+      },
+      "envelopes-and-mailers": {
+        "count": 185,
+        "median_price": 57.49,
+        "median_volume_cu_in": 300.0,
+        "dimensioned_count": 41
+      },
+      "mailing-tubes": {
+        "count": 127,
+        "median_price": 61.03,
+        "median_volume_cu_in": null,
+        "dimensioned_count": 0
+      },
+      "chipboard-cartons": {
+        "count": 57,
+        "median_price": 118.31,
+        "median_volume_cu_in": 105.125,
+        "dimensioned_count": 53
+      },
+      "bubble-foam-and-cushioning": {
+        "count": 42,
+        "median_price": 104.91499999999999,
+        "median_volume_cu_in": 45.046875,
+        "dimensioned_count": 32
+      },
+      "stretch-film": {
+        "count": 33,
+        "median_price": 89.93,
+        "median_volume_cu_in": null,
+        "dimensioned_count": 0
+      },
+      "papers-newsprint-and-tissue": {
+        "count": 12,
+        "median_price": 145.5,
+        "median_volume_cu_in": 123041.0,
+        "dimensioned_count": 2
+      },
+      "adhesives-and-glue": {
+        "count": 8,
+        "median_price": 25.375,
+        "median_volume_cu_in": 0.00390625,
+        "dimensioned_count": 1
+      },
+      "shrink-film": {
+        "count": 4,
+        "median_price": 47.295,
+        "median_volume_cu_in": null,
+        "dimensioned_count": 0
+      },
+      "tags": {
+        "count": 3,
+        "median_price": 31.4,
+        "median_volume_cu_in": null,
+        "dimensioned_count": 0
+      },
+      "cable-ties": {
+        "count": 2,
+        "median_price": 70.33500000000001,
+        "median_volume_cu_in": null,
+        "dimensioned_count": 0
+      }
+    },
+    "size_bands": {
+      "size-unlisted": {
+        "count": 1601,
+        "median_price": 54.18,
+        "median_volume_cu_in": null,
+        "dimensioned_count": 0
+      },
+      "12-to-17-in": {
+        "count": 279,
+        "median_price": 71.92,
+        "median_volume_cu_in": 512.0,
+        "dimensioned_count": 279
+      },
+      "8-to-11-in": {
+        "count": 186,
+        "median_price": 57.9,
+        "median_volume_cu_in": 206.25,
+        "dimensioned_count": 186
+      },
+      "4-to-7-in": {
+        "count": 115,
+        "median_price": 39.62,
+        "median_volume_cu_in": 72.0,
+        "dimensioned_count": 115
+      },
+      "18-to-23-in": {
+        "count": 113,
+        "median_price": 50.06,
+        "median_volume_cu_in": 1600.0,
+        "dimensioned_count": 113
+      },
+      "24-to-35-in": {
+        "count": 107,
+        "median_price": 51.31,
+        "median_volume_cu_in": 3360.0,
+        "dimensioned_count": 107
+      },
+      "36-plus-in": {
+        "count": 80,
+        "median_price": 84.375,
+        "median_volume_cu_in": 7670.0,
+        "dimensioned_count": 80
+      },
+      "under-4-in": {
+        "count": 12,
+        "median_price": 97.5,
+        "median_volume_cu_in": 10.40625,
+        "dimensioned_count": 12
+      }
+    },
+    "inventory_bands": {
+      "100-to-499": {
+        "count": 2001,
+        "median_price": 61.19,
+        "median_volume_cu_in": 389.375,
+        "dimensioned_count": 589
+      },
+      "500-plus": {
+        "count": 491,
+        "median_price": 45.56,
+        "median_volume_cu_in": 864.0,
+        "dimensioned_count": 303
+      },
+      "25-to-99": {
+        "count": 1,
+        "median_price": 70.03,
+        "median_volume_cu_in": null,
+        "dimensioned_count": 0
+      }
+    }
+  },
+  "public_boundaries": [
+    "staged exact-spec candidate handles are not claimed live on packrift.com",
+    "related SKUs are not automatic substitute approvals or fit guarantees",
+    "no supplier cost",
+    "no Packrift margin",
+    "no customer, order, cart, payment, or freight data",
+    "no secrets or tokens"
+  ]
+}

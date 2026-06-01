@@ -1,0 +1,35 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Packrift Exact-Spec Size Directory",
+    "version": "2026-06-01",
+    "description": "A public Packrift exact-spec directory built from staged exact-spec child-page candidates and approved in-stock catalog evidence, with one crawlable record per page-grade SKU/spec candidate."
+  },
+  "servers": [
+    {
+      "url": "https://packrift.github.io/exact-spec-size-directory"
+    }
+  ],
+  "paths": {
+    "/data/exact-spec-size-directory.json": {
+      "get": {
+        "summary": "Download Packrift exact-spec directory JSON",
+        "responses": {
+          "200": {
+            "description": "JSON dataset"
+          }
+        }
+      }
+    },
+    "/data/stats.json": {
+      "get": {
+        "summary": "Download build statistics",
+        "responses": {
+          "200": {
+            "description": "Statistics"
+          }
+        }
+      }
+    }
+  }
+}

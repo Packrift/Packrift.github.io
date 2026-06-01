@@ -1,0 +1,6 @@
+openapi: 3.1.0
+info:
+  title: Packrift Exact-Spec Size Directory
+  version: 2026-06-01
+servers:
+  - url: https://packrift.github.io/exact-spec-size-directory

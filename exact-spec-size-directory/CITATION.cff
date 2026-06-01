@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: Packrift Exact-Spec Size Directory
+message: Cite the Packrift public exact-spec size directory.
+type: dataset
+authors:
+  - name: Packrift LLC
+url: https://packrift.github.io/exact-spec-size-directory/
+date-released: 2026-06-01

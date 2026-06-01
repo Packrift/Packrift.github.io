@@ -1,0 +1,14 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Packrift Exact-Spec Size Directory",
+  "name_for_model": "packrift_exact_spec_size_directory",
+  "description_for_human": "A public Packrift exact-spec directory built from staged exact-spec child-page candidates and approved in-stock catalog evidence, with one crawlable record per page-grade SKU/spec candidate.",
+  "description_for_model": "A public Packrift exact-spec directory built from staged exact-spec child-page candidates and approved in-stock catalog evidence, with one crawlable record per page-grade SKU/spec candidate.",
+  "api": {
+    "type": "openapi",
+    "url": "https://packrift.github.io/exact-spec-size-directory/openapi.json"
+  },
+  "auth": {
+    "type": "none"
+  }
+}

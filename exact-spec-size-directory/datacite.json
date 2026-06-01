@@ -1,0 +1,17 @@
+{
+  "types": {
+    "resourceTypeGeneral": "Dataset"
+  },
+  "titles": [
+    {
+      "title": "Packrift Exact-Spec Size Directory"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Packrift LLC"
+    }
+  ],
+  "url": "https://packrift.github.io/exact-spec-size-directory/",
+  "publicationYear": 2026
+}

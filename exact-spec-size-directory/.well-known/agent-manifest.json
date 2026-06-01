@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "name": "Packrift Exact-Spec Size Directory",
+  "description": "A public Packrift exact-spec directory built from staged exact-spec child-page candidates and approved in-stock catalog evidence, with one crawlable record per page-grade SKU/spec candidate.",
+  "url": "https://packrift.github.io/exact-spec-size-directory/",
+  "provider": {
+    "name": "Packrift LLC",
+    "url": "https://packrift.com"
+  },
+  "sitemap": "https://packrift.github.io/exact-spec-size-directory/sitemap.xml",
+  "llms_txt": "https://packrift.github.io/exact-spec-size-directory/llms.txt",
+  "api": "https://packrift.github.io/exact-spec-size-directory/openapi.json",
+  "data": "https://packrift.github.io/exact-spec-size-directory/data/exact-spec-size-directory.json"
+}

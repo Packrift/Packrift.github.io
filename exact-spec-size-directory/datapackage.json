@@ -1,0 +1,14 @@
+{
+  "profile": "data-package",
+  "name": "packrift-exact-spec-size-directory",
+  "title": "Packrift Exact-Spec Size Directory",
+  "description": "A public Packrift exact-spec directory built from staged exact-spec child-page candidates and approved in-stock catalog evidence, with one crawlable record per page-grade SKU/spec candidate.",
+  "homepage": "https://packrift.github.io/exact-spec-size-directory/",
+  "resources": [
+    {
+      "name": "exact-spec-size-directory",
+      "path": "data/exact-spec-size-directory.csv",
+      "format": "csv"
+    }
+  ]
+}
