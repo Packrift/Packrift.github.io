@@ -1,0 +1,17 @@
+{
+  "api": {
+    "type": "openapi",
+    "url": "https://packrift.github.io/catalog-trust-ledger/openapi.json"
+  },
+  "auth": {
+    "type": "none"
+  },
+  "contact_email": "farhan@packrift.com",
+  "description_for_human": "A public evidence ledger for approved in-stock Packrift catalog records, showing product links, source hashes, catalog-control status, dimension status, image status, merchant availability, and public-safe trust bands.",
+  "description_for_model": "A public evidence ledger for approved in-stock Packrift catalog records, showing product links, source hashes, catalog-control status, dimension status, image status, merchant availability, and public-safe trust bands.",
+  "legal_info_url": "https://packrift.com/policies/terms-of-service",
+  "logo_url": "https://packrift.github.io/catalog-trust-ledger/favicon.svg",
+  "name_for_human": "Packrift Catalog Trust Ledger",
+  "name_for_model": "packrift_catalog_trust_ledger",
+  "schema_version": "v1"
+}

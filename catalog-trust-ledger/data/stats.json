@@ -1,0 +1,16 @@
+{
+  "dimension_status_count": 4,
+  "family_count": 13,
+  "generated_at": "2026-06-01T22:15:13Z",
+  "high_trust_count": 4787,
+  "host": "packrift.github.io",
+  "image_status_count": 2,
+  "medium_trust_count": 67,
+  "private_data_boundary": "No supplier cost, margin, customer records, order records, cart data, freight quotes, credentials, or checkout promises are published.",
+  "product_type_count": 24,
+  "site": "https://packrift.github.io/catalog-trust-ledger",
+  "sitemap_url_count": 4930,
+  "sku_count": 4854,
+  "source": "Packrift catalog-control public-safe snapshot filtered to AI_APPROVE, in-stock, no human approval required rows",
+  "title": "Packrift Catalog Trust Ledger"
+}

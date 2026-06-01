@@ -1,0 +1,20 @@
+# Packrift Catalog Trust Ledger
+
+> A public evidence ledger for approved in-stock Packrift catalog records, showing product links, source hashes, catalog-control status, dimension status, image status, merchant availability, and public-safe trust bands.
+
+Site: https://packrift.github.io/catalog-trust-ledger/
+Generated: 2026-06-01T22:15:13Z
+Source: Packrift catalog-control snapshot filtered to public-safe approved in-stock rows.
+
+## Public files
+- Sitemap: https://packrift.github.io/catalog-trust-ledger/sitemap.xml
+- Robots: https://packrift.github.io/catalog-trust-ledger/robots.txt
+- JSON: https://packrift.github.io/catalog-trust-ledger/data/trust-ledger.json
+- JSONL: https://packrift.github.io/catalog-trust-ledger/data/trust-ledger.jsonl
+- CSV: https://packrift.github.io/catalog-trust-ledger/data/trust-ledger.csv
+- Stats: https://packrift.github.io/catalog-trust-ledger/data/stats.json
+- OpenAPI: https://packrift.github.io/catalog-trust-ledger/openapi.json
+- Agent Manifest: https://packrift.github.io/catalog-trust-ledger/agent-manifest.json
+
+## Boundary
+This ledger excludes supplier cost, private margin math, customer records, cart data, order history, freight quotes, credentials, and checkout promises. Packrift.com remains the buying source of truth.

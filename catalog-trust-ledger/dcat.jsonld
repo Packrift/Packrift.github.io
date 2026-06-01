@@ -1,0 +1,19 @@
+{
+  "@context": "https://www.w3.org/ns/dcat.jsonld",
+  "@type": "Dataset",
+  "description": "A public evidence ledger for approved in-stock Packrift catalog records, showing product links, source hashes, catalog-control status, dimension status, image status, merchant availability, and public-safe trust bands.",
+  "distribution": [
+    {
+      "@type": "Distribution",
+      "downloadURL": "https://packrift.github.io/catalog-trust-ledger/data/trust-ledger.json",
+      "mediaType": "application/json"
+    },
+    {
+      "@type": "Distribution",
+      "downloadURL": "https://packrift.github.io/catalog-trust-ledger/data/trust-ledger.csv",
+      "mediaType": "text/csv"
+    }
+  ],
+  "landingPage": "https://packrift.github.io/catalog-trust-ledger/",
+  "title": "Packrift Catalog Trust Ledger"
+}

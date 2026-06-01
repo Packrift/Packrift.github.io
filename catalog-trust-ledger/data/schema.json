@@ -1,0 +1,105 @@
+{
+  "fields": [
+    {
+      "name": "sku",
+      "type": "string"
+    },
+    {
+      "name": "title",
+      "type": "string"
+    },
+    {
+      "name": "family",
+      "type": "string"
+    },
+    {
+      "name": "product_type",
+      "type": "string"
+    },
+    {
+      "name": "product_url",
+      "type": "string"
+    },
+    {
+      "name": "trust_url",
+      "type": "string"
+    },
+    {
+      "name": "trust_score",
+      "type": "string"
+    },
+    {
+      "name": "trust_band",
+      "type": "string"
+    },
+    {
+      "name": "status",
+      "type": "string"
+    },
+    {
+      "name": "source_row_hash",
+      "type": "string"
+    },
+    {
+      "name": "release_id",
+      "type": "string"
+    },
+    {
+      "name": "confidence",
+      "type": "string"
+    },
+    {
+      "name": "confidence_band",
+      "type": "string"
+    },
+    {
+      "name": "dimensions_status",
+      "type": "string"
+    },
+    {
+      "name": "dimension_conflict",
+      "type": "string"
+    },
+    {
+      "name": "image_status",
+      "type": "string"
+    },
+    {
+      "name": "merchant_status",
+      "type": "string"
+    },
+    {
+      "name": "merchant_availability",
+      "type": "string"
+    },
+    {
+      "name": "inventory_band",
+      "type": "string"
+    },
+    {
+      "name": "price_band",
+      "type": "string"
+    },
+    {
+      "name": "weight_unit",
+      "type": "string"
+    },
+    {
+      "name": "weight_value",
+      "type": "string"
+    },
+    {
+      "name": "dimensions_in",
+      "type": "string"
+    },
+    {
+      "name": "volume_cuin",
+      "type": "string"
+    },
+    {
+      "name": "google_product_category",
+      "type": "string"
+    }
+  ],
+  "primaryKey": "sku"
+}

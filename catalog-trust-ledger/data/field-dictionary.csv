@@ -1,0 +1,12 @@
+field,description
+sku,Packrift public SKU
+title,Public product title
+product_url,Canonical Packrift product URL
+trust_url,Catalog Trust Ledger public evidence page
+trust_score,"Public trust score based on catalog-control status, availability, confidence, dimensions, images, and source hash"
+source_row_hash,Public row hash from catalog-control snapshot
+dimensions_status,Public dimension evidence source/status
+image_status,Public image evidence source/status
+merchant_availability,Public merchant availability status
+inventory_band,"Public inventory band only, not exact purchase commitment"
+price_band,"Public price band only, not checkout quote"

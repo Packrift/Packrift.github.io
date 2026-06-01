@@ -1,0 +1,80 @@
+{
+  "agent_notes": "This is a read-only public catalog evidence ledger. It does not expose supplier cost, margin, customer/order/cart data, freight quotes, credentials, or checkout promises.",
+  "authentication": {
+    "instructions": null,
+    "required": false,
+    "type": "none"
+  },
+  "categories": [
+    "commerce",
+    "ecommerce",
+    "data",
+    "documentation"
+  ],
+  "contact": {
+    "email": "farhan@packrift.com",
+    "github": "https://github.com/Packrift",
+    "support_url": "https://packrift.com/pages/contact"
+  },
+  "description": "A public evidence ledger for approved in-stock Packrift catalog records, showing product links, source hashes, catalog-control status, dimension status, image status, merchant availability, and public-safe trust bands.",
+  "documentation": "https://packrift.github.io/catalog-trust-ledger/llms.txt",
+  "endpoints": [
+    {
+      "description": "Read the compact agent-facing overview.",
+      "method": "GET",
+      "parameters": [],
+      "path": "/llms.txt",
+      "response_description": "Plain text overview and boundaries."
+    },
+    {
+      "description": "Enumerate crawlable pages.",
+      "method": "GET",
+      "parameters": [],
+      "path": "/sitemap.xml",
+      "response_description": "XML sitemap."
+    },
+    {
+      "description": "Download the public trust ledger.",
+      "method": "GET",
+      "parameters": [],
+      "path": "/data/trust-ledger.json",
+      "response_description": "JSON records."
+    },
+    {
+      "description": "Download the public trust ledger as CSV.",
+      "method": "GET",
+      "parameters": [],
+      "path": "/data/trust-ledger.csv",
+      "response_description": "CSV records."
+    },
+    {
+      "description": "Read a SKU evidence page.",
+      "method": "GET",
+      "parameters": [
+        {
+          "in": "path",
+          "name": "sku",
+          "required": true,
+          "schema": {
+            "type": "string"
+          }
+        }
+      ],
+      "path": "/skus/{sku}/",
+      "response_description": "HTML public evidence record."
+    }
+  ],
+  "homepage": "https://packrift.github.io/catalog-trust-ledger/",
+  "name": "Packrift Catalog Trust Ledger",
+  "payment": null,
+  "pricing": {
+    "free_tier": {
+      "queries_per_day": null,
+      "queries_per_month": null
+    },
+    "model": "free",
+    "paid_tier": null,
+    "support_url": "https://packrift.com/pages/contact"
+  },
+  "version": "1.0.0"
+}

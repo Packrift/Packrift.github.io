@@ -1,0 +1,6 @@
+openapi: 3.1.0
+info:
+  title: Packrift Catalog Trust Ledger
+  version: 1.0.0
+servers:
+  - url: https://packrift.github.io/catalog-trust-ledger
