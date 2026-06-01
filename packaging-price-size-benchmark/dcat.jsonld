@@ -1,0 +1,14 @@
+{
+  "@context": "https://www.w3.org/ns/dcat.jsonld",
+  "@type": "Dataset",
+  "title": "Packrift Packaging Price/Size Benchmark",
+  "description": "A public Packrift benchmark corpus that normalizes approved in-stock packaging catalog records by size, volume, price band, product type, family, and price-per-cubic-foot signals.",
+  "landingPage": "https://packrift.github.io/packaging-price-size-benchmark/",
+  "distribution": [
+    {
+      "@type": "Distribution",
+      "downloadURL": "https://packrift.github.io/packaging-price-size-benchmark/data/price-size-benchmark.csv",
+      "mediaType": "text/csv"
+    }
+  ]
+}

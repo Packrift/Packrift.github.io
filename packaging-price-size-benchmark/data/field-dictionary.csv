@@ -1,0 +1,8 @@
+field,description
+sku,Packrift public SKU
+packrift_product_url,Public Packrift product URL
+catalog_price_usd,Public catalog price from the source graph
+volume_cu_in,Length x width x height in cubic inches
+price_per_cu_ft_usd,Catalog price divided by normalized cubic feet
+source_row_hash,Public source-row hash for traceability
+benchmark_hash,Hash of the public benchmark tuple for this release

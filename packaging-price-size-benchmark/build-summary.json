@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-06-01T23:29:11Z",
+  "stats": {
+    "dimensioned_records": 2510,
+    "families": 9,
+    "product_types": 15,
+    "volume_bands": 8,
+    "price_bands": 7,
+    "benchmark_cells": 52,
+    "sitemap_urls": 2628
+  },
+  "qa": {
+    "generated_at": "2026-06-01T23:29:11Z",
+    "checks": [
+      {
+        "name": "sitemap_count",
+        "ok": true,
+        "detail": {
+          "sitemap": 2628,
+          "expected": 2628
+        }
+      },
+      {
+        "name": "json_record_count",
+        "ok": true,
+        "detail": 2510
+      },
+      {
+        "name": "stats_json_parse",
+        "ok": true,
+        "detail": "ok"
+      },
+      {
+        "name": "root_contains_packrift",
+        "ok": true,
+        "detail": "ok"
+      },
+      {
+        "name": "no_forbidden_private_patterns",
+        "ok": true,
+        "detail": []
+      }
+    ],
+    "ok": true
+  }
+}

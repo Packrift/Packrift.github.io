@@ -1,0 +1,786 @@
+{
+  "generated_at": "2026-06-01T23:29:11Z",
+  "source": "/Users/farhan/Downloads/packrift-ai-commerce-factory/control/product_spec_graph_current.csv",
+  "site": "https://packrift.github.io/packaging-price-size-benchmark",
+  "dimensioned_records": 2510,
+  "families": 9,
+  "product_types": 15,
+  "price_bands": {
+    "25-to-49": 771,
+    "50-to-99": 896,
+    "10-to-24": 355,
+    "100-to-249": 438,
+    "250-to-499": 30,
+    "under-10": 17,
+    "500-plus": 3
+  },
+  "volume_bands": {
+    "under-64-cu-in": 200,
+    "64-to-215-cu-in": 371,
+    "216-to-511-cu-in": 506,
+    "512-to-999-cu-in": 350,
+    "1000-to-1727-cu-in": 245,
+    "1728-to-4095-cu-in": 382,
+    "4096-to-13823-cu-in": 332,
+    "13824-plus-cu-in": 124
+  },
+  "overall": {
+    "count": 2510,
+    "median_price": 56.02,
+    "median_volume_cu_in": 684.0,
+    "median_price_per_cu_ft": 106.08513757429012,
+    "min_price_per_cu_ft": 1.2712820512820513,
+    "max_price_per_cu_ft": 7798947.84
+  },
+  "groups": {
+    "families": {
+      "boxes": {
+        "count": 1303,
+        "median_price": 42.7,
+        "median_volume_cu_in": 1547.0,
+        "median_price_per_cu_ft": 41.895,
+        "min_price_per_cu_ft": 1.5907417998317914,
+        "max_price_per_cu_ft": 54425.087999999996
+      },
+      "mailers": {
+        "count": 684,
+        "median_price": 62.015,
+        "median_volume_cu_in": 252.0,
+        "median_price_per_cu_ft": 439.19002597402596,
+        "min_price_per_cu_ft": 30.463120879120883,
+        "max_price_per_cu_ft": 13713.844260355028
+      },
+      "poly-bags": {
+        "count": 222,
+        "median_price": 88.55,
+        "median_volume_cu_in": 1664.0,
+        "median_price_per_cu_ft": 104.97075,
+        "min_price_per_cu_ft": 1.6883007518796993,
+        "max_price_per_cu_ft": 500456.448
+      },
+      "labels": {
+        "count": 94,
+        "median_price": 73.945,
+        "median_volume_cu_in": 517.3125,
+        "median_price_per_cu_ft": 326.3877248579905,
+        "min_price_per_cu_ft": 55.579504132231406,
+        "max_price_per_cu_ft": 1393.5235747303543
+      },
+      "strapping": {
+        "count": 62,
+        "median_price": 106.63499999999999,
+        "median_volume_cu_in": 189.75,
+        "median_price_per_cu_ft": 974.7872,
+        "min_price_per_cu_ft": 182.29333333333332,
+        "max_price_per_cu_ft": 11993.760000000002
+      },
+      "other": {
+        "count": 53,
+        "median_price": 63.08,
+        "median_volume_cu_in": 1152.0,
+        "median_price_per_cu_ft": 177.96923076923076,
+        "min_price_per_cu_ft": 5.394705882352941,
+        "max_price_per_cu_ft": 236469.39428571428
+      },
+      "tags": {
+        "count": 45,
+        "median_price": 155.85,
+        "median_volume_cu_in": 158976.0,
+        "median_price_per_cu_ft": 1.700909090909091,
+        "min_price_per_cu_ft": 1.2712820512820513,
+        "max_price_per_cu_ft": 5.46475
+      },
+      "void-fill": {
+        "count": 35,
+        "median_price": 85.68,
+        "median_volume_cu_in": 525.0,
+        "median_price_per_cu_ft": 236.9054117647059,
+        "min_price_per_cu_ft": 21.550079999999998,
+        "max_price_per_cu_ft": 7981.200000000001
+      },
+      "tape": {
+        "count": 12,
+        "median_price": 40.53,
+        "median_volume_cu_in": 174.837890625,
+        "median_price_per_cu_ft": 431.47786791499755,
+        "min_price_per_cu_ft": 49.61279999999999,
+        "max_price_per_cu_ft": 7798947.84
+      }
+    },
+    "product_types": {
+      "boxes-corrugated": {
+        "count": 1126,
+        "median_price": 38.62,
+        "median_volume_cu_in": 1940.625,
+        "median_price_per_cu_ft": 36.88069565217391,
+        "min_price_per_cu_ft": 1.5907417998317914,
+        "max_price_per_cu_ft": 29365.775147928995
+      },
+      "boxes-mailers": {
+        "count": 624,
+        "median_price": 59.73,
+        "median_volume_cu_in": 240.0,
+        "median_price_per_cu_ft": 443.887947368421,
+        "min_price_per_cu_ft": 43.785,
+        "max_price_per_cu_ft": 6319.610733312057
+      },
+      "bags-poly": {
+        "count": 240,
+        "median_price": 93.31,
+        "median_volume_cu_in": 4320.0,
+        "median_price_per_cu_ft": 45.236000000000004,
+        "min_price_per_cu_ft": 1.2712820512820513,
+        "max_price_per_cu_ft": 2845.617230769231
+      },
+      "bins-shelving-and-storage": {
+        "count": 184,
+        "median_price": 71.305,
+        "median_volume_cu_in": 598.125,
+        "median_price_per_cu_ft": 182.1489096949562,
+        "min_price_per_cu_ft": 11.230211180124224,
+        "max_price_per_cu_ft": 3823.4803081664095
+      },
+      "chipboard-cartons": {
+        "count": 101,
+        "median_price": 114.68,
+        "median_volume_cu_in": 64.0,
+        "median_price_per_cu_ft": 2122.24,
+        "min_price_per_cu_ft": 109.73571428571428,
+        "max_price_per_cu_ft": 54425.087999999996
+      },
+      "bubble-foam-and-cushioning": {
+        "count": 72,
+        "median_price": 95.28999999999999,
+        "median_volume_cu_in": 276.0,
+        "median_price_per_cu_ft": 1306.1704,
+        "min_price_per_cu_ft": 21.550079999999998,
+        "max_price_per_cu_ft": 19999.9488
+      },
+      "edge-protectors": {
+        "count": 62,
+        "median_price": 106.63499999999999,
+        "median_volume_cu_in": 189.75,
+        "median_price_per_cu_ft": 974.7872,
+        "min_price_per_cu_ft": 182.29333333333332,
+        "max_price_per_cu_ft": 11993.760000000002
+      },
+      "envelopes-and-mailers": {
+        "count": 62,
+        "median_price": 84.195,
+        "median_volume_cu_in": 364.5,
+        "median_price_per_cu_ft": 219.8619642857143,
+        "min_price_per_cu_ft": 30.463120879120883,
+        "max_price_per_cu_ft": 1424.64
+      },
+      "cold-packs": {
+        "count": 23,
+        "median_price": 29.23,
+        "median_volume_cu_in": 37.5,
+        "median_price_per_cu_ft": 1127.6730810810811,
+        "min_price_per_cu_ft": 164.79219512195124,
+        "max_price_per_cu_ft": 7591.68
+      },
+      "material-handling": {
+        "count": 5,
+        "median_price": 399.88,
+        "median_volume_cu_in": 24548.0,
+        "median_price_per_cu_ft": 38.11027471116817,
+        "min_price_per_cu_ft": 5.394705882352941,
+        "max_price_per_cu_ft": 100.875
+      },
+      "papers-newsprint-and-tissue": {
+        "count": 5,
+        "median_price": 281.3,
+        "median_volume_cu_in": 88200.0,
+        "median_price_per_cu_ft": 6.185730612244899,
+        "min_price_per_cu_ft": 2.1310606060606063,
+        "max_price_per_cu_ft": 125.76877714285716
+      },
+      "warehouse-supplies": {
+        "count": 3,
+        "median_price": 119.74,
+        "median_volume_cu_in": 0.875,
+        "median_price_per_cu_ft": 236469.39428571428,
+        "min_price_per_cu_ft": 662.4,
+        "max_price_per_cu_ft": 500456.448
+      },
+      "adhesives-and-glue": {
+        "count": 1,
+        "median_price": 17.63,
+        "median_volume_cu_in": 0.00390625,
+        "median_price_per_cu_ft": 7798947.84,
+        "min_price_per_cu_ft": 7798947.84,
+        "max_price_per_cu_ft": 7798947.84
+      },
+      "facilities-maintenance": {
+        "count": 1,
+        "median_price": 175.69,
+        "median_volume_cu_in": 2880.0,
+        "median_price_per_cu_ft": 105.41399999999999,
+        "min_price_per_cu_ft": 105.41399999999999,
+        "max_price_per_cu_ft": 105.41399999999999
+      },
+      "tape-dispensers": {
+        "count": 1,
+        "median_price": 1274.63,
+        "median_volume_cu_in": 4893.776999999999,
+        "median_price_per_cu_ft": 450.07376511026155,
+        "min_price_per_cu_ft": 450.07376511026155,
+        "max_price_per_cu_ft": 450.07376511026155
+      }
+    },
+    "volume_bands": {
+      "216-to-511-cu-in": {
+        "count": 506,
+        "median_price": 68.26,
+        "median_volume_cu_in": 324.0,
+        "median_price_per_cu_ft": 350.76779047088326,
+        "min_price_per_cu_ft": 55.02278668098818,
+        "max_price_per_cu_ft": 3787.36
+      },
+      "1728-to-4095-cu-in": {
+        "count": 382,
+        "median_price": 52.730000000000004,
+        "median_volume_cu_in": 2688.0,
+        "median_price_per_cu_ft": 34.425625000000004,
+        "min_price_per_cu_ft": 9.335466666666667,
+        "max_price_per_cu_ft": 301.33846153846156
+      },
+      "64-to-215-cu-in": {
+        "count": 371,
+        "median_price": 43.88,
+        "median_volume_cu_in": 120.0,
+        "median_price_per_cu_ft": 602.532,
+        "min_price_per_cu_ft": 83.4624,
+        "max_price_per_cu_ft": 4376.777142857143
+      },
+      "512-to-999-cu-in": {
+        "count": 350,
+        "median_price": 49.94,
+        "median_volume_cu_in": 677.9375,
+        "median_price_per_cu_ft": 128.67613361762614,
+        "min_price_per_cu_ft": 27.181176470588234,
+        "max_price_per_cu_ft": 1107.84
+      },
+      "4096-to-13823-cu-in": {
+        "count": 332,
+        "median_price": 60.295,
+        "median_volume_cu_in": 6516.0,
+        "median_price_per_cu_ft": 16.10984126984127,
+        "min_price_per_cu_ft": 2.5878857142857146,
+        "max_price_per_cu_ft": 450.07376511026155
+      },
+      "1000-to-1727-cu-in": {
+        "count": 245,
+        "median_price": 39.88,
+        "median_volume_cu_in": 1300.0,
+        "median_price_per_cu_ft": 49.63379679144385,
+        "min_price_per_cu_ft": 26.6544,
+        "max_price_per_cu_ft": 559.7052631578948
+      },
+      "under-64-cu-in": {
+        "count": 200,
+        "median_price": 41.975,
+        "median_volume_cu_in": 30.0,
+        "median_price_per_cu_ft": 2437.518222222222,
+        "min_price_per_cu_ft": 360.0,
+        "max_price_per_cu_ft": 7798947.84
+      },
+      "13824-plus-cu-in": {
+        "count": 124,
+        "median_price": 131.82,
+        "median_volume_cu_in": 50068.0,
+        "median_price_per_cu_ft": 4.291895604395604,
+        "min_price_per_cu_ft": 1.2712820512820513,
+        "max_price_per_cu_ft": 39.65009613817826
+      }
+    },
+    "price_bands": {
+      "50-to-99": {
+        "count": 896,
+        "median_price": 72.205,
+        "median_volume_cu_in": 598.125,
+        "median_price_per_cu_ft": 206.0050285714286,
+        "min_price_per_cu_ft": 1.5033928571428572,
+        "max_price_per_cu_ft": 45000.41142857143
+      },
+      "25-to-49": {
+        "count": 771,
+        "median_price": 36.96,
+        "median_volume_cu_in": 1200.0,
+        "median_price_per_cu_ft": 47.64000000000001,
+        "min_price_per_cu_ft": 2.4948214285714285,
+        "max_price_per_cu_ft": 5472.921600000001
+      },
+      "100-to-249": {
+        "count": 438,
+        "median_price": 125.675,
+        "median_volume_cu_in": 891.0,
+        "median_price_per_cu_ft": 239.75449017195658,
+        "min_price_per_cu_ft": 1.2712820512820513,
+        "max_price_per_cu_ft": 500456.448
+      },
+      "10-to-24": {
+        "count": 355,
+        "median_price": 20.0,
+        "median_volume_cu_in": 393.75,
+        "median_price_per_cu_ft": 74.58048,
+        "min_price_per_cu_ft": 2.5878857142857146,
+        "max_price_per_cu_ft": 7798947.84
+      },
+      "250-to-499": {
+        "count": 30,
+        "median_price": 319.49,
+        "median_volume_cu_in": 1548.0,
+        "median_price_per_cu_ft": 406.0244307692308,
+        "min_price_per_cu_ft": 2.1310606060606063,
+        "max_price_per_cu_ft": 3787.36
+      },
+      "under-10": {
+        "count": 17,
+        "median_price": 9.42,
+        "median_volume_cu_in": 144.0,
+        "median_price_per_cu_ft": 108.864,
+        "min_price_per_cu_ft": 27.820800000000002,
+        "max_price_per_cu_ft": 205.84799999999998
+      },
+      "500-plus": {
+        "count": 3,
+        "median_price": 687.22,
+        "median_volume_cu_in": 24548.0,
+        "median_price_per_cu_ft": 39.65009613817826,
+        "min_price_per_cu_ft": 38.11027471116817,
+        "max_price_per_cu_ft": 450.07376511026155
+      }
+    },
+    "benchmark_cells": {
+      "boxes--1728-to-4095-cu-in": {
+        "count": 308,
+        "median_price": 45.8,
+        "median_volume_cu_in": 2592.0,
+        "median_price_per_cu_ft": 31.0734,
+        "min_price_per_cu_ft": 9.335466666666667,
+        "max_price_per_cu_ft": 301.33846153846156
+      },
+      "boxes--4096-to-13823-cu-in": {
+        "count": 282,
+        "median_price": 52.394999999999996,
+        "median_volume_cu_in": 6516.0,
+        "median_price_per_cu_ft": 14.42681818181818,
+        "min_price_per_cu_ft": 2.5878857142857146,
+        "max_price_per_cu_ft": 42.99
+      },
+      "mailers--216-to-511-cu-in": {
+        "count": 242,
+        "median_price": 76.37,
+        "median_volume_cu_in": 322.3125,
+        "median_price_per_cu_ft": 403.36175147928986,
+        "min_price_per_cu_ft": 89.1913846153846,
+        "max_price_per_cu_ft": 1424.64
+      },
+      "mailers--64-to-215-cu-in": {
+        "count": 205,
+        "median_price": 43.88,
+        "median_volume_cu_in": 125.0,
+        "median_price_per_cu_ft": 599.76,
+        "min_price_per_cu_ft": 209.49333333333334,
+        "max_price_per_cu_ft": 1985.3305425361157
+      },
+      "boxes--512-to-999-cu-in": {
+        "count": 191,
+        "median_price": 24.09,
+        "median_volume_cu_in": 720.0,
+        "median_price_per_cu_ft": 57.321000000000005,
+        "min_price_per_cu_ft": 27.181176470588234,
+        "max_price_per_cu_ft": 1107.84
+      },
+      "boxes--1000-to-1727-cu-in": {
+        "count": 181,
+        "median_price": 31.76,
+        "median_volume_cu_in": 1296.0,
+        "median_price_per_cu_ft": 43.42254545454546,
+        "min_price_per_cu_ft": 26.6544,
+        "max_price_per_cu_ft": 559.7052631578948
+      },
+      "boxes--216-to-511-cu-in": {
+        "count": 162,
+        "median_price": 22.75,
+        "median_volume_cu_in": 343.0,
+        "median_price_per_cu_ft": 113.98944935064935,
+        "min_price_per_cu_ft": 55.02278668098818,
+        "max_price_per_cu_ft": 2248.5600000000004
+      },
+      "mailers--512-to-999-cu-in": {
+        "count": 100,
+        "median_price": 96.3,
+        "median_volume_cu_in": 673.0,
+        "median_price_per_cu_ft": 265.08792534158374,
+        "min_price_per_cu_ft": 44.28,
+        "max_price_per_cu_ft": 888.992
+      },
+      "boxes--64-to-215-cu-in": {
+        "count": 92,
+        "median_price": 23.785,
+        "median_volume_cu_in": 142.0,
+        "median_price_per_cu_ft": 322.52,
+        "min_price_per_cu_ft": 83.4624,
+        "max_price_per_cu_ft": 4376.777142857143
+      },
+      "mailers--under-64-cu-in": {
+        "count": 84,
+        "median_price": 23.16,
+        "median_volume_cu_in": 36.0,
+        "median_price_per_cu_ft": 1035.648,
+        "min_price_per_cu_ft": 458.6057142857142,
+        "max_price_per_cu_ft": 13713.844260355028
+      },
+      "boxes--under-64-cu-in": {
+        "count": 55,
+        "median_price": 89.75,
+        "median_volume_cu_in": 18.375,
+        "median_price_per_cu_ft": 6741.786122448979,
+        "min_price_per_cu_ft": 360.0,
+        "max_price_per_cu_ft": 54425.087999999996
+      },
+      "tags--13824-plus-cu-in": {
+        "count": 45,
+        "median_price": 155.85,
+        "median_volume_cu_in": 158976.0,
+        "median_price_per_cu_ft": 1.700909090909091,
+        "min_price_per_cu_ft": 1.2712820512820513,
+        "max_price_per_cu_ft": 5.46475
+      },
+      "poly-bags--13824-plus-cu-in": {
+        "count": 41,
+        "median_price": 138.01,
+        "median_volume_cu_in": 40320.0,
+        "median_price_per_cu_ft": 5.534375,
+        "min_price_per_cu_ft": 1.6883007518796993,
+        "max_price_per_cu_ft": 28.36221950405871
+      },
+      "poly-bags--4096-to-13823-cu-in": {
+        "count": 39,
+        "median_price": 102.97,
+        "median_volume_cu_in": 6912.0,
+        "median_price_per_cu_ft": 25.31047619047619,
+        "min_price_per_cu_ft": 11.557551020408164,
+        "max_price_per_cu_ft": 57.5575
+      },
+      "poly-bags--216-to-511-cu-in": {
+        "count": 37,
+        "median_price": 55.79,
+        "median_volume_cu_in": 360.0,
+        "median_price_per_cu_ft": 313.88,
+        "min_price_per_cu_ft": 137.9615008813901,
+        "max_price_per_cu_ft": 489.648
+      },
+      "boxes--13824-plus-cu-in": {
+        "count": 32,
+        "median_price": 81.89500000000001,
+        "median_volume_cu_in": 17045.0,
+        "median_price_per_cu_ft": 7.37443875,
+        "min_price_per_cu_ft": 1.5907417998317914,
+        "max_price_per_cu_ft": 16.035
+      },
+      "mailers--1000-to-1727-cu-in": {
+        "count": 32,
+        "median_price": 94.08500000000001,
+        "median_volume_cu_in": 1200.0,
+        "median_price_per_cu_ft": 128.7443949579832,
+        "min_price_per_cu_ft": 40.8672,
+        "max_price_per_cu_ft": 510.7104
+      },
+      "poly-bags--1728-to-4095-cu-in": {
+        "count": 31,
+        "median_price": 91.14,
+        "median_volume_cu_in": 2880.0,
+        "median_price_per_cu_ft": 64.89,
+        "min_price_per_cu_ft": 35.48382608695652,
+        "max_price_per_cu_ft": 137.574
+      },
+      "labels--216-to-511-cu-in": {
+        "count": 30,
+        "median_price": 80.08,
+        "median_volume_cu_in": 303.5625,
+        "median_price_per_cu_ft": 389.96886286594764,
+        "min_price_per_cu_ft": 296.4709011742974,
+        "max_price_per_cu_ft": 693.4717468046257
+      },
+      "labels--512-to-999-cu-in": {
+        "count": 26,
+        "median_price": 65.15,
+        "median_volume_cu_in": 620.8125,
+        "median_price_per_cu_ft": 177.09742946708462,
+        "min_price_per_cu_ft": 129.05893390191898,
+        "max_price_per_cu_ft": 367.1996830288356
+      },
+      "poly-bags--under-64-cu-in": {
+        "count": 25,
+        "median_price": 87.11,
+        "median_volume_cu_in": 23.4375,
+        "median_price_per_cu_ft": 6062.585679012345,
+        "min_price_per_cu_ft": 701.2800000000001,
+        "max_price_per_cu_ft": 500456.448
+      },
+      "strapping--216-to-511-cu-in": {
+        "count": 25,
+        "median_price": 99.22,
+        "median_volume_cu_in": 270.0,
+        "median_price_per_cu_ft": 624.96,
+        "min_price_per_cu_ft": 418.416,
+        "max_price_per_cu_ft": 975.9744
+      },
+      "poly-bags--64-to-215-cu-in": {
+        "count": 22,
+        "median_price": 32.015,
+        "median_volume_cu_in": 96.0,
+        "median_price_per_cu_ft": 527.7469090909092,
+        "min_price_per_cu_ft": 235.69920000000002,
+        "max_price_per_cu_ft": 1280.6100000000001
+      },
+      "strapping--64-to-215-cu-in": {
+        "count": 21,
+        "median_price": 113.13,
+        "median_volume_cu_in": 144.0,
+        "median_price_per_cu_ft": 1416.42,
+        "min_price_per_cu_ft": 608.1638399999999,
+        "max_price_per_cu_ft": 3317.52
+      },
+      "mailers--1728-to-4095-cu-in": {
+        "count": 19,
+        "median_price": 113.12,
+        "median_volume_cu_in": 2592.0,
+        "median_price_per_cu_ft": 68.898,
+        "min_price_per_cu_ft": 30.463120879120883,
+        "max_price_per_cu_ft": 129.63750000000002
+      },
+      "other--under-64-cu-in": {
+        "count": 18,
+        "median_price": 29.305,
+        "median_volume_cu_in": 22.5,
+        "median_price_per_cu_ft": 1949.8944000000001,
+        "min_price_per_cu_ft": 445.824,
+        "max_price_per_cu_ft": 236469.39428571428
+      },
+      "poly-bags--512-to-999-cu-in": {
+        "count": 18,
+        "median_price": 85.36,
+        "median_volume_cu_in": 672.0,
+        "median_price_per_cu_ft": 237.12,
+        "min_price_per_cu_ft": 116.88,
+        "max_price_per_cu_ft": 446.28
+      },
+      "labels--64-to-215-cu-in": {
+        "count": 15,
+        "median_price": 55.2,
+        "median_volume_cu_in": 91.265625,
+        "median_price_per_cu_ft": 956.0219873150105,
+        "min_price_per_cu_ft": 434.1246394984326,
+        "max_price_per_cu_ft": 1393.5235747303543
+      },
+      "labels--1000-to-1727-cu-in": {
+        "count": 14,
+        "median_price": 104.54,
+        "median_volume_cu_in": 1408.0,
+        "median_price_per_cu_ft": 107.10377393792649,
+        "min_price_per_cu_ft": 99.06545454545454,
+        "max_price_per_cu_ft": 167.71878787878788
+      },
+      "other--1728-to-4095-cu-in": {
+        "count": 12,
+        "median_price": 121.02,
+        "median_volume_cu_in": 3762.06640625,
+        "median_price_per_cu_ft": 66.5778599325871,
+        "min_price_per_cu_ft": 33.346417655158724,
+        "max_price_per_cu_ft": 114.01601755889445
+      },
+      "strapping--under-64-cu-in": {
+        "count": 12,
+        "median_price": 90.845,
+        "median_volume_cu_in": 29.5,
+        "median_price_per_cu_ft": 5035.38,
+        "min_price_per_cu_ft": 2586.6,
+        "max_price_per_cu_ft": 11993.760000000002
+      },
+      "labels--1728-to-4095-cu-in": {
+        "count": 9,
+        "median_price": 117.15,
+        "median_volume_cu_in": 1980.0,
+        "median_price_per_cu_ft": 102.24000000000001,
+        "min_price_per_cu_ft": 55.579504132231406,
+        "max_price_per_cu_ft": 121.64072727272728
+      },
+      "poly-bags--1000-to-1727-cu-in": {
+        "count": 9,
+        "median_price": 109.25,
+        "median_volume_cu_in": 1280.0,
+        "median_price_per_cu_ft": 117.99,
+        "min_price_per_cu_ft": 77.598,
+        "max_price_per_cu_ft": 199.776
+      },
+      "void-fill--512-to-999-cu-in": {
+        "count": 9,
+        "median_price": 89.98,
+        "median_volume_cu_in": 576.0,
+        "median_price_per_cu_ft": 269.94000000000005,
+        "min_price_per_cu_ft": 87.06925714285714,
+        "max_price_per_cu_ft": 641.01
+      },
+      "other--4096-to-13823-cu-in": {
+        "count": 7,
+        "median_price": 65.16,
+        "median_volume_cu_in": 7227.85546875,
+        "median_price_per_cu_ft": 19.47885714285714,
+        "min_price_per_cu_ft": 5.394705882352941,
+        "max_price_per_cu_ft": 49.512445502993785
+      },
+      "other--64-to-215-cu-in": {
+        "count": 7,
+        "median_price": 31.12,
+        "median_volume_cu_in": 108.0,
+        "median_price_per_cu_ft": 497.92,
+        "min_price_per_cu_ft": 164.79219512195124,
+        "max_price_per_cu_ft": 1127.6730810810811
+      },
+      "void-fill--216-to-511-cu-in": {
+        "count": 7,
+        "median_price": 67.45,
+        "median_volume_cu_in": 288.0,
+        "median_price_per_cu_ft": 236.9054117647059,
+        "min_price_per_cu_ft": 117.91872,
+        "max_price_per_cu_ft": 3787.36
+      },
+      "other--1000-to-1727-cu-in": {
+        "count": 5,
+        "median_price": 144.6,
+        "median_volume_cu_in": 1404.0,
+        "median_price_per_cu_ft": 177.96923076923076,
+        "min_price_per_cu_ft": 100.875,
+        "max_price_per_cu_ft": 177.96923076923076
+      },
+      "void-fill--64-to-215-cu-in": {
+        "count": 5,
+        "median_price": 85.7,
+        "median_volume_cu_in": 72.0,
+        "median_price_per_cu_ft": 1865.28,
+        "min_price_per_cu_ft": 913.9200000000001,
+        "max_price_per_cu_ft": 2421.12
+      },
+      "strapping--512-to-999-cu-in": {
+        "count": 4,
+        "median_price": 84.77000000000001,
+        "median_volume_cu_in": 594.0,
+        "median_price_per_cu_ft": 229.49866666666668,
+        "min_price_per_cu_ft": 182.29333333333332,
+        "max_price_per_cu_ft": 341.504
+      },
+      "tape--64-to-215-cu-in": {
+        "count": 4,
+        "median_price": 34.435,
+        "median_volume_cu_in": 110.07421875,
+        "median_price_per_cu_ft": 540.8796887649664,
+        "min_price_per_cu_ft": 412.88197071973354,
+        "max_price_per_cu_ft": 1066.7182829268293
+      },
+      "void-fill--1000-to-1727-cu-in": {
+        "count": 4,
+        "median_price": 97.265,
+        "median_volume_cu_in": 1200.0,
+        "median_price_per_cu_ft": 139.6928,
+        "min_price_per_cu_ft": 136.7424,
+        "max_price_per_cu_ft": 149.77280000000002
+      },
+      "void-fill--under-64-cu-in": {
+        "count": 4,
+        "median_price": 76.49,
+        "median_volume_cu_in": 25.0,
+        "median_price_per_cu_ft": 6701.2608,
+        "min_price_per_cu_ft": 3378.24,
+        "max_price_per_cu_ft": 7981.200000000001
+      },
+      "other--13824-plus-cu-in": {
+        "count": 3,
+        "median_price": 563.27,
+        "median_volume_cu_in": 31160.0,
+        "median_price_per_cu_ft": 38.11027471116817,
+        "min_price_per_cu_ft": 17.896727272727272,
+        "max_price_per_cu_ft": 39.65009613817826
+      },
+      "tape--216-to-511-cu-in": {
+        "count": 3,
+        "median_price": 50.12,
+        "median_volume_cu_in": 286.81640625,
+        "median_price_per_cu_ft": 355.92,
+        "min_price_per_cu_ft": 194.03735349716445,
+        "max_price_per_cu_ft": 356.18380878447397
+      },
+      "void-fill--13824-plus-cu-in": {
+        "count": 3,
+        "median_price": 304.11,
+        "median_volume_cu_in": 18225.0,
+        "median_price_per_cu_ft": 28.834133333333334,
+        "min_price_per_cu_ft": 21.550079999999998,
+        "max_price_per_cu_ft": 28.977303703703704
+      },
+      "void-fill--1728-to-4095-cu-in": {
+        "count": 3,
+        "median_price": 58.37,
+        "median_volume_cu_in": 3000.0,
+        "median_price_per_cu_ft": 33.62112,
+        "min_price_per_cu_ft": 32.01984,
+        "max_price_per_cu_ft": 48.6536170212766
+      },
+      "mailers--4096-to-13823-cu-in": {
+        "count": 2,
+        "median_price": 114.955,
+        "median_volume_cu_in": 4272.0,
+        "median_price_per_cu_ft": 46.4685,
+        "min_price_per_cu_ft": 43.785,
+        "max_price_per_cu_ft": 49.152
+      },
+      "tape--4096-to-13823-cu-in": {
+        "count": 2,
+        "median_price": 721.885,
+        "median_volume_cu_in": 5296.888499999999,
+        "median_price_per_cu_ft": 250.67494571302552,
+        "min_price_per_cu_ft": 51.27612631578947,
+        "max_price_per_cu_ft": 450.07376511026155
+      },
+      "tape--under-64-cu-in": {
+        "count": 2,
+        "median_price": 22.53,
+        "median_volume_cu_in": 21.4326171875,
+        "median_price_per_cu_ft": 3900026.8548024604,
+        "min_price_per_cu_ft": 1105.8696049213943,
+        "max_price_per_cu_ft": 7798947.84
+      },
+      "other--512-to-999-cu-in": {
+        "count": 1,
+        "median_price": 61.12,
+        "median_volume_cu_in": 526.5,
+        "median_price_per_cu_ft": 200.59897435897435,
+        "min_price_per_cu_ft": 200.59897435897435,
+        "max_price_per_cu_ft": 200.59897435897435
+      },
+      "tape--512-to-999-cu-in": {
+        "count": 1,
+        "median_price": 25.84,
+        "median_volume_cu_in": 900.0,
+        "median_price_per_cu_ft": 49.61279999999999,
+        "min_price_per_cu_ft": 49.61279999999999,
+        "max_price_per_cu_ft": 49.61279999999999
+      }
+    }
+  },
+  "sitemap_urls": 2628,
+  "private_data_excluded": [
+    "supplier cost",
+    "Packrift margin",
+    "customer data",
+    "order data",
+    "cart data",
+    "payment data",
+    "private freight rates",
+    "secrets or tokens"
+  ]
+}

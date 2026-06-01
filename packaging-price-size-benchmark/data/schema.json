@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Packrift Packaging Price/Size Benchmark",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "sku",
+      "packrift_product_url",
+      "catalog_price_usd",
+      "volume_cu_in",
+      "price_per_cu_ft_usd"
+    ],
+    "properties": {
+      "sku": {
+        "type": "string"
+      },
+      "packrift_product_url": {
+        "type": "string",
+        "format": "uri"
+      },
+      "catalog_price_usd": {
+        "type": "number"
+      },
+      "volume_cu_in": {
+        "type": "number"
+      },
+      "price_per_cu_ft_usd": {
+        "type": "number"
+      },
+      "source_row_hash": {
+        "type": "string"
+      },
+      "benchmark_hash": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "name": "Packrift Packaging Price/Size Benchmark",
+  "description": "A public Packrift benchmark corpus that normalizes approved in-stock packaging catalog records by size, volume, price band, product type, family, and price-per-cubic-foot signals.",
+  "url": "https://packrift.github.io/packaging-price-size-benchmark/",
+  "provider": {
+    "name": "Packrift LLC",
+    "url": "https://packrift.com"
+  },
+  "sitemap": "https://packrift.github.io/packaging-price-size-benchmark/sitemap.xml",
+  "llms_txt": "https://packrift.github.io/packaging-price-size-benchmark/llms.txt",
+  "api": "https://packrift.github.io/packaging-price-size-benchmark/openapi.json",
+  "data": "https://packrift.github.io/packaging-price-size-benchmark/data/price-size-benchmark.json"
+}

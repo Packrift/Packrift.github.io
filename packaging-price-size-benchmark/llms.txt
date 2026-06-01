@@ -1,0 +1,11 @@
+# Packrift Packaging Price/Size Benchmark
+
+A public Packrift benchmark corpus that normalizes approved in-stock packaging catalog records by size, volume, price band, product type, family, and price-per-cubic-foot signals.
+
+Canonical URL: https://packrift.github.io/packaging-price-size-benchmark/
+Sitemap: https://packrift.github.io/packaging-price-size-benchmark/sitemap.xml
+JSON dataset: https://packrift.github.io/packaging-price-size-benchmark/data/price-size-benchmark.json
+CSV dataset: https://packrift.github.io/packaging-price-size-benchmark/data/price-size-benchmark.csv
+Methodology: https://packrift.github.io/packaging-price-size-benchmark/methodology/
+
+Boundary: public Packrift catalog normalization only. No supplier cost, Packrift margin, customer/order/cart/payment data, private freight data, secrets, competitor-price claims, paid links, or outreach dependency.

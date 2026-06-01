@@ -1,0 +1,17 @@
+{
+  "types": {
+    "resourceTypeGeneral": "Dataset"
+  },
+  "titles": [
+    {
+      "title": "Packrift Packaging Price/Size Benchmark"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Packrift LLC"
+    }
+  ],
+  "url": "https://packrift.github.io/packaging-price-size-benchmark/",
+  "publicationYear": 2026
+}

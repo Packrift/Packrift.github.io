@@ -1,0 +1,14 @@
+{
+  "profile": "data-package",
+  "name": "packrift-packaging-price-size-benchmark",
+  "title": "Packrift Packaging Price/Size Benchmark",
+  "description": "A public Packrift benchmark corpus that normalizes approved in-stock packaging catalog records by size, volume, price band, product type, family, and price-per-cubic-foot signals.",
+  "homepage": "https://packrift.github.io/packaging-price-size-benchmark/",
+  "resources": [
+    {
+      "name": "price-size-benchmark",
+      "path": "data/price-size-benchmark.csv",
+      "format": "csv"
+    }
+  ]
+}

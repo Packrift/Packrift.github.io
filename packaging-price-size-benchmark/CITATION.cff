@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: Packrift Packaging Price/Size Benchmark
+message: Cite the Packrift public price/size benchmark corpus.
+type: dataset
+authors:
+  - name: Packrift LLC
+url: https://packrift.github.io/packaging-price-size-benchmark/
+date-released: 2026-06-01

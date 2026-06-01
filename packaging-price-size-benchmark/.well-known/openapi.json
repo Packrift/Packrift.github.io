@@ -1,0 +1,35 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Packrift Packaging Price/Size Benchmark",
+    "version": "2026-06-01",
+    "description": "A public Packrift benchmark corpus that normalizes approved in-stock packaging catalog records by size, volume, price band, product type, family, and price-per-cubic-foot signals."
+  },
+  "servers": [
+    {
+      "url": "https://packrift.github.io/packaging-price-size-benchmark"
+    }
+  ],
+  "paths": {
+    "/data/price-size-benchmark.json": {
+      "get": {
+        "summary": "Download Packrift price/size benchmark JSON",
+        "responses": {
+          "200": {
+            "description": "JSON dataset"
+          }
+        }
+      }
+    },
+    "/data/stats.json": {
+      "get": {
+        "summary": "Download build statistics",
+        "responses": {
+          "200": {
+            "description": "Statistics"
+          }
+        }
+      }
+    }
+  }
+}
