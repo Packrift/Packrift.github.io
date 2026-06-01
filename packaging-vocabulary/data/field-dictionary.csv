@@ -1,0 +1,6 @@
+field,description
+term,Normalized public catalog tag phrase.
+label,Human-readable display phrase.
+url,Canonical crosswalk page for the phrase.
+product_count,Approved in-stock Packrift SKUs that carry the phrase.
+sample_skus,Representative Packrift SKUs linked from the term page.

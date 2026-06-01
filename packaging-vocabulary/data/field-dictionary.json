@@ -1,0 +1,22 @@
+[
+  {
+    "field": "term",
+    "description": "Normalized public catalog tag phrase."
+  },
+  {
+    "field": "label",
+    "description": "Human-readable display phrase."
+  },
+  {
+    "field": "url",
+    "description": "Canonical crosswalk page for the phrase."
+  },
+  {
+    "field": "product_count",
+    "description": "Approved in-stock Packrift SKUs that carry the phrase."
+  },
+  {
+    "field": "sample_skus",
+    "description": "Representative Packrift SKUs linked from the term page."
+  }
+]

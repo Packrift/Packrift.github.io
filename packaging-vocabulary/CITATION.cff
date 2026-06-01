@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: Packrift Packaging Search Vocabulary Crosswalk
+message: Cite the public Packrift vocabulary crosswalk by URL.
+type: dataset
+authors:
+  - name: Packrift LLC
+url: https://packrift.github.io/packaging-vocabulary/
+date-released: 2026-06-01

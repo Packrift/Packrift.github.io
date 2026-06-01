@@ -1,0 +1,18 @@
+{
+  "boundaries": [
+    "No supplier cost, margin, customer, order, cart, payment, private source path, or live freight promise data is published.",
+    "Packrift.com remains the buying, price, and availability source of truth.",
+    "This crosswalk is not a third-party endorsement or ranking claim."
+  ],
+  "family_count": 13,
+  "generated_at": "2026-06-01T21:44:34Z",
+  "host": "packrift.github.io",
+  "min_products_for_term_page": 5,
+  "product_count": 4852,
+  "product_type_count": 24,
+  "published_term_count": 1775,
+  "site": "https://packrift.github.io/packaging-vocabulary",
+  "sitemap_url_count": 1836,
+  "source": "Packrift public catalog-control snapshot, filtered to approved in-stock public-safe rows",
+  "title": "Packrift Packaging Search Vocabulary Crosswalk"
+}

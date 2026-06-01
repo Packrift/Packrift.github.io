@@ -5,6 +5,7 @@ Content-Usage: search=y, ai-input=y, ai-train=n
 Sitemap: https://packrift.github.io/sitemap.xml
 Sitemap: https://packrift.github.io/procurement-readiness-index/sitemap.xml
 Sitemap: https://packrift.github.io/sku-evidence-cards/sitemap.xml
+Sitemap: https://packrift.github.io/packaging-vocabulary/sitemap.xml
 # Full agent context: https://packrift.github.io/llms-full.txt
 # Public research asset index: https://packrift.github.io/research-assets/
 # Public API catalog: https://packrift.github.io/apis.json

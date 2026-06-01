@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "properties": {
+      "family_count": {
+        "type": "integer"
+      },
+      "label": {
+        "type": "string"
+      },
+      "product_count": {
+        "type": "integer"
+      },
+      "product_type_count": {
+        "type": "integer"
+      },
+      "sample_skus": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "term": {
+        "type": "string"
+      },
+      "url": {
+        "format": "uri",
+        "type": "string"
+      }
+    },
+    "required": [
+      "term",
+      "label",
+      "url",
+      "product_count"
+    ],
+    "type": "object"
+  },
+  "title": "Packrift Packaging Search Vocabulary Crosswalk",
+  "type": "array"
+}

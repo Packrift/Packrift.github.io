@@ -1,0 +1,15 @@
+# Packrift Packaging Search Vocabulary Crosswalk
+
+A public buyer-language crosswalk built from approved in-stock Packrift catalog tags, mapping packaging search phrases to matching product families, product types, and Packrift product URLs.
+
+Published term pages: 1775
+Mapped products: 4852
+Families: 13
+Product types: 24
+
+Data files:
+- https://packrift.github.io/packaging-vocabulary/data/search-vocabulary-terms.json
+- https://packrift.github.io/packaging-vocabulary/data/search-vocabulary-terms.csv
+- https://packrift.github.io/packaging-vocabulary/data/search-vocabulary-terms.jsonl
+- https://packrift.github.io/packaging-vocabulary/data/field-dictionary.json
+- https://packrift.github.io/packaging-vocabulary/data/stats.json

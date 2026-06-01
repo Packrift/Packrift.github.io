@@ -1,0 +1,13 @@
+{
+  "profile": "data-package",
+  "name": "packrift-packaging-vocabulary",
+  "title": "Packrift Packaging Search Vocabulary Crosswalk",
+  "description": "A public buyer-language crosswalk built from approved in-stock Packrift catalog tags, mapping packaging search phrases to matching product families, product types, and Packrift product URLs.",
+  "resources": [
+    {
+      "name": "terms",
+      "path": "data/search-vocabulary-terms.csv",
+      "format": "csv"
+    }
+  ]
+}

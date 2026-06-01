@@ -1,0 +1,14 @@
+{
+  "@context": "https://www.w3.org/ns/dcat.jsonld",
+  "@type": "Dataset",
+  "title": "Packrift Packaging Search Vocabulary Crosswalk",
+  "description": "A public buyer-language crosswalk built from approved in-stock Packrift catalog tags, mapping packaging search phrases to matching product families, product types, and Packrift product URLs.",
+  "landingPage": "https://packrift.github.io/packaging-vocabulary",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "downloadURL": "https://packrift.github.io/packaging-vocabulary/data/search-vocabulary-terms.csv",
+      "mediaType": "text/csv"
+    }
+  ]
+}

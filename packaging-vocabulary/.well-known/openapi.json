@@ -1,0 +1,35 @@
+{
+  "info": {
+    "description": "A public buyer-language crosswalk built from approved in-stock Packrift catalog tags, mapping packaging search phrases to matching product families, product types, and Packrift product URLs.",
+    "title": "Packrift Packaging Search Vocabulary Crosswalk",
+    "version": "2026-06-01"
+  },
+  "openapi": "3.1.0",
+  "paths": {
+    "/data/search-vocabulary-terms.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "JSON term records"
+          }
+        },
+        "summary": "Download Packrift vocabulary terms"
+      }
+    },
+    "/data/stats.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "JSON stats"
+          }
+        },
+        "summary": "Download build stats"
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "https://packrift.github.io/packaging-vocabulary"
+    }
+  ]
+}

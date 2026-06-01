@@ -1,0 +1,6 @@
+.vercel
+__pycache__
+*.py
+*.log
+post-publish-*.json
+bwt-*.json

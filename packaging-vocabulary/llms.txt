@@ -1,0 +1,9 @@
+# Packrift Packaging Search Vocabulary Crosswalk
+
+A public buyer-language crosswalk built from approved in-stock Packrift catalog tags, mapping packaging search phrases to matching product families, product types, and Packrift product URLs.
+
+- Site: https://packrift.github.io/packaging-vocabulary/
+- Methodology: https://packrift.github.io/packaging-vocabulary/methodology/
+- Sitemap: https://packrift.github.io/packaging-vocabulary/sitemap.xml
+- Terms CSV: https://packrift.github.io/packaging-vocabulary/data/search-vocabulary-terms.csv
+- Stats: https://packrift.github.io/packaging-vocabulary/data/stats.json

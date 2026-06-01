@@ -1,0 +1,17 @@
+{
+  "api": {
+    "type": "openapi",
+    "url": "https://packrift.github.io/packaging-vocabulary/openapi.json"
+  },
+  "auth": {
+    "type": "none"
+  },
+  "contact_email": "support@packrift.com",
+  "description_for_human": "A public buyer-language crosswalk built from approved in-stock Packrift catalog tags, mapping packaging search phrases to matching product families, product types, and Packrift product URLs.",
+  "description_for_model": "Use this public Packrift packaging vocabulary crosswalk to map buyer-language packaging terms to Packrift product families, product types, SKUs, and product URLs.",
+  "legal_info_url": "https://packrift.github.io/packaging-vocabulary/methodology/",
+  "logo_url": "https://packrift.github.io/packaging-vocabulary/favicon.svg",
+  "name_for_human": "Packrift Packaging Search Vocabulary Crosswalk",
+  "name_for_model": "packrift_packaging_vocabulary",
+  "schema_version": "v1"
+}
