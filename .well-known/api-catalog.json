@@ -132,6 +132,45 @@
       ]
     },
     {
+      "anchor": "https://packrift.github.io/packrift-cube-efficiency-atlas/",
+      "service-desc": [
+        {
+          "href": "https://packrift.github.io/packrift-cube-efficiency-atlas/openapi.json",
+          "type": "application/openapi+json",
+          "title": "Packrift Catalog Cube Efficiency Atlas OpenAPI"
+        },
+        {
+          "href": "https://packrift.github.io/packrift-cube-efficiency-atlas/.well-known/agent-manifest.json",
+          "type": "application/manifest+json",
+          "title": "Packrift Catalog Cube Efficiency Atlas Agent Manifest"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://packrift.github.io/packrift-cube-efficiency-atlas/llms.txt",
+          "type": "text/plain",
+          "title": "Packrift Catalog Cube Efficiency Atlas Agent Context"
+        }
+      ],
+      "describedby": [
+        {
+          "href": "https://packrift.github.io/packrift-cube-efficiency-atlas/datapackage.json",
+          "type": "application/json",
+          "title": "Packrift Catalog Cube Efficiency Atlas Data Package"
+        },
+        {
+          "href": "https://packrift.github.io/packrift-cube-efficiency-atlas/dcat.jsonld",
+          "type": "application/ld+json",
+          "title": "Packrift Catalog Cube Efficiency Atlas DCAT Metadata"
+        },
+        {
+          "href": "https://packrift.github.io/packrift-cube-efficiency-atlas/data/cube-efficiency.jsonl",
+          "type": "application/x-ndjson",
+          "title": "Packrift Catalog Cube Efficiency JSONL"
+        }
+      ]
+    },
+    {
       "anchor": "https://packrift-fit-substitution-matrix.vercel.app/",
       "service-desc": [
         {

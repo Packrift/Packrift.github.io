@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "DataCatalog",
   "name": "Packrift Public Research Asset Index",
-  "description": "A crawlable Packrift catalog of public packaging research assets, solver fixtures, unit signals, dimensional-weight review data, fit/substitution evidence, procurement readiness data, and machine-readable sidecars.",
+  "description": "A crawlable Packrift catalog of public packaging research assets, solver fixtures, unit signals, cube-efficiency data, dimensional-weight review data, fit/substitution evidence, procurement readiness data, and machine-readable sidecars.",
   "url": "https://packrift.github.io/research-assets/",
   "creator": {
     "@type": "Organization",
@@ -16,17 +16,61 @@
       "name": "Packrift Pack Count and Unit Signal Atlas",
       "url": "https://packrift.github.io/",
       "distribution": [
-        {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://packrift.github.io/data/unit-signals.csv"},
-        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://packrift.github.io/data/unit-signals.json"},
-        {"@type": "DataDownload", "encodingFormat": "application/x-ndjson", "contentUrl": "https://packrift.github.io/data/unit-signals.jsonl"},
-        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://packrift.github.io/apis.json"},
-        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://packrift.github.io/.well-known/apis.json"},
-        {"@type": "DataDownload", "encodingFormat": "application/yaml", "contentUrl": "https://packrift.github.io/openapi.yaml"},
-        {"@type": "DataDownload", "encodingFormat": "application/yaml", "contentUrl": "https://packrift.github.io/.well-known/openapi.yaml"},
-        {"@type": "DataDownload", "encodingFormat": "application/linkset+json", "contentUrl": "https://packrift.github.io/.well-known/api-catalog"},
-        {"@type": "DataDownload", "encodingFormat": "application/linkset+json", "contentUrl": "https://packrift.github.io/.well-known/api-catalog.json"},
-        {"@type": "DataDownload", "encodingFormat": "application/xrd+xml", "contentUrl": "https://packrift.github.io/.well-known/host-meta"},
-        {"@type": "DataDownload", "encodingFormat": "application/jrd+json", "contentUrl": "https://packrift.github.io/.well-known/host-meta.json"}
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://packrift.github.io/data/unit-signals.csv"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://packrift.github.io/data/unit-signals.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/x-ndjson",
+          "contentUrl": "https://packrift.github.io/data/unit-signals.jsonl"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://packrift.github.io/apis.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://packrift.github.io/.well-known/apis.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/yaml",
+          "contentUrl": "https://packrift.github.io/openapi.yaml"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/yaml",
+          "contentUrl": "https://packrift.github.io/.well-known/openapi.yaml"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/linkset+json",
+          "contentUrl": "https://packrift.github.io/.well-known/api-catalog"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/linkset+json",
+          "contentUrl": "https://packrift.github.io/.well-known/api-catalog.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/xrd+xml",
+          "contentUrl": "https://packrift.github.io/.well-known/host-meta"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/jrd+json",
+          "contentUrl": "https://packrift.github.io/.well-known/host-meta.json"
+        }
       ]
     },
     {
@@ -34,9 +78,21 @@
       "name": "Packrift Procurement Readiness Index",
       "url": "https://packrift.github.io/procurement-readiness-index/",
       "distribution": [
-        {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://packrift.github.io/procurement-readiness-index/data/readiness-index.csv"},
-        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://packrift.github.io/procurement-readiness-index/data/readiness-index.json"},
-        {"@type": "DataDownload", "encodingFormat": "application/x-ndjson", "contentUrl": "https://packrift.github.io/procurement-readiness-index/data/readiness-index.jsonl"}
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://packrift.github.io/procurement-readiness-index/data/readiness-index.csv"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://packrift.github.io/procurement-readiness-index/data/readiness-index.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/x-ndjson",
+          "contentUrl": "https://packrift.github.io/procurement-readiness-index/data/readiness-index.jsonl"
+        }
       ]
     },
     {
@@ -49,9 +105,21 @@
       "name": "Packrift Benchmark Navigator and Packingsolver Fixtures",
       "url": "https://packrift-benchmark-navigator.vercel.app/",
       "distribution": [
-        {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://packrift-benchmark-navigator.vercel.app/data/packingsolver-fixtures/instance-index.csv"},
-        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://packrift-benchmark-navigator.vercel.app/data/packingsolver-fixtures/instance-index.json"},
-        {"@type": "DataDownload", "encodingFormat": "application/zip", "contentUrl": "https://packrift-benchmark-navigator.vercel.app/data/packingsolver-fixtures/publication-kit/packrift-packingsolver-fixtures-v2026.05.31.zip"}
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://packrift-benchmark-navigator.vercel.app/data/packingsolver-fixtures/instance-index.csv"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://packrift-benchmark-navigator.vercel.app/data/packingsolver-fixtures/instance-index.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/zip",
+          "contentUrl": "https://packrift-benchmark-navigator.vercel.app/data/packingsolver-fixtures/publication-kit/packrift-packingsolver-fixtures-v2026.05.31.zip"
+        }
       ]
     },
     {
@@ -69,8 +137,58 @@
       "name": "Packrift Operations Resource Graph",
       "url": "https://packrift-operations-resource-graph.vercel.app/",
       "distribution": [
-        {"@type": "DataDownload", "encodingFormat": "application/ld+json", "contentUrl": "https://packrift-operations-resource-graph.vercel.app/metadata.json"},
-        {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://packrift-operations-resource-graph.vercel.app/ro-crate-metadata.json"}
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/ld+json",
+          "contentUrl": "https://packrift-operations-resource-graph.vercel.app/metadata.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://packrift-operations-resource-graph.vercel.app/ro-crate-metadata.json"
+        }
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "name": "Packrift Catalog Cube Efficiency Atlas",
+      "url": "https://packrift.github.io/packrift-cube-efficiency-atlas/",
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://packrift.github.io/packrift-cube-efficiency-atlas/data/cube-efficiency.csv"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://packrift.github.io/packrift-cube-efficiency-atlas/data/cube-efficiency.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/x-ndjson",
+          "contentUrl": "https://packrift.github.io/packrift-cube-efficiency-atlas/data/cube-efficiency.jsonl"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/schema+json",
+          "contentUrl": "https://packrift.github.io/packrift-cube-efficiency-atlas/data/cube-efficiency.schema.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://packrift.github.io/packrift-cube-efficiency-atlas/data/stats.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://packrift.github.io/packrift-cube-efficiency-atlas/.well-known/agent-manifest.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/xml",
+          "contentUrl": "https://packrift.github.io/packrift-cube-efficiency-atlas/sitemap.xml"
+        }
       ]
     }
   ]

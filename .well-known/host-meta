@@ -29,4 +29,10 @@
   <Link rel="describedby" type="application/ld+json" href="https://packrift.github.io/dcat.jsonld">
     <Title>Packrift DCAT Metadata</Title>
   </Link>
+  <Link rel="describedby" type="application/json" href="https://packrift.github.io/packrift-cube-efficiency-atlas/datapackage.json">
+    <Title>Packrift Catalog Cube Efficiency Atlas Data Package</Title>
+  </Link>
+  <Link rel="service-desc" type="application/openapi+json" href="https://packrift.github.io/packrift-cube-efficiency-atlas/openapi.json">
+    <Title>Packrift Catalog Cube Efficiency Atlas OpenAPI JSON</Title>
+  </Link>
 </XRD>

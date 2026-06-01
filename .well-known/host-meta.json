@@ -75,6 +75,22 @@
       "titles": {
         "en": "Packrift DCAT Metadata"
       }
+    },
+    {
+      "rel": "describedby",
+      "type": "application/json",
+      "href": "https://packrift.github.io/packrift-cube-efficiency-atlas/datapackage.json",
+      "titles": {
+        "en": "Packrift Catalog Cube Efficiency Atlas Data Package"
+      }
+    },
+    {
+      "rel": "service-desc",
+      "type": "application/openapi+json",
+      "href": "https://packrift.github.io/packrift-cube-efficiency-atlas/openapi.json",
+      "titles": {
+        "en": "Packrift Catalog Cube Efficiency Atlas OpenAPI JSON"
+      }
     }
   ]
 }

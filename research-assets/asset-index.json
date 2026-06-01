@@ -1,7 +1,7 @@
 {
   "name": "Packrift Public Research Asset Index",
   "url": "https://packrift.github.io/research-assets/",
-  "generated_at": "2026-05-31T21:30:00Z",
+  "generated_at": "2026-06-01T17:51:55Z",
   "publisher": {
     "name": "Packrift LLC",
     "url": "https://packrift.com/"
@@ -168,6 +168,33 @@
         "https://packrift-operations-resource-graph.vercel.app/checksums.sha256"
       ],
       "scope_note": "Public Packrift operations resource graph with standards-oriented dataset sidecars."
+    },
+    {
+      "name": "Packrift Catalog Cube Efficiency Atlas",
+      "type": "dataset",
+      "homepage": "https://packrift.github.io/packrift-cube-efficiency-atlas/",
+      "sitemap": "https://packrift.github.io/packrift-cube-efficiency-atlas/sitemap.xml",
+      "robots": "https://packrift.github.io/packrift-cube-efficiency-atlas/robots.txt",
+      "llms": "https://packrift.github.io/packrift-cube-efficiency-atlas/llms.txt",
+      "agent_manifest": "https://packrift.github.io/packrift-cube-efficiency-atlas/.well-known/agent-manifest.json",
+      "data": [
+        "https://packrift.github.io/packrift-cube-efficiency-atlas/data/cube-efficiency.csv",
+        "https://packrift.github.io/packrift-cube-efficiency-atlas/data/cube-efficiency.json",
+        "https://packrift.github.io/packrift-cube-efficiency-atlas/data/cube-efficiency.jsonl",
+        "https://packrift.github.io/packrift-cube-efficiency-atlas/data/cube-efficiency.schema.json",
+        "https://packrift.github.io/packrift-cube-efficiency-atlas/data/stats.json",
+        "https://packrift.github.io/packrift-cube-efficiency-atlas/data/field-dictionary.json"
+      ],
+      "metadata": [
+        "https://packrift.github.io/packrift-cube-efficiency-atlas/openapi.json",
+        "https://packrift.github.io/packrift-cube-efficiency-atlas/.well-known/openapi.json",
+        "https://packrift.github.io/packrift-cube-efficiency-atlas/datapackage.json",
+        "https://packrift.github.io/packrift-cube-efficiency-atlas/dcat.jsonld",
+        "https://packrift.github.io/packrift-cube-efficiency-atlas/datacite.json",
+        "https://packrift.github.io/packrift-cube-efficiency-atlas/CITATION.cff",
+        "https://packrift.github.io/packrift-cube-efficiency-atlas/checksums.sha256"
+      ],
+      "scope_note": "Public catalog cube, cubic feet, reference dimensional-weight at divisor 139, weight density, and snapshot price-per-cubic-foot reference for 2,510 dimension-backed Packrift catalog rows. Snapshot only; not a live freight quote, carrier invoice, supplier-cost file, margin model, inventory promise, checkout commitment, or substitute approval."
     }
   ]
 }

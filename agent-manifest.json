@@ -1,8 +1,8 @@
 {
   "spec_version": "agentmanifest-0.3",
   "name": "Packrift GitHub Pages Packaging Resource Corpus",
-  "version": "1.0.6",
-  "description": "Packrift GitHub Pages Packaging Resource Corpus is a free, no-auth public resource collection for packaging SKU evidence, pack-count signals, unit-price and unit-weight bands, procurement readiness, public research asset discovery, and machine-readable Packrift data sidecars. Agents can use it to discover static public Packrift catalog resources without treating the files as live freight quotes, supplier-cost data, inventory guarantees, substitute approvals, or checkout commitments.",
+  "version": "1.0.7",
+  "description": "Packrift GitHub Pages Packaging Resource Corpus is a free, no-auth public resource collection for packaging SKU evidence, pack-count signals, unit-price and unit-weight bands, catalog cube-efficiency data, procurement readiness, public research asset discovery, and machine-readable Packrift data sidecars. Agents can use it to discover static public Packrift catalog resources without treating the files as live freight quotes, supplier-cost data, inventory guarantees, substitute approvals, or checkout commitments.",
   "homepage": "https://packrift.github.io/",
   "documentation": "https://packrift.github.io/llms-full.txt",
   "categories": [
@@ -159,6 +159,27 @@
       "description": "Read a representative root Packrift unit-signal product page.",
       "parameters": [],
       "response_description": "HTML product signal page with public Packrift pack-count, unit, family, inventory, and product-route fields."
+    },
+    {
+      "path": "/packrift-cube-efficiency-atlas/sitemap.xml",
+      "method": "GET",
+      "description": "Enumerate Packrift Catalog Cube Efficiency Atlas pages and sidecars.",
+      "parameters": [],
+      "response_description": "XML sitemap containing cube-efficiency SKU pages, rollup pages, and public data sidecars."
+    },
+    {
+      "path": "/packrift-cube-efficiency-atlas/.well-known/agent-manifest.json",
+      "method": "GET",
+      "description": "Fetch the sub-asset Agent Manifest for the Packrift Catalog Cube Efficiency Atlas.",
+      "parameters": [],
+      "response_description": "Agent Manifest descriptor for the public cube, density, and reference dimensional-weight atlas."
+    },
+    {
+      "path": "/packrift-cube-efficiency-atlas/data/cube-efficiency.jsonl",
+      "method": "GET",
+      "description": "Download line-delimited cube-efficiency rows for dimension-backed Packrift catalog SKUs.",
+      "parameters": [],
+      "response_description": "JSONL records with catalog dimensions, cube, reference DIM weight, density, and public-safe snapshot fields."
     }
   ],
   "authentication": {
@@ -185,12 +206,12 @@
     "status_url": null,
     "expected_uptime_pct": null
   },
-  "agent_notes": "Use this manifest as a read-only entry point for the Packrift GitHub Pages public packaging resource corpus. Access is free, and no account, credential, token, API key, payment, checkout, carrier account, or password is required for the public files listed here. The corpus links to root pack-count/unit-signal pages, the Procurement Readiness Index, SKU Evidence Cards, and the Public Research Asset Index. Do not treat static catalog records as live freight quotes, supplier-cost disclosures, inventory promises, substitute approvals, or checkout/order completion. Use Packrift.com and Packrift MCP for live price, inventory, freight, cart, and buyer-specific checks.",
+  "agent_notes": "This root corpus and listed sub-assets are read-only public references. No account, login, API key, token, payment, or password is required to read the public files. The corpus now includes the Packrift Catalog Cube Efficiency Atlas at https://packrift.github.io/packrift-cube-efficiency-atlas/ for dimension-backed cube, density, and reference dimensional-weight inspection. Static files are not live quotes, inventory promises, carrier invoices, supplier-cost disclosures, margin disclosures, customer records, checkout commitments, or substitute approvals. Use Packrift.com checkout and Packrift MCP for live price, inventory, shipping, cart, and order decisions.",
   "contact": {
     "email": "farhan@packrift.com",
     "support_url": "https://packrift.com/pages/contact",
     "github": "https://github.com/Packrift"
   },
   "listing_requested": true,
-  "last_updated": "2026-05-31T22:30:00Z"
+  "last_updated": "2026-06-01T17:51:55Z"
 }

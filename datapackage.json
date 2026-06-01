@@ -41,6 +41,24 @@
       "path": "ro-crate-metadata.json",
       "format": "json",
       "mediatype": "application/ld+json"
+    },
+    {
+      "name": "cube-efficiency-atlas-csv",
+      "path": "https://packrift.github.io/packrift-cube-efficiency-atlas/data/cube-efficiency.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "cube-efficiency-atlas-json",
+      "path": "https://packrift.github.io/packrift-cube-efficiency-atlas/data/cube-efficiency.json",
+      "format": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "name": "cube-efficiency-atlas-jsonl",
+      "path": "https://packrift.github.io/packrift-cube-efficiency-atlas/data/cube-efficiency.jsonl",
+      "format": "jsonl",
+      "mediatype": "application/x-ndjson"
     }
   ]
 }

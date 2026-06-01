@@ -29,6 +29,26 @@
       "@type": "dcat:Distribution",
       "dcat:downloadURL": "https://packrift.github.io/ro-crate-metadata.json",
       "dct:format": "application/ld+json"
+    },
+    {
+      "@type": "dcat:Distribution",
+      "dcat:downloadURL": "https://packrift.github.io/packrift-cube-efficiency-atlas/data/cube-efficiency.csv",
+      "dct:format": "text/csv"
+    },
+    {
+      "@type": "dcat:Distribution",
+      "dcat:downloadURL": "https://packrift.github.io/packrift-cube-efficiency-atlas/data/cube-efficiency.json",
+      "dct:format": "application/json"
+    },
+    {
+      "@type": "dcat:Distribution",
+      "dcat:downloadURL": "https://packrift.github.io/packrift-cube-efficiency-atlas/data/cube-efficiency.jsonl",
+      "dct:format": "application/x-ndjson"
+    },
+    {
+      "@type": "dcat:Distribution",
+      "dcat:downloadURL": "https://packrift.github.io/packrift-cube-efficiency-atlas/sitemap.xml",
+      "dct:format": "application/xml"
     }
   ]
 }

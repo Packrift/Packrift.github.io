@@ -4,7 +4,7 @@
   "image": "https://packrift.github.io/favicon.svg",
   "url": "https://packrift.github.io/apis.json",
   "created": "2026-05-31",
-  "modified": "2026-05-31",
+  "modified": "2026-06-01",
   "specificationVersion": "0.16",
   "maintainers": [
     {
@@ -265,6 +265,54 @@
         {
           "type": "ROCrate",
           "url": "https://packrift-operations-resource-graph.vercel.app/ro-crate-metadata.json"
+        }
+      ]
+    },
+    {
+      "name": "Packrift Catalog Cube Efficiency Atlas",
+      "description": "No-auth static Packrift catalog cube, density, reference dimensional-weight, and snapshot price-per-cubic-foot atlas for dimension-backed packaging SKUs. Snapshot only; use Packrift.com or Packrift MCP for live price, inventory, shipping, cart, and order decisions.",
+      "image": "https://packrift.github.io/packrift-cube-efficiency-atlas/icon.svg",
+      "humanURL": "https://packrift.github.io/packrift-cube-efficiency-atlas/",
+      "baseURL": "https://packrift.github.io/packrift-cube-efficiency-atlas",
+      "tags": [
+        "packaging",
+        "datasets",
+        "openapi",
+        "catalog",
+        "dimensional-weight"
+      ],
+      "properties": [
+        {
+          "type": "OpenAPI",
+          "url": "https://packrift.github.io/packrift-cube-efficiency-atlas/openapi.json"
+        },
+        {
+          "type": "AgentManifest",
+          "url": "https://packrift.github.io/packrift-cube-efficiency-atlas/.well-known/agent-manifest.json"
+        },
+        {
+          "type": "LLMs",
+          "url": "https://packrift.github.io/packrift-cube-efficiency-atlas/llms.txt"
+        },
+        {
+          "type": "Sitemap",
+          "url": "https://packrift.github.io/packrift-cube-efficiency-atlas/sitemap.xml"
+        },
+        {
+          "type": "DataPackage",
+          "url": "https://packrift.github.io/packrift-cube-efficiency-atlas/datapackage.json"
+        },
+        {
+          "type": "DCAT",
+          "url": "https://packrift.github.io/packrift-cube-efficiency-atlas/dcat.jsonld"
+        },
+        {
+          "type": "CSV",
+          "url": "https://packrift.github.io/packrift-cube-efficiency-atlas/data/cube-efficiency.csv"
+        },
+        {
+          "type": "JSONL",
+          "url": "https://packrift.github.io/packrift-cube-efficiency-atlas/data/cube-efficiency.jsonl"
         }
       ]
     }

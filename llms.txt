@@ -40,10 +40,15 @@ Additional public corpus routes:
 - https://packrift.github.io/procurement-readiness-index/.well-known/agent-manifest.json
 - https://packrift.github.io/sku-evidence-cards/sitemap.xml
 - https://packrift.github.io/sku-evidence-cards/.well-known/agent-manifest.json
+- https://packrift.github.io/packrift-cube-efficiency-atlas/
+- https://packrift.github.io/packrift-cube-efficiency-atlas/sitemap.xml
+- https://packrift.github.io/packrift-cube-efficiency-atlas/.well-known/agent-manifest.json
+- https://packrift.github.io/packrift-cube-efficiency-atlas/data/cube-efficiency.jsonl
 
 Research asset crosswalk:
 - https://packrift.github.io/research-assets/
 - https://packrift-benchmark-navigator.vercel.app/
 - https://packrift-dimensional-weight-atlas.vercel.app/
+- https://packrift.github.io/packrift-cube-efficiency-atlas/
 - https://packrift-fit-substitution-matrix.vercel.app/
 - https://packrift-operations-resource-graph.vercel.app/
