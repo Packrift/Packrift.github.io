@@ -15,7 +15,7 @@
       }
     ],
     "family_count": 3,
-    "label": "Bo X Es",
+    "label": "Boxes",
     "product_count": 1708,
     "product_type_count": 4,
     "product_types": [
@@ -62,8 +62,8 @@
       "774",
       "963"
     ],
-    "term": "bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/bo-x-es/"
+    "term": "boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/boxes/"
   },
   {
     "families": [
@@ -81,7 +81,7 @@
       }
     ],
     "family_count": 3,
-    "label": "Corrugated Bo X Es",
+    "label": "Corrugated Boxes",
     "product_count": 1673,
     "product_type_count": 3,
     "product_types": [
@@ -124,8 +124,8 @@
       "774",
       "963"
     ],
-    "term": "corrugated bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/corrugated-bo-x-es/"
+    "term": "corrugated boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/corrugated-boxes/"
   },
   {
     "families": [
@@ -367,7 +367,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Cardboard Bo X Es",
+    "label": "Cardboard Boxes",
     "product_count": 1048,
     "product_type_count": 1,
     "product_types": [
@@ -402,8 +402,8 @@
       "753",
       "866"
     ],
-    "term": "cardboard bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/cardboard-bo-x-es/"
+    "term": "cardboard boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/cardboard-boxes/"
   },
   {
     "families": [
@@ -459,7 +459,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Cardboard Shipping Bo X Es",
+    "label": "Cardboard Shipping Boxes",
     "product_count": 904,
     "product_type_count": 1,
     "product_types": [
@@ -494,8 +494,8 @@
       "766",
       "1244"
     ],
-    "term": "cardboard shipping bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/cardboard-shipping-bo-x-es/"
+    "term": "cardboard shipping boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/cardboard-shipping-boxes/"
   },
   {
     "families": [
@@ -551,7 +551,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Storage Bo X Es",
+    "label": "Storage Boxes",
     "product_count": 886,
     "product_type_count": 1,
     "product_types": [
@@ -586,8 +586,8 @@
       "766",
       "1244"
     ],
-    "term": "storage bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/storage-bo-x-es/"
+    "term": "storage boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/storage-boxes/"
   },
   {
     "families": [
@@ -597,7 +597,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Packaging Bo X Es",
+    "label": "Packaging Boxes",
     "product_count": 876,
     "product_type_count": 1,
     "product_types": [
@@ -632,8 +632,8 @@
       "766",
       "1244"
     ],
-    "term": "packaging bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/packaging-bo-x-es/"
+    "term": "packaging boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/packaging-boxes/"
   },
   {
     "families": [
@@ -805,7 +805,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Kraft Bo X Es",
+    "label": "Kraft Boxes",
     "product_count": 686,
     "product_type_count": 1,
     "product_types": [
@@ -840,8 +840,8 @@
       "766",
       "1244"
     ],
-    "term": "kraft bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/kraft-bo-x-es/"
+    "term": "kraft boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/kraft-boxes/"
   },
   {
     "families": [
@@ -851,7 +851,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Brown Bo X Es",
+    "label": "Brown Boxes",
     "product_count": 685,
     "product_type_count": 1,
     "product_types": [
@@ -886,8 +886,8 @@
       "766",
       "1244"
     ],
-    "term": "brown bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/brown-bo-x-es/"
+    "term": "brown boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/brown-boxes/"
   },
   {
     "families": [
@@ -1093,7 +1093,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Moving Bo X Es",
+    "label": "Moving Boxes",
     "product_count": 629,
     "product_type_count": 1,
     "product_types": [
@@ -1128,8 +1128,8 @@
       "1074",
       "764"
     ],
-    "term": "moving bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/moving-bo-x-es/"
+    "term": "moving boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/moving-boxes/"
   },
   {
     "families": [
@@ -1785,7 +1785,7 @@
       }
     ],
     "family_count": 2,
-    "label": "Corrugated Mailing Bo X Es",
+    "label": "Corrugated Mailing Boxes",
     "product_count": 577,
     "product_type_count": 1,
     "product_types": [
@@ -1820,8 +1820,8 @@
       "MLRCD",
       "M842"
     ],
-    "term": "corrugated mailing bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/corrugated-mailing-bo-x-es/"
+    "term": "corrugated mailing boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/corrugated-mailing-boxes/"
   },
   {
     "families": [
@@ -1839,7 +1839,7 @@
       }
     ],
     "family_count": 3,
-    "label": "Shipping Bo X",
+    "label": "Shipping Box",
     "product_count": 576,
     "product_type_count": 2,
     "product_types": [
@@ -1878,8 +1878,8 @@
       "MLRCD",
       "M842"
     ],
-    "term": "shipping bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/shipping-bo-x/"
+    "term": "shipping box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/shipping-box/"
   },
   {
     "families": [
@@ -2143,7 +2143,7 @@
       }
     ],
     "family_count": 2,
-    "label": "Cardboard Mailing Bo X Es",
+    "label": "Cardboard Mailing Boxes",
     "product_count": 570,
     "product_type_count": 1,
     "product_types": [
@@ -2178,8 +2178,8 @@
       "MLRCD",
       "M842"
     ],
-    "term": "cardboard mailing bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/cardboard-mailing-bo-x-es/"
+    "term": "cardboard mailing boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/cardboard-mailing-boxes/"
   },
   {
     "families": [
@@ -2193,7 +2193,7 @@
       }
     ],
     "family_count": 2,
-    "label": "Crush Resistant Bo X",
+    "label": "Crush Resistant Box",
     "product_count": 570,
     "product_type_count": 1,
     "product_types": [
@@ -2228,8 +2228,8 @@
       "MLRCD",
       "M842"
     ],
-    "term": "crush resistant bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/crush-resistant-bo-x/"
+    "term": "crush resistant box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/crush-resistant-box/"
   },
   {
     "families": [
@@ -2293,7 +2293,7 @@
       }
     ],
     "family_count": 2,
-    "label": "Mailing Bo X Es",
+    "label": "Mailing Boxes",
     "product_count": 542,
     "product_type_count": 1,
     "product_types": [
@@ -2328,8 +2328,8 @@
       "MLRCD",
       "M842"
     ],
-    "term": "mailing bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/mailing-bo-x-es/"
+    "term": "mailing boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/mailing-boxes/"
   },
   {
     "families": [
@@ -2543,7 +2543,7 @@
       }
     ],
     "family_count": 2,
-    "label": "Bolsas Fle X Ibles",
+    "label": "Bolsas Flexibles",
     "product_count": 535,
     "product_type_count": 1,
     "product_types": [
@@ -2578,8 +2578,8 @@
       "PB3735",
       "PB3642"
     ],
-    "term": "bolsas fle x ibles",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/bolsas-fle-x-ibles/"
+    "term": "bolsas flexibles",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/bolsas-flexibles/"
   },
   {
     "families": [
@@ -3775,7 +3775,7 @@
       }
     ],
     "family_count": 2,
-    "label": "Fle X Ible Bags",
+    "label": "Flexible Bags",
     "product_count": 430,
     "product_type_count": 1,
     "product_types": [
@@ -3810,8 +3810,8 @@
       "PB3642",
       "PB220"
     ],
-    "term": "fle x ible bags",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/fle-x-ible-bags/"
+    "term": "flexible bags",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/flexible-bags/"
   },
   {
     "families": [
@@ -4087,7 +4087,7 @@
       }
     ],
     "family_count": 2,
-    "label": "White Mailing Bo X Es",
+    "label": "White Mailing Boxes",
     "product_count": 394,
     "product_type_count": 1,
     "product_types": [
@@ -4122,8 +4122,8 @@
       "MLRCD",
       "M842"
     ],
-    "term": "white mailing bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/white-mailing-bo-x-es/"
+    "term": "white mailing boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/white-mailing-boxes/"
   },
   {
     "families": [
@@ -4137,7 +4137,7 @@
       }
     ],
     "family_count": 2,
-    "label": "Foldable White Bo X",
+    "label": "Foldable White Box",
     "product_count": 393,
     "product_type_count": 1,
     "product_types": [
@@ -4172,8 +4172,8 @@
       "MLRCD",
       "M842"
     ],
-    "term": "foldable white bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/foldable-white-bo-x/"
+    "term": "foldable white box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/foldable-white-box/"
   },
   {
     "families": [
@@ -6273,7 +6273,7 @@
       }
     ],
     "family_count": 2,
-    "label": "Foldable Kraft Bo X",
+    "label": "Foldable Kraft Box",
     "product_count": 177,
     "product_type_count": 1,
     "product_types": [
@@ -6308,8 +6308,8 @@
       "M644K",
       "M843K"
     ],
-    "term": "foldable kraft bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/foldable-kraft-bo-x/"
+    "term": "foldable kraft box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/foldable-kraft-box/"
   },
   {
     "families": [
@@ -6323,7 +6323,7 @@
       }
     ],
     "family_count": 2,
-    "label": "Kraft Mailing Bo X Es",
+    "label": "Kraft Mailing Boxes",
     "product_count": 177,
     "product_type_count": 1,
     "product_types": [
@@ -6358,8 +6358,8 @@
       "M644K",
       "M843K"
     ],
-    "term": "kraft mailing bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/kraft-mailing-bo-x-es/"
+    "term": "kraft mailing boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/kraft-mailing-boxes/"
   },
   {
     "families": [
@@ -6369,7 +6369,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Kraft Bo X",
+    "label": "Kraft Box",
     "product_count": 176,
     "product_type_count": 1,
     "product_types": [
@@ -6404,8 +6404,8 @@
       "MD11812",
       "14114"
     ],
-    "term": "kraft bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/kraft-bo-x/"
+    "term": "kraft box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/kraft-box/"
   },
   {
     "families": [
@@ -6665,7 +6665,7 @@
       }
     ],
     "family_count": 1,
-    "label": "E X Pandable",
+    "label": "Expandable",
     "product_count": 166,
     "product_type_count": 1,
     "product_types": [
@@ -6700,8 +6700,8 @@
       "PB3930",
       "PB1547"
     ],
-    "term": "e x pandable",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/e-x-pandable/"
+    "term": "expandable",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/expandable/"
   },
   {
     "families": [
@@ -6711,7 +6711,7 @@
       }
     ],
     "family_count": 1,
-    "label": "E X Pandable Bags",
+    "label": "Expandable Bags",
     "product_count": 166,
     "product_type_count": 1,
     "product_types": [
@@ -6746,8 +6746,8 @@
       "PB3930",
       "PB1547"
     ],
-    "term": "e x pandable bags",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/e-x-pandable-bags/"
+    "term": "expandable bags",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/expandable-bags/"
   },
   {
     "families": [
@@ -6757,7 +6757,7 @@
       }
     ],
     "family_count": 1,
-    "label": "E X Pandable Poly Bags",
+    "label": "Expandable Poly Bags",
     "product_count": 166,
     "product_type_count": 1,
     "product_types": [
@@ -6792,8 +6792,8 @@
       "PB3930",
       "PB1547"
     ],
-    "term": "e x pandable poly bags",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/e-x-pandable-poly-bags/"
+    "term": "expandable poly bags",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/expandable-poly-bags/"
   },
   {
     "families": [
@@ -6803,7 +6803,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Fle X Ible Clear Bags",
+    "label": "Flexible Clear Bags",
     "product_count": 166,
     "product_type_count": 1,
     "product_types": [
@@ -6838,8 +6838,8 @@
       "PB3930",
       "PB1547"
     ],
-    "term": "fle x ible clear bags",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/fle-x-ible-clear-bags/"
+    "term": "flexible clear bags",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/flexible-clear-bags/"
   },
   {
     "families": [
@@ -7125,7 +7125,7 @@
       }
     ],
     "family_count": 1,
-    "label": "E X Pandable Side Plastic Bag",
+    "label": "Expandable Side Plastic Bag",
     "product_count": 161,
     "product_type_count": 1,
     "product_types": [
@@ -7160,8 +7160,8 @@
       "PB1547",
       "PB1381"
     ],
-    "term": "e x pandable side plastic bag",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/e-x-pandable-side-plastic-bag/"
+    "term": "expandable side plastic bag",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/expandable-side-plastic-bag/"
   },
   {
     "families": [
@@ -7175,7 +7175,7 @@
       }
     ],
     "family_count": 2,
-    "label": "Bin Bo X Es",
+    "label": "Bin Boxes",
     "product_count": 160,
     "product_type_count": 2,
     "product_types": [
@@ -7214,8 +7214,8 @@
       "BINJ122412",
       "BINJ162412"
     ],
-    "term": "bin bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/bin-bo-x-es/"
+    "term": "bin boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/bin-boxes/"
   },
   {
     "families": [
@@ -7753,7 +7753,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Brown Bo X",
+    "label": "Brown Box",
     "product_count": 143,
     "product_type_count": 1,
     "product_types": [
@@ -7788,8 +7788,8 @@
       "MD11812",
       "14114"
     ],
-    "term": "brown bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/brown-bo-x/"
+    "term": "brown box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/brown-box/"
   },
   {
     "families": [
@@ -10215,7 +10215,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Delu X E Cardboard Literature Bo X",
+    "label": "Deluxe Cardboard Literature Box",
     "product_count": 111,
     "product_type_count": 1,
     "product_types": [
@@ -10250,8 +10250,8 @@
       "MFL18123",
       "MFL963"
     ],
-    "term": "delu x e cardboard literature bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/delu-x-e-cardboard-literature-bo-x/"
+    "term": "deluxe cardboard literature box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/deluxe-cardboard-literature-box/"
   },
   {
     "families": [
@@ -10261,7 +10261,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Delu X E Corrugated Literature Bo X",
+    "label": "Deluxe Corrugated Literature Box",
     "product_count": 111,
     "product_type_count": 1,
     "product_types": [
@@ -10296,8 +10296,8 @@
       "MFL18123",
       "MFL963"
     ],
-    "term": "delu x e corrugated literature bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/delu-x-e-corrugated-literature-bo-x/"
+    "term": "deluxe corrugated literature box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/deluxe-corrugated-literature-box/"
   },
   {
     "families": [
@@ -10307,7 +10307,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Delu X E Literature Mailers",
+    "label": "Deluxe Literature Mailers",
     "product_count": 111,
     "product_type_count": 1,
     "product_types": [
@@ -10342,8 +10342,8 @@
       "MFL18123",
       "MFL963"
     ],
-    "term": "delu x e literature mailers",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/delu-x-e-literature-mailers/"
+    "term": "deluxe literature mailers",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/deluxe-literature-mailers/"
   },
   {
     "families": [
@@ -10403,7 +10403,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Delu X E Literature Bo X",
+    "label": "Deluxe Literature Box",
     "product_count": 110,
     "product_type_count": 1,
     "product_types": [
@@ -10438,8 +10438,8 @@
       "MFL963",
       "MFL10102"
     ],
-    "term": "delu x e literature bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/delu-x-e-literature-bo-x/"
+    "term": "deluxe literature box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/deluxe-literature-box/"
   },
   {
     "families": [
@@ -10449,7 +10449,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Foldable Delu X E Mailer",
+    "label": "Foldable Deluxe Mailer",
     "product_count": 110,
     "product_type_count": 1,
     "product_types": [
@@ -10484,8 +10484,8 @@
       "MFL963",
       "MFL10102"
     ],
-    "term": "foldable delu x e mailer",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/foldable-delu-x-e-mailer/"
+    "term": "foldable deluxe mailer",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/foldable-deluxe-mailer/"
   },
   {
     "families": [
@@ -11041,7 +11041,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Chipboard Bo X Es",
+    "label": "Chipboard Boxes",
     "product_count": 105,
     "product_type_count": 1,
     "product_types": [
@@ -11076,8 +11076,8 @@
       "RTD7",
       "GB126"
     ],
-    "term": "chipboard bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/chipboard-bo-x-es/"
+    "term": "chipboard boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/chipboard-boxes/"
   },
   {
     "families": [
@@ -11395,7 +11395,7 @@
       }
     ],
     "family_count": 2,
-    "label": "Stackable Bin Bo X Es",
+    "label": "Stackable Bin Boxes",
     "product_count": 102,
     "product_type_count": 1,
     "product_types": [
@@ -11430,8 +11430,8 @@
       "BINPS113CL",
       "BINPS104CL"
     ],
-    "term": "stackable bin bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/stackable-bin-bo-x-es/"
+    "term": "stackable bin boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/stackable-bin-boxes/"
   },
   {
     "families": [
@@ -11867,7 +11867,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Long Bo X Es",
+    "label": "Long Boxes",
     "product_count": 97,
     "product_type_count": 1,
     "product_types": [
@@ -11902,8 +11902,8 @@
       "1477",
       "1693"
     ],
-    "term": "long bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/long-bo-x-es/"
+    "term": "long boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/long-boxes/"
   },
   {
     "families": [
@@ -11913,7 +11913,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Long Cardboard Bo X Es",
+    "label": "Long Cardboard Boxes",
     "product_count": 97,
     "product_type_count": 1,
     "product_types": [
@@ -11948,8 +11948,8 @@
       "1477",
       "1693"
     ],
-    "term": "long cardboard bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/long-cardboard-bo-x-es/"
+    "term": "long cardboard boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/long-cardboard-boxes/"
   },
   {
     "families": [
@@ -12051,7 +12051,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Narrow Bo X",
+    "label": "Narrow Box",
     "product_count": 97,
     "product_type_count": 1,
     "product_types": [
@@ -12086,8 +12086,8 @@
       "1477",
       "1693"
     ],
-    "term": "narrow bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/narrow-bo-x/"
+    "term": "narrow box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/narrow-box/"
   },
   {
     "families": [
@@ -12557,7 +12557,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Heavy Duty Bo X",
+    "label": "Heavy Duty Box",
     "product_count": 94,
     "product_type_count": 1,
     "product_types": [
@@ -12592,8 +12592,8 @@
       "HD161210DW",
       "KEG1"
     ],
-    "term": "heavy duty bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/heavy-duty-bo-x/"
+    "term": "heavy duty box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/heavy-duty-box/"
   },
   {
     "families": [
@@ -12741,7 +12741,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Plastic Bin Bo X Es",
+    "label": "Plastic Bin Boxes",
     "product_count": 94,
     "product_type_count": 1,
     "product_types": [
@@ -12776,8 +12776,8 @@
       "BINPS105B",
       "BINPS105R"
     ],
-    "term": "plastic bin bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/plastic-bin-bo-x-es/"
+    "term": "plastic bin boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/plastic-bin-boxes/"
   },
   {
     "families": [
@@ -12925,7 +12925,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Stack and Hang Bin Bo X Es",
+    "label": "Stack and Hang Bin Boxes",
     "product_count": 94,
     "product_type_count": 1,
     "product_types": [
@@ -12960,8 +12960,8 @@
       "BINPS105B",
       "BINPS105R"
     ],
-    "term": "stack and hang bin bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/stack-and-hang-bin-bo-x-es/"
+    "term": "stack and hang bin boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/stack-and-hang-bin-boxes/"
   },
   {
     "families": [
@@ -13017,7 +13017,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Brown Double Wall Bo X",
+    "label": "Brown Double Wall Box",
     "product_count": 93,
     "product_type_count": 1,
     "product_types": [
@@ -13052,8 +13052,8 @@
       "HD161210DW",
       "KEG1"
     ],
-    "term": "brown double wall bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/brown-double-wall-bo-x/"
+    "term": "brown double wall box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/brown-double-wall-box/"
   },
   {
     "families": [
@@ -13109,7 +13109,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Corrugated Bo X",
+    "label": "Corrugated Box",
     "product_count": 93,
     "product_type_count": 1,
     "product_types": [
@@ -13144,8 +13144,8 @@
       "HD161210DW",
       "KEG1"
     ],
-    "term": "corrugated bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/corrugated-bo-x/"
+    "term": "corrugated box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/corrugated-box/"
   },
   {
     "families": [
@@ -13155,7 +13155,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Double Wall Bo X",
+    "label": "Double Wall Box",
     "product_count": 93,
     "product_type_count": 1,
     "product_types": [
@@ -13190,8 +13190,8 @@
       "HD161210DW",
       "KEG1"
     ],
-    "term": "double wall bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/double-wall-bo-x/"
+    "term": "double wall box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/double-wall-box/"
   },
   {
     "families": [
@@ -13247,7 +13247,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Heavy Duty Double Wall Bo X",
+    "label": "Heavy Duty Double Wall Box",
     "product_count": 93,
     "product_type_count": 1,
     "product_types": [
@@ -13282,8 +13282,8 @@
       "HD161210DW",
       "KEG1"
     ],
-    "term": "heavy duty double wall bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/heavy-duty-double-wall-bo-x/"
+    "term": "heavy duty double wall box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/heavy-duty-double-wall-box/"
   },
   {
     "families": [
@@ -13339,7 +13339,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Kraft Double Wall Bo X",
+    "label": "Kraft Double Wall Box",
     "product_count": 93,
     "product_type_count": 1,
     "product_types": [
@@ -13374,8 +13374,8 @@
       "HD161210DW",
       "KEG1"
     ],
-    "term": "kraft double wall bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/kraft-double-wall-bo-x/"
+    "term": "kraft double wall box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/kraft-double-wall-box/"
   },
   {
     "families": [
@@ -13615,7 +13615,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Flat Bo X Es",
+    "label": "Flat Boxes",
     "product_count": 91,
     "product_type_count": 1,
     "product_types": [
@@ -13650,8 +13650,8 @@
       "15124",
       "24206"
     ],
-    "term": "flat bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/flat-bo-x-es/"
+    "term": "flat boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/flat-boxes/"
   },
   {
     "families": [
@@ -13661,7 +13661,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Flat Cardboard Bo X Es",
+    "label": "Flat Cardboard Boxes",
     "product_count": 91,
     "product_type_count": 1,
     "product_types": [
@@ -13696,8 +13696,8 @@
       "15124",
       "24206"
     ],
-    "term": "flat cardboard bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/flat-cardboard-bo-x-es/"
+    "term": "flat cardboard boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/flat-cardboard-boxes/"
   },
   {
     "families": [
@@ -13753,7 +13753,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Flat Cardboard Shipping Bo X Es",
+    "label": "Flat Cardboard Shipping Boxes",
     "product_count": 91,
     "product_type_count": 1,
     "product_types": [
@@ -13788,8 +13788,8 @@
       "15124",
       "24206"
     ],
-    "term": "flat cardboard shipping bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/flat-cardboard-shipping-bo-x-es/"
+    "term": "flat cardboard shipping boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/flat-cardboard-shipping-boxes/"
   },
   {
     "families": [
@@ -13799,7 +13799,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Flat Corrugated Bo X Es",
+    "label": "Flat Corrugated Boxes",
     "product_count": 91,
     "product_type_count": 1,
     "product_types": [
@@ -13834,8 +13834,8 @@
       "15124",
       "24206"
     ],
-    "term": "flat corrugated bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/flat-corrugated-bo-x-es/"
+    "term": "flat corrugated boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/flat-corrugated-boxes/"
   },
   {
     "families": [
@@ -13891,7 +13891,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Flat Corrugated Shipping Bo X Es",
+    "label": "Flat Corrugated Shipping Boxes",
     "product_count": 91,
     "product_type_count": 1,
     "product_types": [
@@ -13926,8 +13926,8 @@
       "15124",
       "24206"
     ],
-    "term": "flat corrugated shipping bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/flat-corrugated-shipping-bo-x-es/"
+    "term": "flat corrugated shipping boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/flat-corrugated-shipping-boxes/"
   },
   {
     "families": [
@@ -13937,7 +13937,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Flat Kraft Cardboard Bo X Es",
+    "label": "Flat Kraft Cardboard Boxes",
     "product_count": 91,
     "product_type_count": 1,
     "product_types": [
@@ -13972,8 +13972,8 @@
       "15124",
       "24206"
     ],
-    "term": "flat kraft cardboard bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/flat-kraft-cardboard-bo-x-es/"
+    "term": "flat kraft cardboard boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/flat-kraft-cardboard-boxes/"
   },
   {
     "families": [
@@ -14029,7 +14029,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Flat Kraft Cardboard Shipping Bo X Es",
+    "label": "Flat Kraft Cardboard Shipping Boxes",
     "product_count": 91,
     "product_type_count": 1,
     "product_types": [
@@ -14064,8 +14064,8 @@
       "15124",
       "24206"
     ],
-    "term": "flat kraft cardboard shipping bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/flat-kraft-cardboard-shipping-bo-x-es/"
+    "term": "flat kraft cardboard shipping boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/flat-kraft-cardboard-shipping-boxes/"
   },
   {
     "families": [
@@ -14075,7 +14075,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Flat Kraft Corrugated Bo X Es",
+    "label": "Flat Kraft Corrugated Boxes",
     "product_count": 91,
     "product_type_count": 1,
     "product_types": [
@@ -14110,8 +14110,8 @@
       "15124",
       "24206"
     ],
-    "term": "flat kraft corrugated bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/flat-kraft-corrugated-bo-x-es/"
+    "term": "flat kraft corrugated boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/flat-kraft-corrugated-boxes/"
   },
   {
     "families": [
@@ -14167,7 +14167,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Flat Kraft Corrugated Shipping Bo X Es",
+    "label": "Flat Kraft Corrugated Shipping Boxes",
     "product_count": 91,
     "product_type_count": 1,
     "product_types": [
@@ -14202,8 +14202,8 @@
       "15124",
       "24206"
     ],
-    "term": "flat kraft corrugated shipping bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/flat-kraft-corrugated-shipping-bo-x-es/"
+    "term": "flat kraft corrugated shipping boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/flat-kraft-corrugated-shipping-boxes/"
   },
   {
     "families": [
@@ -14213,7 +14213,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Shallow Depth Cardboard Bo X Es",
+    "label": "Shallow Depth Cardboard Boxes",
     "product_count": 91,
     "product_type_count": 1,
     "product_types": [
@@ -14248,8 +14248,8 @@
       "15124",
       "24206"
     ],
-    "term": "shallow depth cardboard bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/shallow-depth-cardboard-bo-x-es/"
+    "term": "shallow depth cardboard boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/shallow-depth-cardboard-boxes/"
   },
   {
     "families": [
@@ -14259,7 +14259,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Shallow Depth Corrugated Bo X Es",
+    "label": "Shallow Depth Corrugated Boxes",
     "product_count": 91,
     "product_type_count": 1,
     "product_types": [
@@ -14294,8 +14294,8 @@
       "15124",
       "24206"
     ],
-    "term": "shallow depth corrugated bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/shallow-depth-corrugated-bo-x-es/"
+    "term": "shallow depth corrugated boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/shallow-depth-corrugated-boxes/"
   },
   {
     "families": [
@@ -17559,7 +17559,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Shipping Bo X Es",
+    "label": "Shipping Boxes",
     "product_count": 66,
     "product_type_count": 1,
     "product_types": [
@@ -17594,8 +17594,8 @@
       "HD201614",
       "181212W"
     ],
-    "term": "shipping bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/shipping-bo-x-es/"
+    "term": "shipping boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/shipping-boxes/"
   },
   {
     "families": [
@@ -18469,7 +18469,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Delu X E White Literature Bo X",
+    "label": "Deluxe White Literature Box",
     "product_count": 57,
     "product_type_count": 1,
     "product_types": [
@@ -18504,8 +18504,8 @@
       "MFL10102",
       "MFL24144"
     ],
-    "term": "delu x e white literature bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/delu-x-e-white-literature-bo-x/"
+    "term": "deluxe white literature box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/deluxe-white-literature-box/"
   },
   {
     "families": [
@@ -18515,7 +18515,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Foldable White Document Bo X",
+    "label": "Foldable White Document Box",
     "product_count": 57,
     "product_type_count": 1,
     "product_types": [
@@ -18550,8 +18550,8 @@
       "MFL10102",
       "MFL24144"
     ],
-    "term": "foldable white document bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/foldable-white-document-bo-x/"
+    "term": "foldable white document box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/foldable-white-document-box/"
   },
   {
     "families": [
@@ -18561,7 +18561,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Foldable White Literature Bo X",
+    "label": "Foldable White Literature Box",
     "product_count": 57,
     "product_type_count": 1,
     "product_types": [
@@ -18596,8 +18596,8 @@
       "MFL10102",
       "MFL24144"
     ],
-    "term": "foldable white literature bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/foldable-white-literature-bo-x/"
+    "term": "foldable white literature box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/foldable-white-literature-box/"
   },
   {
     "families": [
@@ -18607,7 +18607,7 @@
       }
     ],
     "family_count": 1,
-    "label": "White Cardboard Document Bo X",
+    "label": "White Cardboard Document Box",
     "product_count": 57,
     "product_type_count": 1,
     "product_types": [
@@ -18642,8 +18642,8 @@
       "MFL10102",
       "MFL24144"
     ],
-    "term": "white cardboard document bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/white-cardboard-document-bo-x/"
+    "term": "white cardboard document box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/white-cardboard-document-box/"
   },
   {
     "families": [
@@ -18653,7 +18653,7 @@
       }
     ],
     "family_count": 1,
-    "label": "White Cardboard Mailing Bo X Es",
+    "label": "White Cardboard Mailing Boxes",
     "product_count": 57,
     "product_type_count": 1,
     "product_types": [
@@ -18688,8 +18688,8 @@
       "MFL10102",
       "MFL24144"
     ],
-    "term": "white cardboard mailing bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/white-cardboard-mailing-bo-x-es/"
+    "term": "white cardboard mailing boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/white-cardboard-mailing-boxes/"
   },
   {
     "families": [
@@ -18699,7 +18699,7 @@
       }
     ],
     "family_count": 1,
-    "label": "White Corrugated Document Bo X",
+    "label": "White Corrugated Document Box",
     "product_count": 57,
     "product_type_count": 1,
     "product_types": [
@@ -18734,8 +18734,8 @@
       "MFL10102",
       "MFL24144"
     ],
-    "term": "white corrugated document bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/white-corrugated-document-bo-x/"
+    "term": "white corrugated document box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/white-corrugated-document-box/"
   },
   {
     "families": [
@@ -18745,7 +18745,7 @@
       }
     ],
     "family_count": 1,
-    "label": "White Corrugated Mailing Bo X",
+    "label": "White Corrugated Mailing Box",
     "product_count": 57,
     "product_type_count": 1,
     "product_types": [
@@ -18780,8 +18780,8 @@
       "MFL10102",
       "MFL24144"
     ],
-    "term": "white corrugated mailing bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/white-corrugated-mailing-bo-x/"
+    "term": "white corrugated mailing box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/white-corrugated-mailing-box/"
   },
   {
     "families": [
@@ -18791,7 +18791,7 @@
       }
     ],
     "family_count": 1,
-    "label": "White Document Bo X",
+    "label": "White Document Box",
     "product_count": 57,
     "product_type_count": 1,
     "product_types": [
@@ -18826,8 +18826,8 @@
       "MFL10102",
       "MFL24144"
     ],
-    "term": "white document bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/white-document-bo-x/"
+    "term": "white document box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/white-document-box/"
   },
   {
     "families": [
@@ -19333,7 +19333,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Delu X E Kraft Literature Bo X",
+    "label": "Deluxe Kraft Literature Box",
     "product_count": 54,
     "product_type_count": 1,
     "product_types": [
@@ -19368,8 +19368,8 @@
       "MFL10105K",
       "MFL22182K"
     ],
-    "term": "delu x e kraft literature bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/delu-x-e-kraft-literature-bo-x/"
+    "term": "deluxe kraft literature box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/deluxe-kraft-literature-box/"
   },
   {
     "families": [
@@ -19437,7 +19437,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Foldable Kraft Document Bo X",
+    "label": "Foldable Kraft Document Box",
     "product_count": 54,
     "product_type_count": 1,
     "product_types": [
@@ -19472,8 +19472,8 @@
       "MFL10105K",
       "MFL22182K"
     ],
-    "term": "foldable kraft document bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/foldable-kraft-document-bo-x/"
+    "term": "foldable kraft document box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/foldable-kraft-document-box/"
   },
   {
     "families": [
@@ -19483,7 +19483,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Foldable Kraft Literature Bo X",
+    "label": "Foldable Kraft Literature Box",
     "product_count": 54,
     "product_type_count": 1,
     "product_types": [
@@ -19518,8 +19518,8 @@
       "MFL10105K",
       "MFL22182K"
     ],
-    "term": "foldable kraft literature bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/foldable-kraft-literature-bo-x/"
+    "term": "foldable kraft literature box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/foldable-kraft-literature-box/"
   },
   {
     "families": [
@@ -19529,7 +19529,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Kraft Cardboard Document Bo X",
+    "label": "Kraft Cardboard Document Box",
     "product_count": 54,
     "product_type_count": 1,
     "product_types": [
@@ -19564,8 +19564,8 @@
       "MFL10105K",
       "MFL22182K"
     ],
-    "term": "kraft cardboard document bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/kraft-cardboard-document-bo-x/"
+    "term": "kraft cardboard document box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/kraft-cardboard-document-box/"
   },
   {
     "families": [
@@ -19575,7 +19575,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Kraft Cardboard Mailing Bo X Es",
+    "label": "Kraft Cardboard Mailing Boxes",
     "product_count": 54,
     "product_type_count": 1,
     "product_types": [
@@ -19610,8 +19610,8 @@
       "MFL10105K",
       "MFL22182K"
     ],
-    "term": "kraft cardboard mailing bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/kraft-cardboard-mailing-bo-x-es/"
+    "term": "kraft cardboard mailing boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/kraft-cardboard-mailing-boxes/"
   },
   {
     "families": [
@@ -19621,7 +19621,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Kraft Corrugated Document Bo X",
+    "label": "Kraft Corrugated Document Box",
     "product_count": 54,
     "product_type_count": 1,
     "product_types": [
@@ -19656,8 +19656,8 @@
       "MFL10105K",
       "MFL22182K"
     ],
-    "term": "kraft corrugated document bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/kraft-corrugated-document-bo-x/"
+    "term": "kraft corrugated document box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/kraft-corrugated-document-box/"
   },
   {
     "families": [
@@ -19667,7 +19667,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Kraft Corrugated Mailing Bo X",
+    "label": "Kraft Corrugated Mailing Box",
     "product_count": 54,
     "product_type_count": 1,
     "product_types": [
@@ -19702,8 +19702,8 @@
       "MFL10105K",
       "MFL22182K"
     ],
-    "term": "kraft corrugated mailing bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/kraft-corrugated-mailing-bo-x/"
+    "term": "kraft corrugated mailing box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/kraft-corrugated-mailing-box/"
   },
   {
     "families": [
@@ -19713,7 +19713,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Kraft Document Bo X",
+    "label": "Kraft Document Box",
     "product_count": 54,
     "product_type_count": 1,
     "product_types": [
@@ -19748,8 +19748,8 @@
       "MFL10105K",
       "MFL22182K"
     ],
-    "term": "kraft document bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/kraft-document-bo-x/"
+    "term": "kraft document box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/kraft-document-box/"
   },
   {
     "families": [
@@ -19989,7 +19989,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Adjustable Size Bo X",
+    "label": "Adjustable Size Box",
     "product_count": 52,
     "product_type_count": 1,
     "product_types": [
@@ -20024,8 +20024,8 @@
       "MD141212",
       "MD242412"
     ],
-    "term": "adjustable size bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/adjustable-size-bo-x/"
+    "term": "adjustable size box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/adjustable-size-box/"
   },
   {
     "families": [
@@ -20127,7 +20127,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Multi-depth Bo X Es",
+    "label": "Multi-depth Boxes",
     "product_count": 52,
     "product_type_count": 1,
     "product_types": [
@@ -20162,8 +20162,8 @@
       "MD141212",
       "MD242412"
     ],
-    "term": "multi-depth bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/multi-depth-bo-x-es/"
+    "term": "multi-depth boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/multi-depth-boxes/"
   },
   {
     "families": [
@@ -20173,7 +20173,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Open Top Bin Bo X Es",
+    "label": "Open Top Bin Boxes",
     "product_count": 52,
     "product_type_count": 1,
     "product_types": [
@@ -20208,8 +20208,8 @@
       "BINBWZ318",
       "BINBIN69K"
     ],
-    "term": "open top bin bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/open-top-bin-bo-x-es/"
+    "term": "open top bin boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/open-top-bin-boxes/"
   },
   {
     "families": [
@@ -20219,7 +20219,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Pre Scored Bo X Es",
+    "label": "Pre Scored Boxes",
     "product_count": 52,
     "product_type_count": 1,
     "product_types": [
@@ -20254,8 +20254,8 @@
       "MD141212",
       "MD242412"
     ],
-    "term": "pre scored bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/pre-scored-bo-x-es/"
+    "term": "pre scored boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/pre-scored-boxes/"
   },
   {
     "families": [
@@ -21879,7 +21879,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Bin Bo X Liner",
+    "label": "Bin Box Liner",
     "product_count": 45,
     "product_type_count": 1,
     "product_types": [
@@ -21914,8 +21914,8 @@
       "PC480",
       "PC124"
     ],
-    "term": "bin bo x liner",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/bin-bo-x-liner/"
+    "term": "bin box liner",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/bin-box-liner/"
   },
   {
     "families": [
@@ -22431,7 +22431,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Retail Bo X Es",
+    "label": "Retail Boxes",
     "product_count": 45,
     "product_type_count": 2,
     "product_types": [
@@ -22470,8 +22470,8 @@
       "GB995",
       "GB944"
     ],
-    "term": "retail bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/retail-bo-x-es/"
+    "term": "retail boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/retail-boxes/"
   },
   {
     "families": [
@@ -23215,7 +23215,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Side Loading Bo X",
+    "label": "Side Loading Box",
     "product_count": 43,
     "product_type_count": 1,
     "product_types": [
@@ -23250,8 +23250,8 @@
       "36536FOL",
       "HD30640FOL"
     ],
-    "term": "side loading bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/side-loading-bo-x/"
+    "term": "side loading box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/side-loading-box/"
   },
   {
     "families": [
@@ -23261,7 +23261,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Side Loading Bo X Es",
+    "label": "Side Loading Boxes",
     "product_count": 43,
     "product_type_count": 1,
     "product_types": [
@@ -23296,8 +23296,8 @@
       "36536FOL",
       "HD30640FOL"
     ],
-    "term": "side loading bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/side-loading-bo-x-es/"
+    "term": "side loading boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/side-loading-boxes/"
   },
   {
     "families": [
@@ -23541,7 +23541,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Warehouse Bo X",
+    "label": "Warehouse Box",
     "product_count": 43,
     "product_type_count": 1,
     "product_types": [
@@ -23576,8 +23576,8 @@
       "BINMT812",
       "BINMT415"
     ],
-    "term": "warehouse bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/warehouse-bo-x/"
+    "term": "warehouse box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/warehouse-box/"
   },
   {
     "families": [
@@ -23971,7 +23971,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Foam Protection Bo X",
+    "label": "Foam Protection Box",
     "product_count": 41,
     "product_type_count": 2,
     "product_types": [
@@ -24010,8 +24010,8 @@
       "FCSC862",
       "FSA18122"
     ],
-    "term": "foam protection bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/foam-protection-bo-x/"
+    "term": "foam protection box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/foam-protection-box/"
   },
   {
     "families": [
@@ -24363,7 +24363,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Plain Bo X Es",
+    "label": "Plain Boxes",
     "product_count": 39,
     "product_type_count": 1,
     "product_types": [
@@ -24398,8 +24398,8 @@
       "18128",
       "171110"
     ],
-    "term": "plain bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/plain-bo-x-es/"
+    "term": "plain boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/plain-boxes/"
   },
   {
     "families": [
@@ -24455,7 +24455,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Printer S Bo X Es",
+    "label": "Printer S Boxes",
     "product_count": 39,
     "product_type_count": 1,
     "product_types": [
@@ -24490,8 +24490,8 @@
       "18128",
       "171110"
     ],
-    "term": "printer s bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/printer-s-bo-x-es/"
+    "term": "printer s boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/printer-s-boxes/"
   },
   {
     "families": [
@@ -24593,7 +24593,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Frame Bo X",
+    "label": "Frame Box",
     "product_count": 38,
     "product_type_count": 1,
     "product_types": [
@@ -24628,8 +24628,8 @@
       "HD36636FOL",
       "HD44635FOL"
     ],
-    "term": "frame bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/frame-bo-x/"
+    "term": "frame box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/frame-box/"
   },
   {
     "families": [
@@ -24685,7 +24685,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Frame Shipping Bo X",
+    "label": "Frame Shipping Box",
     "product_count": 38,
     "product_type_count": 1,
     "product_types": [
@@ -24720,8 +24720,8 @@
       "HD36636FOL",
       "HD44635FOL"
     ],
-    "term": "frame shipping bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/frame-shipping-bo-x/"
+    "term": "frame shipping box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/frame-shipping-box/"
   },
   {
     "families": [
@@ -25971,7 +25971,7 @@
       }
     ],
     "family_count": 1,
-    "label": "White Bo X Es",
+    "label": "White Boxes",
     "product_count": 34,
     "product_type_count": 1,
     "product_types": [
@@ -26006,8 +26006,8 @@
       "8446FOL",
       "13330FOL"
     ],
-    "term": "white bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/white-bo-x-es/"
+    "term": "white boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/white-boxes/"
   },
   {
     "families": [
@@ -26497,7 +26497,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Gift Bo X Es",
+    "label": "Gift Boxes",
     "product_count": 33,
     "product_type_count": 2,
     "product_types": [
@@ -26536,8 +26536,8 @@
       "GB644BK",
       "GB944R"
     ],
-    "term": "gift bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/gift-bo-x-es/"
+    "term": "gift boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/gift-boxes/"
   },
   {
     "families": [
@@ -28641,7 +28641,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Brown Cardboard Bo X Es",
+    "label": "Brown Cardboard Boxes",
     "product_count": 28,
     "product_type_count": 1,
     "product_types": [
@@ -28676,8 +28676,8 @@
       "HD161210",
       "HD12104"
     ],
-    "term": "brown cardboard bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/brown-cardboard-bo-x-es/"
+    "term": "brown cardboard boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/brown-cardboard-boxes/"
   },
   {
     "families": [
@@ -28687,7 +28687,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Brown Corrugated Bo X Es",
+    "label": "Brown Corrugated Boxes",
     "product_count": 28,
     "product_type_count": 1,
     "product_types": [
@@ -28722,8 +28722,8 @@
       "HD161210",
       "HD12104"
     ],
-    "term": "brown corrugated bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/brown-corrugated-bo-x-es/"
+    "term": "brown corrugated boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/brown-corrugated-boxes/"
   },
   {
     "families": [
@@ -28779,7 +28779,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Heavy Duty Bo X Es",
+    "label": "Heavy Duty Boxes",
     "product_count": 28,
     "product_type_count": 1,
     "product_types": [
@@ -28814,8 +28814,8 @@
       "HD161210",
       "HD12104"
     ],
-    "term": "heavy duty bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/heavy-duty-bo-x-es/"
+    "term": "heavy duty boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/heavy-duty-boxes/"
   },
   {
     "families": [
@@ -28825,7 +28825,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Heavy Duty Corrugated Bo X Es",
+    "label": "Heavy Duty Corrugated Boxes",
     "product_count": 28,
     "product_type_count": 1,
     "product_types": [
@@ -28860,8 +28860,8 @@
       "HD161210",
       "HD12104"
     ],
-    "term": "heavy duty corrugated bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/heavy-duty-corrugated-bo-x-es/"
+    "term": "heavy duty corrugated boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/heavy-duty-corrugated-boxes/"
   },
   {
     "families": [
@@ -28871,7 +28871,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Kraft Corrugated Bo X Es",
+    "label": "Kraft Corrugated Boxes",
     "product_count": 28,
     "product_type_count": 1,
     "product_types": [
@@ -28906,8 +28906,8 @@
       "HD161210",
       "HD12104"
     ],
-    "term": "kraft corrugated bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/kraft-corrugated-bo-x-es/"
+    "term": "kraft corrugated boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/kraft-corrugated-boxes/"
   },
   {
     "families": [
@@ -29201,7 +29201,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Single Wall Bo X Es",
+    "label": "Single Wall Boxes",
     "product_count": 28,
     "product_type_count": 1,
     "product_types": [
@@ -29236,8 +29236,8 @@
       "HD161210",
       "HD12104"
     ],
-    "term": "single wall bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/single-wall-bo-x-es/"
+    "term": "single wall boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/single-wall-boxes/"
   },
   {
     "families": [
@@ -29247,7 +29247,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Single Wall Brown Bo X Es",
+    "label": "Single Wall Brown Boxes",
     "product_count": 28,
     "product_type_count": 1,
     "product_types": [
@@ -29282,8 +29282,8 @@
       "HD161210",
       "HD12104"
     ],
-    "term": "single wall brown bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/single-wall-brown-bo-x-es/"
+    "term": "single wall brown boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/single-wall-brown-boxes/"
   },
   {
     "families": [
@@ -29431,7 +29431,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Single Wall Kraft Bo X Es",
+    "label": "Single Wall Kraft Boxes",
     "product_count": 28,
     "product_type_count": 1,
     "product_types": [
@@ -29466,8 +29466,8 @@
       "HD161210",
       "HD12104"
     ],
-    "term": "single wall kraft bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/single-wall-kraft-bo-x-es/"
+    "term": "single wall kraft boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/single-wall-kraft-boxes/"
   },
   {
     "families": [
@@ -30045,7 +30045,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Tall Shipping Bo X",
+    "label": "Tall Shipping Box",
     "product_count": 27,
     "product_type_count": 1,
     "product_types": [
@@ -30080,8 +30080,8 @@
       "M5548K",
       "M3337K"
     ],
-    "term": "tall shipping bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/tall-shipping-bo-x/"
+    "term": "tall shipping box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/tall-shipping-box/"
   },
   {
     "families": [
@@ -31157,7 +31157,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Insulated Bo X",
+    "label": "Insulated Box",
     "product_count": 25,
     "product_type_count": 1,
     "product_types": [
@@ -31192,8 +31192,8 @@
       "271C",
       "260C"
     ],
-    "term": "insulated bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/insulated-bo-x/"
+    "term": "insulated box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/insulated-box/"
   },
   {
     "families": [
@@ -31387,7 +31387,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Perishable Products Bo X",
+    "label": "Perishable Products Box",
     "product_count": 25,
     "product_type_count": 1,
     "product_types": [
@@ -31422,8 +31422,8 @@
       "271C",
       "260C"
     ],
-    "term": "perishable products bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/perishable-products-bo-x/"
+    "term": "perishable products box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/perishable-products-box/"
   },
   {
     "families": [
@@ -31943,7 +31943,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Plain Bo X",
+    "label": "Plain Box",
     "product_count": 24,
     "product_type_count": 1,
     "product_types": [
@@ -31978,8 +31978,8 @@
       "18128W",
       "864W"
     ],
-    "term": "plain bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/plain-bo-x/"
+    "term": "plain box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/plain-box/"
   },
   {
     "families": [
@@ -32035,7 +32035,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Plain Corrugated Bo X",
+    "label": "Plain Corrugated Box",
     "product_count": 24,
     "product_type_count": 1,
     "product_types": [
@@ -32070,8 +32070,8 @@
       "18128W",
       "864W"
     ],
-    "term": "plain corrugated bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/plain-corrugated-bo-x/"
+    "term": "plain corrugated box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/plain-corrugated-box/"
   },
   {
     "families": [
@@ -32223,7 +32223,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Unprinted Bo X",
+    "label": "Unprinted Box",
     "product_count": 24,
     "product_type_count": 1,
     "product_types": [
@@ -32258,8 +32258,8 @@
       "18128W",
       "864W"
     ],
-    "term": "unprinted bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/unprinted-bo-x/"
+    "term": "unprinted box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/unprinted-box/"
   },
   {
     "families": [
@@ -32407,7 +32407,7 @@
       }
     ],
     "family_count": 1,
-    "label": "White Printer S Bo X Es",
+    "label": "White Printer S Boxes",
     "product_count": 24,
     "product_type_count": 1,
     "product_types": [
@@ -32442,8 +32442,8 @@
       "18128W",
       "864W"
     ],
-    "term": "white printer s bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/white-printer-s-bo-x-es/"
+    "term": "white printer s boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/white-printer-s-boxes/"
   },
   {
     "families": [
@@ -33139,7 +33139,7 @@
       }
     ],
     "family_count": 1,
-    "label": "White Cardboard Cube Bo X White Corrugated Bo X",
+    "label": "White Cardboard Cube Box White Corrugated Box",
     "product_count": 22,
     "product_type_count": 1,
     "product_types": [
@@ -33172,8 +33172,8 @@
       "18128W",
       "864W"
     ],
-    "term": "white cardboard cube bo x white corrugated bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/white-cardboard-cube-bo-x-white-corrugated-bo-x/"
+    "term": "white cardboard cube box white corrugated box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/white-cardboard-cube-box-white-corrugated-box/"
   },
   {
     "families": [
@@ -35383,7 +35383,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Adjustable Bo X",
+    "label": "Adjustable Box",
     "product_count": 18,
     "product_type_count": 1,
     "product_types": [
@@ -35412,8 +35412,8 @@
       "T12448OUTER",
       "T48638INHD"
     ],
-    "term": "adjustable bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/adjustable-bo-x/"
+    "term": "adjustable box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/adjustable-box/"
   },
   {
     "families": [
@@ -36111,7 +36111,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Kraft Telescoping Bo X",
+    "label": "Kraft Telescoping Box",
     "product_count": 18,
     "product_type_count": 1,
     "product_types": [
@@ -36140,8 +36140,8 @@
       "T12448OUTER",
       "T48638INHD"
     ],
-    "term": "kraft telescoping bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/kraft-telescoping-bo-x/"
+    "term": "kraft telescoping box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/kraft-telescoping-box/"
   },
   {
     "families": [
@@ -36991,7 +36991,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Tall Bo X",
+    "label": "Tall Box",
     "product_count": 18,
     "product_type_count": 1,
     "product_types": [
@@ -37020,8 +37020,8 @@
       "T12448OUTER",
       "T48638INHD"
     ],
-    "term": "tall bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/tall-bo-x/"
+    "term": "tall box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/tall-box/"
   },
   {
     "families": [
@@ -37031,7 +37031,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Telescoping Bo X Es",
+    "label": "Telescoping Boxes",
     "product_count": 18,
     "product_type_count": 1,
     "product_types": [
@@ -37060,8 +37060,8 @@
       "T12448OUTER",
       "T48638INHD"
     ],
-    "term": "telescoping bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/telescoping-bo-x-es/"
+    "term": "telescoping boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/telescoping-boxes/"
   },
   {
     "families": [
@@ -37111,7 +37111,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Two-piece Bo X",
+    "label": "Two-piece Box",
     "product_count": 18,
     "product_type_count": 1,
     "product_types": [
@@ -37140,8 +37140,8 @@
       "T12448OUTER",
       "T48638INHD"
     ],
-    "term": "two-piece bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/two-piece-bo-x/"
+    "term": "two-piece box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/two-piece-box/"
   },
   {
     "families": [
@@ -37597,7 +37597,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Datama X Printer",
+    "label": "Datamax Printer",
     "product_count": 17,
     "product_type_count": 1,
     "product_types": [
@@ -37625,8 +37625,8 @@
       "THT124",
       "THT169"
     ],
-    "term": "datama x printer",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/datama-x-printer/"
+    "term": "datamax printer",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/datamax-printer/"
   },
   {
     "families": [
@@ -38167,7 +38167,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Cardboard Moving Bo X Es",
+    "label": "Cardboard Moving Boxes",
     "product_count": 16,
     "product_type_count": 1,
     "product_types": [
@@ -38194,8 +38194,8 @@
       "INNERMIRROR",
       "OUTERMIRROR"
     ],
-    "term": "cardboard moving bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/cardboard-moving-bo-x-es/"
+    "term": "cardboard moving boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/cardboard-moving-boxes/"
   },
   {
     "families": [
@@ -39535,7 +39535,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Stationary Bo X Es",
+    "label": "Stationary Boxes",
     "product_count": 16,
     "product_type_count": 1,
     "product_types": [
@@ -39562,8 +39562,8 @@
       "S5",
       "S2"
     ],
-    "term": "stationary bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/stationary-bo-x-es/"
+    "term": "stationary boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/stationary-boxes/"
   },
   {
     "families": [
@@ -39985,7 +39985,7 @@
       }
     ],
     "family_count": 1,
-    "label": "File Storage Bo X Es",
+    "label": "File Storage Boxes",
     "product_count": 15,
     "product_type_count": 1,
     "product_types": [
@@ -40011,8 +40011,8 @@
       "FSB170",
       "FSB720"
     ],
-    "term": "file storage bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/file-storage-bo-x-es/"
+    "term": "file storage boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/file-storage-boxes/"
   },
   {
     "families": [
@@ -41352,7 +41352,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Delu X E Packing Bo X Es",
+    "label": "Deluxe Packing Boxes",
     "product_count": 13,
     "product_type_count": 1,
     "product_types": [
@@ -41376,8 +41376,8 @@
       "OUTERMIRROR",
       "MB7280S"
     ],
-    "term": "delu x e packing bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/delu-x-e-packing-bo-x-es/"
+    "term": "deluxe packing boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/deluxe-packing-boxes/"
   },
   {
     "families": [
@@ -43273,7 +43273,7 @@
       }
     ],
     "family_count": 1,
-    "label": "E X Pandable Mailers",
+    "label": "Expandable Mailers",
     "product_count": 12,
     "product_type_count": 1,
     "product_types": [
@@ -43296,8 +43296,8 @@
       "TYE10131FC",
       "TYE12162FC"
     ],
-    "term": "e x pandable mailers",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/e-x-pandable-mailers/"
+    "term": "expandable mailers",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/expandable-mailers/"
   },
   {
     "families": [
@@ -43749,7 +43749,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Haz Mat Bo X Es",
+    "label": "Haz Mat Boxes",
     "product_count": 12,
     "product_type_count": 1,
     "product_types": [
@@ -43772,8 +43772,8 @@
       "HAZ1022",
       "HAZ1072"
     ],
-    "term": "haz mat bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/haz-mat-bo-x-es/"
+    "term": "haz mat boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/haz-mat-boxes/"
   },
   {
     "families": [
@@ -43783,7 +43783,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Hazardous Materials Shipping Bo X Es",
+    "label": "Hazardous Materials Shipping Boxes",
     "product_count": 12,
     "product_type_count": 1,
     "product_types": [
@@ -43806,8 +43806,8 @@
       "HAZ1022",
       "HAZ1072"
     ],
-    "term": "hazardous materials shipping bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/hazardous-materials-shipping-bo-x-es/"
+    "term": "hazardous materials shipping boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/hazardous-materials-shipping-boxes/"
   },
   {
     "families": [
@@ -43885,7 +43885,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Heavy-duty Bo X Es",
+    "label": "Heavy-duty Boxes",
     "product_count": 12,
     "product_type_count": 1,
     "product_types": [
@@ -43908,8 +43908,8 @@
       "GL4030LID",
       "GL482428DW"
     ],
-    "term": "heavy-duty bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/heavy-duty-bo-x-es/"
+    "term": "heavy-duty boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/heavy-duty-boxes/"
   },
   {
     "families": [
@@ -44993,7 +44993,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Standard File Bo X Es",
+    "label": "Standard File Boxes",
     "product_count": 12,
     "product_type_count": 1,
     "product_types": [
@@ -45016,8 +45016,8 @@
       "FSB170",
       "FSB720"
     ],
-    "term": "standard file bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/standard-file-bo-x-es/"
+    "term": "standard file boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/standard-file-boxes/"
   },
   {
     "families": [
@@ -45061,7 +45061,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Tall Bo X Es",
+    "label": "Tall Boxes",
     "product_count": 12,
     "product_type_count": 1,
     "product_types": [
@@ -45084,8 +45084,8 @@
       "4432",
       "6632"
     ],
-    "term": "tall bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/tall-bo-x-es/"
+    "term": "tall boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/tall-boxes/"
   },
   {
     "families": [
@@ -45397,40 +45397,6 @@
     "families": [
       {
         "count": 12,
-        "family": "labels"
-      }
-    ],
-    "family_count": 1,
-    "label": "Wa X Ribbons",
-    "product_count": 12,
-    "product_type_count": 1,
-    "product_types": [
-      {
-        "count": 12,
-        "product_type": "Labels"
-      }
-    ],
-    "sample_skus": [
-      "THT110",
-      "THT115",
-      "THT116",
-      "THT120",
-      "THT127",
-      "THT131",
-      "THT128",
-      "THT136",
-      "THT123",
-      "THT103",
-      "THT119",
-      "THT124"
-    ],
-    "term": "wa x ribbons",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/wa-x-ribbons/"
-  },
-  {
-    "families": [
-      {
-        "count": 12,
         "family": "tape"
       }
     ],
@@ -45494,6 +45460,40 @@
     ],
     "term": "waterproof envelope",
     "url": "https://packrift.github.io/packaging-vocabulary/terms/waterproof-envelope/"
+  },
+  {
+    "families": [
+      {
+        "count": 12,
+        "family": "labels"
+      }
+    ],
+    "family_count": 1,
+    "label": "Wax Ribbons",
+    "product_count": 12,
+    "product_type_count": 1,
+    "product_types": [
+      {
+        "count": 12,
+        "product_type": "Labels"
+      }
+    ],
+    "sample_skus": [
+      "THT110",
+      "THT115",
+      "THT116",
+      "THT120",
+      "THT127",
+      "THT131",
+      "THT128",
+      "THT136",
+      "THT123",
+      "THT103",
+      "THT119",
+      "THT124"
+    ],
+    "term": "wax ribbons",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/wax-ribbons/"
   },
   {
     "families": [
@@ -46233,7 +46233,7 @@
       }
     ],
     "family_count": 2,
-    "label": "Audio Bo X",
+    "label": "Audio Box",
     "product_count": 11,
     "product_type_count": 1,
     "product_types": [
@@ -46255,8 +46255,8 @@
       "DLM1182",
       "MM1150"
     ],
-    "term": "audio bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/audio-bo-x/"
+    "term": "audio box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/audio-box/"
   },
   {
     "families": [
@@ -46435,7 +46435,7 @@
       }
     ],
     "family_count": 1,
-    "label": "E X Tra Strength",
+    "label": "Extra Strength",
     "product_count": 11,
     "product_type_count": 1,
     "product_types": [
@@ -46457,8 +46457,8 @@
       "GL4030LID",
       "GL482428DW"
     ],
-    "term": "e x tra strength",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/e-x-tra-strength/"
+    "term": "extra strength",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/extra-strength/"
   },
   {
     "families": [
@@ -46468,7 +46468,7 @@
       }
     ],
     "family_count": 1,
-    "label": "E X Tra Strength Corrugated Bo X",
+    "label": "Extra Strength Corrugated Box",
     "product_count": 11,
     "product_type_count": 1,
     "product_types": [
@@ -46490,8 +46490,8 @@
       "GL4030LID",
       "GL482428DW"
     ],
-    "term": "e x tra strength corrugated bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/e-x-tra-strength-corrugated-bo-x/"
+    "term": "extra strength corrugated box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/extra-strength-corrugated-box/"
   },
   {
     "families": [
@@ -46501,7 +46501,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Foam Bo X",
+    "label": "Foam Box",
     "product_count": 11,
     "product_type_count": 1,
     "product_types": [
@@ -46523,8 +46523,8 @@
       "FSA882",
       "FSA26184"
     ],
-    "term": "foam bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/foam-bo-x/"
+    "term": "foam box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/foam-box/"
   },
   {
     "families": [
@@ -47600,7 +47600,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Cardboard Safety Shipping Bo X",
+    "label": "Cardboard Safety Shipping Box",
     "product_count": 10,
     "product_type_count": 1,
     "product_types": [
@@ -47621,8 +47621,8 @@
       "HAZ1042",
       "HAZ1022"
     ],
-    "term": "cardboard safety shipping bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/cardboard-safety-shipping-bo-x/"
+    "term": "cardboard safety shipping box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/cardboard-safety-shipping-box/"
   },
   {
     "families": [
@@ -47632,7 +47632,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Corrugated Moving Bo X Es",
+    "label": "Corrugated Moving Boxes",
     "product_count": 10,
     "product_type_count": 1,
     "product_types": [
@@ -47653,8 +47653,8 @@
       "25817",
       "OUTERLAMP"
     ],
-    "term": "corrugated moving bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/corrugated-moving-bo-x-es/"
+    "term": "corrugated moving boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/corrugated-moving-boxes/"
   },
   {
     "families": [
@@ -47664,7 +47664,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Corrugated Paint Can Bo X",
+    "label": "Corrugated Paint Can Box",
     "product_count": 10,
     "product_type_count": 1,
     "product_types": [
@@ -47685,8 +47685,8 @@
       "HAZ1042",
       "HAZ1022"
     ],
-    "term": "corrugated paint can bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/corrugated-paint-can-bo-x/"
+    "term": "corrugated paint can box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/corrugated-paint-can-box/"
   },
   {
     "families": [
@@ -47696,7 +47696,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Corrugated Safety Shipping Bo X",
+    "label": "Corrugated Safety Shipping Box",
     "product_count": 10,
     "product_type_count": 1,
     "product_types": [
@@ -47717,8 +47717,8 @@
       "HAZ1042",
       "HAZ1022"
     ],
-    "term": "corrugated safety shipping bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/corrugated-safety-shipping-bo-x/"
+    "term": "corrugated safety shipping box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/corrugated-safety-shipping-box/"
   },
   {
     "families": [
@@ -48272,7 +48272,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Hazardous Protection Cardboard Bo X",
+    "label": "Hazardous Protection Cardboard Box",
     "product_count": 10,
     "product_type_count": 1,
     "product_types": [
@@ -48293,8 +48293,8 @@
       "HAZ1042",
       "HAZ1022"
     ],
-    "term": "hazardous protection cardboard bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/hazardous-protection-cardboard-bo-x/"
+    "term": "hazardous protection cardboard box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/hazardous-protection-cardboard-box/"
   },
   {
     "families": [
@@ -48304,7 +48304,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Hazardous Protection Corrugated Bo X",
+    "label": "Hazardous Protection Corrugated Box",
     "product_count": 10,
     "product_type_count": 1,
     "product_types": [
@@ -48325,8 +48325,8 @@
       "HAZ1042",
       "HAZ1022"
     ],
-    "term": "hazardous protection corrugated bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/hazardous-protection-corrugated-bo-x/"
+    "term": "hazardous protection corrugated box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/hazardous-protection-corrugated-box/"
   },
   {
     "families": [
@@ -48624,7 +48624,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Paint Can Bo X",
+    "label": "Paint Can Box",
     "product_count": 10,
     "product_type_count": 1,
     "product_types": [
@@ -48645,8 +48645,8 @@
       "HAZ1042",
       "HAZ1022"
     ],
-    "term": "paint can bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/paint-can-bo-x/"
+    "term": "paint can box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/paint-can-box/"
   },
   {
     "families": [
@@ -50518,192 +50518,6 @@
   {
     "families": [
       {
-        "count": 9,
-        "family": "mailers"
-      }
-    ],
-    "family_count": 1,
-    "label": "E X Pandable Tyvek Envelopes",
-    "product_count": 9,
-    "product_type_count": 1,
-    "product_types": [
-      {
-        "count": 9,
-        "product_type": "Envelopes & Mailers"
-      }
-    ],
-    "sample_skus": [
-      "TYE09122WE",
-      "TYE12164WS",
-      "TYE10132WE",
-      "TYE10131WE",
-      "TYE10132WS",
-      "TYE10152WS",
-      "TYE12162WE",
-      "TYE10131FC",
-      "TYE12162FC"
-    ],
-    "term": "e x pandable tyvek envelopes",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/e-x-pandable-tyvek-envelopes/"
-  },
-  {
-    "families": [
-      {
-        "count": 9,
-        "family": "mailers"
-      }
-    ],
-    "family_count": 1,
-    "label": "E X Pandable Tyvek Mailers",
-    "product_count": 9,
-    "product_type_count": 1,
-    "product_types": [
-      {
-        "count": 9,
-        "product_type": "Envelopes & Mailers"
-      }
-    ],
-    "sample_skus": [
-      "TYE09122WE",
-      "TYE12164WS",
-      "TYE10132WE",
-      "TYE10131WE",
-      "TYE10132WS",
-      "TYE10152WS",
-      "TYE12162WE",
-      "TYE10131FC",
-      "TYE12162FC"
-    ],
-    "term": "e x pandable tyvek mailers",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/e-x-pandable-tyvek-mailers/"
-  },
-  {
-    "families": [
-      {
-        "count": 9,
-        "family": "stretch_film"
-      }
-    ],
-    "family_count": 1,
-    "label": "E X Tended Core Film",
-    "product_count": 9,
-    "product_type_count": 1,
-    "product_types": [
-      {
-        "count": 9,
-        "product_type": "Stretch Film"
-      }
-    ],
-    "sample_skus": [
-      "SFEC158",
-      "SF208",
-      "TNBEC305",
-      "SF210",
-      "SF2071PK",
-      "SF211",
-      "TNBEC303RED",
-      "TNBEC303GRE",
-      "TNBEC305GRE"
-    ],
-    "term": "e x tended core film",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/e-x-tended-core-film/"
-  },
-  {
-    "families": [
-      {
-        "count": 9,
-        "family": "stretch_film"
-      }
-    ],
-    "family_count": 1,
-    "label": "E X Tended Core Pallet Wrap",
-    "product_count": 9,
-    "product_type_count": 1,
-    "product_types": [
-      {
-        "count": 9,
-        "product_type": "Stretch Film"
-      }
-    ],
-    "sample_skus": [
-      "SFEC158",
-      "SF208",
-      "TNBEC305",
-      "SF210",
-      "SF2071PK",
-      "SF211",
-      "TNBEC303RED",
-      "TNBEC303GRE",
-      "TNBEC305GRE"
-    ],
-    "term": "e x tended core pallet wrap",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/e-x-tended-core-pallet-wrap/"
-  },
-  {
-    "families": [
-      {
-        "count": 9,
-        "family": "stretch_film"
-      }
-    ],
-    "family_count": 1,
-    "label": "E X Tended Core Stretch Film",
-    "product_count": 9,
-    "product_type_count": 1,
-    "product_types": [
-      {
-        "count": 9,
-        "product_type": "Stretch Film"
-      }
-    ],
-    "sample_skus": [
-      "SFEC158",
-      "SF208",
-      "TNBEC305",
-      "SF210",
-      "SF2071PK",
-      "SF211",
-      "TNBEC303RED",
-      "TNBEC303GRE",
-      "TNBEC305GRE"
-    ],
-    "term": "e x tended core stretch film",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/e-x-tended-core-stretch-film/"
-  },
-  {
-    "families": [
-      {
-        "count": 9,
-        "family": "stretch_film"
-      }
-    ],
-    "family_count": 1,
-    "label": "E X Tended Core Stretch Wrap",
-    "product_count": 9,
-    "product_type_count": 1,
-    "product_types": [
-      {
-        "count": 9,
-        "product_type": "Stretch Film"
-      }
-    ],
-    "sample_skus": [
-      "SFEC158",
-      "SF208",
-      "TNBEC305",
-      "SF210",
-      "SF2071PK",
-      "SF211",
-      "TNBEC303RED",
-      "TNBEC303GRE",
-      "TNBEC305GRE"
-    ],
-    "term": "e x tended core stretch wrap",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/e-x-tended-core-stretch-wrap/"
-  },
-  {
-    "families": [
-      {
         "count": 6,
         "family": "void_fill"
       },
@@ -50770,6 +50584,192 @@
     ],
     "term": "envelope stiffeners",
     "url": "https://packrift.github.io/packaging-vocabulary/terms/envelope-stiffeners/"
+  },
+  {
+    "families": [
+      {
+        "count": 9,
+        "family": "mailers"
+      }
+    ],
+    "family_count": 1,
+    "label": "Expandable Tyvek Envelopes",
+    "product_count": 9,
+    "product_type_count": 1,
+    "product_types": [
+      {
+        "count": 9,
+        "product_type": "Envelopes & Mailers"
+      }
+    ],
+    "sample_skus": [
+      "TYE09122WE",
+      "TYE12164WS",
+      "TYE10132WE",
+      "TYE10131WE",
+      "TYE10132WS",
+      "TYE10152WS",
+      "TYE12162WE",
+      "TYE10131FC",
+      "TYE12162FC"
+    ],
+    "term": "expandable tyvek envelopes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/expandable-tyvek-envelopes/"
+  },
+  {
+    "families": [
+      {
+        "count": 9,
+        "family": "mailers"
+      }
+    ],
+    "family_count": 1,
+    "label": "Expandable Tyvek Mailers",
+    "product_count": 9,
+    "product_type_count": 1,
+    "product_types": [
+      {
+        "count": 9,
+        "product_type": "Envelopes & Mailers"
+      }
+    ],
+    "sample_skus": [
+      "TYE09122WE",
+      "TYE12164WS",
+      "TYE10132WE",
+      "TYE10131WE",
+      "TYE10132WS",
+      "TYE10152WS",
+      "TYE12162WE",
+      "TYE10131FC",
+      "TYE12162FC"
+    ],
+    "term": "expandable tyvek mailers",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/expandable-tyvek-mailers/"
+  },
+  {
+    "families": [
+      {
+        "count": 9,
+        "family": "stretch_film"
+      }
+    ],
+    "family_count": 1,
+    "label": "Extended Core Film",
+    "product_count": 9,
+    "product_type_count": 1,
+    "product_types": [
+      {
+        "count": 9,
+        "product_type": "Stretch Film"
+      }
+    ],
+    "sample_skus": [
+      "SFEC158",
+      "SF208",
+      "TNBEC305",
+      "SF210",
+      "SF2071PK",
+      "SF211",
+      "TNBEC303RED",
+      "TNBEC303GRE",
+      "TNBEC305GRE"
+    ],
+    "term": "extended core film",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/extended-core-film/"
+  },
+  {
+    "families": [
+      {
+        "count": 9,
+        "family": "stretch_film"
+      }
+    ],
+    "family_count": 1,
+    "label": "Extended Core Pallet Wrap",
+    "product_count": 9,
+    "product_type_count": 1,
+    "product_types": [
+      {
+        "count": 9,
+        "product_type": "Stretch Film"
+      }
+    ],
+    "sample_skus": [
+      "SFEC158",
+      "SF208",
+      "TNBEC305",
+      "SF210",
+      "SF2071PK",
+      "SF211",
+      "TNBEC303RED",
+      "TNBEC303GRE",
+      "TNBEC305GRE"
+    ],
+    "term": "extended core pallet wrap",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/extended-core-pallet-wrap/"
+  },
+  {
+    "families": [
+      {
+        "count": 9,
+        "family": "stretch_film"
+      }
+    ],
+    "family_count": 1,
+    "label": "Extended Core Stretch Film",
+    "product_count": 9,
+    "product_type_count": 1,
+    "product_types": [
+      {
+        "count": 9,
+        "product_type": "Stretch Film"
+      }
+    ],
+    "sample_skus": [
+      "SFEC158",
+      "SF208",
+      "TNBEC305",
+      "SF210",
+      "SF2071PK",
+      "SF211",
+      "TNBEC303RED",
+      "TNBEC303GRE",
+      "TNBEC305GRE"
+    ],
+    "term": "extended core stretch film",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/extended-core-stretch-film/"
+  },
+  {
+    "families": [
+      {
+        "count": 9,
+        "family": "stretch_film"
+      }
+    ],
+    "family_count": 1,
+    "label": "Extended Core Stretch Wrap",
+    "product_count": 9,
+    "product_type_count": 1,
+    "product_types": [
+      {
+        "count": 9,
+        "product_type": "Stretch Film"
+      }
+    ],
+    "sample_skus": [
+      "SFEC158",
+      "SF208",
+      "TNBEC305",
+      "SF210",
+      "SF2071PK",
+      "SF211",
+      "TNBEC303RED",
+      "TNBEC303GRE",
+      "TNBEC305GRE"
+    ],
+    "term": "extended core stretch wrap",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/extended-core-stretch-wrap/"
   },
   {
     "families": [
@@ -50876,7 +50876,7 @@
       }
     ],
     "family_count": 2,
-    "label": "Handle Bo X",
+    "label": "Handle Box",
     "product_count": 9,
     "product_type_count": 2,
     "product_types": [
@@ -50900,8 +50900,8 @@
       "HD181212DWHH",
       "HD242012DWHH"
     ],
-    "term": "handle bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/handle-bo-x/"
+    "term": "handle box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/handle-box/"
   },
   {
     "families": [
@@ -52758,7 +52758,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Cube Bo X Es",
+    "label": "Cube Boxes",
     "product_count": 8,
     "product_type_count": 1,
     "product_types": [
@@ -52777,8 +52777,8 @@
       "181818",
       "HD242424TW"
     ],
-    "term": "cube bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/cube-bo-x-es/"
+    "term": "cube boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/cube-boxes/"
   },
   {
     "families": [
@@ -52844,66 +52844,6 @@
     "families": [
       {
         "count": 8,
-        "family": "mailers"
-      }
-    ],
-    "family_count": 1,
-    "label": "E X Pansion Mailers",
-    "product_count": 8,
-    "product_type_count": 1,
-    "product_types": [
-      {
-        "count": 8,
-        "product_type": "Envelopes & Mailers"
-      }
-    ],
-    "sample_skus": [
-      "EPM11134",
-      "EPM13164",
-      "EPM15204",
-      "EPM26285",
-      "EPM11132",
-      "EPM13162",
-      "EPM10132",
-      "EPM20244"
-    ],
-    "term": "e x pansion mailers",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/e-x-pansion-mailers/"
-  },
-  {
-    "families": [
-      {
-        "count": 8,
-        "family": "mailers"
-      }
-    ],
-    "family_count": 1,
-    "label": "E X Pansion Poly Mailers",
-    "product_count": 8,
-    "product_type_count": 1,
-    "product_types": [
-      {
-        "count": 8,
-        "product_type": "Envelopes & Mailers"
-      }
-    ],
-    "sample_skus": [
-      "EPM11134",
-      "EPM13164",
-      "EPM15204",
-      "EPM26285",
-      "EPM11132",
-      "EPM13162",
-      "EPM10132",
-      "EPM20244"
-    ],
-    "term": "e x pansion poly mailers",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/e-x-pansion-poly-mailers/"
-  },
-  {
-    "families": [
-      {
-        "count": 8,
         "family": "labels"
       }
     ],
@@ -52929,6 +52869,66 @@
     ],
     "term": "event",
     "url": "https://packrift.github.io/packaging-vocabulary/terms/event/"
+  },
+  {
+    "families": [
+      {
+        "count": 8,
+        "family": "mailers"
+      }
+    ],
+    "family_count": 1,
+    "label": "Expansion Mailers",
+    "product_count": 8,
+    "product_type_count": 1,
+    "product_types": [
+      {
+        "count": 8,
+        "product_type": "Envelopes & Mailers"
+      }
+    ],
+    "sample_skus": [
+      "EPM11134",
+      "EPM13164",
+      "EPM15204",
+      "EPM26285",
+      "EPM11132",
+      "EPM13162",
+      "EPM10132",
+      "EPM20244"
+    ],
+    "term": "expansion mailers",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/expansion-mailers/"
+  },
+  {
+    "families": [
+      {
+        "count": 8,
+        "family": "mailers"
+      }
+    ],
+    "family_count": 1,
+    "label": "Expansion Poly Mailers",
+    "product_count": 8,
+    "product_type_count": 1,
+    "product_types": [
+      {
+        "count": 8,
+        "product_type": "Envelopes & Mailers"
+      }
+    ],
+    "sample_skus": [
+      "EPM11134",
+      "EPM13164",
+      "EPM15204",
+      "EPM26285",
+      "EPM11132",
+      "EPM13162",
+      "EPM10132",
+      "EPM20244"
+    ],
+    "term": "expansion poly mailers",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/expansion-poly-mailers/"
   },
   {
     "families": [
@@ -53422,7 +53422,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Ice-bri X Cold Packs",
+    "label": "Ice-brix Cold Packs",
     "product_count": 8,
     "product_type_count": 1,
     "product_types": [
@@ -53441,8 +53441,8 @@
       "IB8BPD",
       "IB48BPD"
     ],
-    "term": "ice-bri x cold packs",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/ice-bri-x-cold-packs/"
+    "term": "ice-brix cold packs",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/ice-brix-cold-packs/"
   },
   {
     "families": [
@@ -54836,7 +54836,7 @@
       }
     ],
     "family_count": 1,
-    "label": "15 X 12 X 10 Bo X",
+    "label": "15 X 12 X 10 Box",
     "product_count": 7,
     "product_type_count": 1,
     "product_types": [
@@ -54854,8 +54854,8 @@
       "MD151210",
       "FSB200"
     ],
-    "term": "15 x 12 x 10 bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/15-x-12-x-10-bo-x/"
+    "term": "15 x 12 x 10 box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/15-x-12-x-10-box/"
   },
   {
     "families": [
@@ -54865,7 +54865,7 @@
       }
     ],
     "family_count": 1,
-    "label": "15 X 12 X 10 Corrugated Bo X",
+    "label": "15 X 12 X 10 Corrugated Box",
     "product_count": 7,
     "product_type_count": 1,
     "product_types": [
@@ -54883,8 +54883,8 @@
       "MD151210",
       "FSB200"
     ],
-    "term": "15 x 12 x 10 corrugated bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/15-x-12-x-10-corrugated-bo-x/"
+    "term": "15 x 12 x 10 corrugated box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/15-x-12-x-10-corrugated-box/"
   },
   {
     "families": [
@@ -55540,35 +55540,6 @@
     "families": [
       {
         "count": 7,
-        "family": "boxes"
-      }
-    ],
-    "family_count": 1,
-    "label": "Bo X Stuffer",
-    "product_count": 7,
-    "product_type_count": 1,
-    "product_types": [
-      {
-        "count": 7,
-        "product_type": "Boxes - Corrugated"
-      }
-    ],
-    "sample_skus": [
-      "SP99",
-      "SP15",
-      "SP1013",
-      "SP1016",
-      "SP1117",
-      "SP88",
-      "SP1113"
-    ],
-    "term": "bo x stuffer",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/bo-x-stuffer/"
-  },
-  {
-    "families": [
-      {
-        "count": 7,
         "family": "mailers"
       }
     ],
@@ -55593,6 +55564,35 @@
     ],
     "term": "bookfold mailer",
     "url": "https://packrift.github.io/packaging-vocabulary/terms/bookfold-mailer/"
+  },
+  {
+    "families": [
+      {
+        "count": 7,
+        "family": "boxes"
+      }
+    ],
+    "family_count": 1,
+    "label": "Box Stuffer",
+    "product_count": 7,
+    "product_type_count": 1,
+    "product_types": [
+      {
+        "count": 7,
+        "product_type": "Boxes - Corrugated"
+      }
+    ],
+    "sample_skus": [
+      "SP99",
+      "SP15",
+      "SP1013",
+      "SP1016",
+      "SP1117",
+      "SP88",
+      "SP1113"
+    ],
+    "term": "box stuffer",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/box-stuffer/"
   },
   {
     "families": [
@@ -55751,7 +55751,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Cube Bo X",
+    "label": "Cube Box",
     "product_count": 7,
     "product_type_count": 1,
     "product_types": [
@@ -55769,8 +55769,8 @@
       "141414",
       "181818"
     ],
-    "term": "cube bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/cube-bo-x/"
+    "term": "cube box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/cube-box/"
   },
   {
     "families": [
@@ -55896,7 +55896,7 @@
       }
     ],
     "family_count": 1,
-    "label": "E X Pandable Self-seal Envelopes",
+    "label": "Expandable Self-seal Envelopes",
     "product_count": 7,
     "product_type_count": 1,
     "product_types": [
@@ -55914,8 +55914,8 @@
       "EN1073",
       "EN1075"
     ],
-    "term": "e x pandable self-seal envelopes",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/e-x-pandable-self-seal-envelopes/"
+    "term": "expandable self-seal envelopes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/expandable-self-seal-envelopes/"
   },
   {
     "families": [
@@ -56012,7 +56012,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Heavy Duty Cube Bo X",
+    "label": "Heavy Duty Cube Box",
     "product_count": 7,
     "product_type_count": 1,
     "product_types": [
@@ -56030,8 +56030,8 @@
       "HD171717DW",
       "HD6648DW"
     ],
-    "term": "heavy duty cube bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/heavy-duty-cube-bo-x/"
+    "term": "heavy duty cube box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/heavy-duty-cube-box/"
   },
   {
     "families": [
@@ -56099,7 +56099,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Jewelry Bo X Es",
+    "label": "Jewelry Boxes",
     "product_count": 7,
     "product_type_count": 1,
     "product_types": [
@@ -56117,8 +56117,8 @@
       "JB531K",
       "JB531W"
     ],
-    "term": "jewelry bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/jewelry-bo-x-es/"
+    "term": "jewelry boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/jewelry-boxes/"
   },
   {
     "families": [
@@ -56509,7 +56509,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Re-freez-r-bri X Cold Bricks",
+    "label": "Re-freez-r-brix Cold Bricks",
     "product_count": 7,
     "product_type_count": 1,
     "product_types": [
@@ -56527,8 +56527,8 @@
       "RB64",
       "RB62"
     ],
-    "term": "re-freez-r-bri x cold bricks",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/re-freez-r-bri-x-cold-bricks/"
+    "term": "re-freez-r-brix cold bricks",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/re-freez-r-brix-cold-bricks/"
   },
   {
     "families": [
@@ -56654,7 +56654,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Self-seal E X Pansion Envelopes",
+    "label": "Self-seal Expansion Envelopes",
     "product_count": 7,
     "product_type_count": 1,
     "product_types": [
@@ -56672,8 +56672,8 @@
       "EN1073",
       "EN1075"
     ],
-    "term": "self-seal e x pansion envelopes",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/self-seal-e-x-pansion-envelopes/"
+    "term": "self-seal expansion envelopes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/self-seal-expansion-envelopes/"
   },
   {
     "families": [
@@ -57793,7 +57793,7 @@
       }
     ],
     "family_count": 1,
-    "label": "16 X 12 X 12 Bo X",
+    "label": "16 X 12 X 12 Box",
     "product_count": 6,
     "product_type_count": 1,
     "product_types": [
@@ -57810,8 +57810,8 @@
       "161212DPB",
       "161212W"
     ],
-    "term": "16 x 12 x 12 bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/16-x-12-x-12-bo-x/"
+    "term": "16 x 12 x 12 box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/16-x-12-x-12-box/"
   },
   {
     "families": [
@@ -58293,7 +58293,7 @@
       }
     ],
     "family_count": 1,
-    "label": "24 X 12 X 12 Bo X",
+    "label": "24 X 12 X 12 Box",
     "product_count": 6,
     "product_type_count": 1,
     "product_types": [
@@ -58310,8 +58310,8 @@
       "HD241212",
       "HD241212DWHH"
     ],
-    "term": "24 x 12 x 12 bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/24-x-12-x-12-bo-x/"
+    "term": "24 x 12 x 12 box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/24-x-12-x-12-box/"
   },
   {
     "families": [
@@ -58321,7 +58321,7 @@
       }
     ],
     "family_count": 1,
-    "label": "24 X 12 X 12 Cardboard Bo X",
+    "label": "24 X 12 X 12 Cardboard Box",
     "product_count": 6,
     "product_type_count": 1,
     "product_types": [
@@ -58338,8 +58338,8 @@
       "HD241212",
       "HD241212DWHH"
     ],
-    "term": "24 x 12 x 12 cardboard bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/24-x-12-x-12-cardboard-bo-x/"
+    "term": "24 x 12 x 12 cardboard box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/24-x-12-x-12-cardboard-box/"
   },
   {
     "families": [
@@ -58349,7 +58349,7 @@
       }
     ],
     "family_count": 1,
-    "label": "24 X 12 X 12 Corrugated Bo X",
+    "label": "24 X 12 X 12 Corrugated Box",
     "product_count": 6,
     "product_type_count": 1,
     "product_types": [
@@ -58366,8 +58366,8 @@
       "HD241212",
       "HD241212DWHH"
     ],
-    "term": "24 x 12 x 12 corrugated bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/24-x-12-x-12-corrugated-bo-x/"
+    "term": "24 x 12 x 12 corrugated box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/24-x-12-x-12-corrugated-box/"
   },
   {
     "families": [
@@ -58377,7 +58377,7 @@
       }
     ],
     "family_count": 1,
-    "label": "24 X 12 X 12 Shipping Bo X",
+    "label": "24 X 12 X 12 Shipping Box",
     "product_count": 6,
     "product_type_count": 1,
     "product_types": [
@@ -58394,8 +58394,8 @@
       "HD241212",
       "HD241212DWHH"
     ],
-    "term": "24 x 12 x 12 shipping bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/24-x-12-x-12-shipping-bo-x/"
+    "term": "24 x 12 x 12 shipping box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/24-x-12-x-12-shipping-box/"
   },
   {
     "families": [
@@ -58405,7 +58405,7 @@
       }
     ],
     "family_count": 1,
-    "label": "24 X 18 X 18 Bo X",
+    "label": "24 X 18 X 18 Box",
     "product_count": 6,
     "product_type_count": 1,
     "product_types": [
@@ -58422,8 +58422,8 @@
       "HD241818DW",
       "HD241818DWHH"
     ],
-    "term": "24 x 18 x 18 bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/24-x-18-x-18-bo-x/"
+    "term": "24 x 18 x 18 box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/24-x-18-x-18-box/"
   },
   {
     "families": [
@@ -59561,7 +59561,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Custom Bo X Es",
+    "label": "Custom Boxes",
     "product_count": 6,
     "product_type_count": 1,
     "product_types": [
@@ -59578,40 +59578,8 @@
       "FR44",
       "OUTERLAMP"
     ],
-    "term": "custom bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/custom-bo-x-es/"
-  },
-  {
-    "families": [
-      {
-        "count": 5,
-        "family": "shrink_film"
-      },
-      {
-        "count": 1,
-        "family": "other"
-      }
-    ],
-    "family_count": 2,
-    "label": "E X Lfilm",
-    "product_count": 6,
-    "product_type_count": 1,
-    "product_types": [
-      {
-        "count": 6,
-        "product_type": "Shrink Film"
-      }
-    ],
-    "sample_skus": [
-      "SH860",
-      "SH1060",
-      "SH14100",
-      "SH16100",
-      "SH1860",
-      "SH3075"
-    ],
-    "term": "e x lfilm",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/e-x-lfilm/"
+    "term": "custom boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/custom-boxes/"
   },
   {
     "families": [
@@ -59672,12 +59640,44 @@
   {
     "families": [
       {
+        "count": 5,
+        "family": "shrink_film"
+      },
+      {
+        "count": 1,
+        "family": "other"
+      }
+    ],
+    "family_count": 2,
+    "label": "Exlfilm",
+    "product_count": 6,
+    "product_type_count": 1,
+    "product_types": [
+      {
+        "count": 6,
+        "product_type": "Shrink Film"
+      }
+    ],
+    "sample_skus": [
+      "SH860",
+      "SH1060",
+      "SH14100",
+      "SH16100",
+      "SH1860",
+      "SH3075"
+    ],
+    "term": "exlfilm",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/exlfilm/"
+  },
+  {
+    "families": [
+      {
         "count": 6,
         "family": "boxes"
       }
     ],
     "family_count": 1,
-    "label": "File Bo X",
+    "label": "File Box",
     "product_count": 6,
     "product_type_count": 1,
     "product_types": [
@@ -59694,8 +59694,8 @@
       "FSB280",
       "FSB170"
     ],
-    "term": "file bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/file-bo-x/"
+    "term": "file box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/file-box/"
   },
   {
     "families": [
@@ -60181,7 +60181,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Insulated Bo X Liners",
+    "label": "Insulated Box Liners",
     "product_count": 6,
     "product_type_count": 1,
     "product_types": [
@@ -60198,8 +60198,8 @@
       "INL2418",
       "INL181212"
     ],
-    "term": "insulated bo x liners",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/insulated-bo-x-liners/"
+    "term": "insulated box liners",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/insulated-box-liners/"
   },
   {
     "families": [
@@ -60573,7 +60573,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Multi-depth Bo X",
+    "label": "Multi-depth Box",
     "product_count": 6,
     "product_type_count": 1,
     "product_types": [
@@ -60590,8 +60590,8 @@
       "MD12106",
       "MD121210"
     ],
-    "term": "multi-depth bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/multi-depth-bo-x/"
+    "term": "multi-depth box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/multi-depth-box/"
   },
   {
     "families": [
@@ -61497,34 +61497,6 @@
     "families": [
       {
         "count": 6,
-        "family": "labels"
-      }
-    ],
-    "family_count": 1,
-    "label": "Wa X /resin Ribbons",
-    "product_count": 6,
-    "product_type_count": 1,
-    "product_types": [
-      {
-        "count": 6,
-        "product_type": "Labels"
-      }
-    ],
-    "sample_skus": [
-      "THT164",
-      "THT163",
-      "THT162",
-      "THT166",
-      "THT167",
-      "THT169"
-    ],
-    "term": "wa x /resin ribbons",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/wa-x-resin-ribbons/"
-  },
-  {
-    "families": [
-      {
-        "count": 6,
         "family": "boxes"
       }
     ],
@@ -61548,6 +61520,34 @@
     ],
     "term": "warehouse bins",
     "url": "https://packrift.github.io/packaging-vocabulary/terms/warehouse-bins/"
+  },
+  {
+    "families": [
+      {
+        "count": 6,
+        "family": "labels"
+      }
+    ],
+    "family_count": 1,
+    "label": "Wax/resin Ribbons",
+    "product_count": 6,
+    "product_type_count": 1,
+    "product_types": [
+      {
+        "count": 6,
+        "product_type": "Labels"
+      }
+    ],
+    "sample_skus": [
+      "THT164",
+      "THT163",
+      "THT162",
+      "THT166",
+      "THT167",
+      "THT169"
+    ],
+    "term": "wax/resin ribbons",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/wax-resin-ribbons/"
   },
   {
     "families": [
@@ -61585,7 +61585,7 @@
       }
     ],
     "family_count": 1,
-    "label": "White File Bo X",
+    "label": "White File Box",
     "product_count": 6,
     "product_type_count": 1,
     "product_types": [
@@ -61602,8 +61602,8 @@
       "FSB280",
       "FSB480"
     ],
-    "term": "white file bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/white-file-bo-x/"
+    "term": "white file box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/white-file-box/"
   },
   {
     "families": [
@@ -61937,7 +61937,7 @@
       }
     ],
     "family_count": 1,
-    "label": "10 X 8 X 6 Bo X",
+    "label": "10 X 8 X 6 Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -61953,8 +61953,8 @@
       "MD1086",
       "1086W"
     ],
-    "term": "10 x 8 x 6 bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/10-x-8-x-6-bo-x/"
+    "term": "10 x 8 x 6 box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/10-x-8-x-6-box/"
   },
   {
     "families": [
@@ -61964,7 +61964,7 @@
       }
     ],
     "family_count": 1,
-    "label": "10 X 8 X 6 Cardboard Bo X",
+    "label": "10 X 8 X 6 Cardboard Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -61980,8 +61980,8 @@
       "MD1086",
       "1086W"
     ],
-    "term": "10 x 8 x 6 cardboard bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/10-x-8-x-6-cardboard-bo-x/"
+    "term": "10 x 8 x 6 cardboard box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/10-x-8-x-6-cardboard-box/"
   },
   {
     "families": [
@@ -61991,7 +61991,7 @@
       }
     ],
     "family_count": 1,
-    "label": "10 X 8 X 6 Corrugated Bo X",
+    "label": "10 X 8 X 6 Corrugated Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -62007,8 +62007,8 @@
       "MD1086",
       "1086W"
     ],
-    "term": "10 x 8 x 6 corrugated bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/10-x-8-x-6-corrugated-bo-x/"
+    "term": "10 x 8 x 6 corrugated box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/10-x-8-x-6-corrugated-box/"
   },
   {
     "families": [
@@ -62018,7 +62018,7 @@
       }
     ],
     "family_count": 1,
-    "label": "10 X 8 X 6 Shipping Bo X",
+    "label": "10 X 8 X 6 Shipping Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -62034,8 +62034,8 @@
       "MD1086",
       "1086W"
     ],
-    "term": "10 x 8 x 6 shipping bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/10-x-8-x-6-shipping-bo-x/"
+    "term": "10 x 8 x 6 shipping box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/10-x-8-x-6-shipping-box/"
   },
   {
     "families": [
@@ -62072,7 +62072,7 @@
       }
     ],
     "family_count": 1,
-    "label": "11 1/4 X 8 3/4 X 6 Bo X",
+    "label": "11 1/4 X 8 3/4 X 6 Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -62088,8 +62088,8 @@
       "HD1186R",
       "HD1186RDW"
     ],
-    "term": "11 1/4 x 8 3/4 x 6 bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/11-1-4-x-8-3-4-x-6-bo-x/"
+    "term": "11 1/4 x 8 3/4 x 6 box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/11-1-4-x-8-3-4-x-6-box/"
   },
   {
     "families": [
@@ -62099,7 +62099,7 @@
       }
     ],
     "family_count": 1,
-    "label": "11 1/4 X 8 3/4 X 6 Cardboard Bo X",
+    "label": "11 1/4 X 8 3/4 X 6 Cardboard Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -62115,8 +62115,8 @@
       "HD1186R",
       "HD1186RDW"
     ],
-    "term": "11 1/4 x 8 3/4 x 6 cardboard bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/11-1-4-x-8-3-4-x-6-cardboard-bo-x/"
+    "term": "11 1/4 x 8 3/4 x 6 cardboard box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/11-1-4-x-8-3-4-x-6-cardboard-box/"
   },
   {
     "families": [
@@ -62126,7 +62126,7 @@
       }
     ],
     "family_count": 1,
-    "label": "11 1/4 X 8 3/4 X 6 Corrugated Bo X",
+    "label": "11 1/4 X 8 3/4 X 6 Corrugated Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -62142,8 +62142,8 @@
       "HD1186R",
       "HD1186RDW"
     ],
-    "term": "11 1/4 x 8 3/4 x 6 corrugated bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/11-1-4-x-8-3-4-x-6-corrugated-bo-x/"
+    "term": "11 1/4 x 8 3/4 x 6 corrugated box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/11-1-4-x-8-3-4-x-6-corrugated-box/"
   },
   {
     "families": [
@@ -62153,7 +62153,7 @@
       }
     ],
     "family_count": 1,
-    "label": "11 1/4 X 8 3/4 X 6 Shipping Bo X",
+    "label": "11 1/4 X 8 3/4 X 6 Shipping Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -62169,8 +62169,8 @@
       "HD1186R",
       "HD1186RDW"
     ],
-    "term": "11 1/4 x 8 3/4 x 6 shipping bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/11-1-4-x-8-3-4-x-6-shipping-bo-x/"
+    "term": "11 1/4 x 8 3/4 x 6 shipping box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/11-1-4-x-8-3-4-x-6-shipping-box/"
   },
   {
     "families": [
@@ -62207,7 +62207,7 @@
       }
     ],
     "family_count": 1,
-    "label": "11.25 X 8.75 X 6 Bo X",
+    "label": "11.25 X 8.75 X 6 Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -62223,8 +62223,8 @@
       "HD1186R",
       "HD1186RDW"
     ],
-    "term": "11.25 x 8.75 x 6 bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/11-25-x-8-75-x-6-bo-x/"
+    "term": "11.25 x 8.75 x 6 box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/11-25-x-8-75-x-6-box/"
   },
   {
     "families": [
@@ -62234,7 +62234,7 @@
       }
     ],
     "family_count": 1,
-    "label": "11.25 X 8.75 X 6 Cardboard Bo X",
+    "label": "11.25 X 8.75 X 6 Cardboard Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -62250,8 +62250,8 @@
       "HD1186R",
       "HD1186RDW"
     ],
-    "term": "11.25 x 8.75 x 6 cardboard bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/11-25-x-8-75-x-6-cardboard-bo-x/"
+    "term": "11.25 x 8.75 x 6 cardboard box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/11-25-x-8-75-x-6-cardboard-box/"
   },
   {
     "families": [
@@ -62261,7 +62261,7 @@
       }
     ],
     "family_count": 1,
-    "label": "11.25 X 8.75 X 6 Corrugated Bo X",
+    "label": "11.25 X 8.75 X 6 Corrugated Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -62277,8 +62277,8 @@
       "HD1186R",
       "HD1186RDW"
     ],
-    "term": "11.25 x 8.75 x 6 corrugated bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/11-25-x-8-75-x-6-corrugated-bo-x/"
+    "term": "11.25 x 8.75 x 6 corrugated box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/11-25-x-8-75-x-6-corrugated-box/"
   },
   {
     "families": [
@@ -62288,7 +62288,7 @@
       }
     ],
     "family_count": 1,
-    "label": "11.25 X 8.75 X 6 Shipping Bo X",
+    "label": "11.25 X 8.75 X 6 Shipping Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -62304,8 +62304,8 @@
       "HD1186R",
       "HD1186RDW"
     ],
-    "term": "11.25 x 8.75 x 6 shipping bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/11-25-x-8-75-x-6-shipping-bo-x/"
+    "term": "11.25 x 8.75 x 6 shipping box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/11-25-x-8-75-x-6-shipping-box/"
   },
   {
     "families": [
@@ -62431,7 +62431,7 @@
       }
     ],
     "family_count": 1,
-    "label": "12 X 10 X 8 Bo X",
+    "label": "12 X 10 X 8 Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -62447,8 +62447,8 @@
       "HD12108",
       "MD12106"
     ],
-    "term": "12 x 10 x 8 bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/12-x-10-x-8-bo-x/"
+    "term": "12 x 10 x 8 box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/12-x-10-x-8-box/"
   },
   {
     "families": [
@@ -62458,7 +62458,7 @@
       }
     ],
     "family_count": 1,
-    "label": "12 X 10 X 8 Cardboard Bo X",
+    "label": "12 X 10 X 8 Cardboard Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -62474,8 +62474,8 @@
       "HD12108",
       "MD12106"
     ],
-    "term": "12 x 10 x 8 cardboard bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/12-x-10-x-8-cardboard-bo-x/"
+    "term": "12 x 10 x 8 cardboard box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/12-x-10-x-8-cardboard-box/"
   },
   {
     "families": [
@@ -62485,7 +62485,7 @@
       }
     ],
     "family_count": 1,
-    "label": "12 X 10 X 8 Corrugated Bo X",
+    "label": "12 X 10 X 8 Corrugated Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -62501,8 +62501,8 @@
       "HD12108",
       "MD12106"
     ],
-    "term": "12 x 10 x 8 corrugated bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/12-x-10-x-8-corrugated-bo-x/"
+    "term": "12 x 10 x 8 corrugated box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/12-x-10-x-8-corrugated-box/"
   },
   {
     "families": [
@@ -62512,7 +62512,7 @@
       }
     ],
     "family_count": 1,
-    "label": "12 X 10 X 8 Shipping Bo X",
+    "label": "12 X 10 X 8 Shipping Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -62528,8 +62528,8 @@
       "HD12108",
       "MD12106"
     ],
-    "term": "12 x 10 x 8 shipping bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/12-x-10-x-8-shipping-bo-x/"
+    "term": "12 x 10 x 8 shipping box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/12-x-10-x-8-shipping-box/"
   },
   {
     "families": [
@@ -62663,7 +62663,7 @@
       }
     ],
     "family_count": 1,
-    "label": "14 X 10 X 10 Bo X",
+    "label": "14 X 10 X 10 Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -62679,8 +62679,8 @@
       "HD141010",
       "141010W"
     ],
-    "term": "14 x 10 x 10 bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/14-x-10-x-10-bo-x/"
+    "term": "14 x 10 x 10 box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/14-x-10-x-10-box/"
   },
   {
     "families": [
@@ -62690,7 +62690,7 @@
       }
     ],
     "family_count": 1,
-    "label": "14 X 10 X 10 Cardboard Bo X",
+    "label": "14 X 10 X 10 Cardboard Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -62706,8 +62706,8 @@
       "HD141010",
       "141010W"
     ],
-    "term": "14 x 10 x 10 cardboard bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/14-x-10-x-10-cardboard-bo-x/"
+    "term": "14 x 10 x 10 cardboard box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/14-x-10-x-10-cardboard-box/"
   },
   {
     "families": [
@@ -62717,7 +62717,7 @@
       }
     ],
     "family_count": 1,
-    "label": "14 X 10 X 10 Corrugated Bo X",
+    "label": "14 X 10 X 10 Corrugated Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -62733,8 +62733,8 @@
       "HD141010",
       "141010W"
     ],
-    "term": "14 x 10 x 10 corrugated bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/14-x-10-x-10-corrugated-bo-x/"
+    "term": "14 x 10 x 10 corrugated box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/14-x-10-x-10-corrugated-box/"
   },
   {
     "families": [
@@ -62744,7 +62744,7 @@
       }
     ],
     "family_count": 1,
-    "label": "14 X 10 X 10 Shipping Bo X",
+    "label": "14 X 10 X 10 Shipping Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -62760,8 +62760,8 @@
       "HD141010",
       "141010W"
     ],
-    "term": "14 x 10 x 10 shipping bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/14-x-10-x-10-shipping-bo-x/"
+    "term": "14 x 10 x 10 shipping box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/14-x-10-x-10-shipping-box/"
   },
   {
     "families": [
@@ -62771,7 +62771,7 @@
       }
     ],
     "family_count": 1,
-    "label": "15 X 12 X 10 Cardboard Bo X",
+    "label": "15 X 12 X 10 Cardboard Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -62787,8 +62787,8 @@
       "HD151210",
       "MD151210"
     ],
-    "term": "15 x 12 x 10 cardboard bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/15-x-12-x-10-cardboard-bo-x/"
+    "term": "15 x 12 x 10 cardboard box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/15-x-12-x-10-cardboard-box/"
   },
   {
     "families": [
@@ -62798,7 +62798,7 @@
       }
     ],
     "family_count": 1,
-    "label": "15 X 12 X 10 Shipping Bo X",
+    "label": "15 X 12 X 10 Shipping Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -62814,8 +62814,8 @@
       "HD151210",
       "MD151210"
     ],
-    "term": "15 x 12 x 10 shipping bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/15-x-12-x-10-shipping-bo-x/"
+    "term": "15 x 12 x 10 shipping box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/15-x-12-x-10-shipping-box/"
   },
   {
     "families": [
@@ -62825,7 +62825,7 @@
       }
     ],
     "family_count": 1,
-    "label": "16 X 12 X 12 Cardboard Bo X",
+    "label": "16 X 12 X 12 Cardboard Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -62841,8 +62841,8 @@
       "MD161212",
       "161212W"
     ],
-    "term": "16 x 12 x 12 cardboard bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/16-x-12-x-12-cardboard-bo-x/"
+    "term": "16 x 12 x 12 cardboard box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/16-x-12-x-12-cardboard-box/"
   },
   {
     "families": [
@@ -62852,7 +62852,7 @@
       }
     ],
     "family_count": 1,
-    "label": "16 X 12 X 12 Corrugated Bo X",
+    "label": "16 X 12 X 12 Corrugated Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -62868,8 +62868,8 @@
       "MD161212",
       "161212W"
     ],
-    "term": "16 x 12 x 12 corrugated bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/16-x-12-x-12-corrugated-bo-x/"
+    "term": "16 x 12 x 12 corrugated box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/16-x-12-x-12-corrugated-box/"
   },
   {
     "families": [
@@ -62879,7 +62879,7 @@
       }
     ],
     "family_count": 1,
-    "label": "16 X 12 X 12 Shipping Bo X",
+    "label": "16 X 12 X 12 Shipping Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -62895,8 +62895,8 @@
       "MD161212",
       "161212W"
     ],
-    "term": "16 x 12 x 12 shipping bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/16-x-12-x-12-shipping-bo-x/"
+    "term": "16 x 12 x 12 shipping box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/16-x-12-x-12-shipping-box/"
   },
   {
     "families": [
@@ -63015,7 +63015,7 @@
       }
     ],
     "family_count": 1,
-    "label": "18 X 12 X 12 Bo X",
+    "label": "18 X 12 X 12 Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -63031,8 +63031,8 @@
       "181212",
       "HD181212DWHH"
     ],
-    "term": "18 x 12 x 12 bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/18-x-12-x-12-bo-x/"
+    "term": "18 x 12 x 12 box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/18-x-12-x-12-box/"
   },
   {
     "families": [
@@ -63042,7 +63042,7 @@
       }
     ],
     "family_count": 1,
-    "label": "18 X 12 X 12 Cardboard Bo X",
+    "label": "18 X 12 X 12 Cardboard Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -63058,8 +63058,8 @@
       "181212",
       "HD181212DWHH"
     ],
-    "term": "18 x 12 x 12 cardboard bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/18-x-12-x-12-cardboard-bo-x/"
+    "term": "18 x 12 x 12 cardboard box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/18-x-12-x-12-cardboard-box/"
   },
   {
     "families": [
@@ -63069,7 +63069,7 @@
       }
     ],
     "family_count": 1,
-    "label": "18 X 12 X 12 Corrugated Bo X",
+    "label": "18 X 12 X 12 Corrugated Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -63085,8 +63085,8 @@
       "181212",
       "HD181212DWHH"
     ],
-    "term": "18 x 12 x 12 corrugated bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/18-x-12-x-12-corrugated-bo-x/"
+    "term": "18 x 12 x 12 corrugated box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/18-x-12-x-12-corrugated-box/"
   },
   {
     "families": [
@@ -63096,7 +63096,7 @@
       }
     ],
     "family_count": 1,
-    "label": "18 X 12 X 12 Shipping Bo X",
+    "label": "18 X 12 X 12 Shipping Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -63112,8 +63112,8 @@
       "181212",
       "HD181212DWHH"
     ],
-    "term": "18 x 12 x 12 shipping bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/18-x-12-x-12-shipping-bo-x/"
+    "term": "18 x 12 x 12 shipping box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/18-x-12-x-12-shipping-box/"
   },
   {
     "families": [
@@ -63559,7 +63559,7 @@
       }
     ],
     "family_count": 1,
-    "label": "24 X 12 X 10 File Storage Bo X",
+    "label": "24 X 12 X 10 File Storage Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -63575,8 +63575,8 @@
       "FSB700",
       "FSB500"
     ],
-    "term": "24 x 12 x 10 file storage bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/24-x-12-x-10-file-storage-bo-x/"
+    "term": "24 x 12 x 10 file storage box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/24-x-12-x-10-file-storage-box/"
   },
   {
     "families": [
@@ -63613,7 +63613,7 @@
       }
     ],
     "family_count": 1,
-    "label": "24 X 18 X 18 Cardboard Bo X",
+    "label": "24 X 18 X 18 Cardboard Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -63629,8 +63629,8 @@
       "HD241818DW",
       "HD241818DWHH"
     ],
-    "term": "24 x 18 x 18 cardboard bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/24-x-18-x-18-cardboard-bo-x/"
+    "term": "24 x 18 x 18 cardboard box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/24-x-18-x-18-cardboard-box/"
   },
   {
     "families": [
@@ -63640,7 +63640,7 @@
       }
     ],
     "family_count": 1,
-    "label": "24 X 18 X 18 Corrugated Bo X",
+    "label": "24 X 18 X 18 Corrugated Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -63656,8 +63656,8 @@
       "HD241818DW",
       "HD241818DWHH"
     ],
-    "term": "24 x 18 x 18 corrugated bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/24-x-18-x-18-corrugated-bo-x/"
+    "term": "24 x 18 x 18 corrugated box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/24-x-18-x-18-corrugated-box/"
   },
   {
     "families": [
@@ -63667,7 +63667,7 @@
       }
     ],
     "family_count": 1,
-    "label": "24 X 18 X 18 Shipping Bo X",
+    "label": "24 X 18 X 18 Shipping Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -63683,8 +63683,8 @@
       "HD241818DW",
       "HD241818DWHH"
     ],
-    "term": "24 x 18 x 18 shipping bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/24-x-18-x-18-shipping-bo-x/"
+    "term": "24 x 18 x 18 shipping box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/24-x-18-x-18-shipping-box/"
   },
   {
     "families": [
@@ -64169,7 +64169,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Apparel Bo X Es",
+    "label": "Apparel Boxes",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -64185,8 +64185,8 @@
       "AB19123K",
       "AB15092K"
     ],
-    "term": "apparel bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/apparel-bo-x-es/"
+    "term": "apparel boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/apparel-boxes/"
   },
   {
     "families": [
@@ -64250,7 +64250,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Banker S Bo X Es",
+    "label": "Banker S Boxes",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -64266,8 +64266,8 @@
       "FSB170",
       "FSB720"
     ],
-    "term": "banker s bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/banker-s-bo-x-es/"
+    "term": "banker s boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/banker-s-boxes/"
   },
   {
     "families": [
@@ -64493,33 +64493,6 @@
     "families": [
       {
         "count": 5,
-        "family": "boxes"
-      }
-    ],
-    "family_count": 1,
-    "label": "Bo X with Hand Hole",
-    "product_count": 5,
-    "product_type_count": 1,
-    "product_types": [
-      {
-        "count": 5,
-        "product_type": "Boxes - Corrugated"
-      }
-    ],
-    "sample_skus": [
-      "HD201812DWHH",
-      "HD241212DWHH",
-      "HD241818DWHH",
-      "HD181212DWHH",
-      "HD242012DWHH"
-    ],
-    "term": "bo x with hand hole",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/bo-x-with-hand-hole/"
-  },
-  {
-    "families": [
-      {
-        "count": 5,
         "family": "void_fill"
       }
     ],
@@ -64542,6 +64515,33 @@
     ],
     "term": "bogus kraft paper",
     "url": "https://packrift.github.io/packaging-vocabulary/terms/bogus-kraft-paper/"
+  },
+  {
+    "families": [
+      {
+        "count": 5,
+        "family": "boxes"
+      }
+    ],
+    "family_count": 1,
+    "label": "Box with Hand Hole",
+    "product_count": 5,
+    "product_type_count": 1,
+    "product_types": [
+      {
+        "count": 5,
+        "product_type": "Boxes - Corrugated"
+      }
+    ],
+    "sample_skus": [
+      "HD201812DWHH",
+      "HD241212DWHH",
+      "HD241818DWHH",
+      "HD181212DWHH",
+      "HD242012DWHH"
+    ],
+    "term": "box with hand hole",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/box-with-hand-hole/"
   },
   {
     "families": [
@@ -64659,7 +64659,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Clothes Bo X Es",
+    "label": "Clothes Boxes",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -64675,8 +64675,8 @@
       "AB19123K",
       "AB15092K"
     ],
-    "term": "clothes bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/clothes-bo-x-es/"
+    "term": "clothes boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/clothes-boxes/"
   },
   {
     "families": [
@@ -65153,7 +65153,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Double Wall Hand Hole Bo X",
+    "label": "Double Wall Hand Hole Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -65169,8 +65169,8 @@
       "HD181212DWHH",
       "HD242012DWHH"
     ],
-    "term": "double wall hand hole bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/double-wall-hand-hole-bo-x/"
+    "term": "double wall hand hole box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/double-wall-hand-hole-box/"
   },
   {
     "families": [
@@ -65338,33 +65338,6 @@
     "families": [
       {
         "count": 5,
-        "family": "poly_bags"
-      }
-    ],
-    "family_count": 1,
-    "label": "E X Pandable Side Pp Bag",
-    "product_count": 5,
-    "product_type_count": 1,
-    "product_types": [
-      {
-        "count": 5,
-        "product_type": "Bags - Poly"
-      }
-    ],
-    "sample_skus": [
-      "PBG110",
-      "PBG100",
-      "PBG105",
-      "PBG130",
-      "PBG120"
-    ],
-    "term": "e x pandable side pp bag",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/e-x-pandable-side-pp-bag/"
-  },
-  {
-    "families": [
-      {
-        "count": 5,
         "family": "tape"
       }
     ],
@@ -65387,6 +65360,33 @@
     ],
     "term": "electrical splicing tape",
     "url": "https://packrift.github.io/packaging-vocabulary/terms/electrical-splicing-tape/"
+  },
+  {
+    "families": [
+      {
+        "count": 5,
+        "family": "poly_bags"
+      }
+    ],
+    "family_count": 1,
+    "label": "Expandable Side Pp Bag",
+    "product_count": 5,
+    "product_type_count": 1,
+    "product_types": [
+      {
+        "count": 5,
+        "product_type": "Bags - Poly"
+      }
+    ],
+    "sample_skus": [
+      "PBG110",
+      "PBG100",
+      "PBG105",
+      "PBG130",
+      "PBG120"
+    ],
+    "term": "expandable side pp bag",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/expandable-side-pp-bag/"
   },
   {
     "families": [
@@ -65562,7 +65562,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Fol Bo X",
+    "label": "Fol Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -65578,8 +65578,8 @@
       "8446FOL",
       "13330FOL"
     ],
-    "term": "fol bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/fol-bo-x/"
+    "term": "fol box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/fol-box/"
   },
   {
     "families": [
@@ -65589,7 +65589,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Full Overlap Bo X",
+    "label": "Full Overlap Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -65605,8 +65605,8 @@
       "8446FOL",
       "13330FOL"
     ],
-    "term": "full overlap bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/full-overlap-bo-x/"
+    "term": "full overlap box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/full-overlap-box/"
   },
   {
     "families": [
@@ -65894,7 +65894,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Hand Hole Bo X",
+    "label": "Hand Hole Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -65910,8 +65910,8 @@
       "HD181212DWHH",
       "HD242012DWHH"
     ],
-    "term": "hand hole bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/hand-hole-bo-x/"
+    "term": "hand hole box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/hand-hole-box/"
   },
   {
     "families": [
@@ -66353,7 +66353,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Long Full Overlap Bo X",
+    "label": "Long Full Overlap Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -66369,8 +66369,8 @@
       "8446FOL",
       "13330FOL"
     ],
-    "term": "long full overlap bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/long-full-overlap-bo-x/"
+    "term": "long full overlap box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/long-full-overlap-box/"
   },
   {
     "families": [
@@ -66407,7 +66407,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Long Side Loading Bo X",
+    "label": "Long Side Loading Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -66423,8 +66423,8 @@
       "8446FOL",
       "13330FOL"
     ],
-    "term": "long side loading bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/long-side-loading-bo-x/"
+    "term": "long side loading box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/long-side-loading-box/"
   },
   {
     "families": [
@@ -67221,7 +67221,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Self Seal Bo X",
+    "label": "Self Seal Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -67237,8 +67237,8 @@
       "1128SSFOL",
       "12317SSFOL"
     ],
-    "term": "self seal bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/self-seal-bo-x/"
+    "term": "self seal box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/self-seal-box/"
   },
   {
     "families": [
@@ -67275,7 +67275,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Self Seal Side Loading Bo X",
+    "label": "Self Seal Side Loading Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -67291,8 +67291,8 @@
       "1128SSFOL",
       "12317SSFOL"
     ],
-    "term": "self seal side loading bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/self-seal-side-loading-bo-x/"
+    "term": "self seal side loading box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/self-seal-side-loading-box/"
   },
   {
     "families": [
@@ -67580,7 +67580,7 @@
       }
     ],
     "family_count": 1,
-    "label": "Storage File Bo X Es",
+    "label": "Storage File Boxes",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -67596,8 +67596,8 @@
       "FSB700",
       "FSB720"
     ],
-    "term": "storage file bo x es",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/storage-file-bo-x-es/"
+    "term": "storage file boxes",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/storage-file-boxes/"
   },
   {
     "families": [
@@ -67877,7 +67877,7 @@
       }
     ],
     "family_count": 1,
-    "label": "White Bo X",
+    "label": "White Box",
     "product_count": 5,
     "product_type_count": 1,
     "product_types": [
@@ -67893,8 +67893,8 @@
       "1128SSFOL",
       "12317SSFOL"
     ],
-    "term": "white bo x",
-    "url": "https://packrift.github.io/packaging-vocabulary/terms/white-bo-x/"
+    "term": "white box",
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/white-box/"
   },
   {
     "families": [

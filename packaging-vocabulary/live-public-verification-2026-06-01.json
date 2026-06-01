@@ -1,0 +1,186 @@
+[
+  {
+    "bytes": 12670,
+    "evidence": {
+      "Packrift Packaging Search Vocabulary Crosswalk": true,
+      "packrift.github.io/packaging-vocabulary": true
+    },
+    "final_url": "https://packrift.github.io/packaging-vocabulary/",
+    "has_challenge": false,
+    "has_noindex": false,
+    "host_mentions": 1,
+    "live_gate": true,
+    "name": "root",
+    "packrift_mentions": 12,
+    "status": 200,
+    "url": "https://packrift.github.io/packaging-vocabulary/",
+    "x_robots_tag": ""
+  },
+  {
+    "bytes": 225970,
+    "evidence": {
+      "packrift.github.io/packaging-vocabulary": true
+    },
+    "final_url": "https://packrift.github.io/packaging-vocabulary/sitemap.xml",
+    "has_challenge": false,
+    "has_noindex": false,
+    "host_mentions": 1836,
+    "live_gate": true,
+    "loc_count": 1836,
+    "name": "sitemap",
+    "packrift_mentions": 1836,
+    "status": 200,
+    "url": "https://packrift.github.io/packaging-vocabulary/sitemap.xml",
+    "x_robots_tag": ""
+  },
+  {
+    "bytes": 92,
+    "evidence": {
+      "Sitemap: https://packrift.github.io/packaging-vocabulary/sitemap.xml": true
+    },
+    "final_url": "https://packrift.github.io/packaging-vocabulary/robots.txt",
+    "has_challenge": false,
+    "has_noindex": false,
+    "host_mentions": 1,
+    "live_gate": true,
+    "name": "sub_robots",
+    "packrift_mentions": 1,
+    "status": 200,
+    "url": "https://packrift.github.io/packaging-vocabulary/robots.txt",
+    "x_robots_tag": ""
+  },
+  {
+    "bytes": 721,
+    "evidence": {
+      "Sitemap: https://packrift.github.io/packaging-vocabulary/sitemap.xml": true
+    },
+    "final_url": "https://packrift.github.io/robots.txt",
+    "has_challenge": false,
+    "has_noindex": false,
+    "host_mentions": 1,
+    "live_gate": true,
+    "name": "root_robots",
+    "packrift_mentions": 9,
+    "status": 200,
+    "url": "https://packrift.github.io/robots.txt",
+    "x_robots_tag": ""
+  },
+  {
+    "bytes": 613,
+    "evidence": {
+      "Packrift Packaging Search Vocabulary Crosswalk": true
+    },
+    "final_url": "https://packrift.github.io/packaging-vocabulary/llms.txt",
+    "has_challenge": false,
+    "has_noindex": false,
+    "host_mentions": 5,
+    "live_gate": true,
+    "name": "llms",
+    "packrift_mentions": 8,
+    "status": 200,
+    "url": "https://packrift.github.io/packaging-vocabulary/llms.txt",
+    "x_robots_tag": ""
+  },
+  {
+    "bytes": 1102,
+    "evidence": {
+      "Packrift Packaging Search Vocabulary Crosswalk": true,
+      "agentmanifest-0.3": true
+    },
+    "final_url": "https://packrift.github.io/packaging-vocabulary/agent-manifest.json",
+    "has_challenge": false,
+    "has_noindex": false,
+    "host_mentions": 4,
+    "live_gate": true,
+    "name": "agent",
+    "packrift_mentions": 8,
+    "status": 200,
+    "url": "https://packrift.github.io/packaging-vocabulary/agent-manifest.json",
+    "x_robots_tag": ""
+  },
+  {
+    "bytes": 903,
+    "evidence": {
+      "Packrift Packaging Search Vocabulary Crosswalk": true
+    },
+    "final_url": "https://packrift.github.io/packaging-vocabulary/openapi.json",
+    "has_challenge": false,
+    "has_noindex": false,
+    "host_mentions": 1,
+    "live_gate": true,
+    "name": "openapi",
+    "packrift_mentions": 5,
+    "status": 200,
+    "url": "https://packrift.github.io/packaging-vocabulary/openapi.json",
+    "x_robots_tag": ""
+  },
+  {
+    "bytes": 779,
+    "evidence": {
+      "published_term_count": true,
+      "sitemap_url_count": true
+    },
+    "final_url": "https://packrift.github.io/packaging-vocabulary/data/stats.json",
+    "has_challenge": false,
+    "has_noindex": false,
+    "host_mentions": 1,
+    "live_gate": true,
+    "name": "stats",
+    "packrift_mentions": 5,
+    "parsed": {
+      "boundaries": [
+        "No supplier cost, margin, customer, order, cart, payment, private source path, or live freight promise data is published.",
+        "Packrift.com remains the buying, price, and availability source of truth.",
+        "This crosswalk is not a third-party endorsement or ranking claim."
+      ],
+      "family_count": 13,
+      "generated_at": "2026-06-01T21:44:34Z",
+      "host": "packrift.github.io",
+      "min_products_for_term_page": 5,
+      "product_count": 4852,
+      "product_type_count": 24,
+      "published_term_count": 1775,
+      "site": "https://packrift.github.io/packaging-vocabulary",
+      "sitemap_url_count": 1836,
+      "source": "Packrift public catalog-control snapshot, filtered to approved in-stock public-safe rows",
+      "title": "Packrift Packaging Search Vocabulary Crosswalk"
+    },
+    "status": 200,
+    "url": "https://packrift.github.io/packaging-vocabulary/data/stats.json",
+    "x_robots_tag": ""
+  },
+  {
+    "bytes": 9379,
+    "evidence": {
+      "Corrugated Boxes": false,
+      "Representative Packrift products": false
+    },
+    "final_url": "https://packrift.github.io/packaging-vocabulary/terms/corrugated-boxes/",
+    "has_challenge": false,
+    "has_noindex": false,
+    "host_mentions": 0,
+    "live_gate": false,
+    "name": "term",
+    "packrift_mentions": 0,
+    "status": 404,
+    "url": "https://packrift.github.io/packaging-vocabulary/terms/corrugated-boxes/",
+    "x_robots_tag": ""
+  },
+  {
+    "bytes": 21743,
+    "evidence": {
+      "Reusable search phrases": true,
+      "boxes": true
+    },
+    "final_url": "https://packrift.github.io/packaging-vocabulary/families/boxes/",
+    "has_challenge": false,
+    "has_noindex": false,
+    "host_mentions": 1,
+    "live_gate": true,
+    "name": "family",
+    "packrift_mentions": 44,
+    "status": 200,
+    "url": "https://packrift.github.io/packaging-vocabulary/families/boxes/",
+    "x_robots_tag": ""
+  }
+]
