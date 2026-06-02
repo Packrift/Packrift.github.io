@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Packrift Weight Density Atlas",
+  "name_for_model": "packrift_weight_density_atlas",
+  "description_for_human": "Static Packrift weight-density reference.",
+  "description_for_model": "Read public Packrift weight-density reference files for approved in-stock catalog rows.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://packrift.github.io/weight-density-atlas/openapi.json"
+  },
+  "logo_url": "https://packrift.github.io/weight-density-atlas/favicon.svg",
+  "contact_email": "support@packrift.com",
+  "legal_info_url": "https://packrift.com/policies/terms-of-service"
+}

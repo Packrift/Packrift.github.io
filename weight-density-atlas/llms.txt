@@ -1,0 +1,13 @@
+# Packrift Weight Density Atlas
+
+Public Packrift catalog-derived weight-density and DIM-pressure atlas.
+
+- Canonical URL: https://packrift.github.io/weight-density-atlas/
+- Records: 2,509
+- Sitemap: https://packrift.github.io/weight-density-atlas/sitemap.xml
+- Data CSV: https://packrift.github.io/weight-density-atlas/data/weight-density.csv
+- Data JSONL: https://packrift.github.io/weight-density-atlas/data/weight-density.jsonl
+- Stats: https://packrift.github.io/weight-density-atlas/data/stats.json
+- OpenAPI: https://packrift.github.io/weight-density-atlas/openapi.json
+
+Boundaries: static public reference only. Verify live fit, price, stock, shipping, and checkout on Packrift.com before purchase decisions. No supplier cost, margin, customer, order, cart, payment, credentials, private freight, or live carrier-rate data is exposed.

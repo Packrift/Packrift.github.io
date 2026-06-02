@@ -1,0 +1,58 @@
+{
+  "schema_version": "agentmanifest-0.3",
+  "spec_version": "agentmanifest-0.3",
+  "version": "1.0.0",
+  "name": "Packrift Weight Density Atlas",
+  "description": "A public Packrift reference for SKU-level weight density, cube volume, DIM-pressure, and price-density signals from approved in-stock catalog rows.",
+  "homepage": "https://packrift.github.io/weight-density-atlas/",
+  "documentation": "https://packrift.github.io/weight-density-atlas/llms.txt",
+  "provider": {
+    "name": "Packrift LLC",
+    "url": "https://packrift.com/"
+  },
+  "primary_category": "reference",
+  "categories": [
+    "commerce",
+    "logistics",
+    "packaging",
+    "dataset"
+  ],
+  "listing_requested": true,
+  "last_updated": "2026-06-02T19:18:56Z",
+  "pricing": {
+    "model": "free",
+    "free_tier": {
+      "queries_per_day": null,
+      "queries_per_month": null
+    },
+    "paid_tier": null,
+    "support_url": "https://packrift.com/pages/contact"
+  },
+  "authentication": {
+    "required": false,
+    "type": "none",
+    "instructions": null
+  },
+  "contact": {
+    "email": "farhan@packrift.com",
+    "github": "https://github.com/Packrift",
+    "support_url": "https://packrift.com/pages/contact"
+  },
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/data/weight-density.jsonl",
+      "description": "Fetch public Packrift weight-density records.",
+      "parameters": [],
+      "response_description": "Public-safe SKU, product URL, dimensions, weight, density, DIM-pressure, price-density, and rollup fields."
+    },
+    {
+      "method": "GET",
+      "path": "/sitemap.xml",
+      "description": "Enumerate Weight Density Atlas URLs.",
+      "parameters": [],
+      "response_description": "XML sitemap containing all public Weight Density Atlas URLs."
+    }
+  ],
+  "agent_notes": "Read-only public weight-density reference. DIM-pressure values are static reference calculations using divisor 139 and are not live carrier quotes, checkout rates, delivery promises, supplier-cost, margin, customer, order, cart, private freight, or payment claims."
+}

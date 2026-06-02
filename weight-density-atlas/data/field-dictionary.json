@@ -1,0 +1,18 @@
+[
+  {
+    "field": "density_lb_per_cuft",
+    "meaning": "Catalog shipping weight divided by cubic feet from public length, width, and height fields."
+  },
+  {
+    "field": "dim_to_actual_ratio",
+    "meaning": "Reference dimensional weight at divisor 139 divided by catalog shipping weight."
+  },
+  {
+    "field": "price_per_cubic_ft",
+    "meaning": "Catalog price snapshot divided by cubic feet. Static reference only; verify live price on Packrift.com."
+  },
+  {
+    "field": "source_row_hash",
+    "meaning": "Public-safe source hash for catalog-control provenance without exposing local paths."
+  }
+]

@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "DataCatalog",
   "name": "Packrift Public Research Asset Index",
-  "description": "A crawlable Packrift catalog of public packaging research assets, solver fixtures, unit signals, cube-efficiency data, dimensional-weight review data, fit/substitution evidence, procurement readiness data, and machine-readable sidecars.",
+  "description": "A crawlable Packrift catalog of public packaging research assets, solver fixtures, unit signals, cube-efficiency data, weight-density data, dimensional-weight review data, fit/substitution evidence, procurement readiness data, and machine-readable sidecars.",
   "url": "https://packrift.github.io/research-assets/",
   "creator": {
     "@type": "Organization",
@@ -188,6 +188,48 @@
           "@type": "DataDownload",
           "encodingFormat": "application/xml",
           "contentUrl": "https://packrift.github.io/packrift-cube-efficiency-atlas/sitemap.xml"
+        }
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "name": "Packrift Weight Density Atlas",
+      "url": "https://packrift.github.io/weight-density-atlas/",
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://packrift.github.io/weight-density-atlas/data/weight-density.csv"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://packrift.github.io/weight-density-atlas/data/weight-density.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/x-ndjson",
+          "contentUrl": "https://packrift.github.io/weight-density-atlas/data/weight-density.jsonl"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/schema+json",
+          "contentUrl": "https://packrift.github.io/weight-density-atlas/data/weight-density.schema.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://packrift.github.io/weight-density-atlas/data/stats.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://packrift.github.io/weight-density-atlas/.well-known/agent-manifest.json"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/xml",
+          "contentUrl": "https://packrift.github.io/weight-density-atlas/sitemap.xml"
         }
       ]
     }

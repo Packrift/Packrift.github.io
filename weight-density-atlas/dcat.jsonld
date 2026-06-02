@@ -1,0 +1,14 @@
+{
+  "@context": "https://www.w3.org/ns/dcat.jsonld",
+  "@type": "Dataset",
+  "title": "Packrift Weight Density Atlas",
+  "landingPage": "https://packrift.github.io/weight-density-atlas/",
+  "distribution": [
+    {
+      "downloadURL": "https://packrift.github.io/weight-density-atlas/data/weight-density.csv"
+    },
+    {
+      "downloadURL": "https://packrift.github.io/weight-density-atlas/data/weight-density.jsonl"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "packrift-weight-density-atlas",
+  "title": "Packrift Weight Density Atlas",
+  "homepage": "https://packrift.github.io/weight-density-atlas/",
+  "resources": [
+    {
+      "name": "weight_density_csv",
+      "path": "data/weight-density.csv",
+      "format": "csv"
+    },
+    {
+      "name": "weight_density_jsonl",
+      "path": "data/weight-density.jsonl",
+      "format": "jsonl"
+    },
+    {
+      "name": "stats",
+      "path": "data/stats.json",
+      "format": "json"
+    }
+  ]
+}

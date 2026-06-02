@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-06-02T19:18:56Z",
+  "source_label": "Packrift public catalog product graph snapshot",
+  "records": 2509,
+  "sitemap_url_count": 2569,
+  "density_bands": {
+    "dense 20 lb per cubic foot and up": 1710,
+    "light 3 to 8 lb per cubic foot": 225,
+    "medium 8 to 20 lb per cubic foot": 452,
+    "ultra light under 3 lb per cubic foot": 122
+  },
+  "dim_pressure_bands": {
+    "actual weight dominant": 1837,
+    "dim pressure noticeable": 203,
+    "dim pressure high": 162,
+    "balanced dim and actual": 307
+  },
+  "price_density_bands": {
+    "150 dollars per cubic foot and up": 1134,
+    "75 to 149 dollars per cubic foot": 253,
+    "25 to 74 dollars per cubic foot": 650,
+    "under 25 dollars per cubic foot": 472
+  },
+  "families": {
+    "tape": 12,
+    "poly_bags": 222,
+    "other": 52,
+    "boxes": 1303,
+    "strapping": 62,
+    "void_fill": 35,
+    "mailers": 684,
+    "labels": 94,
+    "tags": 45
+  },
+  "product_types": {
+    "Adhesives & Glue": 1,
+    "Warehouse Supplies": 3,
+    "Chipboard Cartons": 101,
+    "Edge Protectors": 62,
+    "Boxes - Corrugated": 1126,
+    "Cold Packs": 22,
+    "Bubble, Foam & Cushioning": 72,
+    "Boxes - Mailers": 624,
+    "Bags - Poly": 240,
+    "Bins, Shelving & Storage": 184,
+    "Envelopes & Mailers": 62,
+    "Material Handling": 5,
+    "Papers, Newsprint & Tissue": 5,
+    "Facilities Maintenance": 1,
+    "Tape Dispensers": 1
+  },
+  "boundaries": [
+    "Static public catalog-derived reference only.",
+    "No live checkout, real-time inventory, shipping-rate, delivery-promise, supplier-cost, margin, customer, order, cart, payment, credentials, or private freight claim.",
+    "Verify live facts on Packrift.com before purchase decisions."
+  ]
+}

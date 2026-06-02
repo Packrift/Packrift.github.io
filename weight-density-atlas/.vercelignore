@@ -1,0 +1,6 @@
+.vercel
+*.log
+build-summary.json
+build_weight_density_atlas.py
+*-verification-*.json
+post-publish-*.json

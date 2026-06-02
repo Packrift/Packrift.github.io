@@ -1,0 +1,203 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Packrift Weight Density Atlas",
+  "type": "object",
+  "required": [
+    "sku",
+    "title",
+    "product_url",
+    "density_lb_per_cuft",
+    "dim_to_actual_ratio"
+  ],
+  "properties": {
+    "sku": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "title": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "family": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "product_type": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "product_url": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "source_row_hash": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "offer_id": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "price": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "inventory": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "weight_lb": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "length_in": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "width_in": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "height_in": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "cubic_volume_in": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "cubic_volume_ft": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "density_lb_per_cuft": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "dimensional_weight_lb_139": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "dim_to_actual_ratio": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "price_per_cubic_ft": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "price_per_lb": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "density_band": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "dim_pressure_band": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "price_density_band": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "dimensions_status": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "image_status": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "primary_image_url": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    },
+    "google_product_category": {
+      "type": [
+        "string",
+        "number",
+        "null"
+      ]
+    }
+  }
+}

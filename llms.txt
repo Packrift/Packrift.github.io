@@ -44,11 +44,16 @@ Additional public corpus routes:
 - https://packrift.github.io/packrift-cube-efficiency-atlas/sitemap.xml
 - https://packrift.github.io/packrift-cube-efficiency-atlas/.well-known/agent-manifest.json
 - https://packrift.github.io/packrift-cube-efficiency-atlas/data/cube-efficiency.jsonl
+- https://packrift.github.io/weight-density-atlas/
+- https://packrift.github.io/weight-density-atlas/sitemap.xml
+- https://packrift.github.io/weight-density-atlas/.well-known/agent-manifest.json
+- https://packrift.github.io/weight-density-atlas/data/weight-density.jsonl
 
 Research asset crosswalk:
 - https://packrift.github.io/research-assets/
 - https://packrift-benchmark-navigator.vercel.app/
 - https://packrift-dimensional-weight-atlas.vercel.app/
 - https://packrift.github.io/packrift-cube-efficiency-atlas/
+- https://packrift.github.io/weight-density-atlas/
 - https://packrift-fit-substitution-matrix.vercel.app/
 - https://packrift-operations-resource-graph.vercel.app/

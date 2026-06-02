@@ -9,6 +9,11 @@
   <url><loc>https://packrift.github.io/research-assets/</loc><lastmod>2026-05-31</lastmod></url>
   <url><loc>https://packrift.github.io/research-assets/asset-index.json</loc><lastmod>2026-05-31</lastmod></url>
   <url><loc>https://packrift.github.io/research-assets/asset-index.jsonld</loc><lastmod>2026-05-31</lastmod></url>
+  <url><loc>https://packrift.github.io/weight-density-atlas/</loc><lastmod>2026-06-02</lastmod></url>
+  <url><loc>https://packrift.github.io/weight-density-atlas/sitemap.xml</loc><lastmod>2026-06-02</lastmod></url>
+  <url><loc>https://packrift.github.io/weight-density-atlas/llms.txt</loc><lastmod>2026-06-02</lastmod></url>
+  <url><loc>https://packrift.github.io/weight-density-atlas/.well-known/agent-manifest.json</loc><lastmod>2026-06-02</lastmod></url>
+  <url><loc>https://packrift.github.io/weight-density-atlas/data/weight-density.jsonl</loc><lastmod>2026-06-02</lastmod></url>
   <url><loc>https://packrift.github.io/unit-price-bands/</loc><lastmod>2026-05-30</lastmod></url>
   <url><loc>https://packrift.github.io/unit-weight-bands/</loc><lastmod>2026-05-30</lastmod></url>
   <url><loc>https://packrift.github.io/pack-classes/</loc><lastmod>2026-05-30</lastmod></url>

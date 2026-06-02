@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /weight-density-atlas/
+Sitemap: https://packrift.github.io/weight-density-atlas/sitemap.xml
