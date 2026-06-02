@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Packrift Exact Attribute Constraint Atlas",
+  "name_for_model": "packrift_attribute_constraints",
+  "description_for_human": "A public Packrift attribute-constraint reference built from approved in-stock catalog records. It parses material, color, closure, printer, strength, and pack-count signals so agents and buyers can avoid unsafe substitutions.",
+  "description_for_model": "A public Packrift attribute-constraint reference built from approved in-stock catalog records. It parses material, color, closure, printer, strength, and pack-count signals so agents and buyers can avoid unsafe substitutions.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://packrift.github.io/exact-attribute-constraint-atlas/openapi.json"
+  },
+  "logo_url": "https://packrift.github.io/exact-attribute-constraint-atlas/favicon.svg",
+  "contact_email": "farhan@packrift.com",
+  "legal_info_url": "https://packrift.com/policies/terms-of-service"
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": "agentmanifest-0.3",
+  "spec_version": "agentmanifest-0.3",
+  "name": "Packrift Exact Attribute Constraint Atlas",
+  "description": "A public Packrift attribute-constraint reference built from approved in-stock catalog records. It parses material, color, closure, printer, strength, and pack-count signals so agents and buyers can avoid unsafe substitutions.",
+  "homepage": "https://packrift.github.io/exact-attribute-constraint-atlas/",
+  "documentation": "https://packrift.github.io/exact-attribute-constraint-atlas/llms.txt",
+  "provider": {
+    "name": "Packrift LLC",
+    "url": "https://packrift.com/"
+  },
+  "authentication": {
+    "type": "none",
+    "required": false,
+    "instructions": null
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://packrift.github.io/exact-attribute-constraint-atlas/openapi.json"
+  },
+  "categories": [
+    "commerce",
+    "logistics",
+    "reference",
+    "data"
+  ],
+  "primary_category": "reference",
+  "version": "1.0.0",
+  "last_updated": "2026-06-02T14:10:13Z",
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/data/attribute-constraint-records.json",
+      "description": "Download parsed Packrift attribute constraint records."
+    },
+    {
+      "method": "GET",
+      "path": "/data/stats.json",
+      "description": "Fetch release counts and source labels."
+    }
+  ],
+  "pricing": {
+    "model": "free",
+    "free_tier": {
+      "queries_per_day": null,
+      "queries_per_month": null
+    },
+    "paid_tier": null,
+    "support_url": "https://packrift.com/pages/contact"
+  },
+  "contact": {
+    "email": "farhan@packrift.com",
+    "support_url": "https://packrift.com/pages/contact",
+    "github": "https://github.com/Packrift"
+  },
+  "agent_notes": "Read-only public attribute-constraint reference. Confirm fit, pack count, final price, inventory, and checkout availability on Packrift.com before purchase handoff."
+}

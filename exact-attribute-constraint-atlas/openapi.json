@@ -1,0 +1,35 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Packrift Exact Attribute Constraint Atlas",
+    "version": "1.0.0",
+    "description": "A public Packrift attribute-constraint reference built from approved in-stock catalog records. It parses material, color, closure, printer, strength, and pack-count signals so agents and buyers can avoid unsafe substitutions."
+  },
+  "servers": [
+    {
+      "url": "https://packrift.github.io/exact-attribute-constraint-atlas"
+    }
+  ],
+  "paths": {
+    "/data/attribute-constraint-records.json": {
+      "get": {
+        "summary": "List Packrift attribute constraint records",
+        "responses": {
+          "200": {
+            "description": "JSON records"
+          }
+        }
+      }
+    },
+    "/data/stats.json": {
+      "get": {
+        "summary": "Get release stats",
+        "responses": {
+          "200": {
+            "description": "Stats"
+          }
+        }
+      }
+    }
+  }
+}

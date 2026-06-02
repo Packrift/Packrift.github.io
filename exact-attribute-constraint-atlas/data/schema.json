@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Packrift exact attribute constraint record",
+  "type": "object",
+  "required": [
+    "sku",
+    "title",
+    "product_url",
+    "material_signals",
+    "color_signals",
+    "pack_count_signals"
+  ],
+  "properties": {
+    "sku": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "family": {
+      "type": "string"
+    },
+    "product_type": {
+      "type": "string"
+    },
+    "product_url": {
+      "type": "string"
+    },
+    "source_fingerprint": {
+      "type": "string"
+    }
+  }
+}

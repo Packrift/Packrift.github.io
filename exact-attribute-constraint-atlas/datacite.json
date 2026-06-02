@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "titles": [
+    {
+      "title": "Packrift Exact Attribute Constraint Atlas"
+    }
+  ],
+  "publisher": "Packrift LLC",
+  "publicationYear": "2026",
+  "types": {
+    "resourceTypeGeneral": "Dataset",
+    "resourceType": "Public catalog attribute constraint reference"
+  },
+  "url": "https://packrift.github.io/exact-attribute-constraint-atlas/"
+}

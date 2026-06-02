@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://packrift.github.io/exact-attribute-constraint-atlas/sitemap.xml
+# Full agent context: https://packrift.github.io/exact-attribute-constraint-atlas/llms-full.txt

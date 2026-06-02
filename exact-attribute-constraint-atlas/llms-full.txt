@@ -1,0 +1,24 @@
+# Packrift Exact Attribute Constraint Atlas
+
+A public Packrift attribute-constraint reference built from approved in-stock catalog records. It parses material, color, closure, printer, strength, and pack-count signals so agents and buyers can avoid unsafe substitutions.
+
+Site: https://packrift.github.io/exact-attribute-constraint-atlas/
+Generated: 2026-06-02T14:10:13Z
+Approved in-stock records: 4,815
+
+## Public entrypoints
+- HTML: https://packrift.github.io/exact-attribute-constraint-atlas/
+- Sitemap: https://packrift.github.io/exact-attribute-constraint-atlas/sitemap.xml
+- Records JSON: https://packrift.github.io/exact-attribute-constraint-atlas/data/attribute-constraint-records.json
+- Records CSV: https://packrift.github.io/exact-attribute-constraint-atlas/data/attribute-constraint-records.csv
+- Stats JSON: https://packrift.github.io/exact-attribute-constraint-atlas/data/stats.json
+- Methodology: https://packrift.github.io/exact-attribute-constraint-atlas/methodology/
+- Packrift: https://packrift.com
+
+## Claim boundaries
+- Parsed signals are evidence for review, not guaranteed substitute approvals.
+- Packrift.com is the source of truth for buying, availability, final price, and freight.
+- No supplier cost, margin, private customer, order, cart, credential, token, or payment data is included.
+
+## Data fields
+See /data/field-dictionary.csv and /data/schema.json.

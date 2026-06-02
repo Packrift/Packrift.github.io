@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-06-02T14:10:13Z",
+  "site": "https://packrift.github.io/exact-attribute-constraint-atlas",
+  "source": "/Users/farhan/Downloads/packrift-ai-commerce-factory/control/product_spec_graph_current.csv",
+  "records": 4815,
+  "family_count": 13,
+  "product_type_count": 24,
+  "signals": {
+    "material": 12051,
+    "color": 5691,
+    "closure": 2884,
+    "printer": 151,
+    "strength": 2298,
+    "pack_count": 4133
+  },
+  "unique_signals": {
+    "material": 28,
+    "color": 18,
+    "closure": 16,
+    "printer": 4,
+    "strength": 67,
+    "pack_count": 222
+  }
+}

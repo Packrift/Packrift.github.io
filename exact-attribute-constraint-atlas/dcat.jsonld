@@ -1,0 +1,14 @@
+{
+  "@context": "https://www.w3.org/ns/dcat.jsonld",
+  "@type": "Dataset",
+  "title": "Packrift Exact Attribute Constraint Atlas",
+  "description": "A public Packrift attribute-constraint reference built from approved in-stock catalog records. It parses material, color, closure, printer, strength, and pack-count signals so agents and buyers can avoid unsafe substitutions.",
+  "landingPage": "https://packrift.github.io/exact-attribute-constraint-atlas/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "downloadURL": "https://packrift.github.io/exact-attribute-constraint-atlas/data/attribute-constraint-records.csv",
+      "mediaType": "text/csv"
+    }
+  ]
+}

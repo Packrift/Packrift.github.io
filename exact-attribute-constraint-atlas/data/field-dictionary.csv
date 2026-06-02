@@ -1,0 +1,8 @@
+field,description
+sku,Packrift SKU
+material_signals,Parsed material terms
+color_signals,Parsed color terms
+closure_signals,Parsed closure terms
+printer_signals,Parsed printer compatibility terms
+strength_signals,Parsed strength/rating terms
+pack_count_signals,Parsed pack/case/bundle terms
