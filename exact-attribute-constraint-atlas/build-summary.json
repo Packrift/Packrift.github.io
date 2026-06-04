@@ -2,7 +2,7 @@
   "stats": {
     "generated_at": "2026-06-02T14:10:13Z",
     "site": "https://packrift.github.io/exact-attribute-constraint-atlas",
-    "source": "/Users/farhan/Downloads/packrift-ai-commerce-factory/control/product_spec_graph_current.csv",
+    "source": "Packrift public catalog product graph snapshot",
     "records": 4815,
     "family_count": 13,
     "product_type_count": 24,
