@@ -26,10 +26,10 @@
   "qa": {
     "generated_at": "2026-06-02T14:10:13Z",
     "records": 4815,
-    "sitemap_urls": 5191,
+    "sitemap_urls": 5171,
     "forbidden_private_pattern_hits": [],
     "sample_pages_exist": true,
     "verdict": "pass"
   },
-  "url_count": 5191
+  "url_count": 5171
 }
