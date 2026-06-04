@@ -1,8 +1,8 @@
 {
   "generated_at": "2026-06-01T23:51:43Z",
   "site": "https://packrift.github.io/exact-spec-size-directory",
-  "source_manifest": "/Users/farhan/Downloads/packrift-ai-commerce-execution-2026-05-04/ai-catalog-control/exact-spec-child-pages/manifest-2026-05-06.json",
-  "source_graph": "/Users/farhan/Downloads/packrift-ai-commerce-factory/control/product_spec_graph_current.csv",
+  "source_manifest": "Packrift public exact-spec candidate manifest snapshot",
+  "source_graph": "Packrift public product specification graph snapshot",
   "records": 2493,
   "hubs": {
     "box-sizes-by-dimension": 391,
