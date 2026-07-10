@@ -1,0 +1,7 @@
+index_family,records,median_pack_quantity,median_case_price_usd,median_unit_price_estimate_usd,median_cube_cu_in,median_cost_per_cube_usd,p25_cost_per_cube_usd,p75_cost_per_cube_usd
+Corrugated boxes,1113,25.0,38.81,2.0,1940.62,1.78,1.21,2.98
+Corrugated mailers,624,50.0,59.73,1.27,240.0,9.19,6.77,13.66
+Chipboard cartons,101,150.0,114.68,0.85,64.0,13.48,8.16,24.48
+Envelopes & paper mailers,62,250.0,84.2,0.39,364.5,0.76,0.43,5.92
+Poly bags & covers,240,250.0,93.31,0.31,4320.0,0.13,0.06,0.26
+Cushioning & foam,56,50.0,119.46,1.91,114.0,25.23,18.25,38.83

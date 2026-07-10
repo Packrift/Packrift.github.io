@@ -1,0 +1,20 @@
+field,description
+sku,Packrift public SKU from the frozen benchmark.
+display_title,Source title with narrow mojibake repairs for display only.
+source_title,Unchanged title from the frozen benchmark.
+index_family,Buyer-facing family mapped from source product_type for six core cohorts.
+catalog_case_price_snapshot_usd,Public catalog price in the June 2026 source snapshot; not current-price proof.
+pack_quantity,Integer parsed only from explicit case/pack/bundle/roll/count wording in the title.
+pack_quantity_status,"parsed, missing, or ambiguous; no default is imputed."
+unit_catalog_price_estimate_usd,catalog_case_price_snapshot_usd divided by parsed pack_quantity.
+cube_volume_cu_in,Listed length × width × height in cubic inches.
+cube_volume_cu_ft,"cube_volume_cu_in divided by 1,728."
+catalog_cost_per_cube_estimate_usd,Estimated unit catalog price divided by listed cube in cubic feet.
+cost_per_cube_band,Fixed absolute band for catalog_cost_per_cube_estimate_usd.
+family_median_cost_per_cube_usd,Median eligible cost-per-cube value within index_family.
+family_cost_cube_index,100 × record cost per cube ÷ family median; 100 is the family median.
+family_index_band,"Below 75, 75–124, 125–199, or 200+ relative to the family median."
+metric_eligible,True when the row belongs to a core family and has one explicit parsed pack quantity.
+metric_exclusion_reason,Why the row is not used in buyer-facing metric summaries.
+source_row_hash,Public source-row hash preserved from the source benchmark.
+benchmark_hash,Release benchmark hash preserved from the source benchmark.

@@ -1,0 +1,16 @@
+volume_band,index_family,records,median_cost_per_cube_usd,p25_cost_per_cube_usd,p75_cost_per_cube_usd
+under-64-cu-in,Corrugated boxes,9,62.86,46.61,70.9
+under-64-cu-in,Corrugated mailers,79,20.28,16.34,31.6
+64-to-215-cu-in,Corrugated boxes,50,6.12,4.45,9.87
+64-to-215-cu-in,Corrugated mailers,197,12.0,9.48,15.45
+216-to-511-cu-in,Corrugated boxes,116,3.54,2.96,5.13
+216-to-511-cu-in,Corrugated mailers,220,8.25,6.7,10.1
+512-to-999-cu-in,Corrugated boxes,162,2.25,1.84,3.22
+512-to-999-cu-in,Corrugated mailers,92,5.96,5.16,7.04
+1000-to-1727-cu-in,Corrugated boxes,174,1.76,1.46,2.4
+1000-to-1727-cu-in,Corrugated mailers,21,5.12,4.73,6.23
+1728-to-4095-cu-in,Corrugated boxes,299,1.45,1.17,2.31
+1728-to-4095-cu-in,Corrugated mailers,13,2.97,2.72,3.44
+4096-to-13823-cu-in,Corrugated boxes,273,1.07,0.87,1.55
+4096-to-13823-cu-in,Corrugated mailers,2,2.32,2.26,2.39
+13824-plus-cu-in,Corrugated boxes,30,0.94,0.7,1.3
