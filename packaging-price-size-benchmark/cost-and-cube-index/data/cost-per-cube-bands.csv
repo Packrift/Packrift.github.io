@@ -1,0 +1,49 @@
+index_family,cost_per_cube_band,records,share_of_family
+Corrugated boxes,Under $0.50,2,0.001797
+Corrugated boxes,$0.50–$1.49,431,0.387242
+Corrugated boxes,$1.50–$2.99,403,0.362084
+Corrugated boxes,$3–$5.99,188,0.168913
+Corrugated boxes,$6–$11.99,42,0.037736
+Corrugated boxes,$12–$24.99,13,0.01168
+Corrugated boxes,$25–$49.99,24,0.021563
+Corrugated boxes,$50+,10,0.008985
+Corrugated mailers,Under $0.50,0,0.0
+Corrugated mailers,$0.50–$1.49,0,0.0
+Corrugated mailers,$1.50–$2.99,10,0.016026
+Corrugated mailers,$3–$5.99,103,0.165064
+Corrugated mailers,$6–$11.99,316,0.50641
+Corrugated mailers,$12–$24.99,156,0.25
+Corrugated mailers,$25–$49.99,34,0.054487
+Corrugated mailers,$50+,5,0.008013
+Chipboard cartons,Under $0.50,0,0.0
+Chipboard cartons,$0.50–$1.49,0,0.0
+Chipboard cartons,$1.50–$2.99,0,0.0
+Chipboard cartons,$3–$5.99,8,0.079208
+Chipboard cartons,$6–$11.99,39,0.386139
+Chipboard cartons,$12–$24.99,29,0.287129
+Chipboard cartons,$25–$49.99,13,0.128713
+Chipboard cartons,$50+,12,0.118812
+Envelopes & paper mailers,Under $0.50,22,0.354839
+Envelopes & paper mailers,$0.50–$1.49,16,0.258065
+Envelopes & paper mailers,$1.50–$2.99,1,0.016129
+Envelopes & paper mailers,$3–$5.99,8,0.129032
+Envelopes & paper mailers,$6–$11.99,14,0.225806
+Envelopes & paper mailers,$12–$24.99,1,0.016129
+Envelopes & paper mailers,$25–$49.99,0,0.0
+Envelopes & paper mailers,$50+,0,0.0
+Poly bags & covers,Under $0.50,222,0.925
+Poly bags & covers,$0.50–$1.49,17,0.070833
+Poly bags & covers,$1.50–$2.99,0,0.0
+Poly bags & covers,$3–$5.99,0,0.0
+Poly bags & covers,$6–$11.99,0,0.0
+Poly bags & covers,$12–$24.99,0,0.0
+Poly bags & covers,$25–$49.99,0,0.0
+Poly bags & covers,$50+,1,0.004167
+Cushioning & foam,Under $0.50,0,0.0
+Cushioning & foam,$0.50–$1.49,0,0.0
+Cushioning & foam,$1.50–$2.99,0,0.0
+Cushioning & foam,$3–$5.99,1,0.017857
+Cushioning & foam,$6–$11.99,6,0.107143
+Cushioning & foam,$12–$24.99,20,0.357143
+Cushioning & foam,$25–$49.99,18,0.321429
+Cushioning & foam,$50+,11,0.196429

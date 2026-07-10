@@ -1,0 +1,44 @@
+{
+  "name": "Packrift Packaging Cost and Cube Index",
+  "status": "staged for publication; not yet public",
+  "publisher": "Packrift LLC",
+  "index_release_date": "2026-07-09",
+  "source_data_generated_at": "2026-06-01T23:29:11Z",
+  "source_package_date": "2026-06-04",
+  "canonical_buyer_page": "https://packrift.com/pages/packaging-cost-and-cube-index",
+  "source_benchmark": "https://packrift.github.io/packaging-price-size-benchmark/",
+  "downloads": {
+    "csv": "https://packrift.github.io/packaging-price-size-benchmark/cost-and-cube-index/data/packrift-packaging-cost-cube-index.csv",
+    "json": "https://packrift.github.io/packaging-price-size-benchmark/cost-and-cube-index/data/packrift-packaging-cost-cube-index.json",
+    "data_dictionary": "https://packrift.github.io/packaging-price-size-benchmark/cost-and-cube-index/data/data-dictionary.csv"
+  },
+  "counts": {
+    "source_rows": 2510,
+    "parsed_pack_quantity_rows": 2478,
+    "unresolved_pack_quantity_rows": 32,
+    "buyer_metric_rows": 2196,
+    "buyer_families": 6
+  },
+  "metric_definitions": {
+    "unit_catalog_price_estimate_usd": "dated public catalog price divided by one explicit title-parsed pack quantity",
+    "catalog_cost_per_cube_estimate_usd": "estimated unit catalog price divided by listed LxWxH cubic feet",
+    "family_cost_cube_index": "record catalog cost per cube divided by the buyer-family median, multiplied by 100"
+  },
+  "boundaries": [
+    "not current-price proof",
+    "not landed cost or freight",
+    "not an inventory or delivery commitment",
+    "not supplier cost or margin",
+    "not a competitor comparison",
+    "listed cube is not confirmed usable internal capacity or carrier-rated volume"
+  ],
+  "license": "No explicit reuse license granted; Packrift LLC retains applicable rights.",
+  "sha256": {
+    "data/packrift-packaging-cost-cube-index.csv": "62c8c7bba5622691d1bd3fc40e545a85afd245a4a67b568fdd706e593d3b2733",
+    "data/packrift-packaging-cost-cube-index.json": "cc8799f304528b51126011a4179cb6f37ec9733960ac1ecb295b45deac1964a7",
+    "data/data-dictionary.csv": "32e4eec14e7cb6ebdd31d7bb0a1d1d2fc70f28261c73982f0bf7dee9f9a98eac",
+    "charts/01-median-cost-per-cube-by-family.svg": "5907c849954d9ee2d688e936362414e369bf02a68f58eb2373ef1ce9298f5f5f",
+    "charts/02-cost-per-cube-band-distribution.svg": "a152bfa3d78cc582095b793b89f4c1a0457138458c123b2b2dec65b16dbbb532",
+    "charts/03-corrugated-cost-by-volume-band.svg": "fc73ac817ff2ea7581c0d7413c7122c22461bc48a6af80cc16265dc8361d62ed"
+  }
+}
