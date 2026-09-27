@@ -13231,7 +13231,10 @@
     "unit_cube_inches": 14.4,
     "status": "catalog approved",
     "merchant_status": "active listing",
-    "merchant_availability": "in stock"
+    "merchant_availability": "in stock",
+    "snapshot_at": "2026-05-30T20:35:03.002Z",
+    "offer_data_status": "historical_snapshot",
+    "current_offer_url": "https://packrift.com/products/10x6x6-ect-32-kraft-long-corrugated-boxes-25-bundle"
   },
   {
     "sku": "1073",
